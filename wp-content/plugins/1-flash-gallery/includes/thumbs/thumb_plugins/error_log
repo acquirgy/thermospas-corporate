@@ -1,0 +1,1 @@
+[19-Oct-2013 00:25:36 UTC] PHP Fatal error:  Class 'PhpThumb' not found in /home/thermosp/public_html/wp-content/plugins/1-flash-gallery/includes/thumbs/thumb_plugins/gd_reflection.inc.php on line 179

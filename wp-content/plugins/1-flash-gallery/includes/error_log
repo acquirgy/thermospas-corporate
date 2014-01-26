@@ -1,0 +1,1 @@
+[18-Oct-2013 23:58:44 UTC] PHP Fatal error:  Cannot redeclare class SimpleXMLElement in /home/thermosp/public_html/wp-content/plugins/1-flash-gallery/includes/simplexml.class.php on line 8

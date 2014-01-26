@@ -1,0 +1,225 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3f3f3f;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: #21BEDE;
+}
+a.greyu {
+	color: #3f3f3f;
+	line-height: 2em;
+	text-decoration: underline;
+}
+
+
+#wrapper {
+	width: 955px;
+}
+h1,h2,h3,h4 {
+	font-family: "Trebuchet MS";
+	color: #21bede;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+h2.tubs {
+	font-size: 16px;
+	color: #8cc739;
+}
+
+#menu-list {
+	margin: 0px;
+	padding: 0px;
+}
+
+.rpad {
+	padding-right: 30px;
+}
+a.greyu:hover {
+
+	color: #21BEDE;
+	line-height: 2em;
+	text-decoration: none;
+}
+#wrapper #mainr2 #alignleft {
+	float: left;
+	padding-top: 35px;
+}
+#wrapper #mainr2 {
+	height: 373px;
+}
+
+#wrapper #mainr2 #alignright {
+
+	float: left;
+}
+#hmenu  {
+	background-image: url(images/menu_bg.gif);
+	width: 116px;
+	float:left;
+	text-align: center;
+	padding-top: 15px;
+	background-repeat: no-repeat;
+	height: 43px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	
+}
+
+#hmenu a {
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	font-weight: bold;
+	color: #085dad;
+	text-decoration: none;
+}
+#hmenu a:hover {
+
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	font-weight: bold;
+	color: #8cc739;
+	text-decoration: none;
+}
+#menu-list li {
+	list-style-type: none;
+	line-height: 1.5em;
+}
+#menu-list a {
+	color: #3f3f3f;
+}
+#lmenu {
+	text-align: left;
+	width: 170px;
+	float: left;
+}
+#menu-list {
+	margin-bottom: 10px;
+}
+#wrapper #mainr4 #content {
+	float: right;
+	width: 780px;
+	text-align: left;
+}
+#tab-menu {
+	position: absolute;
+	z-index: 1;
+	height: 24px;
+	float: left;
+}
+#tab-menu .tab-menu-item {
+	float: left;
+	margin-left: 1px;
+}
+
+.tab-content {
+	margin-top: 50px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#showroom-tabs {
+	float: left;
+	height: 210px;
+	width: 282px;
+}
+
+
+#tab1 {
+	background-image: url(images/tabs2-bg.jpg);
+	background-repeat: no-repeat;
+	height: 210px;
+	width: 282px;
+	visibility: hidden;
+	position: absolute;
+	text-align: right;
+}
+#tab2 {
+	background-image: url(images/tabs3-bg.jpg);
+	background-repeat: no-repeat;
+	height: 210px;
+	width: 282px;
+	visibility: hidden;
+	position: absolute;
+	text-align: right;
+}
+#tab3 {
+	background-image: url(images/tabs4-bg.jpg);
+	background-repeat: no-repeat;
+	height: 210px;
+	width: 282px;
+	visibility: hidden;
+	position: absolute;
+	text-align: right;
+}
+#tab4 {
+	background-image: url(images/tabs5-bg.jpg);
+	background-repeat: no-repeat;
+	height: 210px;
+	width: 282px;
+	visibility: hidden;
+	position: absolute;
+	text-align: right;
+}
+#tab5 {
+	background-image: url(images/tabs6-bg.jpg);
+	background-repeat: no-repeat;
+	height: 210px;
+	width: 282px;
+	visibility: hidden;
+	position: absolute;
+	text-align: right;
+}
+#tab6 {
+	background-image: url(images/tabsS-bg.jpg);
+	background-repeat: no-repeat;
+	height: 210px;
+	width: 282px;
+	visibility: hidden;
+	position: absolute;
+	text-align: right;
+}
+#video-area {
+	float: left;
+	height: 210px;
+	width: 479px;
+	background-image: url(images/video_bg.jpg);
+	background-repeat: no-repeat;
+	margin-left: 13px;
+}
+#midrow {
+	background-image: url(images/mid_bg.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 302px;
+	width: 772px;
+	margin-top: 10px;
+	background-position: top;
+}
+#midrow #text {
+	margin-top: 135px;
+	margin-left: 20px;
+	text-align: left;
+	width: 255px;
+	float: left;
+}
+#midrow #customers {
+	float: left;
+	width: 122px;
+	margin-top: 60px;
+	margin-left: 32px;
+}
+.reviews-pic {
+	border: 2px solid #adb6b5;
+	margin-bottom: 5px;
+}

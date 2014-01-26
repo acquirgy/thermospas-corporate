@@ -1,0 +1,52 @@
+/******************************************************************
+HOME & CONTENT STYLES
+******************************************************************/
+	#special { position:relative; display:block; margin:10px auto; clear:both; overflow:hidden; width:980px;}
+		#special .headline {margin:10px 0px;}
+		#special .headline h2{text-align:center; text-transform:capitalize; font-weight:bold; font-size:18px;line-height: 20px;
+    margin-bottom: 10px; color:#333;}
+		.special-container {float:left; margin:0; width:220px; height:235px; padding:0; display: block; padding-top:33px;} 
+		.title-bt {font-weight: bold; font-size:17px; line-height: 20px; margin: 0; padding:0 5px; color:#323232; text-align:left;}
+		.description-bt { line-height: 16px; font-size:10px; margin: 0; padding:0 5px;}
+
+		.home-special {background: url("images/promo3-shadow.png") no-repeat scroll bottom center transparent; height: 160px; margin: 0; width: 220px; float:left;}
+		.home-special .special-image img {background: none repeat scroll 0 0 #FFFFFF; padding: 0; height:130px; width:220px; }
+		.home-special .special-image-zoom {height:41px; width:41px; margin:-21px 85px 0;}
+		.home-special .title {font-weight: bold; line-height: 10px; padding:0 10px; color:#fff; margin:-40px -4px 0; text-align:right; display:none;}
+		.home-special .description { line-height: 16px; font-size:10px; margin: 0; padding:0 10px; display:none; }
+		.home-special .content { line-height: 16px; font-size:10px; color:#323232; text-align:left; margin: 0; padding:0 5px; display:none; }
+		.home-special .more { line-height: 12px; font-weight:bold; font-size:12px; color:#323232; text-align:left; margin: 0; padding:0 10px; text-align:right; display:none; }
+		.home-special:hover img{opacity:0.4; filter:alpha(opacity=40); display:none;}
+		.home-special:hover .title {font-size:18px; font-weight: bold; line-height: 22px; margin: 0; color:#323232; text-align:center; display:none;}
+		.home-special:hover .description { font-weight: bold; line-height: 10px; margin: 0; color:#323232; margin-top:10px; text-align:center; display:none; }
+		.home-special:hover .content {display:block; height:110px; background:none; }
+		.home-special:hover .more { display:block; }
+		.special-first {margin-left:0;}
+		.special-last {margin-right:0;}
+
+		.special-main {background: url("images/promo3-center-shadow.png") no-repeat scroll bottom center transparent; height: 235px; margin: 1px 14px 15px 5px; width: 500px; float:left}
+		.special-main .special-image img {background: none repeat scroll 0 0 #FFFFFF; padding: 0; height:200px; width:500px; }
+		.special-main .special-image-zoom {height:41px; width:41px; margin:-21px 230px 0;}
+		.special-main .title {font-weight: bold; line-height: 18px; font-size:18px; padding:0 10px; color:#323232; margin:-65px 15px 0; text-align:right; display:none; height:18px;}
+		.special-main .description { line-height: 16px; font-size:10px; margin: 0; padding:0 10px; display:block; }
+		.special-main .content { line-height: 16px; font-size:10px; color:#323232; text-align:left; margin: 0; padding:0 10px; display:none; }
+		.special-main .content-left { line-height: 16px; font-size:10px; color:#323232; text-align:left; margin: 0; padding:0 10px; display:none; width:220px; float:left;}
+		.special-main .content-right { line-height: 16px; font-size:10px; color:#323232; text-align:left; margin: 0; padding:0 10px; display:none; width:220px; float:right;}
+		.special-main .more { line-height: 12px; font-weight:bold; font-size:12px; color:#323232; text-align:left; margin: 0; padding:0 10px; text-align:right; display:none; }
+		.special-main .thumb { background: none repeat scroll 0 0 #FFFFFF; padding: 0; height:100px; width:220px; }
+		
+		.home-special2 {background: url("images/promo3-shadow.png") no-repeat scroll bottom center transparent; height: 160px; margin: 0; width: 220px; float:left;}
+		.home-special2 .special-image img {background: none repeat scroll 0 0 #FFFFFF; padding: 0; height:130px; width:220px; }
+/*
+		.special-main:hover img{display:none; }
+		.special-main:hover .title {font-size:18px; font-weight: bold; line-height: 22px; margin: -20px 0 10px; color:#323232; text-align:center; display:block;}
+		.special-main:hover .description { font-weight: bold; line-height: 10px; margin: 0; color:#323232; margin-top:10px; text-align:center; display:block; }
+		.special-main:hover .content {display:block; }
+		.special-main:hover .content-left {display:block; }
+		.special-main:hover .content-left .description { text-align:left; padding:0; height:40px; overflow:hidden; }
+		.special-main:hover .content-right {display:block; }
+		.special-main:hover .content-right .description { text-align:left; padding:0; height:40px; overflow:hidden;}
+		.special-main:hover .more { display:block; margin-top:5px; }
+		.special-main:hover .thumb { display:block; }
+		.special-main:hover .thumb img{ display:block;}
+*/

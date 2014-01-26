@@ -1,0 +1,1 @@
+[18-Oct-2013 23:59:01 UTC] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/thermosp/public_html/wp-content/plugins/1-flash-gallery-update-airion/update_airion.php on line 34

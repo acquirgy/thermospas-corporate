@@ -1,0 +1,76 @@
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<title>ThermoSpas DVD</title>
+	<meta rel="generator">AllVideos Reloaded</meta>
+	<meta rel="generatorurl">http://allvideos.fritz-elfert.de</meta>
+	<trackList>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 1.flv</location>
+			<image>/images/stories/videos/ss/1-who-we-are/8.jpg</image>
+			<title>Who We Are</title>
+			<meta rel="type">flv</meta>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 2.flv</location>
+			<image>/images/stories/videos/ss/2-fun-of-owning/6.jpg</image>
+			<title>Fun of Owning a Hot Tub</title>
+			<meta rel="type">flv</meta>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 3.flv</location>
+			<image>/images/stories/videos/ss/3-therapeutic-benefits/13.jpg</image>
+			<title>Therapeutic Benefits</title>
+			<meta rel="type">flv</meta>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 4.flv</location>
+			<image>/images/stories/videos/ss/4-designed-go-anywere/3.jpg</image>
+			<title>Designed To Go Anywhere</title>
+			<meta rel="type">flv</meta>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 5.flv</location>
+			<image>/images/stories/videos/ss/5-best-components/6.jpg</image>
+			<title>Best Components</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 6.flv</location>
+			<image>/images/stories/videos/ss/6-cabinetry/8.jpg</image>
+			<title>Cabinetry</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 7.flv</location>
+			<image>/images/stories/videos/ss/7-heaters/4.jpg</image>
+			<title>Heaters</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 8.flv</location>
+			<image>/images/stories/videos/ss/7-heaters/17.jpg</image>
+			<title>Pumps</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 9.flv</location>
+			<image>/images/stories/videos/ss/9-how-it-works/5.jpg</image>
+			<title>How it Works</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 10.flv</location>
+			<image>/images/stories/videos/ss/10-care-maintenance/7.jpg</image>
+			<title>Care and Maintenance</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 11.flv</location>
+			<image>/images/stories/videos/ss/11-cost-to-operate/6.jpg</image>
+			<title>Cost to Operate</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 12.flv</location>
+			<image>/images/stories/videos/ss/12-swim-spa/2.jpg</image>
+			<title>Exercise Spas and Swim Spas</title>
+		</track>
+		<track>
+			<location>/images/stories/videos/MPEG2 Stream 13.flv</location>
+			<image>/images/stories/videos/ss/13-already-own/9.jpg</image>
+			<title>Already Own a Hot Tub?</title>
+		</track>
+	</trackList>
+</playlist>

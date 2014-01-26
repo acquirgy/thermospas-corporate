@@ -1,0 +1,1 @@
+[18-Dec-2013 04:59:32 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-content/plugins/akismet/legacy.php on line 356

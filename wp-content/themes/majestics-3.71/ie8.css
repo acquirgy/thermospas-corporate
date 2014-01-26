@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+.widget-posts-title { zoom:1; position:relative; }
+.breadcrumb-wrapper {  background: url(sprites/i/breadcrumb-start.png) 0px 2px no-repeat; }
+.sidebar-wrap { border:1px solid #ddd; }

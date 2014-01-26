@@ -1,0 +1,677 @@
+[19-Oct-2011 23:28:24] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[19-Oct-2011 23:28:30] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rdf.php on line 8
+[19-Oct-2011 23:28:34] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom-comments.php on line 8
+[19-Oct-2011 23:28:39] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1285
+[19-Oct-2011 23:28:40] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[19-Oct-2011 23:28:42] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/wp-includes/default-widgets.php on line 14
+[19-Oct-2011 23:28:51] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[19-Oct-2011 23:28:58] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 102
+[19-Oct-2011 23:29:01] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[19-Oct-2011 23:29:10] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[19-Oct-2011 23:29:10] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[19-Oct-2011 23:29:10] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[19-Oct-2011 23:29:12] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 773
+[19-Oct-2011 23:29:22] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1169
+[11-Nov-2011 15:36:29] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[11-Nov-2011 17:22:35] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[12-Nov-2011 06:16:12] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[12-Nov-2011 07:28:14] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[12-Nov-2011 10:36:57] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 773
+[12-Nov-2011 11:14:25] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 102
+[12-Nov-2011 12:28:08] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 296
+[12-Nov-2011 14:07:16] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[12-Nov-2011 15:54:45] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[12-Nov-2011 16:32:26] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[12-Nov-2011 18:11:26] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1218
+[13-Nov-2011 05:09:42] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[13-Nov-2011 05:09:42] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[13-Nov-2011 05:09:42] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[13-Nov-2011 14:39:08] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 703
+[13-Nov-2011 16:04:03] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 72
+[13-Nov-2011 17:01:30] PHP Fatal error:  Call to undefined function  is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 16
+[14-Nov-2011 03:32:47] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/wp-includes/default-widgets.php on line 14
+[14-Nov-2011 05:17:31] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[14-Nov-2011 11:44:17] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1169
+[14-Nov-2011 15:02:21] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1285
+[14-Nov-2011 15:38:04] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[15-Nov-2011 03:15:09] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 431
+[15-Nov-2011 05:12:24] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[15-Nov-2011 07:23:58] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[15-Nov-2011 07:23:59] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[15-Nov-2011 07:23:59] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[15-Nov-2011 15:10:06] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[16-Nov-2011 03:51:22] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1918
+[16-Nov-2011 04:32:18] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[16-Nov-2011 06:35:18] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/post.php on line 152
+[16-Nov-2011 08:59:39] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 399
+[16-Nov-2011 13:12:15] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 346
+[17-Nov-2011 00:19:03] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 970
+[17-Nov-2011 02:16:44] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1360
+[17-Nov-2011 05:23:14] PHP Fatal error:  Class 'IXR_Server' not found in /home/thermosp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[04-Dec-2011 06:11:14] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[05-Dec-2011 02:32:15] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[05-Dec-2011 02:32:15] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[05-Dec-2011 02:32:15] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[05-Dec-2011 02:44:24] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[05-Dec-2011 19:42:52] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[06-Dec-2011 03:05:07] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[06-Dec-2011 03:21:09] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/wp-includes/default-widgets.php on line 14
+[06-Dec-2011 16:25:55] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1169
+[06-Dec-2011 16:57:08] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[06-Dec-2011 17:29:40] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 72
+[06-Dec-2011 18:02:41] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[07-Dec-2011 00:27:43] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[07-Dec-2011 11:36:25] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 296
+[07-Dec-2011 12:15:59] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[08-Dec-2011 05:47:31] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[08-Dec-2011 05:47:31] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[08-Dec-2011 05:47:31] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[08-Dec-2011 16:50:41] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1218
+[08-Dec-2011 17:19:30] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[09-Dec-2011 08:51:14] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 102
+[10-Dec-2011 02:40:10] PHP Fatal error:  Class 'IXR_Server' not found in /home/thermosp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[10-Dec-2011 02:52:01] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[10-Dec-2011 04:01:38] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 970
+[10-Dec-2011 18:55:01] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[10-Dec-2011 19:30:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[11-Dec-2011 00:39:34] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1918
+[11-Dec-2011 01:39:16] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 399
+[11-Dec-2011 11:43:39] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 346
+[12-Dec-2011 02:46:48] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 431
+[12-Dec-2011 03:20:49] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1360
+[12-Dec-2011 03:36:26] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/post.php on line 152
+[12-Dec-2011 12:12:15] PHP Fatal error:  Call to undefined function  is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 16
+[12-Dec-2011 12:27:51] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 703
+[14-Dec-2011 11:43:46] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 773
+[05-Jan-2012 22:54:25] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[05-Jan-2012 22:54:25] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[05-Jan-2012 22:54:25] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[08-Jan-2012 11:06:48] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[09-Jan-2012 01:33:23] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[09-Jan-2012 01:33:23] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[09-Jan-2012 01:33:23] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[17-Jan-2012 05:04:07] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[21-Jan-2012 10:02:59] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[30-Jan-2012 06:49:42] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[30-Jan-2012 06:49:54] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 703
+[30-Jan-2012 06:49:59] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[30-Jan-2012 06:50:07] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rdf.php on line 8
+[30-Jan-2012 06:50:10] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[30-Jan-2012 06:50:14] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom-comments.php on line 8
+[30-Jan-2012 06:50:25] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[30-Jan-2012 06:50:33] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 72
+[30-Jan-2012 06:50:46] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/post.php on line 152
+[30-Jan-2012 06:51:13] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1169
+[30-Jan-2012 06:51:17] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 773
+[30-Jan-2012 06:51:27] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[30-Jan-2012 06:51:37] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[30-Jan-2012 06:52:25] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 102
+[30-Jan-2012 06:52:34] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 431
+[30-Jan-2012 06:53:14] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[30-Jan-2012 06:53:14] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[30-Jan-2012 06:53:14] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[08-Feb-2012 15:37:27] PHP Fatal error:  Call to undefined function  is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 16
+[08-Feb-2012 16:30:30] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 346
+[08-Feb-2012 17:19:38] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1285
+[08-Feb-2012 22:59:38] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[09-Feb-2012 02:11:20] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1360
+[09-Feb-2012 03:18:22] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 970
+[09-Feb-2012 06:30:00] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 431
+[09-Feb-2012 06:52:56] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 399
+[09-Feb-2012 12:40:40] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1169
+[09-Feb-2012 15:18:05] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[09-Feb-2012 15:29:53] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 703
+[10-Feb-2012 00:18:46] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1918
+[10-Feb-2012 04:23:50] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[10-Feb-2012 04:53:04] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[10-Feb-2012 05:56:56] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[10-Feb-2012 05:56:56] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[10-Feb-2012 05:56:56] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[10-Feb-2012 10:25:58] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss-functions.php on line 8
+[10-Feb-2012 11:32:30] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 72
+[10-Feb-2012 11:50:30] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss-functions.php on line 8
+[10-Feb-2012 16:35:42] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[10-Feb-2012 18:13:06] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 773
+[11-Feb-2012 07:27:42] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[12-Feb-2012 12:42:15] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1218
+[12-Feb-2012 15:32:53] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[12-Feb-2012 16:40:30] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 296
+[12-Feb-2012 17:28:15] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 102
+[20-Feb-2012 06:17:11] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1218
+[20-Feb-2012 06:17:29] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rdf.php on line 8
+[20-Feb-2012 06:17:42] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[20-Feb-2012 06:17:44] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 399
+[20-Feb-2012 06:17:46] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[20-Feb-2012 06:17:49] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1918
+[20-Feb-2012 06:17:58] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[20-Feb-2012 06:18:08] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[20-Feb-2012 06:18:16] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 346
+[20-Feb-2012 06:18:30] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 773
+[20-Feb-2012 06:18:40] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1169
+[24-Feb-2012 19:05:04] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[24-Feb-2012 19:05:04] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[24-Feb-2012 19:05:04] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 18
+[01-Mar-2012 05:57:28] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 346
+[01-Mar-2012 18:11:58] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[01-Mar-2012 19:23:00] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1360
+[02-Mar-2012 04:28:52] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1169
+[02-Mar-2012 06:09:54] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[02-Mar-2012 07:01:48] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 703
+[02-Mar-2012 07:51:29] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1285
+[02-Mar-2012 14:58:13] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 431
+[02-Mar-2012 15:34:20] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[02-Mar-2012 16:14:49] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[02-Mar-2012 16:50:53] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1918
+[03-Mar-2012 02:23:28] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[03-Mar-2012 06:46:10] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 72
+[04-Mar-2012 03:24:38] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 773
+[04-Mar-2012 19:23:12] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[05-Mar-2012 04:52:33] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 296
+[05-Mar-2012 05:58:02] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[05-Mar-2012 07:18:56] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1218
+[06-Mar-2012 07:30:19] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 102
+[11-Mar-2012 03:35:30] PHP Fatal error:  Call to undefined function  is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 16
+[12-Mar-2012 16:04:59] PHP Fatal error:  Class 'IXR_Server' not found in /home/thermosp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[12-Mar-2012 17:29:29] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/wp-includes/default-widgets.php on line 14
+[13-Mar-2012 13:30:24] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 399
+[06-Apr-2012 17:28:37] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/wp-includes/default-widgets.php on line 14
+[06-Apr-2012 20:56:36] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[06-Apr-2012 20:56:36] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[06-Apr-2012 20:56:36] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[09-Apr-2012 20:35:51] PHP Fatal error:  Class 'IXR_Server' not found in /home/thermosp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[10-Apr-2012 19:48:03] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[10-Apr-2012 19:48:03] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[10-Apr-2012 19:48:03] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[11-Apr-2012 03:31:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[11-Apr-2012 08:19:03] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[03-May-2012 05:52:33] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[03-May-2012 09:10:44] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[14-May-2012 08:52:01] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 400
+[15-May-2012 00:46:53] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 776
+[15-May-2012 02:20:23] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[15-May-2012 02:49:12] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[15-May-2012 03:00:08] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss.php on line 8
+[15-May-2012 03:17:52] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[15-May-2012 04:00:37] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[15-May-2012 04:35:59] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1284
+[15-May-2012 07:21:50] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[15-May-2012 08:24:57] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[15-May-2012 08:41:05] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 1170
+[15-May-2012 17:35:48] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[15-May-2012 17:35:48] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[15-May-2012 19:44:21] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom.php on line 8
+[15-May-2012 22:36:59] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[16-May-2012 02:42:37] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[16-May-2012 03:09:55] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 707
+[16-May-2012 06:29:47] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom-comments.php on line 8
+[16-May-2012 15:29:04] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[16-May-2012 16:25:09] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rdf.php on line 8
+[16-May-2012 19:19:37] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1374
+[16-May-2012 20:44:37] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 974
+[16-May-2012 21:20:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss-functions.php on line 8
+[13-Jun-2012 07:56:13] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[14-Jun-2012 16:35:43] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[15-Jun-2012 06:38:57] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom-comments.php on line 8
+[25-Jun-2012 05:20:08] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[25-Jun-2012 09:32:23] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1284
+[07-Jul-2012 19:34:05] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[07-Jul-2012 19:34:05] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[07-Aug-2012 08:04:37] PHP Fatal error:  Call to undefined function  is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[07-Aug-2012 08:27:04] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 432
+[07-Aug-2012 09:05:07] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 570
+[07-Aug-2012 09:40:53] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 113
+[07-Aug-2012 10:03:33] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 334
+[07-Aug-2012 10:31:34] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[07-Aug-2012 11:11:55] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[07-Aug-2012 23:56:50] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[08-Aug-2012 01:20:56] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[08-Aug-2012 01:46:47] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[08-Aug-2012 03:45:05] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[08-Aug-2012 04:45:24] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[08-Aug-2012 05:01:28] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[09-Aug-2012 16:04:28] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[12-Aug-2012 09:31:46] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1220
+[12-Aug-2012 09:47:49] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[12-Aug-2012 22:18:28] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[12-Aug-2012 22:18:28] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[12-Aug-2012 22:18:28] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[13-Aug-2012 09:36:20] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1220
+[13-Aug-2012 10:03:33] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[14-Aug-2012 05:34:08] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[14-Aug-2012 07:00:29] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[14-Aug-2012 08:18:12] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1283
+[14-Aug-2012 10:18:46] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[14-Aug-2012 12:14:17] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[15-Aug-2012 00:13:34] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 519
+[15-Aug-2012 01:53:10] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 975
+[15-Aug-2012 09:11:16] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[15-Aug-2012 22:51:17] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[15-Aug-2012 22:51:17] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[15-Aug-2012 22:51:17] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[15-Aug-2012 23:12:17] PHP Fatal error:  Call to undefined function  add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[16-Aug-2012 09:38:01] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[17-Aug-2012 01:14:43] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[17-Aug-2012 11:54:39] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[28-Aug-2012 22:33:47] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[30-Aug-2012 03:33:21] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1826
+[30-Aug-2012 11:34:45] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[01-Sep-2012 12:18:42] PHP Fatal error:  Call to undefined function  is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 432
+[04-Sep-2012 08:31:24] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[04-Sep-2012 11:37:54] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 570
+[05-Sep-2012 21:06:58] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[05-Sep-2012 21:06:58] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[05-Sep-2012 21:06:58] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[07-Sep-2012 04:54:15] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 394
+[07-Sep-2012 05:01:48] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[07-Sep-2012 05:01:48] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[07-Sep-2012 05:01:48] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[07-Sep-2012 13:21:29] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[09-Sep-2012 10:57:50] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[09-Sep-2012 12:10:25] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[09-Sep-2012 13:34:49] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[12-Sep-2012 17:30:11] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[13-Sep-2012 10:55:33] PHP Fatal error:  Call to undefined function  is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 10
+[16-Sep-2012 12:52:32] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 519
+[22-Sep-2012 12:29:03] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 975
+[22-Sep-2012 21:04:59] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[22-Sep-2012 22:54:34] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[23-Sep-2012 11:09:07] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[23-Sep-2012 23:05:56] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1220
+[25-Sep-2012 19:20:00] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[28-Sep-2012 08:11:15] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[28-Sep-2012 09:38:08] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[28-Sep-2012 09:38:08] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[28-Sep-2012 09:38:08] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[29-Sep-2012 19:23:23] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 113
+[30-Sep-2012 21:59:52] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 113
+[03-Oct-2012 20:23:39] PHP Fatal error:  Call to undefined function  add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1283
+[05-Oct-2012 22:21:58] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[12-Oct-2012 13:32:11 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[12-Oct-2012 13:32:11 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[12-Oct-2012 13:32:11 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[23-Oct-2012 11:44:40 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[23-Oct-2012 11:44:40 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[23-Oct-2012 11:44:40 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[24-Oct-2012 11:39:36 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[24-Oct-2012 11:39:36 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[24-Oct-2012 11:39:36 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[15-Nov-2012 01:11:20 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[15-Nov-2012 05:39:18 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 570
+[16-Nov-2012 00:46:27 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 334
+[16-Nov-2012 01:44:29 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[19-Nov-2012 04:34:29 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[19-Nov-2012 04:47:40 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[19-Nov-2012 05:59:52 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[19-Nov-2012 13:54:21 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[20-Nov-2012 03:15:04 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[20-Nov-2012 03:51:59 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 334
+[20-Nov-2012 05:19:08 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 432
+[21-Nov-2012 02:48:10 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[23-Nov-2012 04:02:11 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[23-Nov-2012 04:37:25 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1283
+[23-Nov-2012 05:09:32 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[23-Nov-2012 05:43:03 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 432
+[30-Nov-2012 07:31:01 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[24-Dec-2012 08:21:00 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[24-Dec-2012 08:21:00 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[24-Dec-2012 08:21:00 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[25-Dec-2012 08:04:32 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[25-Dec-2012 08:04:32 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[25-Dec-2012 08:04:32 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[30-Dec-2012 09:42:13 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[30-Dec-2012 09:42:13 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[30-Dec-2012 09:42:13 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[07-Jan-2013 07:39:37 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[07-Jan-2013 07:39:37 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[07-Jan-2013 07:39:37 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[08-Jan-2013 06:47:48 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[08-Jan-2013 06:47:48 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[08-Jan-2013 06:47:48 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[09-Jan-2013 11:08:35 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[09-Jan-2013 11:37:11 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1220
+[09-Jan-2013 13:10:48 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[09-Jan-2013 13:23:41 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 570
+[10-Jan-2013 02:54:35 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1826
+[11-Jan-2013 05:37:20 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[11-Jan-2013 06:16:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1283
+[11-Jan-2013 10:46:06 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[11-Jan-2013 11:30:44 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 334
+[11-Jan-2013 12:13:31 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 113
+[12-Jan-2013 00:45:32 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 975
+[12-Jan-2013 02:11:45 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[12-Jan-2013 06:04:35 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 394
+[12-Jan-2013 06:49:49 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[15-Jan-2013 03:00:43 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[15-Jan-2013 03:39:36 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 432
+[15-Jan-2013 05:09:07 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[15-Jan-2013 06:31:48 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[15-Jan-2013 07:19:11 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1283
+[16-Jan-2013 01:45:34 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[16-Jan-2013 02:18:30 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 394
+[16-Jan-2013 03:41:37 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[16-Jan-2013 08:43:54 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1430
+[16-Jan-2013 09:29:26 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[16-Jan-2013 09:56:57 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[16-Jan-2013 10:25:17 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 975
+[17-Jan-2013 07:57:57 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1220
+[18-Jan-2013 06:46:37 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1826
+[18-Jan-2013 08:38:06 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[19-Jan-2013 06:38:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 570
+[19-Jan-2013 08:36:34 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[19-Jan-2013 09:18:09 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[19-Jan-2013 10:15:40 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[21-Jan-2013 09:36:18 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[21-Jan-2013 10:32:30 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 113
+[21-Jan-2013 11:29:29 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[22-Jan-2013 05:32:42 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 975
+[22-Jan-2013 06:16:04 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1826
+[22-Jan-2013 06:41:42 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[22-Jan-2013 07:23:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1430
+[22-Jan-2013 08:10:26 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[22-Jan-2013 08:54:29 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[22-Jan-2013 11:28:29 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 519
+[24-Jan-2013 01:12:55 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 138
+[24-Jan-2013 03:39:16 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 394
+[24-Jan-2013 05:04:35 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[26-Jan-2013 10:44:58 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[26-Jan-2013 11:31:29 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 519
+[27-Jan-2013 06:35:29 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 113
+[27-Jan-2013 07:53:22 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[27-Jan-2013 09:16:05 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[27-Jan-2013 10:55:10 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1220
+[28-Jan-2013 09:30:16 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/thermosp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[28-Jan-2013 09:47:44 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[28-Jan-2013 10:15:54 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom.php on line 8
+[28-Jan-2013 10:25:40 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rdf.php on line 8
+[28-Jan-2013 11:24:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1430
+[28-Jan-2013 11:54:42 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[28-Jan-2013 11:54:42 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[28-Jan-2013 11:54:42 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[29-Jan-2013 06:57:12 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[29-Jan-2013 07:23:59 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 334
+[29-Jan-2013 07:58:07 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[29-Jan-2013 08:04:42 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[29-Jan-2013 08:10:58 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[29-Jan-2013 08:43:02 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[29-Jan-2013 10:35:27 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[29-Jan-2013 10:51:01 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[30-Jan-2013 06:41:00 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[30-Jan-2013 06:41:00 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[30-Jan-2013 06:41:00 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[30-Jan-2013 08:12:45 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1430
+[30-Jan-2013 09:06:07 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[30-Jan-2013 10:33:45 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 519
+[31-Jan-2013 11:13:21 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[31-Jan-2013 11:53:49 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[01-Feb-2013 12:28:07 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 519
+[02-Feb-2013 09:43:03 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[02-Feb-2013 11:26:19 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 334
+[02-Feb-2013 11:46:04 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[03-Feb-2013 08:35:57 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[03-Feb-2013 08:35:57 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[03-Feb-2013 08:35:57 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[04-Feb-2013 09:12:09 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[04-Feb-2013 10:53:26 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[07-Feb-2013 13:46:48 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[07-Feb-2013 14:40:19 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[07-Feb-2013 14:40:19 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[07-Feb-2013 14:40:19 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[08-Feb-2013 09:22:06 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 334
+[08-Feb-2013 10:19:29 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[12-Feb-2013 09:31:50 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 715
+[10-Mar-2013 12:38:25 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[10-Mar-2013 12:38:25 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[10-Mar-2013 12:38:25 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[24-Mar-2013 10:57:13 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[24-Mar-2013 11:27:13 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[25-Mar-2013 08:36:05 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[25-Mar-2013 08:36:05 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[25-Mar-2013 08:36:05 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[25-Mar-2013 09:06:05 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[25-Mar-2013 09:36:05 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 392
+[26-Mar-2013 10:35:37 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[26-Mar-2013 10:35:37 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[26-Mar-2013 10:35:37 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[28-Mar-2013 10:53:37 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[28-Mar-2013 11:53:37 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 609
+[29-Mar-2013 11:09:29 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[30-Mar-2013 07:31:37 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1217
+[30-Mar-2013 07:46:37 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[30-Mar-2013 09:49:15 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[30-Mar-2013 10:04:15 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 335
+[30-Mar-2013 10:49:15 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[01-Apr-2013 02:30:43 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 121
+[01-Apr-2013 04:54:02 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[02-Apr-2013 05:09:13 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 392
+[02-Apr-2013 05:39:13 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 506
+[02-Apr-2013 17:13:27 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1392
+[02-Apr-2013 19:28:27 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1777
+[03-Apr-2013 07:15:35 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[03-Apr-2013 07:45:35 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[03-Apr-2013 08:00:35 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 431
+[03-Apr-2013 08:15:35 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 609
+[03-Apr-2013 15:02:13 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1282
+[03-Apr-2013 18:47:14 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[03-Apr-2013 18:47:14 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[03-Apr-2013 18:47:14 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[04-Apr-2013 13:46:56 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[04-Apr-2013 15:16:56 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[06-Apr-2013 08:07:54 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[06-Apr-2013 08:52:54 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1777
+[06-Apr-2013 09:22:54 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[06-Apr-2013 09:22:54 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[06-Apr-2013 09:22:54 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[07-Apr-2013 02:23:07 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[07-Apr-2013 02:38:07 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[07-Apr-2013 02:53:07 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[07-Apr-2013 03:38:07 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 609
+[07-Apr-2013 04:08:07 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[07-Apr-2013 04:53:07 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 335
+[07-Apr-2013 05:23:07 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 431
+[08-Apr-2013 10:50:49 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[08-Apr-2013 11:05:48 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 392
+[08-Apr-2013 11:20:49 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 506
+[08-Apr-2013 12:50:49 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[09-Apr-2013 07:43:31 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 121
+[09-Apr-2013 08:43:31 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[09-Apr-2013 09:13:31 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1217
+[09-Apr-2013 09:28:31 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[09-Apr-2013 09:43:31 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[09-Apr-2013 18:02:05 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 431
+[09-Apr-2013 18:02:13 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[09-Apr-2013 18:02:21 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[09-Apr-2013 18:02:29 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 335
+[09-Apr-2013 18:02:38 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[10-Apr-2013 04:36:34 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 977
+[10-Apr-2013 05:21:34 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[10-Apr-2013 05:21:34 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[10-Apr-2013 05:21:34 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[10-Apr-2013 05:36:34 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1777
+[10-Apr-2013 06:21:34 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 151
+[10-Apr-2013 06:36:34 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1392
+[10-Apr-2013 07:06:34 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[11-Apr-2013 08:36:42 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[11-Apr-2013 08:36:42 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[11-Apr-2013 08:36:42 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[11-Apr-2013 09:36:42 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[11-Apr-2013 10:11:11 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 431
+[11-Apr-2013 10:26:11 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[11-Apr-2013 10:56:11 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[14-Apr-2013 00:55:08 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1217
+[14-Apr-2013 01:10:08 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1282
+[14-Apr-2013 01:25:08 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[14-Apr-2013 01:55:08 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 335
+[14-Apr-2013 02:10:08 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 121
+[14-Apr-2013 02:25:08 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 582
+[14-Apr-2013 09:41:11 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 39
+[14-Apr-2013 09:56:11 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 506
+[14-Apr-2013 10:11:11 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1392
+[14-Apr-2013 10:26:12 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 151
+[14-Apr-2013 10:41:12 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[14-Apr-2013 10:56:12 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 977
+[15-Apr-2013 09:48:00 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[15-Apr-2013 10:18:00 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 582
+[15-Apr-2013 10:33:00 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 121
+[15-Apr-2013 11:03:00 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 335
+[15-Apr-2013 11:33:00 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1217
+[15-Apr-2013 11:48:00 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1282
+[15-Apr-2013 12:18:00 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[15-Apr-2013 12:33:00 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[16-Apr-2013 19:25:38 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[16-Apr-2013 19:25:38 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[16-Apr-2013 19:25:38 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[16-Apr-2013 19:55:38 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom.php on line 8
+[17-Apr-2013 11:27:33 UTC] PHP Fatal error:  Call to undefined function is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 14
+[17-Apr-2013 11:42:33 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[17-Apr-2013 12:57:33 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[17-Apr-2013 13:42:38 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[17-Apr-2013 14:27:33 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss.php on line 8
+[17-Apr-2013 14:42:33 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom-comments.php on line 8
+[17-Apr-2013 15:12:33 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/class-wp-embed.php on line 20
+[17-Apr-2013 16:57:33 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[18-Apr-2013 04:41:27 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 977
+[18-Apr-2013 05:06:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 582
+[18-Apr-2013 05:37:48 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[18-Apr-2013 06:07:48 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 151
+[18-Apr-2013 06:52:48 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Apr-2013 06:52:48 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Apr-2013 06:52:48 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Apr-2013 08:43:24 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[18-Apr-2013 08:58:24 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[19-Apr-2013 08:22:30 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/class-wp-embed.php on line 20
+[19-Apr-2013 08:37:30 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[19-Apr-2013 08:52:30 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 582
+[19-Apr-2013 09:37:30 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[23-Apr-2013 06:43:31 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/class-wp-embed.php on line 20
+[24-Apr-2013 05:23:17 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[02-May-2013 09:10:38 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[02-May-2013 09:10:39 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[02-May-2013 09:10:39 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[04-May-2013 11:26:12 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[04-May-2013 11:41:12 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[06-May-2013 08:37:18 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[16-Jul-2013 20:20:03 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[18-Oct-2013 22:45:30 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/rss-functions.php on line 8
+[18-Oct-2013 23:26:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 40
+[18-Oct-2013 23:26:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 392
+[18-Oct-2013 23:26:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 506
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[18-Oct-2013 23:27:00 UTC] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[18-Oct-2013 23:27:00 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[18-Oct-2013 23:27:00 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/class-wp-embed.php on line 20
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[18-Oct-2013 23:27:00 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/thermosp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1217
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/wp-includes/default-widgets.php on line 14
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom-comments.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rdf.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1392
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1315
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 610
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 151
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1736
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[18-Oct-2013 23:27:01 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[18-Oct-2013 23:27:01 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[18-Oct-2013 23:27:01 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/post.php on line 165
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/post-formats.php on line 170
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 985
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/rss-functions.php on line 8
+[18-Oct-2013 23:27:02 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[18-Oct-2013 23:27:02 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 377
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 121
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 14
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 431
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 582
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[18-Oct-2013 23:27:02 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[18-Oct-2013 23:56:57 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/admin-bar.php on line 40
+[18-Oct-2013 23:56:57 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/author-template.php on line 392
+[18-Oct-2013 23:56:57 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/canonical.php on line 506
+[18-Oct-2013 23:56:57 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/category-template.php on line 766
+[18-Oct-2013 23:56:57 UTC] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[18-Oct-2013 23:56:57 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-feed.php on line 4
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/class-snoopy.php on line 6
+[18-Oct-2013 23:56:58 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[18-Oct-2013 23:56:58 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/class-simplepie.php on line 5
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/class-wp-embed.php on line 20
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/thermosp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/thermosp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-scripts.php on line 19
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/thermosp/public_html/wp-includes/class.wp-styles.php on line 19
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/comment-template.php on line 1217
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/default-filters.php on line 17
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/wp-includes/default-widgets.php on line 14
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom-comments.php on line 8
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-atom.php on line 8
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rdf.php on line 8
+[18-Oct-2013 23:56:58 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Oct-2013 23:56:58 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/functions.php on line 8
+[18-Oct-2013 23:56:58 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss.php on line 8
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/general-template.php on line 1315
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/thermosp/public_html/wp-includes/feed-rss2.php on line 8
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/kses.php on line 1392
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/wp-includes/media.php on line 610
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-default-constants.php on line 151
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/ms-default-filters.php on line 17
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/ms-functions.php on line 1736
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/nav-menu-template.php on line 17
+[18-Oct-2013 23:56:59 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[18-Oct-2013 23:56:59 UTC] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/ms-settings.php on line 14
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/post-formats.php on line 170
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Class 'Walker' not found in /home/thermosp/public_html/wp-includes/post-template.php on line 985
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/post.php on line 165
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration-functions.php on line 7
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/registration.php on line 7
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/rss-functions.php on line 8
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/shortcodes.php on line 377
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/rss.php on line 18
+[18-Oct-2013 23:56:59 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[18-Oct-2013 23:56:59 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/taxonomy.php on line 121
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function is_robots() in /home/thermosp/public_html/wp-includes/template-loader.php on line 14
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-includes/theme.php on line 582
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/thermosp/public_html/wp-includes/user.php on line 71
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/thermosp/public_html/wp-includes/update.php on line 431
+[18-Oct-2013 23:56:59 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/wp-includes/vars.php on line 20
+[21-Oct-2013 01:50:10 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/thermosp/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[20-Nov-2013 20:39:31 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[20-Nov-2013 20:39:31 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[20-Nov-2013 20:39:31 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[23-Nov-2013 20:12:03 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/rss-functions.php on line 8
+[15-Dec-2013 12:15:42 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[15-Dec-2013 12:15:42 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[15-Dec-2013 12:15:42 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[16-Dec-2013 02:00:16 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[16-Dec-2013 02:00:16 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/wp-includes/script-loader.php on line 25
+[16-Dec-2013 02:00:16 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/wp-includes/script-loader.php on line 25

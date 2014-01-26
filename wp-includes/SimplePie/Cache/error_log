@@ -1,0 +1,13 @@
+[01-May-2013 14:43:40 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[02-May-2013 09:25:39 UTC] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[03-May-2013 00:09:11 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[06-May-2013 09:50:22 UTC] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[07-May-2013 09:41:46 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[01-Oct-2013 15:17:50 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[02-Oct-2013 03:05:48 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[19-Oct-2013 00:11:30 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[19-Oct-2013 00:11:30 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[19-Oct-2013 00:11:30 UTC] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[19-Oct-2013 00:11:30 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[05-Dec-2013 04:11:46 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[11-Dec-2013 10:51:16 UTC] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/thermosp/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58

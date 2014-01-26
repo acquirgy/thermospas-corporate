@@ -1,0 +1,24 @@
+[04-Dec-2011 14:34:05] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php on line 10
+[04-Dec-2011 14:58:05] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[05-Dec-2011 12:51:50] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[05-Dec-2011 13:11:30] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[05-Dec-2011 13:38:22] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[27-Dec-2011 15:46:40] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[27-Dec-2011 18:36:31] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[01-Jan-2012 14:08:39] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php on line 10
+[09-Jan-2012 11:33:09] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[10-Feb-2012 14:44:17] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php on line 10
+[10-Feb-2012 15:05:55] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[10-Feb-2012 15:44:14] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[03-Mar-2012 03:30:33] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[03-Mar-2012 04:11:58] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[03-Mar-2012 04:48:02] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php on line 10
+[14-May-2012 10:19:17] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[15-May-2012 05:48:54] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[15-May-2012 05:59:54] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[15-May-2012 06:09:43] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php on line 10
+[20-Jun-2012 03:04:02] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[19-Oct-2013 00:31:56 UTC] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php on line 12
+[19-Oct-2013 00:31:56 UTC] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php on line 10
+[19-Oct-2013 00:31:56 UTC] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php on line 10
+[19-Oct-2013 00:31:56 UTC] PHP Fatal error:  Class 'SpellChecker' not found in /home/thermosp/public_html/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php on line 10

@@ -1,0 +1,33 @@
+[15-Nov-2011 14:05:58] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/header.php on line 10
+[16-Nov-2011 07:16:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments.php on line 10
+[16-Nov-2011 08:18:58] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/sidebar.php on line 10
+[16-Nov-2011 13:32:55] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[17-Nov-2011 07:44:07] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments-popup.php on line 10
+[08-Dec-2011 17:41:14] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/header.php on line 10
+[10-Dec-2011 04:13:30] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments-popup.php on line 10
+[10-Dec-2011 04:25:11] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/sidebar.php on line 10
+[11-Dec-2011 00:21:20] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments.php on line 10
+[14-Dec-2011 10:43:48] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[10-Feb-2012 02:01:54] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/sidebar.php on line 10
+[10-Feb-2012 03:50:58] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments.php on line 10
+[10-Feb-2012 11:52:53] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/header.php on line 10
+[02-Mar-2012 17:48:52] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments.php on line 10
+[02-Mar-2012 18:32:34] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/sidebar.php on line 10
+[03-Mar-2012 07:36:35] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/header.php on line 10
+[17-Apr-2012 06:52:33] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[18-Apr-2012 20:35:31] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments-popup.php on line 10
+[10-Jun-2012 04:39:53] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[18-Oct-2013 23:58:51 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments.php on line 10
+[18-Oct-2013 23:58:51 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments-popup.php on line 10
+[18-Oct-2013 23:58:51 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[18-Oct-2013 23:58:51 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/header.php on line 10
+[18-Oct-2013 23:58:51 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/sidebar.php on line 10
+[30-Nov-2013 14:25:14 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/header.php on line 10
+[04-Dec-2013 10:35:08 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[09-Dec-2013 14:33:44 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments-popup.php on line 10
+[10-Dec-2013 09:40:12 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[11-Dec-2013 02:40:11 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/footer.php on line 10
+[15-Dec-2013 00:49:13 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments-popup.php on line 10
+[16-Dec-2013 02:19:38 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/comments-popup.php on line 10
+[02-Jan-2014 10:27:12 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/sidebar.php on line 10
+[03-Jan-2014 00:44:10 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/thermosp/public_html/wp-includes/theme-compat/sidebar.php on line 10

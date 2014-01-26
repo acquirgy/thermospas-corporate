@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.widget-posts-title { zoom:1; position:relative; }
+
+.top-section {  position:relative; z-index:999;}
+.testimonials { position:relative; zoom:1; }
+.testimonials .t-text .tip { bottom:-6px; }
+.posts-grid ul { position:relative; zoom:1;  }
+
+.posts-grid>ul>li  { float:none; width:620px;}
+.posts-grid>ul>li .extra_info { width:220px; }
+.sidebar-wrap { border:1px solid #ddd; }

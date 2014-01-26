@@ -1,0 +1,135 @@
+/******************************************************************
+HOT TUB SIDEBAR FORM STYLES
+******************************************************************/
+#ts_container { 
+	width:300px; 
+	height:400px;
+	position:relative; 
+	display:block;
+	margin:0 auto;
+	}
+#ts_container h2{
+	font-size:18px;
+	margin:0;
+	}
+
+#form_step1,#form_step2,#form_step3 { 
+	width:300px; 
+	display:none; 
+	padding:0; 
+	margin:0;
+	}
+.ts_container div.ts_slide img{ 
+	margin:0; 
+	z-index:9999;}
+.ts_container div.ts_slide object{ 
+	margin:0; 
+	z-index:9999}
+/******************************************************************
+CUSTOM INPUT STYLES
+(Page Article Section)
+******************************************************************/
+	#ts_container input {
+	width: 202px;
+	background:#f0f0f0; 
+	position: relative;
+	padding: 10px 6px;
+	border:none;
+	display: inline-block;
+	margin-right: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(<?=$ts_form_path?>js/PIE.htc);
+	margin:5px 0;
+	clear:both;
+	}
+	#ts_container select {
+	width:222px;
+	height:40px !important;
+	}
+	#ts_container button {
+	height:40px;
+	background-color: #71b2e9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border:none;
+	behavior: url(<?=$ts_form_path?>js/PIE.htc);
+	position: relative;
+	text-transform: uppercase;
+	color: #555;
+	padding: 12px 0px;
+	width: 215px;
+	text-align:center;
+	font-size: 12px;
+	font-weight: bold;
+	-webkit-box-shadow: #333 0px 2px 3px;
+	-moz-box-shadow: #333 0px 2px 3px;
+	box-shadow: #333 0px 2px 3px;
+	}
+	#ts_container button:hover {
+	background-color: #ef8754;
+	color:#fff;
+	}
+
+/******************************************************************
+CUSTOM SELECT STYLES
+******************************************************************/
+	span.tsCustomStyleSelectBox { 
+	color:#777;
+	font-size:12px;
+	width: 202px;
+	padding: 10px 6px;
+	margin: 5px 0;
+	font-family:sans-serif;
+	line-height: normal;
+	vertical-align: baseline;
+	*vertical-align:middle;
+	background:#f0f0f0 url(<?=$ts_form_path?>/images/icon_select.png) no-repeat 192px center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(js/PIE.htc);
+	}
+		
+	span.tsCustomStyleSelectBox.changed { 
+	color:#000;
+	}
+			
+	.tsCustomStyleSelectBoxInner {}
+	select #ts_use .tsCustomDropDown{height:40px;}
+
+/******************************************************************
+PLACEHOLDER STYLES
+******************************************************************/
+
+	.tsFormRow {
+	margin:0px;
+	clear:both;
+	
+	}
+
+	#ts_container .error {
+	background-color: #f8dbdb;
+	border:none;
+	padding: 10px 6px;
+	margin:5px 0;
+	}
+
+	/* fallback placeholder */
+	.placeholder {
+	color: #777;
+	}
+	/* webkit placeholder */
+	::-webkit-input-placeholder {
+	color: #777;
+	}
+	/* moz placeholder */
+	:-moz-placeholder {
+	color: #777;
+	}
+
+	.form-content {
+	width:220px;
+	}

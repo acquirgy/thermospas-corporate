@@ -1,0 +1,6 @@
+[27-Sep-2012 10:07:49] PHP Parse error:  syntax error, unexpected $end in /home/thermosp/public_html/wp-content/themes/majestics/includes/iplookup.php on line 835
+[27-Sep-2012 10:11:12] PHP Warning:  preg_match() expects parameter 1 to be string, array given in /home/thermosp/public_html/wp-content/themes/majestics/includes/iplookup.php on line 1061
+[27-Sep-2012 10:17:12] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/thermosp/public_html/wp-content/themes/majestics/includes/iplookup.php on line 1063
+[27-Sep-2012 10:17:37] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/thermosp/public_html/wp-content/themes/majestics/includes/iplookup.php on line 1064
+[27-Sep-2012 10:20:51] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/thermosp/public_html/wp-content/themes/majestics/includes/iplookup.php on line 1064
+[27-Sep-2012 10:21:10] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/thermosp/public_html/wp-content/themes/majestics/includes/iplookup.php on line 1065

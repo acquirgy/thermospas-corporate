@@ -1,0 +1,2 @@
+[18-Oct-2013 23:26:46 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-content/plugins/tf-faq/tf-faq.php on line 56
+[18-Oct-2013 23:56:54 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/wp-content/plugins/tf-faq/tf-faq.php on line 56
