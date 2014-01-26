@@ -1,0 +1,2 @@
+[18-Oct-2013 23:27:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/thermosp/public_html/blog/wp-content/themes/canvas/index.php on line 23
+[18-Oct-2013 23:57:29 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/thermosp/public_html/blog/wp-content/themes/canvas/index.php on line 23

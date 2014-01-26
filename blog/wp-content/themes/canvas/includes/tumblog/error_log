@@ -1,0 +1,2 @@
+[19-Oct-2013 00:11:44 UTC] PHP Fatal error:  Call to undefined function get_option() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/tumblog/theme-custom-post-types.php on line 76
+[19-Oct-2013 00:11:44 UTC] PHP Fatal error:  Call to undefined function get_option() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/tumblog/theme-tumblog.php on line 22

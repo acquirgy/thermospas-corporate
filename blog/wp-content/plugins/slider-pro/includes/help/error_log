@@ -1,0 +1,1 @@
+[19-Oct-2013 00:25:44 UTC] PHP Fatal error:  Call to undefined function plugins_url() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/help/help.php on line 108

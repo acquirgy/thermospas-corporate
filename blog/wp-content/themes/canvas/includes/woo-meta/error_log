@@ -1,0 +1,1 @@
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Call to undefined function trailingslashit() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/woo-meta/woo-meta.php on line 3

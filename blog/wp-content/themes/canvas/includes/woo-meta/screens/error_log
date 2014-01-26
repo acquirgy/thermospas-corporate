@@ -1,0 +1,1 @@
+[19-Oct-2013 00:25:51 UTC] PHP Fatal error:  Call to undefined function admin_url() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/woo-meta/screens/admin.php on line 2

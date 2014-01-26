@@ -1,0 +1,9 @@
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function get_post_custom() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/gallery.php on line 11
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function get_option() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/theme-actions.php on line 2
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/theme-advanced.php on line 150
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/theme-functions.php on line 179
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/theme-options.php on line 2060
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/theme-js.php on line 6
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/sidebar-init.php on line 24
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function add_shortcode() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/theme-shortcodes.php on line 55
+[19-Oct-2013 00:00:14 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/theme-woocommerce.php on line 6

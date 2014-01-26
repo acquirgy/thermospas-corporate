@@ -1,0 +1,23 @@
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function wp_nonce_field() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/feature-box.php on line 3
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function _e() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/flickr-data-fields.php on line 6
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function admin_url() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/edit-custom-js-css.php on line 11
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function __() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/admin-lists.php on line 89
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function _e() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/gallery-data-fields.php on line 3
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function __() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/general-lists.php on line 17
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function admin_url() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/import-slider-form.php on line 1
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to undefined function wp_nonce_field() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/layer-settings.php on line 2
+[19-Oct-2013 00:11:34 UTC] PHP Fatal error:  Call to a member function get_var() on a non-object in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/media-loader.php on line 17
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function _e() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/skin-editor.php on line 3
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function _e() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/plugin-options.php on line 3
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function admin_url() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/replicate-skin-form.php on line 1
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function _e() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/slide.php on line 2
+[19-Oct-2013 00:11:35 UTC] PHP Warning:  require_once(ABSPATHwp-admin/includes/upgrade.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/slider-activate.php on line 7
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHwp-admin/includes/upgrade.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/slider-activate.php on line 7
+[19-Oct-2013 00:11:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/posts-data-fields.php on line 9
+[19-Oct-2013 00:11:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/posts-data-fields.php on line 40
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function sliderpro_get_settings_list() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/posts-data-fields.php on line 64
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/slider-uninstall.php on line 10
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/slider-pro-widget.php on line 3
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function get_option() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/slider-update.php on line 11
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function __() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/slider.php on line 5
+[19-Oct-2013 00:11:35 UTC] PHP Fatal error:  Call to undefined function _e() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/includes/sliders.php on line 3

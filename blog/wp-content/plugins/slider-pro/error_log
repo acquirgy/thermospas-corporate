@@ -1,0 +1,1 @@
+[19-Oct-2013 00:00:05 UTC] PHP Fatal error:  Call to undefined function load_plugin_textdomain() in /home/thermosp/public_html/blog/wp-content/plugins/slider-pro/slider-pro.php on line 16

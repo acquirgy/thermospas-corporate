@@ -1,0 +1,9 @@
+[19-Oct-2013 00:11:44 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-blogauthor.php on line 24
+[19-Oct-2013 00:11:44 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-adspace.php on line 24
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-embed.php on line 25
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-feedback.php on line 47
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-flickr.php on line 24
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-search.php on line 24
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-tabs.php on line 24
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-subscribe.php on line 24
+[19-Oct-2013 00:11:45 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/thermosp/public_html/blog/wp-content/themes/canvas/includes/widgets/widget-woo-twitter.php on line 24
