@@ -10,7 +10,7 @@
 		</div>
 		<div class="special-main">
         	<div class="special-image"><a href="/hot-tubs/hot-tub-spas.html"><img src="/wp-content/uploads/2013/03/dolphin-large-quote.jpg" alt="" width="500" height="200" style="visibility: visible; opacity: 1; "></a></div>
-            <div class="special-image-zoom"><a href="/hot-tubs/hot-tub-spas.html"><img src="http://www.thermospas.com/wp-content/themes/Accent/images/icon_zoom.png" width="41" height="41"></a></div>
+            <div class="special-image-zoom"><a href="/hot-tubs/hot-tub-spas.html"><img src="/images/icon_zoom.png" width="41" height="41"></a></div>
 			<div class="title">Design Your Own Hot Tub</div>
 <!--			<div class="description">To design your hot tub with the audio and video prompts of Ms Dee Zine click here.
 
@@ -30,7 +30,7 @@ Available on ONLY desktop platform.</div> -->
 				<div class="more">Design Now</div>
                  </a>
            </div>-->
-            
+
 		</div>
         <div class="special-container special-last"><a href="http://online.thermospas.com" title="Chemicals & Accessories" >
 			<div class="title-bt">Chemicals &amp; Accessories</div>
@@ -44,4 +44,3 @@ Available on ONLY desktop platform.</div> -->
 			</div></a>
 		</div>
 	</div>
-    
