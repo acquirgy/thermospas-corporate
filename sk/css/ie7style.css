@@ -1,0 +1,21 @@
+	#slide_content { 
+	width:570px; 
+	float:left;
+	display:block;
+	outline:none; 
+	}
+	#subscribe_pricing{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:#e0e0e0;
+	border:#e0e0e0 2px solid;
+    width: 300px;
+	float:right;
+	margin-left:10px;
+	padding:10px;
+	display:block;
+	}
+	#subscribe_pricing p, #subscribe_pricing h2 {
+	width:300px;
+	}
