@@ -127,7 +127,7 @@
       </tr>
 
       <tr>
-        <td><input name="phone" type="text" class="required defaultInvalid phone" value="Your Phone *" placeholder="Your Phone * /></td>
+        <td><input name="phone" type="text" class="required defaultInvalid phone" value="Your Phone *" placeholder="Your Phone *" /></td>
       </tr>
 
       <tr>
