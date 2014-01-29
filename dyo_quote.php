@@ -14,7 +14,7 @@
 
 <div style="float:left; width:320px; margin-left: 5px;">
 
-  <form id="topform" class="general-form request-quote-form" method="GET" action="dyo.php">
+  <form id="topform" class="general-form request-quote-form" method="GET" action="/dyo.php">
 
     <div style="display: none">
       <input name="stepc" type="hidden" value="done">
@@ -41,7 +41,7 @@
 
       <tr>
         <td>
-          Simply fill out the form below and download a 50 pg Hot Tub Buying Guide, ThermoSpas Brochure and DVD.
+          Fill out the form to request pricing and receive a ThermoSpas Brochure and DVD.
         </td>
       </tr>
 
