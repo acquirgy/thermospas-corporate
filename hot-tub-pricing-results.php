@@ -40,6 +40,7 @@ while($trow = mysql_fetch_array($infoResult)) {
 	$ht_jets = $trow['ht_jets'];
 	$ht_owner = $trow['ht_owner'];
 	$ht_id = $trow['ht_id'];
+	$comments = $trow['comments'];
 
 }
 
@@ -166,29 +167,36 @@ if ((@$_REQUEST['call_day'] == 'choose' || @$_REQUEST['call_time'] == 'choose' |
 	// subject
 	$subject = 'New ThermoSpas Phone Call Request';
 
+	$comments = json_decode($comments);
+
+	$comments_html = '';
+	foreach($comments as $key => $value) {
+		$comments_html .= "<li><strong>{$key}</strong>: {$value}";
+	}
+
 	// message
 	$message = '<html>
 		<body style="font-family: Arial, Helvetica, sans-serif; color: #666666; font-size: 13px; ">
 		<div style="width:550px;">
+			<strong>GENERAL</strong>
 		  <ul>
 		  	<li><strong>Customer Name</strong>: '.$name.'</li>
-			<li><strong>Customer Address</strong>: '.$address1.'</li>
-			<li><strong>Customer City</strong>: '.$city.'</li>
-			<li><strong>Customer State</strong>: '.$state.'</li>
-			<li><strong>Customer Zip Code</strong>: '.$zipcode.'</li>
-			<li><strong>Customer Phone Number</strong>: '.$phone.'</li>
-			<li><strong>Customer Email Address</strong>: '.$email.' </li>
-			<li><strong>Hot Tub Seating</strong>: '.ucfirst($ht_seating).'</li>
-			<li><strong>Number of Jets Selected</strong>: '.$ht_jets.'</li>
-			<li><strong>Hot Tub Use</strong>: '.$ht_use.'</li>
-			<li><strong>Location</strong>: '.$ht_location.'</li>
-			<li><strong>Previous Hot Tub Owner?</strong>: '.$ht_owner.'</li>
-			<li><strong>Call Day</strong>: '.$call_day.'</li>
-			<li><strong>Call Time</strong>: '.$_REQUEST['call_time'].'</li>
-		  </ul>
-		</div>
-		</body>
-		</html>';
+				<li><strong>Customer Address</strong>: '.$address1.'</li>
+				<li><strong>Customer City</strong>: '.$city.'</li>
+				<li><strong>Customer State</strong>: '.$state.'</li>
+				<li><strong>Customer Zip Code</strong>: '.$zipcode.'</li>
+				<li><strong>Customer Phone Number</strong>: '.$phone.'</li>
+				<li><strong>Customer Email Address</strong>: '.$email.' </li>
+				<li><strong>Hot Tub Seating</strong>: '.ucfirst($ht_seating).'</li>
+				<li><strong>Number of Jets Selected</strong>: '.$ht_jets.'</li>
+				<li><strong>Hot Tub Use</strong>: '.$ht_use.'</li>
+				<li><strong>Location</strong>: '.$ht_location.'</li>
+				<li><strong>Previous Hot Tub Owner?</strong>: '.$ht_owner.'</li>
+				<li><strong>Call Day</strong>: '.$call_day.'</li>
+				<li><strong>Call Time</strong>: '.$_REQUEST['call_time'].'</li>
+		  </ul>';
+	if($comments_html) $message .= '<hr /><strong>OTHER INFORMATION</strong><ul>' . $comments_html . '</ul>';
+	$message .= '</div></body></html>';
 
 	// To send HTML mail, the Content-type header must be set
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -215,6 +223,8 @@ if ((@$_REQUEST['call_day'] == 'choose' || @$_REQUEST['call_time'] == 'choose' |
 
 
 	<?
+
+	exit();
 
 } else {
 

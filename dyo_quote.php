@@ -9,7 +9,7 @@
   $led = $_REQUEST['led'];
   $steps = $_REQUEST['steps'];
   $ozonators = $_REQUEST['ozonators'];
-  $lifters = $_REQUEST['lifters'];
+  $coverlifters = $_REQUEST['coverlifters'];
 ?>
 
 <div style="float:left; width:320px; margin-left: 5px;">
@@ -27,7 +27,7 @@
       <input type="hidden" name="led" value="<?=$led?>">
       <input type="hidden" name="steps" value="<?=$steps?>">
       <input type="hidden" name="ozonators" value="<?=$ozonators?>">
-      <input type="hidden" name="lifters" value="<?=$lifters?>">
+      <input type="hidden" name="coverlifters" value="<?=$coverlifters?>">
     </div>
 
     <table border="0" cellpadding="0" cellspacing="0" bgcolor="#e5e5e5">
