@@ -99,7 +99,7 @@
                   </tr>
           		    <tr>
                     <td colspan="2" align="center" style="vertical-align:top">
-                      <input name="phone" type="text" class="textf required phone defaultInvalid" value="Your Phone *" />
+                      <input name="phone" type="text" class="textf required phone defaultInvalid" placeholder="Your Phone *" value="Your Phone *" />
                       <a href="javascript:ModalPopupsAlert1();">
                         <img src="/slides/question1.png" alt="Question" class="question" border="0" />
                       </a>
@@ -175,7 +175,12 @@
             });
 
             $(this).blur( function() {
-              if(this.value=='') this.value = this.defaultValue;
+              if( $(this).hasClass('phone') ) {
+                $(this).mask();
+              } else {
+                if(this.value=='') this.value = this.defaultValue;
+              }
+
             });
           });
 

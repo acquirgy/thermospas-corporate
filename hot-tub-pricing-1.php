@@ -4,439 +4,249 @@
 
 //echo $_COOKIE['INETCJ'];
 
-$url_ref = $_SERVER['HTTP_REFERER'];
+$url_ref = @$_SERVER['HTTP_REFERER'];
 
-if ($_REQUEST['source'] == "IHSAFF" || $_REQUEST['src'] == "IHSAFF" || stristr($url_ref, 'IHSAFF') ) {
+if (@$_REQUEST['source'] == "IHSAFF" || @$_REQUEST['src'] == "IHSAFF" || stristr($url_ref, 'IHSAFF') ) {
 
-$iref = 'IHSAFF';
+	$iref = 'IHSAFF';
+	$time = time() + (30 * 24 * 60 * 60);
+	setcookie ("intsource",$iref, $time);
 
-$time = time() + (30 * 24 * 60 * 60);
+} else if (@$_REQUEST['source'] == "INTCMJ" || @$_REQUEST['src'] == "INTCMJ" || stristr($url_ref, 'INTCMJ') ) {
 
-setcookie ("intsource",$iref, $time);
+	$iref = 'INTCMJ';
+	$month = 60 * 60 * 24 * 30 + time();
+	if(!isset($_COOKIE['INETCJ']))
+		setcookie('INETCJ', date("G:i - m/d/y"), $month);
 
-} else if ($_REQUEST['source'] == "INTCMJ" || $_REQUEST['src'] == "INTCMJ" || stristr($url_ref, 'INTCMJ') ) {
+} else if (@$_REQUEST['src'] == "RSVP" || stristr($url_ref, 'RSVP') ) {
 
-$iref = 'INTCMJ';
+	$iref = 'RSVP';
 
-$month = 60 * 60 * 24 * 30 + time();
+} else if (@$_REQUEST['src'] == "g" || stristr($url_ref, 'src=g') ) {
 
-//echo "c".$_COOKIE['INETCJ'];
+	$iref = 'IPPCG';
 
-if(!isset($_COOKIE['INETCJ']))
+} else if (@$_REQUEST['src'] == "y" || stristr($url_ref, 'src=y') ) {
 
-	setcookie('INETCJ', date("G:i - m/d/y"), $month);
+	$iref = 'IPPCY';
 
-} else if ($_REQUEST['src'] == "RSVP" || stristr($url_ref, 'RSVP') ) {
+} else if (@$_REQUEST['src'] == "m" || stristr($url_ref, 'src=m') ) {
 
-//$url_ref_db = "bing";
+	$iref = 'IPPCB';
 
-$iref = 'RSVP';
+} else if (@$_REQUEST['src'] == "fb" || stristr($url_ref, 'src=fb') ) {
 
-} else if ($_REQUEST['src'] == "g" || stristr($url_ref, 'src=g') ) {
+	$iref = 'IFACE';
 
-//$url_ref_db = "google";
+} else if (@$_REQUEST['source'] == "INTSWMW" || @$_REQUEST['src'] == "INTSWMW" || stristr($url_ref, 'INTSWMW') ) {
 
-$iref = 'IPPCG';
+	$iref = 'INTSWMW';
 
-} else if ($_REQUEST['src'] == "y" || stristr($url_ref, 'src=y') ) {
+} else if (@$_REQUEST['source'] == "videoad" || @$_REQUEST['src'] == "videoad" || stristr($url_ref, 'videoad') ) {
 
-//$url_ref_db = "yahoo";
+	$iref = 'INTGVID';
 
-$iref = 'IPPCY';
+} else if (@$_REQUEST['source'] == "ivalpak" || @$_REQUEST['src'] == "ivalpak" || stristr($url_ref, 'ivalpak') ) {
 
-} else if ($_REQUEST['src'] == "m" || stristr($url_ref, 'src=m') ) {
+	$iref = 'INTVALPAK';
 
-//$url_ref_db = "bing";
+} else if (@$_REQUEST['source'] == "IBAMA" || @$_REQUEST['src'] == "IBAMA" || stristr($url_ref, 'IBAMA') ) {
 
-$iref = 'IPPCB';
+	$iref = 'IBAMA';
 
-} else if ($_REQUEST['src'] == "fb" || stristr($url_ref, 'src=fb') ) {
+} else if (@$_REQUEST['source'] == "ISOCIAL" || @$_REQUEST['src'] == "ISOCIAL" || stristr($url_ref, 'ISOCIAL') ) {
 
-//$url_ref_db = "bing";
+	$iref = 'ISOCIAL';
 
-$iref = 'IFACE';
+} else if (@$_REQUEST['source'] == "IPPCF" || @$_REQUEST['src'] == "IPPCF" || stristr($url_ref, 'IPPCF') ) {
 
-} else if ($_REQUEST['source'] == "INTSWMW" || $_REQUEST['src'] == "INTSWMW" || stristr($url_ref, 'INTSWMW') ) {
+	$iref = 'IPPCF';
 
-//$url_ref_db = "bing";
+} else if (@$_REQUEST['source'] == "IPPCPA" || @$_REQUEST['src'] == "IPPCPA" || stristr($url_ref, 'IPPCPA') ) {
 
-$iref = 'INTSWMW';
+	$iref = 'IPPCPA';
 
-} else if ($_REQUEST['source'] == "videoad" || $_REQUEST['src'] == "videoad" || stristr($url_ref, 'videoad') ) {
+} else if (@$_REQUEST['source'] == "IDISP" || @$_REQUEST['src'] == "IDISP" || stristr($url_ref, 'IDISP') ) {
 
-//$url_ref_db = "bing";
-
-$iref = 'INTGVID';
-
-} else if ($_REQUEST['source'] == "ivalpak" || $_REQUEST['src'] == "ivalpak" || stristr($url_ref, 'ivalpak') ) {
-
-//$url_ref_db = "bing";
-
-$iref = 'INTVALPAK';
-
-} else if ($_REQUEST['source'] == "IBAMA" || $_REQUEST['src'] == "IBAMA" || stristr($url_ref, 'IBAMA') ) {
-
-$iref = 'IBAMA';
-
-} else if ($_REQUEST['source'] == "ISOCIAL" || $_REQUEST['src'] == "ISOCIAL" || stristr($url_ref, 'ISOCIAL') ) {
-
-$iref = 'ISOCIAL';
-
-} else if ($_REQUEST['source'] == "IPPCF" || $_REQUEST['src'] == "IPPCF" || stristr($url_ref, 'IPPCF') ) {
-
-$iref = 'IPPCF';
-
-} else if ($_REQUEST['source'] == "IPPCPA" || $_REQUEST['src'] == "IPPCPA" || stristr($url_ref, 'IPPCPA') ) {
-
-$iref = 'IPPCPA';
-
-} else if ($_REQUEST['source'] == "IDISP" || $_REQUEST['src'] == "IDISP" || stristr($url_ref, 'IDISP') ) {
-
-$iref = 'IDISP';
-
-
+	$iref = 'IDISP';
 
 } else {
 
-//$url_ref_db = $url_ref;
-
-$iref = 'IOTO';
+	$iref = 'IOTO';
 
 }
-
-
-
-
 
 if (isset($_REQUEST['ht_type']) || isset($_REQUEST['ht_location']) || isset($_REQUEST['email'])) {
 
-if ($_REQUEST['ht_type'] == "NG") {
+	if ($_REQUEST['ht_type'] == "NG") {
+		$notice .= "Please selcect a <strong>Hot Tub Type</strong>.\n<BR>";
+	}
 
-$notice .= "Please selcect a <strong>Hot Tub Type</strong>.\n<BR>";
+	if ($_REQUEST['ht_seating'] == "NG") {
+		$notice .= "Please selcect a <strong>Hot Tub Seating</strong>.\n<BR>";
+	}
 
-}
+	if ($_REQUEST['ht_use'] == "NG") {
+		$notice .= "Please selcect a <strong>Hot Tub Use</strong>.\n<BR>";
+	}
 
-if ($_REQUEST['ht_seating'] == "NG") {
+	if (strlen($_REQUEST['name']) < 2 || $_REQUEST['name'] == 'Your Name') {
+		$notice .= "Please enter your <strong>First Name</strong>.\n<BR>";
+	}
 
-$notice .= "Please selcect a <strong>Hot Tub Seating</strong>.\n<BR>";
+	if ((stristr($_REQUEST['email'], '@') === FALSE) || (stristr($_REQUEST['email'], '.') === FALSE) || strlen($_REQUEST['email']) < 5 || $_REQUEST['email'] == 'Your Email') {
+		$notice .= "Please enter a valid <b>Email Address</b>\n<BR>";
+	}
 
-}
+	if (strlen($_REQUEST['address']) < 2 || $_REQUEST['Address'] == 'Your Address') {
+		$notice .= "Please enter your <strong>Address</strong>.\n<BR>";
+	}
 
-if ($_REQUEST['ht_use'] == "NG") {
+	if (strlen($_REQUEST['city']) < 2 || $_REQUEST['city'] == 'Your city') {
 
-$notice .= "Please selcect a <strong>Hot Tub Use</strong>.\n<BR>";
+	$notice .= "Please enter your <strong>City</strong>.\n<BR>";
 
-}
+	}
 
-if (strlen($_REQUEST['name']) < 2 || $_REQUEST['name'] == 'Your Name') {
-
-$notice .= "Please enter your <strong>First Name</strong>.\n<BR>";
-
-}
-
-if ((stristr($_REQUEST['email'], '@') === FALSE) || (stristr($_REQUEST['email'], '.') === FALSE) || strlen($_REQUEST['email']) < 5 || $_REQUEST['email'] == 'Your Email') {
-
-$notice .= "Please enter a valid <b>Email Address</b>\n<BR>";
-
-}
-
-if (strlen($_REQUEST['address']) < 2 || $_REQUEST['Address'] == 'Your Address') {
-
-$notice .= "Please enter your <strong>Address</strong>.\n<BR>";
-
-}
-
-if (strlen($_REQUEST['city']) < 2 || $_REQUEST['city'] == 'Your city') {
-
-$notice .= "Please enter your <strong>City</strong>.\n<BR>";
+	if (strlen($_REQUEST['zipcode']) < 5 || $_REQUEST['zipcode'] == 'Your Zip Code') {
+		$notice .= "Please enter your <strong>Zip Code</strong>.\n<BR>";
+	}
 
 }
 
-/*
+switch (@$_REQUEST['kw']) {
 
-if (strlen($_REQUEST['state']) < 2 || $_REQUEST['state'] == 'Your State') {
+	case "factory-direct":
+		$heading = "Factory Direct Hot Tubs Made Affordable<br>Search below and we'll provide you a quote on the hot tub of your dreams.";
+		$video = "GOQAbkgd6vg";
+		$vtitle = "on Factory Direct Built Hot Tubs";
+		break;
 
-$notice .= "Please enter your <strong>State</strong>.\n<BR>";
+	case "portable":
+		$heading = "Custom Built Portable Hot Tubs and Swim Spas by ThermoSpas<br>Watch the video below on Portable Hot Tubs and Spas";
+		$video = "KFu8ImQLTA8";
+		break;
 
-}
-
-*/
-
-if (strlen($_REQUEST['zipcode']) < 5 || $_REQUEST['zipcode'] == 'Your Zip Code') {
-
-$notice .= "Please enter your <strong>Zip Code</strong>.\n<BR>";
-
-}
-
-
-
-}
-
-
-
-
-
-switch ($_REQUEST['kw']) {
-
-
-
-case "factory-direct":
-
-	$heading = "Factory Direct Hot Tubs Made Affordable<br>Search below and we'll provide you a quote on the hot tub of your dreams.";
-
-	$video = "GOQAbkgd6vg";
-
-	$vtitle = "on Factory Direct Built Hot Tubs";
-
-	break;
-
-case "portable":
-
-	$heading = "Custom Built Portable Hot Tubs and Swim Spas by ThermoSpas<br>Watch the video below on Portable Hot Tubs and Spas";
-
-	$video = "KFu8ImQLTA8";
-
-	break;
-
-default:
-
-	$heading = "Find the best hot tub that fits your needs, then get a quote!";
-
-	$video = "c7AmDccjiS4";
-
-	$vtitle = "on Factory Direct Built Hot Tubs";
+	default:
+		$heading = "Find the best hot tub that fits your needs, then get a quote!";
+		$video = "c7AmDccjiS4";
+		$vtitle = "on Factory Direct Built Hot Tubs";
 
 }
 
-if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
-
-{
-
+if(@strlen($_REQUEST['ht_token']) == "" || $ht_token == "") {
 	$ht_token = generateToken();
-
 }
-
-//echo $ht_token;
-
 
 
 ?>
 
 <!doctype html>
 
-
-
 <!--[if IEMobile 7 ]> <html dir="ltr" lang="en-US"class="no-js iem7"> <![endif]-->
-
 <!--[if lt IE 7 ]> <html dir="ltr" lang="en-US" class="no-js ie6 oldie"> <![endif]-->
-
 <!--[if IE 7 ]>    <html dir="ltr" lang="en-US" class="no-js ie7 oldie"> <![endif]-->
-
 <!--[if IE 8 ]>    <html dir="ltr" lang="en-US" class="no-js ie8 oldie"> <![endif]-->
-
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html dir="ltr" lang="en-US" class="no-js"><!--<![endif]-->
-
-
 
 	<head>
 
 		<meta charset="utf-8">
-
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-
 
 		<title>ThermoSpas</title>
 
-
-
 		<meta name="description" content="Portable hot tubs and spas that are luxurious, affordable, and custom built to match your needs and budget." />
-
 		<meta name="keyword" content="Portable, hot, tubs, spas, luxurious, affordable, custom built, swiming spa, thermospas, thermospa, jacuzzi, chiropractor." />
-
-
 
 		<link rel="stylesheet" href="sk/css/style.css">
 
-
-
 		<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
 		<script>window.jQuery || document.write('<script src="sk/js/jquery-1.7.1.min.js"><\/script>')</script>
-
 		<script type='text/javascript' src='mediaplayer/jwplayer.js'></script>
 
 		<!-- modernizr -->
-
 		<script type="text/javascript" src="sk/js/modernizr.full.min.js"></script>
-
-
-
 		<script type="text/javascript" src="sk/js/validation.js"></script>
 
-
-
 		<!-- SLIDERSHOW JQUERY FUNCTION -->
-
 		<script type="text/javascript" src="sk/js/slides.jquery.js"></script>
 
 		<script type="text/javascript">
-
 			var j = jQuery;
-
 			$(function(){
-
 				$('#slides').slides({
-
 					preload: true,
-
 					preloadImage: 'sk/images/loading.gif',
-
-   					effect: 'fade',
-
+   				effect: 'fade',
 					next: 'next',
-
 					pagination: false,
-
 					generatePagination: false,
-
 					autoHeight: true,
-
 					autoHeightSpeed: 350
-
 				});
-
 			});
-
 		</script>
-
-
 
 		<!-- GALLERY POPUP JQUERY FUNCTION -->
-
-	    <script type="text/javascript" src="../sk/js/jquery.lightbox-0.5.js"></script>
-
+	  <script type="text/javascript" src="../sk/js/jquery.lightbox-0.5.js"></script>
 		<link rel="stylesheet" type="text/css" href="../sk/css/jquery.lightbox-0.5.css" media="screen" />
-
 		<script type="text/javascript">
-
 			var g = jQuery;
-
 			g(function() {
-
 				g('.gallery a').lightBox();
-
 			});
-
 		</script>
-
-
-
-
 
 		<!-- Start Google Analytics Code -->
-
 		<script type="text/javascript">
-
-
-
 			var _gaq = _gaq || [];
-
 				_gaq.push(['_setAccount', 'UA-33203294-1']);
-
 				_gaq.push(['_trackPageview']);
-
-
-
 			(function() {
-
 				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-
 				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-
 			})();
-
-
-
 		</script>
-
 		<!-- End Google Analytics Code -->
 
+		<!--[if IE 7 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie7style.css" media="screen" /> <![endif]-->
+		<!--[if IE 8 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie8style.css" media="screen" /> <![endif]-->
+		<!--[if IE 9 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie9style.css" media="screen" /> <![endif]-->
 
+		<script type="text/javascript">
+		  (function() {
+		    window._pa = window._pa || {};
+		    // _pa.orderId = "myUser@email.com"; // OPTIONAL: include your user's email address or order ID
+		    // _pa.revenue = "19.99"; // OPTIONAL: include dynamic purchase value for the conversion
+		    // _pa.onLoadEvent = "sign_up"; // OPTIONAL: name of segment/conversion to be fired on script load
+		    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+		    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/510fa0ed4c9c5b000200036a.js";
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+		  })();
+		</script>
 
+		<!-- Google Code for All  Site Visitors -->
+		<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1070435200;
+		var google_conversion_label = "w9mUCOCF3QEQgJe2_gM";
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+		</script>
 
-
-<!--[if IE 7 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie7style.css" media="screen" /> <![endif]-->
-
-<!--[if IE 8 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie8style.css" media="screen" /> <![endif]-->
-
-<!--[if IE 9 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie9style.css" media="screen" /> <![endif]-->
-
-<script type="text/javascript">
-
-  (function() {
-
-    window._pa = window._pa || {};
-
-    // _pa.orderId = "myUser@email.com"; // OPTIONAL: include your user's email address or order ID
-
-    // _pa.revenue = "19.99"; // OPTIONAL: include dynamic purchase value for the conversion
-
-    // _pa.onLoadEvent = "sign_up"; // OPTIONAL: name of segment/conversion to be fired on script load
-
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-
-    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/510fa0ed4c9c5b000200036a.js";
-
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
-
-  })();
-
-</script>
-
-
-
-
-
-<!-- Google Code for All  Site Visitors -->
-
-<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
-
-<script type="text/javascript">
-
-/* <![CDATA[ */
-
-var google_conversion_id = 1070435200;
-
-var google_conversion_label = "w9mUCOCF3QEQgJe2_gM";
-
-var google_custom_params = window.google_tag_params;
-
-var google_remarketing_only = true;
-
-/* ]]> */
-
-</script>
-
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-
-</script>
-
-<noscript>
-
-<div style="display:inline;">
-
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1070435200/?value=0&amp;label=w9mUCOCF3QEQgJe2_gM&amp;guid=ON&amp;script=0"/>
-
-</div>
-
-</noscript>
-
-
+		<noscript>
+		<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1070435200/?value=0&amp;label=w9mUCOCF3QEQgJe2_gM&amp;guid=ON&amp;script=0"/>
+		</div>
+		</noscript>
 
 	</head>
 
@@ -445,69 +255,38 @@ var google_remarketing_only = true;
 <script>
 
 var versaTag = {};
-
 versaTag.id = "762"
-
 versaTag.sync = 0
-
 versaTag.dispType = "js"
-
 versaTag.ptcl = "HTTP"
-
 versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe"
-
 //versaTag.mobile = 1
-
 //VersaTag activity parameters include all conversion parameters including custom parameters. Syntax: "ParamName1":"ParamValue1", "ParamName2":"ParamValue2". ParamValue can be empty.
-
 versaTag.activityParams = {};
-
 //Static retargeting tags parameters. Syntax: "TagID1":"ParamValue1", "TagID2":"ParamValue2". ParamValue can be empty.
-
 versaTag.retargetParams = {};
-
 //Dynamic retargeting tags parameters. Syntax: "TagID1":"ParamValue1", "TagID2":"ParamValue2". ParamValue can be empty.
-
 versaTag.dynamicRetargetParams = {};
-
 //Third party tags conditional parameters. Syntax: "TagID1":"ParamValue1", "TagID2":"ParamValue2". ParamValue can be empty.
-
 versaTag.conditionalParams = {};
-
 </script>
 
 <script id="ebOneTagUrlId" src="http://ds.serving-sys.com/SemiCachedScripts/ebOneTag.js"></script>
-
 <noscript>
-
 <iframe src="http://bs.serving-sys.com/BurstingPipe?
-
 cn=ot&amp;
-
 onetagid=762&amp;
-
 ns=1&amp;
-
 activityValues=$$
-
 Value=[Value]0&amp;
-
 OrderID=[OrderID]0&amp;
-
 ProductID=[ProductID]&amp;
-
 ProductInfo=[ProductInfo]&amp;
-
 Quantity=[Quantity]&amp;$$&amp;
-
 retargetingValues=$$&amp;
-
 dynamicRetargetingValues=$$&amp;
-
 acp=$$$$&amp;"
-
 style="display:none;width:0px;height:0px"></iframe>
-
 </noscript>
 
 
@@ -554,355 +333,267 @@ style="display:none;width:0px;height:0px"></iframe>
 
 					<form id="ht_form" action="" method="post">
 
-                    <div id="slides">
+            <div id="slides">
+
+              	<div class="slides_container">
+
+                  <div class="slide">
+
+										<!--slide Content starts-->
+										<div id="slide_content">
+											<div id='mediaplayer'></div>
+										</div><!--#slide_content end-->
+
+										<!--subscribe_bg starts-->
+										<div id="subscribe_pricing">
+
+											<h2>Let us know what you're looking for...</h2>
+
+											<p>...and we'll provide you a quote on the hot tub of your dreams.</p>
+
+											<div>
+												<select name="ht_use" class="customDropDown" id="ht_use">
+												<? if (strlen($_REQUEST['ht_use']) > 2) { ?>
+													<option value="<?=$_REQUEST['ht_use']?>" disabled="disabled">Already Selected</option>
+												<? } else { ?>
+													<option value="">Primary Hot Tub Use?</option>
+													<option value="relaxation">Relaxation</option>
+													<option value="hydrotherapy">Hydrotherapy/Pain Relief</option>
+													<option value="exercise">Exercise</option>
+													<option value="other">Other </option>
+												<? } ?>
+												</select><div id="ht_useInfo" class="ht_useInfo"></div>
+											</div>
+
+											<div>
+												<select name="ht_seating" class="customDropDown" id="ht_seating">
+												<? if (strlen($_REQUEST['ht_seating']) > 2) { ?>
+													<option value="<?=$_REQUEST['ht_seating']?>" disabled="disabled">Already Selected</option>
+												<? } else { ?>
+													<option value="">How many people?</option>
+													<option value="2to3">2-3 person</option>
+													<option value="3to4">3-4 person</option>
+													<option value="4to5">4-5 person</option>
+													<option value="5to6">5-6 person</option>
+													<option value="6to+">6+ person</option>
+												<? } ?>
+												</select>
+												<div id="ht_seatingInfo" class="ht_seatingInfo"></div>
+		                  </div>
+
+											<div>
+												<input type="text" id="name" name="name" value="" placeholder="*Your Name"/>
+											</div>
+
+											<div>
+												<input type="text" id="zipcode" name="zipcode" value="" placeholder="*Your Zip Code"/>
+											</div>
+
+											<div>
+												<input type="text" id="phone" name="phone" value="" placeholder="*Phone" />
+											</div>
+
+											<?php $ht_date = date('Y-m-d ', strtotime('now')); ?>
+
+											<input name="ht_date" type="hidden" value="<?=$ht_date?>">
+											<input name="ht_token" type="hidden" value="<?=$ht_token?>" id="ht_token">
+											<input name="lf" type="hidden" value="c1">
+											<input name="url_ref" type="hidden" value="<?=@$url_ref_db?>">
+											<input name="iref" type="hidden" value="<?=$iref?>">
+											<a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" >Next Step</button></a>
+										</div><!-- #subscribe_pricing -->
 
-                        <div class="slides_container">
 
-                            <div class="slide">
+		                <div class="caption" style="bottom:0">
 
+		                </div>
 
+              		</div>
 
-								<!--slide Content starts-->
+                  <div class="slide">
 
-								<div id="slide_content">
+										<div id="slide_content">
+											<img src="../sk/images/park-ave.jpg" alt="ThermoSpas Hot Tub" width="570" height="450"/>
+										</div>
+										<div id="subscribe_pricing" >
 
-									<div id='mediaplayer'></div>
+											<h2>Please let us know about the location</h2>
 
-								</div><!--#slide_content end-->
+											<p>Let us know where a little about where you would like to put your hot tub.  This will allow us to come up with accurate pricing information and send you a $1,000 coupon, DVD, and complete information package.</p>
 
-								<!--subscribe_bg starts-->
+											<div>
+												<select name="ht_location" class="customDropDown" id="ht_location">
+													<option value="">Do you have a location?</option>
+													<option value="outside">Yes: Outside</option>
+													<option value="inside">Yes: Inside</option>
+													<option value="no">Unsure</option>
+												</select>
+												<span id="ht_locationInfo" class="ht_locationInfo"></span>
+											</div>
 
-								<div id="subscribe_pricing">
+											<div>
+												<select name="ht_jets" id="ht_jets" class="customDropDown" >
+													<option selected="selected" value="">What type of jets?</option>
+													<option value="">What type of jets would you like?</option>
+													<option value="unsure">Not Sure</option>
+													<option value="massage">Massaging / Swirling</option>
+													<option value="neck">Neck Jets</option>
+													<option value="foot">Foot Jets</option>
+													<option value="laser">Direct "Laser" Jets</option>
+													<option value="combation">Combination</option>
+		                    </select>
+		                    <span id="ht_jetsInfo" class="ht_jetsInfo"></span>
+											</div>
 
-									<h2>Let us know what you're looking for...</h2>
+											<div>
+												<select name="ht_owner" id="ht_owner" class="customDropDown" >
+													<option value="">Have you owned a hot tub before?</option>
+													<option value="yes">Yes</option>
+													<option value="no">No</option>
+												</select>
+												<span id="ht_ownerInfo" class="ht_ownerInfo"></span>
+											</div>
 
-									<p>...and we'll provide you a quote on the hot tub of your dreams.</p>
+											<div>
+												<select name="ht_siteinspection" id="ht_siteinspection" class="customDropDown" />
+													<option value="">Have you had a site inspection?</option>
+													<option value="yes">Yes</option>
+													<option value="no">No</option>
+		                    </select> <span id="ht_siteinspectionInfo" class="ht_siteinspectionInfo"></span>
+											</div>
 
-									<div>
+											<div>
+												<input type="text" id="address" name="address" value=""  placeholder="*Your Address" />
+											</div>
 
-										<select name="ht_use" class="customDropDown" id="ht_use">
+											<div>
+												<input type="text" id="city" name="city" value=""  placeholder="*Your city" />
+											</div>
 
-										<? if (strlen($_REQUEST['ht_use']) > 2) { ?>
+											<div>
+												<select name="state1" id="state1" class="customDropDown" >
 
-											<option value="<?=$_REQUEST['ht_use']?>" disabled="disabled">Already Selected</option>
+		                                            <option value="">*Select State</option>
 
-										<? } else { ?>
+		                                            <option value="AL">Alabama</option>
 
-											<option value="">Primary Hot Tub Use?</option>
+		                                            <option value="AK">Alaska</option>
 
-											<option value="relaxation">Relaxation</option>
+		                                            <option value="AZ">Arizona</option>
 
-											<option value="hydrotherapy">Hydrotherapy/Pain Relief</option>
+		                                            <option value="AR">Arkansas</option>
 
-											<option value="exercise">Exercise</option>
+		                                            <option value="CA">California</option>
 
-											<option value="other">Other </option>
+		                                            <option value="CO">Colorado</option>
 
-										<? } ?>
+		                                            <option value="CT">Connecticut</option>
 
-										</select><div id="ht_useInfo" class="ht_useInfo"></div>
+		                                            <option value="DE">Delaware</option>
 
-									</div>
+		                                            <option value="FL">Florida</option>
 
-									<div>
+		                                            <option value="GA">Georgia</option>
 
-										<select name="ht_seating" class="customDropDown" id="ht_seating">
+		                                            <option value="HI">Hawaii</option>
 
-										<? if (strlen($_REQUEST['ht_seating']) > 2) { ?>
+		                                            <option value="ID">Idaho</option>
 
-											<option value="<?=$_REQUEST['ht_seating']?>" disabled="disabled">Already Selected</option>
+		                                            <option value="IL">Illinois</option>
 
-										<? } else { ?>
+		                                            <option value="IN">Indiana</option>
 
-											<option value="">How many people?</option>
+		                                            <option value="IA">Iowa</option>
 
-											<option value="2to3">2-3 person</option>
+		                                            <option value="KS">Kansas</option>
 
-											<option value="3to4">3-4 person</option>
+		                                            <option value="KY">Kentucky</option>
 
-											<option value="4to5">4-5 person</option>
+		                                            <option value="LA">Louisiana</option>
 
-											<option value="5to6">5-6 person</option>
+		                                            <option value="ME">Maine</option>
 
-											<option value="6to+">6+ person</option>
+		                                            <option value="MD">Maryland</option>
 
-										<? } ?>
+		                                            <option value="MA">Massachusetts</option>
 
-										</select><div id="ht_seatingInfo" class="ht_seatingInfo"></div>
+		                                            <option value="MI">Michigan</option>
 
-                   			      </div>
+		                                            <option value="MN">Minnesota</option>
 
-									<div>
+		                                            <option value="MS">Mississippi</option>
 
-										<input type="text" id="name" name="name" value="" placeholder="*Your Name"/>
+		                                            <option value="MO">Missouri</option>
 
-									</div>
+		                                            <option value="MT">Montana</option>
 
-									<div>
+		                                            <option value="NE">Nebraska</option>
 
-										<input type="text" id="zipcode" name="zipcode" value="" placeholder="*Your Zip Code"/>
+		                                            <option value="NV">Nevada</option>
 
-									</div>
+		                                            <option value="NH">New Hampshire</option>
 
-									<div>
+		                                            <option value="NJ">New Jersey</option>
 
-										<input type="text" id="phone" name="phone" value="" placeholder="*Phone" />
+		                                            <option value="NM">New Mexico</option>
 
-									</div>
+		                                            <option value="NY">New York</option>
 
-									<?php
+		                                            <option value="NC">North Carolina</option>
 
-										$ht_date = date('Y-m-d ', strtotime('now'));
+		                                            <option value="ND">North Dakota</option>
 
-										//echo $ht_date;
+		                                            <option value="OH">Ohio</option>
 
-									?>
+		                                            <option value="OK">Oklahoma</option>
 
-									<input name="ht_date" type="hidden" value="<?=$ht_date?>">
+		                                            <option value="OR">Oregon</option>
 
-									<input name="ht_token" type="hidden" value="<?=$ht_token?>" id="ht_token">
+		                                            <option value="PA">Pennsylvania</option>
 
-									<input name="lf" type="hidden" value="c1">
+		                                            <option value="RI">Rhode Island</option>
 
-									<input name="url_ref" type="hidden" value="<?=$url_ref_db?>">
+		                                            <option value="SC">South Carolina</option>
 
-									<input name="iref" type="hidden" value="<?=$iref?>">
+		                                            <option value="SD">South Dakota</option>
 
-									<a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" >Next Step</button></a>
+		                                            <option value="TN">Tennessee</option>
 
-								</div><!-- #subscribe_pricing -->
+		                                            <option value="TX">Texas</option>
 
-                                <div class="caption" style="bottom:0">
+		                                            <option value="UT">Utah</option>
 
-                                </div>
+		                                            <option value="VT">Vermont</option>
 
-                            </div>
+		                                            <option value="VA">Virginia</option>
 
-                          <div class="slide">
+		                                            <option value="WA">Washington</option>
 
-								<div id="slide_content">
+		                                            <option value="WV">West Virginia</option>
 
-						<img src="../sk/images/park-ave.jpg" alt="ThermoSpas Hot Tub" width="570" height="450"/>
+		                                            <option value="WI">Wisconsin</option>
 
-								</div><!--#slide_content end-->
+		                                            <option value="WY">Wyoming</option>
+												</select> <span id="state1Info" class="state1Info"></span>
+											</div>
 
-                                <!--subscribe_pricing starts-->
+											<div>
+												<input type="text" id="email" name="email" value="" placeholder=" Your Email"/>
+											</div>
 
-								<div id="subscribe_pricing" >
+											<a href="#" class="next" >
+												<button type="submit" name="submit_second" id="submit_second" >Get a Quote and DVD Now</button>
+											</a>
 
-									<h2>Please let us know about the location</h2>
+										</div><!--subscribe_pricing ends-->
 
-									<p>Let us know where a little about where you would like to put your hot tub.  This will allow us to come up with accurate pricing information and send you a $1,000 coupon, DVD, and complete information package.</p>
+										<div class="caption" style="bottom:0"></div>
 
-									<div>
+                  </div>
 
-										<select name="ht_location" class="customDropDown" id="ht_location">
+                </div>
 
-											<option value="">Do you have a location?</option>
-
-											<option value="outside">Yes: Outside</option>
-
-											<option value="inside">Yes: Inside</option>
-
-											<option value="no">Unsure</option>
-
-										</select> <span id="ht_locationInfo" class="ht_locationInfo"></span>
-
-									</div>
-
-									<div>
-
-										<select name="ht_jets" id="ht_jets" class="customDropDown" >
-
-											<option selected="selected" value="">What type of jets?</option>
-
-											<option value="">What type of jets would you like?</option>
-
-											<option value="unsure">Not Sure</option>
-
-											<option value="massage">Massaging / Swirling</option>
-
-											<option value="neck">Neck Jets</option>
-
-											<option value="foot">Foot Jets</option>
-
-											<option value="laser">Direct "Laser" Jets</option>
-
-											<option value="combation">Combination</option>
-
-                        			    </select> <span id="ht_jetsInfo" class="ht_jetsInfo"></span>
-
-									</div>
-
-									<div>
-
-										<select name="ht_owner" id="ht_owner" class="customDropDown" >
-
-											<option value="">Have you owned a hot tub before?</option>
-
-											<option value="yes">Yes</option>
-
-											<option value="no">No</option>
-
-										</select> <span id="ht_ownerInfo" class="ht_ownerInfo"></span>
-
-									</div>
-
-									<div>
-
-										<select name="ht_siteinspection" id="ht_siteinspection" class="customDropDown" />
-
-											<option value="">Have you had a site inspection?</option>
-
-											<option value="yes">Yes</option>
-
-                		            	    <option value="no">No</option>
-
-                        			    </select> <span id="ht_siteinspectionInfo" class="ht_siteinspectionInfo"></span>
-
-									</div>
-
-									<div>
-
-										<input type="text" id="address" name="address" value=""  placeholder="*Your Address" />
-
-									</div>
-
-									<div>
-
-										<input type="text" id="city" name="city" value=""  placeholder="*Your city" />
-
-									</div>
-
-									<div>
-
-										<select name="state1" id="state1" class="customDropDown" >
-
-                                            <option value="">*Select State</option>
-
-                                            <option value="AL">Alabama</option>
-
-                                            <option value="AK">Alaska</option>
-
-                                            <option value="AZ">Arizona</option>
-
-                                            <option value="AR">Arkansas</option>
-
-                                            <option value="CA">California</option>
-
-                                            <option value="CO">Colorado</option>
-
-                                            <option value="CT">Connecticut</option>
-
-                                            <option value="DE">Delaware</option>
-
-                                            <option value="FL">Florida</option>
-
-                                            <option value="GA">Georgia</option>
-
-                                            <option value="HI">Hawaii</option>
-
-                                            <option value="ID">Idaho</option>
-
-                                            <option value="IL">Illinois</option>
-
-                                            <option value="IN">Indiana</option>
-
-                                            <option value="IA">Iowa</option>
-
-                                            <option value="KS">Kansas</option>
-
-                                            <option value="KY">Kentucky</option>
-
-                                            <option value="LA">Louisiana</option>
-
-                                            <option value="ME">Maine</option>
-
-                                            <option value="MD">Maryland</option>
-
-                                            <option value="MA">Massachusetts</option>
-
-                                            <option value="MI">Michigan</option>
-
-                                            <option value="MN">Minnesota</option>
-
-                                            <option value="MS">Mississippi</option>
-
-                                            <option value="MO">Missouri</option>
-
-                                            <option value="MT">Montana</option>
-
-                                            <option value="NE">Nebraska</option>
-
-                                            <option value="NV">Nevada</option>
-
-                                            <option value="NH">New Hampshire</option>
-
-                                            <option value="NJ">New Jersey</option>
-
-                                            <option value="NM">New Mexico</option>
-
-                                            <option value="NY">New York</option>
-
-                                            <option value="NC">North Carolina</option>
-
-                                            <option value="ND">North Dakota</option>
-
-                                            <option value="OH">Ohio</option>
-
-                                            <option value="OK">Oklahoma</option>
-
-                                            <option value="OR">Oregon</option>
-
-                                            <option value="PA">Pennsylvania</option>
-
-                                            <option value="RI">Rhode Island</option>
-
-                                            <option value="SC">South Carolina</option>
-
-                                            <option value="SD">South Dakota</option>
-
-                                            <option value="TN">Tennessee</option>
-
-                                            <option value="TX">Texas</option>
-
-                                            <option value="UT">Utah</option>
-
-                                            <option value="VT">Vermont</option>
-
-                                            <option value="VA">Virginia</option>
-
-                                            <option value="WA">Washington</option>
-
-                                            <option value="WV">West Virginia</option>
-
-                                            <option value="WI">Wisconsin</option>
-
-                                            <option value="WY">Wyoming</option>
-
-										</select> <span id="state1Info" class="state1Info"></span>
-
-									</div>
-
-									<div>
-
-										<input type="text" id="email" name="email" value="" placeholder=" Your Email"/>
-
-									</div>
-
-									<a href="#" class="next" ><button type="submit" name="submit_second" id="submit_second" >Get a Quote and DVD Now</button></a>
-
-								</div><!--subscribe_pricing ends-->
-
-								<div class="caption" style="bottom:0">
-
-                                </div>
-
-                          </div>
-
-                        </div>
-
-                    </div>
+              </div>
 
 					</form>
 
@@ -1210,7 +901,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
 				<div id="inner-footer" class="clearfix">
 
-					<p class="left">&copy; <?php echo date(Y); ?> ThermoSpas</p>
+					<p class="left">&copy; <?php echo date('Y'); ?> ThermoSpas</p>
 
                     <p class="right"><a href="/privacy-policy.html" target="_new">ThermoSpas Privacy Policy</a></p>
 
@@ -1306,8 +997,6 @@ style="display:none;width:0px;height:0px"></iframe>
 
 		</script>
 
-
-
 	<!--[if lt IE 7 ]>
 
   			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
@@ -1317,14 +1006,8 @@ style="display:none;width:0px;height:0px"></iframe>
 		<![endif]-->
 
 
-
-
-
-
-
 	</body>
 
-<!-- -------------------------------------------------------------------------LANDING PAGE CODE-------------------------------------------------------------------------- --><!-- BEGIN: Marin Software Tracking Script (Landing Page) --><script type='text/javascript'>var _mTrack = _mTrack || [];_mTrack.push(['trackPage']);(function() {var mClientId = '4340yn26624';var mProto = (('https:' == document.location.protocol) ? 'https://' : 'http://');var mHost = 'tracker.marinsm.com';var mt = document.createElement('script'); mt.type = 'text/javascript'; mt.async = true; mt.src = mProto + mHost + '/tracker/async/' + mClientId + '.js';var fscr = document.getElementsByTagName('script')[0]; fscr.parentNode.insertBefore(mt, fscr);})();</script><noscript><img width="1" height="1" src="https://tracker.marinsm.com/tp?act=1&cid=4340yn26624&script=no" /></noscript><!-- END: Copyright Marin Software --></html>
 
 <?php
 
