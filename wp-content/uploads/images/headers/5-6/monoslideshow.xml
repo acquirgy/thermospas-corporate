@@ -1,46 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!--
-	Monoslideshow 1.32 configuration file
-	Please visit http://www.monoslideshow.com for more info
--->
-
-<slideshow>
-
-<preferences
-
-		showAlbumsButton = "false"
-		showThumbnailsButton = "false"
-		showImageInfo = "never"
-		imageScaleMode = "noScale"
-		imagePause = "10"
-		albumWindowRows = "4"
-		albumWindowColumns = "4"
-		albumSpacing = "2"
-		controlAutoHide = "false"
-		markFile = ""
-		markAlign = "bottomLeft"
-		controlAlign = "bottomRight"
-		controlMarginX = "60"
-		controlRoundedCorners = "0"
-		controlAlpha = "50"
-		controlLineWidth = "1"
-		controlShadowSize = "0"
-		controlShadowAlpha = "0"
-		controlPadding = "5"
-		controlIconSize = "10"
-		controlIconSpacing = "6"
-		randomizeImages = "true"
-
-	/>
-
-	<album thumbnail="album/albumThumbnail.jpg" title="5-6 Person ThermoSpas Hot Tubs" description="Luxury Hot Tubs made affodrable" imagePath="album/images" thumbnailPath="album/thumbnails">
-
-		<img src="1.jpg" title="" link="http://www.thermospas.com/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>
-		<img src="2.jpg" title="" link="http://www.thermospas.com/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>
-		<img src="3.jpg" title="" link="http://www.thermospas.com/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>
-		<!--<img src="4.jpg" title="" link="http://www.thermospas.com/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>-->
-		
-	</album>
-
-</slideshow>
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<!--
+
+	Monoslideshow 1.32 configuration file
+
+	Please visit http://www.monoslideshow.com for more info
+
+-->
+
+
+
+<slideshow>
+
+
+
+<preferences
+
+
+
+		showAlbumsButton = "false"
+
+		showThumbnailsButton = "false"
+
+		showImageInfo = "never"
+
+		imageScaleMode = "noScale"
+
+		imagePause = "10"
+
+		albumWindowRows = "4"
+
+		albumWindowColumns = "4"
+
+		albumSpacing = "2"
+
+		controlAutoHide = "false"
+
+		markFile = ""
+
+		markAlign = "bottomLeft"
+
+		controlAlign = "bottomRight"
+
+		controlMarginX = "60"
+
+		controlRoundedCorners = "0"
+
+		controlAlpha = "50"
+
+		controlLineWidth = "1"
+
+		controlShadowSize = "0"
+
+		controlShadowAlpha = "0"
+
+		controlPadding = "5"
+
+		controlIconSize = "10"
+
+		controlIconSpacing = "6"
+
+		randomizeImages = "true"
+
+
+
+	/>
+
+
+
+	<album thumbnail="album/albumThumbnail.jpg" title="5-6 Person ThermoSpas Hot Tubs" description="Luxury Hot Tubs made affodrable" imagePath="album/images" thumbnailPath="album/thumbnails">
+
+
+
+		<img src="1.jpg" title="" link="/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>
+
+		<img src="2.jpg" title="" link="/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>
+
+		<img src="3.jpg" title="" link="/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>
+
+		<!--<img src="4.jpg" title="" link="/step-2-5-6-person-hot-tub-jets-and-location.html" target="_parent"/>-->
+
+
+
+	</album>
+
+
+
+</slideshow>
+

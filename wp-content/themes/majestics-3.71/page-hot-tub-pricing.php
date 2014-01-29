@@ -3,65 +3,65 @@
 Template Name: Hot Tub Price Page Template
 */
 ?>
-<?php 
-    
-	get_header(); 
+<?php
+
+	get_header();
 	$hasSidebar = "";
-	
-	
-	$sidebar = "true";	
-	
-	
-	
-  
+
+
+	$sidebar = "true";
+
+
+
+
 	$align =    get_post_meta($post->ID,'_sidebar_align',true);
 	if($align=="")
   	$align = "right";
-	
+
 	if($sidebar=="true") {
-		
-	if($align == "right")	
+
+	if($align == "right")
 	$hasSidebar = "hasRightSidebar";
 	else
 	$hasSidebar = "hasLeftSidebar";
 	}
-	
+
 	$image_flag = false;
-	
+
 	 $content_limit =  get_option("hades_bloggrid_limit");
 	 $content_limit = (int) (!$content_limit) ? 250 : $content_limit;
 //print_r($_COOKIE);
 $url_ref = $_SERVER['HTTP_REFERER'];
-if ($_REQUEST['source'] == "IHSAFF" || $_REQUEST['src'] == "IHSAFF" || stristr($url_ref, 'IHSAFF') ) { 
+if ($_REQUEST['source'] == "IHSAFF" || $_REQUEST['src'] == "IHSAFF" || stristr($url_ref, 'IHSAFF') ) {
 $iref = 'IHSAFF';
 $time = time() + (30 * 24 * 60 * 60);
 setcookie ("intsource",$iref, $time);
-} else if ($_REQUEST['source'] == "INTCMJ" || $_REQUEST['src'] == "INTCMJ" || stristr($url_ref, 'INTCMJ') ) { 
+} else if ($_REQUEST['source'] == "INTCMJ" || $_REQUEST['src'] == "INTCMJ" || stristr($url_ref, 'INTCMJ') ) {
 $iref = 'INTCMJ';
 //$month = 60 * 60 * 24 * 30 + time();
 //echo "c".$_COOKIE['INETCJ'];
 //setcookie('INETCJ', date("G:i - m/d/y"), $month);
-} else if ($_REQUEST['source'] == "IPPCVSW" || $_REQUEST['src'] == "IPPCVSW" || stristr($url_ref, 'IPPCVSW') ) { 
+} else if ($_REQUEST['source'] == "IPPCVSW" || $_REQUEST['src'] == "IPPCVSW" || stristr($url_ref, 'IPPCVSW') ) {
 $iref = 'IPPCVSW';
-} else if ($_REQUEST['src'] == "RSVP" || stristr($url_ref, 'RSVP') ) { 
+} else if ($_REQUEST['src'] == "RSVP" || stristr($url_ref, 'RSVP') ) {
 //$url_ref_db = "bing";
 $iref = 'RSVP';
 } else if ($_REQUEST['src'] == "g" || stristr($url_ref, 'src=g') ) {
 //$url_ref_db = "google";
 $iref = 'IPPCG';
-} else if ($_REQUEST['src'] == "y" || stristr($url_ref, 'src=y') ) { 
+} else if ($_REQUEST['src'] == "y" || stristr($url_ref, 'src=y') ) {
 //$url_ref_db = "yahoo";
 $iref = 'IPPCY';
-} else if ($_REQUEST['src'] == "m" || stristr($url_ref, 'src=m') ) { 
+} else if ($_REQUEST['src'] == "m" || stristr($url_ref, 'src=m') ) {
 //$url_ref_db = "bing";
 $iref = 'IPPCB';
-} else if ($_REQUEST['src'] == "fb" || stristr($url_ref, 'src=fb') ) { 
+} else if ($_REQUEST['src'] == "fb" || stristr($url_ref, 'src=fb') ) {
 //$url_ref_db = "bing";
 $iref = 'IFACE';
-} else if ($_REQUEST['source'] == "INTSWMW" || $_REQUEST['src'] == "INTSWMW" || stristr($url_ref, 'INTSWMW') ) { 
+} else if ($_REQUEST['source'] == "INTSWMW" || $_REQUEST['src'] == "INTSWMW" || stristr($url_ref, 'INTSWMW') ) {
 //$url_ref_db = "bing";
 $iref = 'INTSWMW';
-} else if ($_REQUEST['source'] == "videoad" || $_REQUEST['src'] == "videoad" || stristr($url_ref, 'videoad') ) { 
+} else if ($_REQUEST['source'] == "videoad" || $_REQUEST['src'] == "videoad" || stristr($url_ref, 'videoad') ) {
 //$url_ref_db = "bing";
 $iref = 'INTGVID';
 } else {
@@ -72,33 +72,33 @@ $iref = 'IOTO';
 
 if (isset($_REQUEST['ht_type']) || isset($_REQUEST['ht_location']) || isset($_REQUEST['email'])) {
 if ($_REQUEST['ht_type'] == "NG") {
-$notice .= "Please selcect a <strong>Hot Tub Type</strong>.\n<BR>";	
+$notice .= "Please selcect a <strong>Hot Tub Type</strong>.\n<BR>";
 }
 if ($_REQUEST['ht_seating'] == "NG") {
-$notice .= "Please selcect a <strong>Hot Tub Seating</strong>.\n<BR>";	
+$notice .= "Please selcect a <strong>Hot Tub Seating</strong>.\n<BR>";
 }
 if ($_REQUEST['ht_use'] == "NG") {
-$notice .= "Please selcect a <strong>Hot Tub Use</strong>.\n<BR>";	
+$notice .= "Please selcect a <strong>Hot Tub Use</strong>.\n<BR>";
 }
 if (strlen($_REQUEST['name']) < 2 || $_REQUEST['name'] == 'Your Name') {
-$notice .= "Please enter your <strong>First Name</strong>.\n<BR>";	
+$notice .= "Please enter your <strong>First Name</strong>.\n<BR>";
 }
-if ((stristr($_REQUEST['email'], '@') === FALSE) || (stristr($_REQUEST['email'], '.') === FALSE) || strlen($_REQUEST['email']) < 5 || $_REQUEST['email'] == 'Your Email') { 
+if ((stristr($_REQUEST['email'], '@') === FALSE) || (stristr($_REQUEST['email'], '.') === FALSE) || strlen($_REQUEST['email']) < 5 || $_REQUEST['email'] == 'Your Email') {
 $notice .= "Please enter a valid <b>Email Address</b>\n<BR>";
 }
 if (strlen($_REQUEST['address']) < 2 || $_REQUEST['Address'] == 'Your Address') {
-$notice .= "Please enter your <strong>Address</strong>.\n<BR>";	
+$notice .= "Please enter your <strong>Address</strong>.\n<BR>";
 }
 if (strlen($_REQUEST['city']) < 2 || $_REQUEST['city'] == 'Your city') {
-$notice .= "Please enter your <strong>City</strong>.\n<BR>";	
+$notice .= "Please enter your <strong>City</strong>.\n<BR>";
 }
 /*
 if (strlen($_REQUEST['state']) < 2 || $_REQUEST['state'] == 'Your State') {
-$notice .= "Please enter your <strong>State</strong>.\n<BR>";	
+$notice .= "Please enter your <strong>State</strong>.\n<BR>";
 }
 */
 if (strlen($_REQUEST['zipcode']) < 5 || $_REQUEST['zipcode'] == 'Your Zip Code') {
-$notice .= "Please enter your <strong>Zip Code</strong>.\n<BR>";	
+$notice .= "Please enter your <strong>Zip Code</strong>.\n<BR>";
 }
 
 }
@@ -117,7 +117,7 @@ case "portable":
 	$video = "KFu8ImQLTA8";
 	$dynamic_link = "?kw=portable";
 	break;
-default: 
+default:
 	$heading = "Find the best hot tub that fits your needs, then get a quote!";
 	$video = "1yHdoHP8sGY";
 	$vtitle = "on Factory Direct Built Hot Tubs";
@@ -128,8 +128,8 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 	$ht_token = generateToken();
 }
 //echo $ht_token;
-	 
-	?>   
+
+	?>
   <div id="section">
       <div class="content clearfix">
 
@@ -137,7 +137,7 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 				<h1><span class="heading">
 					<script src="../js/thermoheadline.js" type="text/javascript"></script><!--<?=$heading?>-->
                 </span></h1>
-            
+
 					<form id="ht_form" action="" method="post">
                     <div id="slides">
                         <div class="slides_container">
@@ -146,9 +146,9 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 								<!--slide Content starts-->
 								<div id="slide_content">
 									<div id='mediaplayer'>
-                                    <iframe width="570" height="450" src="http://thermospas.com/ht-video.php<?=$dynamic_link?>" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                                    <iframe width="570" height="450" src="/ht-video.php<?=$dynamic_link?>" frameborder="0" scrolling="no" allowfullscreen></iframe>
 									</div>
-								</div><!--#slide_content end--> 
+								</div><!--#slide_content end-->
 								<!--subscribe_bg starts-->
 								<div id="subscribe_pricing">
 									<h2>Let us know what you're looking for...</h2>
@@ -189,7 +189,7 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 									<div>
 										<input type="text" id="phone" name="phone" value="" placeholder="*Phone" />
 									</div>
-									<?php 
+									<?php
 										$ht_date = date('Y-m-d ', strtotime('now'));
 										//echo $ht_date;
 									?>
@@ -310,7 +310,7 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 										<input type="text" id="email" name="email" value="" placeholder=" Your Email"/>
 									</div>
 									<a href="#" class="next" ><button type="submit" name="submit_second" id="submit_second" >Get a Quote and DVD Now</button></a>
-								</div><!--subscribe_pricing ends--> 
+								</div><!--subscribe_pricing ends-->
 								<div class="caption" style="bottom:0">
                                 </div>
                           </div>
@@ -322,14 +322,14 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 					<h2>Watch the video <?=$vtitle?> now and learn more about ThermoSpas Hot Tubs</h2>
 				</div> <!-- #tagline end-->
 				</article>
-                
+
 				<div class="grid_4_container">
 				<!-- Box 1 START -->
 				<div class="grid_4">
 					<div class="box"> <img src='../landing/images/secure.jpg' alt='' width="25" height="32" class='alignleft_icon'/>
 						<h3>YOUR INFO <br />IS SECURE </h3>
 						<hr />
-						Thermospas takes every precaution to keep your information secure.      
+						Thermospas takes every precaution to keep your information secure.
 					</div>
 				</div>
 				<!-- Box 1 END -->
@@ -378,8 +378,8 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
           <p> Everywhere ThermoSpas sells hot tubs, we have permanently stationed, local service and delivery staff. </p>
         </div>
       </div>
-      <!--column_half ends--> 
-      
+      <!--column_half ends-->
+
       <!--column_half_last starts-->
       <div class="column_half_last">
         <h3>ThermoSpas custom-builds each individual hot tub to your specific needs, specifications and budget. </h3>
@@ -399,31 +399,31 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
         <p>ThermoSpas designs some of the most luxurious hot tubs in the world </p>
         <!--gallery starts-->
         <ul class="gallery">
-		
-		 <li><a class="simple_image" href="/slides/lounge.jpg" title="ThermoSpas Wave Lounges - Available in many of our hot tubs" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics/timthumb.php?src=/slides/lounge.jpg&h=60&w=60" /></a> </li>
-		<li><a class="simple_image" href="/slides/lighting.jpg" title="ThermoSpas Elegant Lighting Effects and Sound Systems" target="_blank"><img alt="ThermoSpas Elegant Lighting Effects and Sound Systems" src="http://www.thermospas.com/wp-content/themes/majestics/timthumb.php?src=/slides/lighting.jpg&h=60&w=60" /></a> </li>
-		<li> <a class="simple_image" href="/slides/bubbling-video.jpg" title="Everyone loves the ThermoSpas Bubbling System" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics/timthumb.php?src=/slides/bubbling-video.jpg&h=60&w=60" /></a> </li>
-		 <li><a class="simple_image" href="/slides/filtration-video.jpg" title="ThermoSpas Filtration System filters the water over 100x more then our competitors" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics/timthumb.php?src=/slides/filtration-video.jpg&h=60&w=60" /></a> </li>
-		<li> <a class="simple_image" href="/slides/siteinspection.jpg" title="Request a Free Site Inspection to help measure and plan out your hot tub." target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics/timthumb.php?src=/slides/siteinspection.jpg&h=60&w=60" /></a> </li>
+
+		 <li><a class="simple_image" href="/slides/lounge.jpg" title="ThermoSpas Wave Lounges - Available in many of our hot tubs" target="_blank"><img alt="example6" src="/wp-content/themes/majestics/timthumb.php?src=/slides/lounge.jpg&h=60&w=60" /></a> </li>
+		<li><a class="simple_image" href="/slides/lighting.jpg" title="ThermoSpas Elegant Lighting Effects and Sound Systems" target="_blank"><img alt="ThermoSpas Elegant Lighting Effects and Sound Systems" src="/wp-content/themes/majestics/timthumb.php?src=/slides/lighting.jpg&h=60&w=60" /></a> </li>
+		<li> <a class="simple_image" href="/slides/bubbling-video.jpg" title="Everyone loves the ThermoSpas Bubbling System" target="_blank"><img alt="example6" src="/wp-content/themes/majestics/timthumb.php?src=/slides/bubbling-video.jpg&h=60&w=60" /></a> </li>
+		 <li><a class="simple_image" href="/slides/filtration-video.jpg" title="ThermoSpas Filtration System filters the water over 100x more then our competitors" target="_blank"><img alt="example6" src="/wp-content/themes/majestics/timthumb.php?src=/slides/filtration-video.jpg&h=60&w=60" /></a> </li>
+		<li> <a class="simple_image" href="/slides/siteinspection.jpg" title="Request a Free Site Inspection to help measure and plan out your hot tub." target="_blank"><img alt="example6" src="/wp-content/themes/majestics/timthumb.php?src=/slides/siteinspection.jpg&h=60&w=60" /></a> </li>
 <!--
-		<li class="last_image"><a class="simple_image" href="/slides/jets-video.jpg" title="Thermospas allows you to choose from 10 to 160 jets" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics/timthumb.php?src=/slides/jets-video.jpg&h=60&w=60" /></a> </li>
--->		
+		<li class="last_image"><a class="simple_image" href="/slides/jets-video.jpg" title="Thermospas allows you to choose from 10 to 160 jets" target="_blank"><img alt="example6" src="/wp-content/themes/majestics/timthumb.php?src=/slides/jets-video.jpg&h=60&w=60" /></a> </li>
+-->
         </ul>
-        <!--gallery ends--> 
+        <!--gallery ends-->
       </div>
-      <!--column_half_last ends--> 
+      <!--column_half_last ends-->
 
  				</div>
- 
- 
+
+
 <!--content_bottom_bg starts-->
-  <div id="content_bottom"> 
-    
+  <div id="content_bottom">
+
     <!--first column_3 starts-->
     <div class="column_3">
       <h4>What others say</h4>
       <!--testimonial starts-->
-      <div class="testimonial"> 
+      <div class="testimonial">
         <!--first testimonial-->
         <div>
           <p>"  It is very relaxing and lets us melt away the tensions of the day. It is a great opportunity to talk undisturbed. No phone, no computer, no distractions . "</p>
@@ -435,10 +435,10 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
           <p> Mrs. Christine L. Silva </p>
         </div>
       </div>
-      <!--testimonial ends--> 
+      <!--testimonial ends-->
     </div>
-    <!--first column_3 ends--> 
-    
+    <!--first column_3 ends-->
+
     <!--second column_3 starts-->
     <div class="column_3">
       <h4>Financing Available </h4>
@@ -451,13 +451,13 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
       </ul>
 -->
     </div>
-    <!--second column_3 ends--> 
-    
+    <!--second column_3 ends-->
+
     <!--last column_3 starts-->
     <div class="column_3_last">
     </div>
-    <!--last column_3 ends--> 
-    
+    <!--last column_3 ends-->
+
   </div>
 <!--content_bottom ends-->
 
@@ -466,8 +466,7 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 
 			</div> <!-- end #container -->
 
-</div> 
+</div>
 </div> <!-- #section -->
 
 <?php get_footer(); ?>
-      

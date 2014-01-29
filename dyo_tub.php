@@ -147,13 +147,13 @@ while ($t = mysql_fetch_array ($result)) {
         Included Features:</strong>
         <ul>
           <span id="tub_includes">
-          <li><a href="http://www.thermospas.com/features/thermoboard.php" target="_blank">ThermoBoard Cabinetry</a></li>
-          <li><a href="http://www.thermospas.com/features/spa-filter.php" target="_blank"> ThermoFiltration Independent filtering system</a></li>
-          <li> <a href="http://www.thermospas.com/features/covers.php">ThermoCover insulated hard cover</a></li>
-          <li> <a href="http://www.thermospas.com/features/insulation.php" target="_blank">Full multi-layer ThermoInsulation &amp; Soundproofing package</a></li>
-          <li><a href="http://www.thermospas.com/features/pumpsheaters.php" target="_blank">Titanium Heater Coil</a></li>
-          <li><a href="http://www.thermospas.com/features/pumpsheaters.php" target="_blank">Pumps with Viton Seals</a></li>
-          <li><a href="http://www.thermospas.com/features/tct.php" target="_blank">Total Control Therapy</a> </li>
+          <li><a href="/features/thermoboard.php" target="_blank">ThermoBoard Cabinetry</a></li>
+          <li><a href="/features/spa-filter.php" target="_blank"> ThermoFiltration Independent filtering system</a></li>
+          <li> <a href="/features/covers.php">ThermoCover insulated hard cover</a></li>
+          <li> <a href="/features/insulation.php" target="_blank">Full multi-layer ThermoInsulation &amp; Soundproofing package</a></li>
+          <li><a href="/features/pumpsheaters.php" target="_blank">Titanium Heater Coil</a></li>
+          <li><a href="/features/pumpsheaters.php" target="_blank">Pumps with Viton Seals</a></li>
+          <li><a href="/features/tct.php" target="_blank">Total Control Therapy</a> </li>
           <li>Microban anti-microbial plumbing lines</li>
           <li>Patented Air Venturi Controls</li>
           </span><span id="tubinc">

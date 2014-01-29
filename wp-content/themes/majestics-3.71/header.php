@@ -6,17 +6,17 @@
 
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 
-        
+
 
         <title><?php wp_title('');
 
-	    
+
 
 		$logo = (get_option("hades_logo") == "") ? URL.'/sprites/i/logo.png' : get_option("hades_logo");
 
 		$favico =  (get_option("hades_favico") == "") ? URL.'/images/favicon.ico' : get_option("hades_favico");
 
-		
+
 
 					  /*if(is_home()) {
 
@@ -30,7 +30,7 @@
 
 					  } elseif(is_archive()){
 
-					       
+
 
 					        wp_title(__(' ' , 'h-framework'), true,__( '' , 'h-framework') );
 
@@ -50,7 +50,7 @@
 
 ?></title>
 
-        
+
 
          <link href="<?php echo URL."/style.css"; ?>" rel="stylesheet" type="text/css" /><!-- Stylesheet  -->
 
@@ -66,9 +66,9 @@
 
         <link rel="shortcut icon" href="<?php echo $favico; ?>" />
 
-    
 
-       
+
+
 
 
 
@@ -78,7 +78,7 @@
 
 		     wp_head(); ?>
 
-          <!--[if IE 9 ]>  
+          <!--[if IE 9 ]>
 
             <link rel="stylesheet" type="text/css" href="<?php echo URL; ?>/ie9.css" />
 
@@ -94,7 +94,7 @@
 
             <link rel="stylesheet" type="text/css" href="<?php echo URL; ?>/ie7.css" />
 
-        <![endif]-->  
+        <![endif]-->
 
 
 
@@ -166,11 +166,11 @@
 
 		</script>
 
-		<!--[if IE ]>  
+		<!--[if IE ]>
 
 			<link rel="stylesheet" type="text/css" href="<?=get_bloginfo('template_directory');?>/ieStyle.css" />
 
-		<![endif]-->  
+		<![endif]-->
 
 
 
@@ -237,10 +237,10 @@
 </script>
 <script>
      $(document).ready(function() {
-       <!-- $('#menu-item-3166 a').attr('href','http://www.thermospas.com/blog/');-->
-	   
-	   $('#menu li.menu-item a').last().attr('href','http://www.thermospas.com/blog/');
-    });     
+       <!-- $('#menu-item-3166 a').attr('href','/blog/');-->
+
+	   $('#menu li.menu-item a').last().attr('href','/blog/');
+    });
 	</script>
 
 
@@ -249,7 +249,7 @@
 
      </head>
 
-<body id="standard-page" <? if (is_front_page()) { ?> style="background-image: url('http://www.thermospas.com/slides/bg_1.jpg');" <? } ?>>
+<body id="standard-page" <? if (is_front_page()) { ?> style="background-image: url('/slides/bg_1.jpg');" <? } ?>>
 
 
 
@@ -263,7 +263,7 @@
 
 
 
- 
+
 
  <? } ?>
 
@@ -275,7 +275,7 @@
 
   <div class="container clearfix">
 
-       <?php 
+       <?php
 
             if(function_exists("wp_nav_menu") && 1==2)
 
@@ -299,19 +299,19 @@
 
         ?>
 
-       
+
 
 	   <? $h1_text =    get_post_meta($post->ID,'h1_text',true);
 
-	   
+
 
 	   if (strlen($h1_text < 4)) { $h1_text = "It's Not Just a Hot Tub, It's a ThermoSpa"; }
 
-	   
+
 
 	   ?>
 
-	   
+
 
 	  <div style="height:50px; float:left">
 
@@ -319,53 +319,53 @@
 
 	  </div>
 
-	   
 
-	   
 
-      <?php if(get_option("hades_enable_top_widget")!="false") : ?> 
 
-       <? if (1==2) { ?> 
+
+      <?php if(get_option("hades_enable_top_widget")!="false") : ?>
+
+       <? if (1==2) { ?>
 
         <ul id="top-social-menu" class="clearfix">
 
          <li></li>
 
-       
 
-	   
+
+
 
 	   <?php if(get_option("hades_top_feedburner_id")!="") : ?>   <li class="rss"> <a href="<?php if(!get_option("hades_top_feedburner_id")) bloginfo('rss2_url'); else echo "http://feeds.feedburner.com/".trim(get_option("hades_top_feedburner_id")); ?>"> <span>Subscribe</span> </a> </li> <?php endif; ?>
 
-        
+
 
        <?php if(get_option("hades_top_contact_no")!="") : ?>    <li class="skype"><a href="#"> <span><?php echo get_option("hades_top_contact_no"); ?></span></a> </li><?php endif; ?>
 
-        
+
 
        <?php if(get_option("hades_top_fb")!="") : ?>    <li class="fb"> <a href="<?php echo get_option("hades_top_fb"); ?>"> <span>Become a Fan</span></a> </li><?php endif; ?>
 
-        
+
 
         <?php if(get_option("hades_top_twitter")!="") : ?>   <li class="twitter"> <a href="http://twitter.com/#!/<?php echo get_option("hades_top_twitter"); ?>"> <span><?php echo get_option("hades_top_twitter"); ?></span> </a> </li><?php endif; ?>
 
 		<? } ?>
 
-    
 
-   
 
-        </ul> 
 
-       
 
-       <?php endif; ?> 
+        </ul>
 
-        
+
+
+       <?php endif; ?>
+
+
 
   </div>
 
-  </div> 
+  </div>
 
 </div>
 
@@ -377,16 +377,16 @@
 
  <div class="container clearfix">
 
- 
+
 
    <div class="top-section-divider"></div>
 
    <a href="<?php echo home_url(); ?>" id="logo"><img src="<?php echo $logo; ?>" alt="logo" /></a>
-   
-  
-   
 
-   
+
+
+
+
 
 
 
@@ -408,7 +408,7 @@
 
    }
 
-   else{ 
+   else{
 
 				if(function_exists("wp_nav_menu"))
 
@@ -432,17 +432,17 @@
 								);
 
 				}?>
-				
-				
+
+
 
 	<?php }
 
 			?>
 
-           
 
-            
 
-   </div>         
+
+
+   </div>
 
 </div>

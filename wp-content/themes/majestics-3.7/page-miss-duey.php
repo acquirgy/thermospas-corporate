@@ -4,32 +4,15 @@ Template Name: Miss Duey Page Template
 */
 ?>
 <?php
-	get_header(); 
+	get_header();
 
-/*
-//Load Geo Target Class
-include('includes/ip2locationlite.class.php');
-$ipLite = new ip2location_lite;
-$ipLite->setKey('0720a2f9444a3e300d9109d4daec2ce4dcc6c3f211287e0661dac9473bc70a67');
- 
-//Get errors and locations
-$locations = $ipLite->getCity($_SERVER['REMOTE_ADDR']);
-$errors = $ipLite->getError();
-if (!empty($locations) && is_array($locations)) {
-//	echo $locations['regionName'];
-	if($locations['regionName'] == "MASSACHUSETTS" || $locations['regionName'] == "FLORIDA" || $locations['regionName'] == "VIRGINIA" || $locations['regionName'] == "CONNECTICUT" || $locations['regionName'] == "CALIFORNIA" ):
-	else:
-	header('Location: http://www.thermospas.com/hot-tubs/hot-tub-spas.html');
-	endif;
-}
-*/
 
 require_once 'includes/mobile_detector.php';
 $detect = new Mobile_Detect();
 if($detect->isMobile()):
-header('Location: http://www.thermospas.com/hot-tubs/hot-tub-spas.html');
-endif; 
-?>    
+header('Location: /hot-tubs/hot-tub-spas.html');
+endif;
+?>
 <!--
 <script src="DWConfiguration/ActiveContent/IncludeFiles/AC_RunActiveContent.js" type="text/javascript"></script>
 -->
@@ -68,8 +51,8 @@ endif;
       <?php endwhile; endif; ?>
     </div>
     <?php  	 wp_reset_query();
-		   
-			if($sidebar=="true")  
+
+			if($sidebar=="true")
 			get_sidebar();  ?>
   </div>
 </div>

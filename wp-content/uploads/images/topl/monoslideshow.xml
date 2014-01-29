@@ -1,36 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!--
-	Monoslideshow 1.32 configuration file
-	Please visit http://www.monoslideshow.com for more info
--->
-
-<slideshow>
-
-<preferences
-
-		showAlbumsButton = "false"
-		showThumbnailsButton = "false"
-		showControls = "false"
-		showImageInfo = "never"
-		imageScaleMode = "noScale"
-		imagePause = "10"
-		albumWindowRows = "4"
-		albumWindowColumns = "4"
-		albumSpacing = "2"
-		controlAutoHide = "true"
-		markFile = ""
-		markAlign = "bottomLeft"
-
-	/>
-
-	<album thumbnail="album/albumThumbnail.jpg" title="ThermoSpas Hot Tubs" description="Luxury Hot Tubs made affodrable" imagePath="album/images" thumbnailPath="album/thumbnails">
-
-		<img src="topl_dyk.jpg" title="Design Your Own" link="http://www.thermospas.com/Swim-Spas-and-Exercise-Hot-Tubs.html" target="_parent"/>
-		<img src="topl_sale.jpg" title="Hot Tub Sale" link="http://www.thermospas.com/download-monthly-specials-coupon.html" target="_parent"/>
-		<img src="topl_custome.jpg" title="Custom Hot Tubs" link="http://www.thermospas.com/hot-tubs/hot-tub-spas.html" target="_parent"/>
-		
-
-	</album>
-
-</slideshow>
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<!--
+
+	Monoslideshow 1.32 configuration file
+
+	Please visit http://www.monoslideshow.com for more info
+
+-->
+
+
+
+<slideshow>
+
+
+
+<preferences
+
+
+
+		showAlbumsButton = "false"
+
+		showThumbnailsButton = "false"
+
+		showControls = "false"
+
+		showImageInfo = "never"
+
+		imageScaleMode = "noScale"
+
+		imagePause = "10"
+
+		albumWindowRows = "4"
+
+		albumWindowColumns = "4"
+
+		albumSpacing = "2"
+
+		controlAutoHide = "true"
+
+		markFile = ""
+
+		markAlign = "bottomLeft"
+
+
+
+	/>
+
+
+
+	<album thumbnail="album/albumThumbnail.jpg" title="ThermoSpas Hot Tubs" description="Luxury Hot Tubs made affodrable" imagePath="album/images" thumbnailPath="album/thumbnails">
+
+
+
+		<img src="topl_dyk.jpg" title="Design Your Own" link="/Swim-Spas-and-Exercise-Hot-Tubs.html" target="_parent"/>
+
+		<img src="topl_sale.jpg" title="Hot Tub Sale" link="/download-monthly-specials-coupon.html" target="_parent"/>
+
+		<img src="topl_custome.jpg" title="Custom Hot Tubs" link="/hot-tubs/hot-tub-spas.html" target="_parent"/>
+
+
+
+
+
+	</album>
+
+
+
+</slideshow>
+

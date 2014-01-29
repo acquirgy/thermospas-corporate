@@ -4,9 +4,9 @@
 
 <div id="special-lead">
 	<div class="leadgencontainer">
-		<a class="cta cta1" href="http://thermospas.com/blog/health/">Health</a>
-		<a class="cta cta2" href="http://thermospas.com/blog/fitness/">Fitness</a>
-		<a class="cta cta3" href="http://thermospas.com/blog/lifestyle/">Lifestyle</a>
+		<a class="cta cta1" href="/blog/health/">Health</a>
+		<a class="cta cta2" href="/blog/fitness/">Fitness</a>
+		<a class="cta cta3" href="/blog/lifestyle/">Lifestyle</a>
 		<div class="leadgen">
 			<img src="<?=get_bloginfo('template_directory');?>/images/limited-time-offer.png" class="limited-time-offer"/>
 			<div id="title">
@@ -85,10 +85,10 @@
 To watch videos, or to download your Free brochure or $1,000 coupon, <a href="/thermospas-dvd.html" style="text-decoration:underline;">click here</a>.<br /><br />
 				If you would like to schedule your ThermoSpas Site Inspection, <a href="/site-inspection.html" style="text-decoration:underline;">click here</a>.
 				<br /><br />
-				<a href="https://www.facebook.com/ThermoSpas"><img src="http://thermospas.com/images/social/facebook-thermospas.png"></a>
-				<a href="http://pinterest.com/thermospas/"><img src="http://thermospas.com/images/social/thermospas-pinterest.png"></a>
-				<a href="http://www.youtube.com/user/ThermoSpaInc?feature=watch"><img src="http://thermospas.com/images/social/thermospas-youtube.png">
-				</a><a href="https://www.twitter.com/thermospas"><img src="http://thermospas.com/images/social/thermospas-twitter.png"></a>
+				<a href="https://www.facebook.com/ThermoSpas"><img src="/images/social/facebook-thermospas.png"></a>
+				<a href="http://pinterest.com/thermospas/"><img src="/images/social/thermospas-pinterest.png"></a>
+				<a href="http://www.youtube.com/user/ThermoSpaInc?feature=watch"><img src="/images/social/thermospas-youtube.png">
+				</a><a href="https://www.twitter.com/thermospas"><img src="/images/social/thermospas-twitter.png"></a>
 
 			</div>
 			<div class="loader">

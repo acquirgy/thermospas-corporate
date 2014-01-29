@@ -4860,7 +4860,7 @@ background:url(stylesheets/i/active.png) no-repeat;
 {
 	width:216px;
 	height:160px;
-	background: transparent url('http://www.thermospas.com/wp-content/themes/Accent/images/portfolio3_shadow.png') no-repeat;
+	background: transparent url('/wp-content/themes/Accent/images/portfolio3_shadow.png') no-repeat;
 	margin-top:-12px;
 }
 
@@ -4886,7 +4886,7 @@ background:url(stylesheets/i/active.png) no-repeat;
 .img_shadow_160
 {
 	float: left;
-	background: transparent url('http://www.thermospas.com/wp-content/themes/Accent/images/img_shadow_160.png') no-repeat 15px bottom;
+	background: transparent url('/wp-content/themes/Accent/images/img_shadow_160.png') no-repeat 15px bottom;
 }
 
 input[type=text], input[type=password], select
@@ -5119,7 +5119,7 @@ a.cta3 { left: 462px; width: 213px; color: #0b58a7;}
 .leadgen button:hover { background: url(/wp-content/themes/majestics-3.7/images/getbtn-hover.png) no-repeat 0 0; }
 
 #standard-page {
-background-image: url("http://www.thermospas.com/slides/bg_page.jpg");
+background-image: url("/slides/bg_page.jpg");
 }
 .headertext{
 font-size: 25px;

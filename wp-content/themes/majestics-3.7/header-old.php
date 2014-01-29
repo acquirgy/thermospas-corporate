@@ -2,19 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta name="viewport" content="width=1020"> 
+        <meta name="viewport" content="width=1020">
         <title><?php
-	    
+
 		$logo = (get_option("hades_logo") == "") ? URL.'/sprites/i/logo.png' : get_option("hades_logo");
 		$favico =  (get_option("hades_favico") == "") ? URL.'/images/favicon.ico' : get_option("hades_favico");
-		
+
 					  if(is_home()) {
 					        echo bloginfo(__('name') , 'h-framework' );
 					  } elseif(is_category()) {
 					         _e('Browsing the Category ' , 'h-framework' );
 					          wp_title(' ', true, '');
 					  } elseif(is_archive()){
-					       
+
 					        wp_title(__(' ' , 'h-framework'), true,__( '' , 'h-framework') );
 					  } elseif(is_search()) {
 					          _e( 'Search Results for "'.$s.'"' , 'h-framework' );
@@ -24,7 +24,7 @@
 					        bloginfo(__('name' , 'h-framework')); wp_title(__('-' , 'h-framework'), true, '');
 					  }
 ?></title>
-        
+
          <link href="<?php echo URL."/style.css"; ?>" rel="stylesheet" type="text/css" /><!-- Stylesheet  -->
 <!-- New Stylesheets Added -->
          <link href="<?php echo URL."/skstyle.css"; ?>" rel="stylesheet" type="text/css" /><!-- Stylesheet  -->
@@ -34,13 +34,13 @@
         <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" /><!-- Feed  -->
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
         <link rel="shortcut icon" href="<?php echo $favico; ?>" />
-    
-       
+
+
 
        <?php if ( is_singular() && get_option( 'thread_comments' ) )
 		      wp_enqueue_script( 'comment-reply' );
 		     wp_head(); ?>
-          <!--[if IE 9 ]>  
+          <!--[if IE 9 ]>
             <link rel="stylesheet" type="text/css" href="<?php echo URL; ?>/ie9.css" />
         <![endif]-->
       <!--[if IE 8]>
@@ -48,7 +48,7 @@
         <![endif]-->
       <!--[if IE 7]>
             <link rel="stylesheet" type="text/css" href="<?php echo URL; ?>/ie7.css" />
-        <![endif]-->  
+        <![endif]-->
 
 <!-- New Functionality -->
                 <script src="/showdiv.js" type="text/javascript"></script>
@@ -85,9 +85,9 @@
 				g('.gallery a').lightBox();
 			});
 		</script>
-		<!--[if IE ]>  
+		<!--[if IE ]>
 			<link rel="stylesheet" type="text/css" href="<?=get_bloginfo('template_directory');?>/ieStyle.css" />
-		<![endif]-->  
+		<![endif]-->
 
 
                <!-- Google WebMaster Tools code start -->
@@ -113,14 +113,14 @@
 <!-- End of New Functionality -->
 
      </head>
- 
-<body style="background-image: url('<? if (is_front_page()) { ?> http://www.thermospas.com/slides/bg_1.jpg<? } ?>');">
+
+<body style="background-image: url('<? if (is_front_page()) { ?> /slides/bg_1.jpg<? } ?>');">
 
 
 <div id="top-bar" >
   <div class="inner-top-bar-wrapper">
   <div class="container clearfix">
-       <?php 
+       <?php
             if(function_exists("wp_nav_menu"))
             {
                 wp_nav_menu(array(
@@ -135,45 +135,45 @@
 
 <!-- Tagline Top -->
           <? $h1_text =    get_post_meta($post->ID,'h1_text',true);
-	   
+
 	   if (strlen($h1_text < 4)) { $h1_text = "It's Not Just a Hot Tub, It's a ThermoSpa"; }
-	   
+
 	   ?>
 
 <div style="height:50px; float:left">
 	  	 <h1 style="font-size:25px; padding-top:5px; color:#FFFFFF; font-weight:bold; text-shadow: 1px 1px 2px #111;font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;"><?=$h1_text?></h1>
 	  </div>
-<!-- End Tagline Top -->       
-       <?php if(get_option("hades_enable_top_widget")!="false") : ?> 
+<!-- End Tagline Top -->
+       <?php if(get_option("hades_enable_top_widget")!="false") : ?>
 
         <ul id="top-social-menu" class="clearfix">
          <li></li>
        <?php if(get_option("hades_top_feedburner_id")!="") : ?>   <li class="rss"> <a href="<?php if(!get_option("hades_top_feedburner_id")) bloginfo('rss2_url'); else echo "http://feeds.feedburner.com/".trim(get_option("hades_top_feedburner_id")); ?>"> <span>Subscribe</span> </a> </li> <?php endif; ?>
-        
+
        <?php if(get_option("hades_top_contact_no")!="") : ?>    <li class="skype"><a href="#"> <span><?php echo get_option("hades_top_contact_no"); ?></span></a> </li><?php endif; ?>
-        
+
        <?php if(get_option("hades_top_fb")!="") : ?>    <li class="fb"> <a href="<?php echo get_option("hades_top_fb"); ?>"> <span>Become a Fan</span></a> </li><?php endif; ?>
-        
+
         <?php if(get_option("hades_top_twitter")!="") : ?>   <li class="twitter"> <a href="http://twitter.com/#!/<?php echo get_option("hades_top_twitter"); ?>"> <span><?php echo get_option("hades_top_twitter"); ?></span> </a> </li><?php endif; ?>
-    
-   
-        </ul> 
-       
-       <?php endif; ?> 
-        
+
+
+        </ul>
+
+       <?php endif; ?>
+
   </div>
-  </div> 
+  </div>
 </div>
 
 
 <div class="top-section">
  <div class="container clearfix">
- 
+
    <div class="top-section-divider"></div>
    <a href="<?php echo home_url(); ?>" id="logo"><img src="<?php echo $logo; ?>" alt="logo" /></a>
-   
 
-   <?php 
+
+   <?php
 if(is_page('2601'))
    {
 	?>
@@ -182,7 +182,7 @@ if(is_page('2601'))
 				</div> <!-- end #inner-header -->
 	<?php
    }
-   else{ 
+   else{
 				if(function_exists("wp_nav_menu"))
 				{
 					wp_nav_menu(array(
@@ -196,7 +196,7 @@ if(is_page('2601'))
 				}
 }
 			?>
-           
-            
-   </div>         
+
+
+   </div>
 </div>

@@ -11,7 +11,7 @@ Author URI: http://josh.dvvvvvvvv.com/
 /*  Copyright 2012  Josh Davis
 
     This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as 
+    it under the terms of the GNU General Public License, version 2, as
     published by the Free Software Foundation.
 
     This program is distributed in the hope that it will be useful,
@@ -38,11 +38,11 @@ function customform() {
 
 	<div class="leadgencontainer">
 
-		<a class="cta cta1" href="http://thermospas.com/blog/health/">Health</a>
+		<a class="cta cta1" href="/blog/health/">Health</a>
 
-		<a class="cta cta2" href="http://thermospas.com/blog/fitness/">Fitness</a>
+		<a class="cta cta2" href="/blog/fitness/">Fitness</a>
 
-		<a class="cta cta3" href="http://thermospas.com/blog/lifestyle/">Lifestyle</a>		
+		<a class="cta cta3" href="/blog/lifestyle/">Lifestyle</a>
 
 		<div class="leadgen">
 
@@ -54,7 +54,7 @@ function customform() {
 
 			</div>
 
-			
+
 
 			<form action="#" method="get" class="fp-lead-form">
 
@@ -192,29 +192,29 @@ function customform() {
 
 			<div class="thankyou">
 
-				Thank you!<br /> 
+				Thank you!<br />
 
 To watch videos, or to download your Free brochure or $1,000 coupon, <a href="/thermospas-dvd.html">click here</a>.
 
 				<br /><br />
 
-				<a href="https://www.facebook.com/ThermoSpas"><img src="http://thermospas.com/images/social/facebook-thermospas.png"></a>
+				<a href="https://www.facebook.com/ThermoSpas"><img src="/images/social/facebook-thermospas.png"></a>
 
-				<a href="http://pinterest.com/thermospas/"><img src="http://thermospas.com/images/social/thermospas-pinterest.png"></a>
+				<a href="http://pinterest.com/thermospas/"><img src="/images/social/thermospas-pinterest.png"></a>
 
-				<a href="http://www.youtube.com/user/ThermoSpaInc?feature=watch"><img src="http://thermospas.com/images/social/thermospas-youtube.png">
+				<a href="http://www.youtube.com/user/ThermoSpaInc?feature=watch"><img src="/images/social/thermospas-youtube.png">
 
-				</a><a href="https://www.twitter.com/thermospas"><img src="http://thermospas.com/images/social/thermospas-twitter.png"></a>
+				</a><a href="https://www.twitter.com/thermospas"><img src="/images/social/thermospas-twitter.png"></a>
 
 
 
 			</div>
 
-			<div class="loader">				
+			<div class="loader">
 
 				<img src="<?=get_bloginfo('template_directory');?>/images/335.gif" />
 
-				We are processing your request...				
+				We are processing your request...
 
 			</div>
 

@@ -110,7 +110,7 @@
                 		  <input name="subf" type="hidden" value="y" />
                 		  <input name="post_id" type="hidden" value="<?= $post->ID ?>" />
                 		  <button type="submit" class="primary-button">Download Now</button>
-          		        <a class="privacy-policy" href="http://www.thermospas.com/privacy-policy.html" target="_new">privacy policy</a>
+          		        <a class="privacy-policy" href="/privacy-policy.html" target="_new">privacy policy</a>
           		      </td>
                   </tr>
                 </table>
@@ -122,7 +122,7 @@
           </tr>
           <tr>
             <td colspan="2" style="text-align:center; padding-top:15px;">
-              <img src="http://www.thermospas.com/slides/shadow.jpg" width="962" height="38" />
+              <img src="/slides/shadow.jpg" width="962" height="38" />
             </td>
           </tr>
         </table>
@@ -140,7 +140,7 @@
           stretching: "fill",
           <? if (1==1) { ?>skin: "/mediaplayer/skins/stormtrooper.zip",<? } ?>
           <? if (1==2) { ?>skin: "/mediaplayer/skins/nemesis.zip",<? } ?>
-          image: "http://www.thermospas.com/slides/<?=$video_image?>"
+          image: "/slides/<?=$video_image?>"
         });
       </script>
 

@@ -16,7 +16,7 @@ input.textf {
 <div style="margin-top:40px;">
   <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0px;">
     <tr>
-      <td align="right" valign="top" style="vertical-align:top"><table width="300" height="367" border="0" cellpadding="0" cellspacing="0" bgcolor="#e5e5e5" style="vertical-align:top; background-color:#e5e5e5; background-image:url('http://www.thermospas.com/slides/tbbg.jpg'); background-repeat:repeat-x; padding:5px; border:solid 1px #CCCCCC;">
+      <td align="right" valign="top" style="vertical-align:top"><table width="300" height="367" border="0" cellpadding="0" cellspacing="0" bgcolor="#e5e5e5" style="vertical-align:top; background-color:#e5e5e5; background-image:url('/slides/tbbg.jpg'); background-repeat:repeat-x; padding:5px; border:solid 1px #CCCCCC;">
         <form id="topform">
         <tr>
           <td style="padding:8px;"><h3 class="custom-font" style="font-size:18px; font-weight:bold">Download our Hot Tub Buying Guide, ThermoSpas DVD & Brochure</h3></td>
@@ -53,12 +53,12 @@ file: "http://www.youtube.com/watch?v=<?=$video_id?>",
 stretching: "fill",
 <? if (1==1) { ?>skin: "/mediaplayer/skins/stormtrooper.zip",<? } ?>
 <? if (1==2) { ?>skin: "/mediaplayer/skins/nemesis.zip",<? } ?>
-image: "http://www.thermospas.com/slides/<?=$video_image?>"
+image: "/slides/<?=$video_image?>"
 });
 </script></td>
     </tr>
     <tr>
-      <td colspan="2" style="text-align:center; padding-top:15px;"><img src="http://www.thermospas.com/slides/shadow.jpg" width="962" height="38" /></td>
+      <td colspan="2" style="text-align:center; padding-top:15px;"><img src="/slides/shadow.jpg" width="962" height="38" /></td>
     </tr>
   </table>
 </div>

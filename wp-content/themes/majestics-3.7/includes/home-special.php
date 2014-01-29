@@ -50,7 +50,7 @@ Available on ONLY desktop platform.</div> -->
 
             <div class="content-right">
 
-                <a href="http://www.thermospas.com/hot-tubs/hot-tub-spas.html">
+                <a href="/hot-tubs/hot-tub-spas.html">
 
 				<div class="thumb"></div>
 
@@ -74,7 +74,7 @@ Available on ONLY desktop platform.</div> -->
 
 			<div class="home-special">
 
-        		<div class="special-image"><img src="http://www.thermospas.com/wp-content/uploads/2012/10/Park-Ave.png" alt="" width="210" height="130" style="visibility: visible; opacity: 1; "></div>
+        		<div class="special-image"><img src="/wp-content/uploads/2012/10/Park-Ave.png" alt="" width="210" height="130" style="visibility: visible; opacity: 1; "></div>
 
 				<div class="title">Chemicals & Accesories</div>
 

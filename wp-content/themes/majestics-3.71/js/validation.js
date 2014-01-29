@@ -78,7 +78,7 @@ $(document).ready(function(){
 			return false;
 		}
 	});
-	
+
 	$('#submit_second').click(function(){
 		//if( validate_ht_location() & validate_ht_jets() & validate_ht_owner() & validate_ht_siteinspection() & validateAddress() & validateCity() & validateState() ){
 		if( validateAddress() & validateCity() & validateState() ){
@@ -360,7 +360,7 @@ $(document).ready(function(){
 			type: 'POST',
 			dataType: 'json',
 			data: $('#ht_form').serialize(),
-			complete: function(html){ 
+			complete: function(html){
 				ppcconversion();
 			}
 		});
@@ -373,8 +373,8 @@ $(document).ready(function(){
 			type: 'POST',
 			dataType: 'json',
 			data: $('#ht_form').serialize(),
-			complete: function(html){ 
-				window.location = "http://www.thermospas.com/hot-tub-pricing-results.php?ht_token="+ht_token; 
+			complete: function(html){
+				window.location = "/hot-tub-pricing-results.php?ht_token="+ht_token;
 			}
 		});
 	}
@@ -383,14 +383,14 @@ $(document).ready(function(){
 		iframe.style.width = '0px';
 		iframe.style.height = '0px';
 		document.body.appendChild(iframe);
-		iframe.src = 'http://www.thermospas.com/sk/tracking.html';
+		iframe.src = '/sk/tracking.html';
 	}
 	function cjconversion() {
 		var iframe = document.createElement('iframe');
 		iframe.style.width = '0px';
 		iframe.style.height = '0px';
 		document.body.appendChild(iframe);
-		iframe.src = 'http://www.thermospas.com/sk/cjtracking.html';
+		iframe.src = '/sk/cjtracking.html';
 	}
 });
 

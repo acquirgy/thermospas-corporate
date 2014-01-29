@@ -230,7 +230,7 @@ if (($_REQUEST['call_day'] == 'choose' || $_REQUEST['call_time'] == 'choose' || 
 
 
 
-	header ("Location: http://www.thermospas.com/hot-tub-pricing-results.html?ht_id=".$_REQUEST['ht_id']."&call=err#call");
+	header ("Location: /hot-tub-pricing-results.html?ht_id=".$_REQUEST['ht_id']."&call=err#call");
 
 
 
@@ -356,7 +356,7 @@ mail($to, $subject, $message, $headers);
 
 <!--
 
-//window.location = "<? echo "http://www.thermospas.com/thermospas-dvd.html?callid=$callid&call_time=".$_REQUEST['call_time']."&call_day=".$call_day.""; ?>"
+//window.location = "<? echo "/thermospas-dvd.html?callid=$callid&call_time=".$_REQUEST['call_time']."&call_day=".$call_day.""; ?>"
 
 //-->
 
@@ -853,7 +853,7 @@ document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityS
 
   <div style="margin:14px 30px;">
 
-  <h7><span style="font-size:20px; color:#0381cc;">&#8250;</span> <span style="color:#f37901;font-size:16px; font-weight:bold;">Option  1</span>:  To receive immediate price information please <strong><a href="http://www.thermospas.com/hot-tub-pricing-results.php?ht_id=<?=$_REQUEST['ht_id']?>#call">click here</a> </strong>and select a time for a senior marketing representative  to call you.</h7> </div>
+  <h7><span style="font-size:20px; color:#0381cc;">&#8250;</span> <span style="color:#f37901;font-size:16px; font-weight:bold;">Option  1</span>:  To receive immediate price information please <strong><a href="/hot-tub-pricing-results.php?ht_id=<?=$_REQUEST['ht_id']?>#call">click here</a> </strong>and select a time for a senior marketing representative  to call you.</h7> </div>
 
   <div style="margin:14px 30px;">
 
@@ -1163,17 +1163,17 @@ document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityS
 
 
 
-			<a id="example6" href="/slides/lounge.jpg" title="ThermoSpas Wave Lounges - Available in many of our hot tubs"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lounge.jpg&h=134&w=138" /></a>
+			<a id="example6" href="/slides/lounge.jpg" title="ThermoSpas Wave Lounges - Available in many of our hot tubs"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lounge.jpg&h=134&w=138" /></a>
 
-			<a id="example6" href="/slides/lighting.jpg" title="ThermoSpas Elegant Lighting Effects and Sound Systems"><img alt="ThermoSpas Elegant Lighting Effects and Sound Systems" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lighting.jpg&h=134&w=138" /></a>
+			<a id="example6" href="/slides/lighting.jpg" title="ThermoSpas Elegant Lighting Effects and Sound Systems"><img alt="ThermoSpas Elegant Lighting Effects and Sound Systems" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lighting.jpg&h=134&w=138" /></a>
 
-			<a id="example6" href="/slides/bubbling-video.jpg" title="Everyone loves the ThermoSpas Bubbling System"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/bubbling-video.jpg&h=134&w=138" /></a>
+			<a id="example6" href="/slides/bubbling-video.jpg" title="Everyone loves the ThermoSpas Bubbling System"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/bubbling-video.jpg&h=134&w=138" /></a>
 
-			<a id="example6" href="/slides/filtration-video.jpg" title="ThermoSpas Filtration System filters the water over 100x more then our competitors"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/filtration-video.jpg&h=134&w=138" /></a>
+			<a id="example6" href="/slides/filtration-video.jpg" title="ThermoSpas Filtration System filters the water over 100x more then our competitors"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/filtration-video.jpg&h=134&w=138" /></a>
 
-			<a id="example6" href="/slides/siteinspection.jpg" title="Request a Free Site Inspection to help measure and plan out your hot tub."><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/siteinspection.jpg&h=134&w=138" /></a>
+			<a id="example6" href="/slides/siteinspection.jpg" title="Request a Free Site Inspection to help measure and plan out your hot tub."><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/siteinspection.jpg&h=134&w=138" /></a>
 
-			<a id="example6" href="/slides/jets-video.jpg" title="Thermospas allows you to choose from 10 to 160 jets"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/jets-video.jpg&h=134&w=138" /></a>
+			<a id="example6" href="/slides/jets-video.jpg" title="Thermospas allows you to choose from 10 to 160 jets"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/jets-video.jpg&h=134&w=138" /></a>
 
 
 
@@ -1257,7 +1257,7 @@ document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityS
 
 			<div class="grid_8 copyright">
 
-				<p class="rights">Copyright 2011 by <a href="landing/index.html" title="ThermoSpas">ThermoSpas</a>. All rights reserved. <a href="http://www.thermospas.com/thermospas_privacy_policy.html" target="_new">thermospas privacy policy</a></p>
+				<p class="rights">Copyright 2011 by <a href="landing/index.html" title="ThermoSpas">ThermoSpas</a>. All rights reserved. <a href="/thermospas_privacy_policy.html" target="_new">thermospas privacy policy</a></p>
 
 			</div><!-- Copyright END -->
 

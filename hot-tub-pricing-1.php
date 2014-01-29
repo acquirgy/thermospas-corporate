@@ -1072,19 +1072,19 @@ style="display:none;width:0px;height:0px"></iframe>
 
 
 
-		 <li><a class="simple_image" href="/slides/lounge.jpg" title="ThermoSpas Wave Lounges - Available in many of our hot tubs" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lounge.jpg&h=60&w=60" /></a> </li>
+		 <li><a class="simple_image" href="/slides/lounge.jpg" title="ThermoSpas Wave Lounges - Available in many of our hot tubs" target="_blank"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lounge.jpg&h=60&w=60" /></a> </li>
 
-		<li><a class="simple_image" href="/slides/lighting.jpg" title="ThermoSpas Elegant Lighting Effects and Sound Systems" target="_blank"><img alt="ThermoSpas Elegant Lighting Effects and Sound Systems" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lighting.jpg&h=60&w=60" /></a> </li>
+		<li><a class="simple_image" href="/slides/lighting.jpg" title="ThermoSpas Elegant Lighting Effects and Sound Systems" target="_blank"><img alt="ThermoSpas Elegant Lighting Effects and Sound Systems" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/lighting.jpg&h=60&w=60" /></a> </li>
 
-		<li> <a class="simple_image" href="/slides/bubbling-video.jpg" title="Everyone loves the ThermoSpas Bubbling System" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/bubbling-video.jpg&h=60&w=60" /></a> </li>
+		<li> <a class="simple_image" href="/slides/bubbling-video.jpg" title="Everyone loves the ThermoSpas Bubbling System" target="_blank"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/bubbling-video.jpg&h=60&w=60" /></a> </li>
 
-		 <li><a class="simple_image" href="/slides/filtration-video.jpg" title="ThermoSpas Filtration System filters the water over 100x more then our competitors" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/filtration-video.jpg&h=60&w=60" /></a> </li>
+		 <li><a class="simple_image" href="/slides/filtration-video.jpg" title="ThermoSpas Filtration System filters the water over 100x more then our competitors" target="_blank"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/filtration-video.jpg&h=60&w=60" /></a> </li>
 
-		<li> <a class="simple_image" href="/slides/siteinspection.jpg" title="Request a Free Site Inspection to help measure and plan out your hot tub." target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/siteinspection.jpg&h=60&w=60" /></a> </li>
+		<li> <a class="simple_image" href="/slides/siteinspection.jpg" title="Request a Free Site Inspection to help measure and plan out your hot tub." target="_blank"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/siteinspection.jpg&h=60&w=60" /></a> </li>
 
 <!--
 
-		<li class="last_image"><a class="simple_image" href="/slides/jets-video.jpg" title="Thermospas allows you to choose from 10 to 160 jets" target="_blank"><img alt="example6" src="http://www.thermospas.com/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/jets-video.jpg&h=60&w=60" /></a> </li>
+		<li class="last_image"><a class="simple_image" href="/slides/jets-video.jpg" title="Thermospas allows you to choose from 10 to 160 jets" target="_blank"><img alt="example6" src="/wp-content/themes/majestics-3.71/timthumb.php?src=/slides/jets-video.jpg&h=60&w=60" /></a> </li>
 
 -->
 
@@ -1212,7 +1212,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
 					<p class="left">&copy; <?php echo date(Y); ?> ThermoSpas</p>
 
-                    <p class="right"><a href="http://www.thermospas.com/privacy-policy.html" target="_new">ThermoSpas Privacy Policy</a></p>
+                    <p class="right"><a href="/privacy-policy.html" target="_new">ThermoSpas Privacy Policy</a></p>
 
 				</div> <!-- end #inner-footer -->
 
@@ -1250,7 +1250,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
 					skin: "../mediaplayer/skins/stormtrooper.zip",
 
-					image: "http://www.thermospas.com/slides/aquatic_video.jpg"
+					image: "/slides/aquatic_video.jpg"
 
 			});
 

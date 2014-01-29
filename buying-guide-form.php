@@ -5,7 +5,7 @@ mysql_select_db("thermosp_thermospascom",$db);
 
 if ($_POST['zipcode'] == 'Your Zip Code *' || $_POST['name'] == 'Your Name *' || $_POST['phone'] == 'Your Phone *') {
 
-	header("Location: http://www.thermospas.com/?page_id=".$_POST['post_id']);
+	header("Location: /?page_id=".$_POST['post_id']);
 
 } else {
 
@@ -18,7 +18,7 @@ if ($_POST['zipcode'] == 'Your Zip Code *' || $_POST['name'] == 'Your Name *' ||
 
 	$result = mysql_query($insq);
 
-	header("Location: http://www.thermospas.com/thermospas-dvd.html");
+	header("Location: /thermospas-dvd.html");
 
 }
 

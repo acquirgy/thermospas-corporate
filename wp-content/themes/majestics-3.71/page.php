@@ -1,26 +1,26 @@
-<?php 
-    
-	get_header(); 
+<?php
+
+	get_header();
 	$hasSidebar = "";
-	
+
 	$sidebar =    get_post_meta($post->ID,'_enable_sidebar',true);
-	$sidebar = ($sidebar=="") ? "false" : $sidebar;	
-	
-	
-	
-  
+	$sidebar = ($sidebar=="") ? "false" : $sidebar;
+
+
+
+
 	$align =    get_post_meta($post->ID,'_sidebar_align',true);
 	if($align=="")
   	$align = "right";
-	
+
 	if($sidebar=="true") {
-		
-	if($align == "right")	
+
+	if($align == "right")
 	$hasSidebar = "hasRightSidebar";
 	else
 	$hasSidebar = "hasLeftSidebar";
 	}
-	
+
 	$image_flag = false;
 	?>
 
@@ -38,8 +38,8 @@
     </div>
   </div>
   <div class="content clearfix">
-    
-<? 
+
+<?
 
 
 // CHECK FOR VIDEO EXISTS
@@ -54,7 +54,7 @@ $GLOBALS[$video_image] = $video_image;
 
 
 if (strlen($video_id) > 5) { ?>
-	
+
 <style type="text/css">
 <!--
 input.textf {
@@ -85,21 +85,21 @@ input.texta {
 
 <script type="text/javascript" src="/modal/ModalPopups.js" language="javascript"></script>
 <script type="text/javascript">
-	function ModalPopupsAlert1() {  
-    ModalPopups.Alert("jsAlert1",  
-        "Why do you need a phone number?",  
-        "<div style='padding:25px;'>Based upon your responses, we may need to give you a quick call to talk with one of our Senior Hot Tub Support Specialists.  They will be able to provide you some additional pricing information - including the quotes on your hot tub, delivery costs, as well as inform you of any coupons or specials that are available.</div>",   
-        {  
+	function ModalPopupsAlert1() {
+    ModalPopups.Alert("jsAlert1",
+        "Why do you need a phone number?",
+        "<div style='padding:25px;'>Based upon your responses, we may need to give you a quick call to talk with one of our Senior Hot Tub Support Specialists.  They will be able to provide you some additional pricing information - including the quotes on your hot tub, delivery costs, as well as inform you of any coupons or specials that are available.</div>",
+        {
             width: 500,
 			height: 230,
-			okButtonText: "Close"  
-        }  
-    );  
-}  
+			okButtonText: "Close"
+        }
+    );
+}
 </script>
   <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0px;">
     <tr>
-      <td align="right" valign="top" style="vertical-align:top"><table width="300" height="367" border="0" cellpadding="0" cellspacing="0" bgcolor="#e5e5e5" style="vertical-align:top; background-color:#e5e5e5; background-image:url('http://www.thermospas.com/slides/tbbg.jpg'); background-repeat:repeat-x; padding:5px; border:solid 1px #CCCCCC;">
+      <td align="right" valign="top" style="vertical-align:top"><table width="300" height="367" border="0" cellpadding="0" cellspacing="0" bgcolor="#e5e5e5" style="vertical-align:top; background-color:#e5e5e5; background-image:url('/slides/tbbg.jpg'); background-repeat:repeat-x; padding:5px; border:solid 1px #CCCCCC;">
         <form id="topform" action="/buying-guide-form.php">
         <tr>
           <td colspan="2" style="padding:8px;"><h3 class="custom-font" style="font-size:18px; font-weight:bold; padding:0px; margin:0px">Buying Guide,  DVD & Brochure</h3></td>
@@ -131,7 +131,7 @@ input.texta {
           <td colspan="2" align="center" style="vertical-align:top"><input name="phone" type="text" class="textf" value="Your Phone *" style="float:left" onfocus="if (this.value == 'Your Phone *') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Your Phone *';}"><a href="javascript:ModalPopupsAlert1();"><img src="/slides/question1.png" alt="Question" style="float:left; margin:5px 5px 0px 0px;" border="0" /></a></td>
         </tr>
         <tr>
-          <td width="97" align="center" style="vertical-align:top"><img src="http://www.thermospas.com/images/answer.png" width="97" height="11" alt="Answer" style="padding-top:23px; padding-left:4px;" /></td>
+          <td width="97" align="center" style="vertical-align:top"><img src="/images/answer.png" width="97" height="11" alt="Answer" style="padding-top:23px; padding-left:4px;" /></td>
           <td align="left"><input name="answer" type="text" class="texta" value="Click Here to Answer" onfocus="if (this.value == 'Click Here to Answer') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Click Here to Answer';}" /></td>
         </tr>
         <tr>
@@ -139,10 +139,10 @@ input.texta {
 		  <input name="subf" type="hidden" value="y" />
 		  <input name="post_id" type="hidden" value="<?=$post->ID?>" />
 		  <input type="image" src="/slides/download.jpg" alt="Download" style="padding:0px; margin:10px 0px 0px 20px">
-		<a href="http://www.thermospas.com/thermospas_privacy_policy.html" target="_new">privacy policy</a>
+		<a href="/thermospas_privacy_policy.html" target="_new">privacy policy</a>
 		</td>
         </tr>
-        
+
         <tr>
           <td colspan="2">&nbsp;</td>
         </tr></form>
@@ -160,22 +160,22 @@ file: "http://www.youtube.com/watch?v=<?=$video_id?>",
 stretching: "fill",
 <? if (1==1) { ?>skin: "/mediaplayer/skins/stormtrooper.zip",<? } ?>
 <? if (1==2) { ?>skin: "/mediaplayer/skins/nemesis.zip",<? } ?>
-image: "http://www.thermospas.com/slides/<?=$video_image?>"
+image: "/slides/<?=$video_image?>"
 });
 </script></td>
     </tr>
     <tr>
-      <td colspan="2" style="text-align:center; padding-top:15px;"><img src="http://www.thermospas.com/slides/shadow.jpg" width="962" height="38" /></td>
+      <td colspan="2" style="text-align:center; padding-top:15px;"><img src="/slides/shadow.jpg" width="962" height="38" /></td>
     </tr>
   </table>
 </div>
 
-<? } 
+<? }
 
 // END CHECK IF VIDEO EXISTS
 
 ?>
-    
+
     <div class="<?php if($sidebar=="true") echo 'two-third-width'; else echo 'full-width';  ?>">
       <?php 	wp_reset_query(); if(have_posts()): while(have_posts()) : the_post(); ?>
       <div class="single-content">
@@ -185,8 +185,8 @@ image: "http://www.thermospas.com/slides/<?=$video_image?>"
       <?php endwhile; endif; ?>
     </div>
     <?php  	 wp_reset_query();
-		   
-			if($sidebar=="true")  
+
+			if($sidebar=="true")
 			get_sidebar();  ?>
   </div>
 </div>
