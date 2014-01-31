@@ -34,7 +34,7 @@
       <tr>
         <td>
           <h2 class="custom-font" style="font-size:18px; font-weight:bold; color:#0278c0;">
-            Request Quote, DVD, Brochure & $1000 Coupon
+            Request Pricing, DVD, Brochure & $1000 Coupon
           </h2>
         </td>
       </tr>
@@ -135,7 +135,7 @@
       </tr>
 
       <tr>
-        <td><button type="submit" class="primary-button">Get My Quote</button></td>
+        <td><button type="submit" class="primary-button">GET MY QUOTE</button></td>
       </tr>
 
     </table>
