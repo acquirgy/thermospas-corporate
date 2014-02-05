@@ -10266,6 +10266,7 @@ font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 
 .general-form td {
   padding: 6px 14px;
+  text-align: left;
 }
 
 .general-form table {
@@ -10287,6 +10288,7 @@ font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-size: 10px;
   padding-top: 5px;
   display: block;
+  text-align: center;
 }
 
 .free-brochure-form .phone {
@@ -10303,16 +10305,18 @@ font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 .primary-button {
+  display: block;
   border-radius: 9px;
   background-color: #70B1E9;
-  margin: 0;
-  padding: 5px 10px;
-  border: 1px solid #cacaca;
+  margin: 5px 0 0 0;
+  padding: 0 10px;
+  border: none;
+  box-shadow: 0 0 3px #3D3D3D;
   color: #fff;
-  line-height: 22px;
-  height: 34px;
-  font-size: 18px;
-  text-shadow: 1px 1px 0 #383838;
+  line-height: 46px;
+  height: 48px;
+  font-size: 19px;
+  text-shadow: 1px 1px 0 #464646;
   cursor: pointer;
   background: #87caf7;
   font-weight: bold;
@@ -10334,6 +10338,4 @@ font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   background: -ms-linear-gradient(top,  #8bcaf5 0%,#3fa7f1 50%,#2695dc 51%,#2181bf 100%);
   background: linear-gradient(to bottom,  #8bcaf5 0%,#3fa7f1 50%,#2695dc 51%,#2181bf 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bcaf5', endColorstr='#2181bf',GradientType=0 );
-
-  color: #87caf7;
 }

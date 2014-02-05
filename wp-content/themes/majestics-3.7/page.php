@@ -50,7 +50,7 @@
 
       <div style="<?= $sidebar == "true" ? 'padding-top:40px' : 'margin-top:40px' ?>">
 
-        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0px;">
+        <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" style="margin:0px;">
           <tr>
             <td align="right" valign="top" style="vertical-align:top">
               <form id="topform" action="/buying-guide-form.php" class="general-form free-brochure-form" method="post">
