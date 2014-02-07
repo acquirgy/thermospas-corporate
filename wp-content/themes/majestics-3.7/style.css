@@ -9985,6 +9985,15 @@ color: #484d51;
 
 }
 
+#dyo input[type='radio'] {
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  border: none;
+  background: none;
+  margin: 0 6px 0 0;
+}
+
 
 
 
