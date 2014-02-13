@@ -1418,7 +1418,7 @@ h5 a:hover,
 h6 a:hover {
   text-decoration: underline;
 }
-/* 1.3 @font-face 
+/* 1.3 @font-face
 - Used for the subscribe & connect social icons. If you would like to add more icons to the font, you can do so by rebuilding the font at http://keyamoon.com/icomoon/app/ and replace the existing font files in the theme with the new ones.
 */
 @font-face {
@@ -1536,7 +1536,7 @@ a.flex-next:hover:before,
 }
 body.fixed-mobile {
   padding: 0;
- 
+
 }
 body.fixed-mobile #top {
   padding: 0;
@@ -1767,7 +1767,7 @@ ul.nav ul li.current-menu-item a {
 }
 /* 2.3 Header */
 #header {
-  padding: 40px 0 45px;
+  padding: 0 0 45px;
   clear: both;
   position: relative;
   background-size: auto;

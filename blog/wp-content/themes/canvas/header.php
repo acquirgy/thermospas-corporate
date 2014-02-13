@@ -1,19 +1,12 @@
 <?php
 
 /**
-
  * Header Template
-
  *
-
  * Here we setup all logic and XHTML that is required for the header section of all screens.
-
  *
-
  * @package WooFramework
-
  * @subpackage Template
-
  */
 
 ?><!DOCTYPE html>
@@ -92,10 +85,6 @@
 <div id='whitestuff'></div>
 
 		<?php woo_header_inside(); ?>
-
-
-
-<div id="Tagline">It's Not Just a Hot Tub, It's a ThermoSpa</div>
 
  <div class="container clearfix">
 

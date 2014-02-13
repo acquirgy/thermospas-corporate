@@ -1291,9 +1291,6 @@ blockquote.right {
 
 
 .top-section .container {
-
- background: url(sprites/i/top-sep.jpg) 67% 50% no-repeat;
-
  height: 77px; }
 
 
@@ -10236,7 +10233,7 @@ a.cta3 { left: 462px; width: 213px; color: #0b58a7;}
 
 #standard-page {
 
-background-image: url("/slides/bg_page.jpg");
+background: url("/slides/bg_page.jpg") no-repeat 50% -51px;
 
 }
 
