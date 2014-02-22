@@ -82,8 +82,6 @@
 
 	<header id="header" class="col-full">
 
-<div id='whitestuff'></div>
-
 		<?php woo_header_inside(); ?>
 
  <div class="container clearfix">
