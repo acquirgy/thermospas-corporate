@@ -382,7 +382,64 @@ figure {
     width: 50%;
     font-size: .85em;
 }
-
+.advantage-block {
+	padding: 0 0 20px;
+}
+.advantage-block h2 {
+	margin: 0 0 20px;
+	line-height: 25px;
+	font-size: 22px;
+	font-weight: normal;
+	color: #a5a5a5;
+}
+.tabs .tab-content {
+	float: left;
+	width: 558px;
+}
+.tabs .tab-content img {
+	display: block;
+	width: 100%;
+}
+.tabs {
+	margin: 0 -40px 0 1px;
+	border: solid #dfdfdf;
+	border-width: 1px 0;
+	overflow: hidden;
+	height: 1%;
+}
+.tabset {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	height: 1%;
+	list-style: none;
+}
+.tabset li {
+	border-top: 1px solid #dfdfdf;
+	text-align: justify;
+}
+.tabset li a {
+	display: block;
+	padding: 10px 77px 12px 27px;
+	text-decoration: none;
+	color: #6a6868;
+}
+.tabset li a:hover,
+.tabset li.active a {
+	border-left: 13px solid #1a89c5;
+	padding: 10px 77px 12px 14px;
+	background: #e8f1f8;
+}
+.tabset li:first-child {border-top: 0;}
+.tabset li:first-child a {padding-bottom: 13px;}
+.tabset .title {
+	display: block;
+	margin: 0 0 1px;
+	line-height: 24px;
+	font-size: 20px;
+	font-weight: normal;
+	color: #00529b;
+}
 .features-holder {
 	width: 100%;
 }
@@ -828,7 +885,9 @@ figure {
 	}
 	#main {border-width: 1px 0 0;}
 	.promo-txt {padding: 13px 8px 0 0;}
-
+	.tabset li a,
+	.tabset li a:hover,
+	.tabset li.active a {padding-right: 52px;}
 	.btn-get {margin: 3px -21px 0 -20px;}
 	.testimonials img {margin: -13px -24px 0 -30px;}
 	.partners-list {padding: 0 3px 0 0;}
@@ -856,7 +915,26 @@ figure {
 		line-height: 15px;
 		font-size: 12px;
 	}
-
+.tabs .tab-content {
+		float: left;
+		width: 398px;
+	}
+	.tabset li {
+		line-height: 12px;
+		font-size: 11px;
+	}
+	.tabset li a,
+	.tabset li a:hover,
+	.tabset li.active a,
+	.tabset li:first-child a {
+		padding-top: 2px;
+		padding-right: 20px;
+		padding-bottom: 7px;
+		min-height: 61px;
+	}
+	.tabset .title {
+		font-size: 16px;
+	}
 	.features-holder {
 		padding: 0 0 20px;
 	}
@@ -1065,6 +1143,32 @@ figure {
         width: 100%;
         font-size: .9em;
     }
+    .advantage-block {padding: 0 0 13px;}
+	.advantage-block h2 {
+		margin: 0 0 19px;
+		line-height: 26px;
+		font-size: 22px;
+	}
+	.tabs .tab-content {float: none;
+		width: 98%;}
+	.tabs {
+		margin: 0;
+		border: 0;
+	}
+	.tabset li {
+		padding: 0 0 20px;
+		border: 0;
+		line-height: 21px;
+		font-size: 16px;
+		width: 98%;
+	}
+	.tabset li:first-child {border-top: 0;}
+	.tabset li:first-child a {padding-bottom: 0;}
+	.tabset .title {
+		margin: 0 0 1px;
+		line-height: 25px;
+		font-size: 22px;
+	}
 	.features-holder {width: 100%;}
 	.features {
 		float: none;
