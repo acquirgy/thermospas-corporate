@@ -46,7 +46,7 @@ function initValidation() {
     var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var regPhone = /^[0-9\-\(\)\ ]+$/;
 
-    jQuery('form.form-reg').each(function () {
+    jQuery('form.form-reg, form.form-reg2').each(function(){
         var form = jQuery(this);
         var successFlag = true;
         var inputs = form.find('input:text, textarea, select');
@@ -57,8 +57,11 @@ function initValidation() {
 
             inputs.each(checkField);
 
-            if (!successFlag) {
+            if(!successFlag) {
+                $('form').addClass('invalid');
                 return false;
+            } else {
+                $('form').addClass('valid');
             }
         }
 
@@ -68,19 +71,19 @@ function initValidation() {
             var currentParent = currentObject.parents('div.row-area');
 
             // not empty fields
-            if (currentObject.hasClass('required')) {
+            if(currentObject.hasClass('required')) {
                 setState(currentParent, currentObject, !currentObject.val().length || currentObject.val() === currentObject.attr('title'));
             }
             // correct email fields
-            if (currentObject.hasClass('required-email')) {
+            if(currentObject.hasClass('required-email')) {
                 setState(currentParent, currentObject, !regEmail.test(currentObject.val()));
             }
             // correct number fields
-            if (currentObject.hasClass('required-number')) {
+            if(currentObject.hasClass('required-number')) {
                 setState(currentParent, currentObject, !regPhone.test(currentObject.val()));
             }
             // something selected
-            if (currentObject.hasClass('required-select')) {
+            if(currentObject.hasClass('required-select')) {
                 setState(currentParent, currentObject, currentObject.get(0).selectedIndex === 0);
             }
         }
@@ -88,9 +91,9 @@ function initValidation() {
         // set state
         function setState(hold, field, error) {
             hold.removeClass(errorClass).removeClass(successClass);
-            if (error) {
+            if(error) {
                 hold.addClass(errorClass);
-                field.one('focus', function () { hold.removeClass(errorClass).removeClass(successClass); });
+                field.one('focus',function(){hold.removeClass(errorClass).removeClass(successClass);});
                 successFlag = false;
             } else {
                 hold.addClass(successClass);
