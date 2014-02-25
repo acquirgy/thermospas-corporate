@@ -123,7 +123,39 @@
                             </ul>
 						</div>
 					</div>
-
+                <!-- advantage -->
+                <div class="advantage-block">
+                    <h2>A Complete Line of Custom-Built Hot Tubs and Spas For Every Need</h2>
+                    <!-- tabs -->
+                    <div class="tabs">
+                        <div class="tab-content">
+                                <div id="tab1">
+                                    <img src="/hot-tub-pricing-2/images/img02.jpg" alt="image description">
+                                </div>
+                                <div id="tab2">
+                                    <img src="/hot-tub-pricing-2/images/img03.jpg" alt="image description">
+                                </div>
+                                <div id="tab3">
+                                <img src="/hot-tub-pricing-2/images/img04.jpg" alt="image description">
+                                </div>
+                            </div>
+                        <ul class="tabset">
+                            <li><a href="#tab1">
+                                <strong class="title">Health</strong>
+                                ThermoSpas is dedicated to creating the most beneficial hydrotherapy hot tubs for arthritis, pain relief, stress, sleep problems, headaches, and more.</a>
+                            </li>
+                            <li class="active">
+                                <a href="#tab2">
+                                    <strong class="title">Fitness</strong>
+                                    ThermoSpas has a full line of fitness hot tubs and swim spas designed to provide a comprehensive, low-impact workout – and an amazing massage after.</a>
+                            </li>
+                            <li><a href="#tab3">
+                                <strong class="title">Lifestyle</strong>
+                                Have fun, reconnect with family or throw a party and discover why our customers are the happpiest home owners on the block.</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
 					<div class="features-holder">
 						<!-- features -->
