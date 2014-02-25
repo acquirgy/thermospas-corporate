@@ -13,7 +13,7 @@ jQuery(function () {
 });
 
 function initPhoneField() {
-    jQuery('#tbPhone').mask("(999) 999-9999");                          // 9 - Represents a numeric character
+    jQuery('#phone-number').mask("(999) 999-9999");                          // 9 - Represents a numeric character
 }
 
 // form focus init
