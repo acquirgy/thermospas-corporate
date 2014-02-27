@@ -106,7 +106,7 @@ if($_POST) {
 		<div id="wrapper">
         <div id="topspace">
             <h1 class="logo">ThermoSpas - Designed to Improve Your Life</h1>
-            <p class="phone-top"><strong>Have Questions?</strong><br />1-800-807-6107</p>
+            <p class="phone-top"><strong>Have Questions?</strong><br /><a href="tel:1-800-807-6107" style="text-decoration: none;">1-800-807-6107</a></p>
         </div>
 			<!-- header -->
 			<header id="header">
@@ -229,7 +229,7 @@ if($_POST) {
 								<li><a class="youtube" href="http://www.youtube.com/user/ThermoSpaInc?feature=watch" target="_blank">YouTube</a></li>
 								<li><a class="twitter" href="https://twitter.com/thermospas" target="_blank">Twitter</a></li>
 							</ul>
-                            <p>Please call <strong>800-807-6107</strong> with any questions or to speak to a sales associate.</p>
+                            <p>Please call <strong><a href="tel:1-800-807-6107" style="text-decoration: none;">800-807-6107</a></strong> with any questions or to speak to a sales associate.</p>
 						</div>
 					</div>
 					<!-- media -->

@@ -39,7 +39,7 @@
             <div id="topspace">
                 <!-- logotype -->
 						<h1 class="logo">ThermoSpas - Designed to Improve Your Life</h1>
-                       <p class="phone-top"><strong>Have Questions?</strong><br />1-800-807-6107</p>
+                       <p class="phone-top"><strong>Have Questions?</strong><br /><a href="tel:1-800-807-6107" style="text-decoration: none;">1-800-807-6107</a></p>
             </div>
 			<!-- header -->
 			<header id="header">
@@ -193,7 +193,7 @@
 					<ul class="partners-list">
 						<li><img src="/hot-tub-pricing-2/images/img10.png" alt="image description" /></li>
 						<li><img src="/hot-tub-pricing-2/images/img11.png" alt="image description" /></li>
-                        <li><p class="phone"><strong>Get Your Free DVD &amp; Brochure Now!</strong><br />Call Today 1-800-807-6107</p></li>
+                        <li><p class="phone"><strong>Get Your Free DVD &amp; Brochure Now!</strong><br />Call Today <a href="tel:1-800-807-6107" style="text-decoration: none;">1-800-807-6107</a></p></li>
 					</ul>
 
 					<div class="txt">
