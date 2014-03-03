@@ -123,7 +123,7 @@ if($_POST) {
 						<div class="txt">
 							<h2>Thank you <span class="name"><?= $_POST['fname'] ?> <?= $_POST['lname'] ?>!</span></h2>
                             <!-- Subtitle 1 -->
-                            <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly. To receive immediate information, please call 1-800-807-6107 Mon-Thurs: 9am - midnight, Fri: 9am - 9pm, Sat: 9am - 5pm, and Sun: 3pm – 7pm EST.</strong></p>
+                            <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly. To receive immediate information, please call 1-800-807-6107 Mon-Thurs: 9am - midnight, Fri: 9am - 9pm, Sat: 9am - 5pm, and Sun: 3pm - 7pm EST.</strong></p>
 							<p id="subtitle1"><strong>To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address, your FREE DVD and Brochure will be mailed to you:</strong></p>
                             <!-- Form 1 -->
                             <form id="cfm-form1" class="form-reg2" action="#" method="post">
