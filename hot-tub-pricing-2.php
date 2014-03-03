@@ -56,8 +56,8 @@
 							<div class="arrow-right">
 								<!-- main promo -->
 								<div class="main-promo">
-									<strong class="title">Get Your <span>FREE</span> DVD &amp; Brochure!</strong>
-									Plus, Right Now <strong>SAVE an Additional <span class="curr">$</span>1,000</strong> with Bonus Gifts!
+									<strong class="title">Get A <span>FREE</span> QUOTE!</strong>
+									Receive expert advice & custom pricing on the hot tub of your dreams!
 								</div>
 							</div>
 							<!-- registration form -->
@@ -65,7 +65,7 @@
 								<fieldset>
 									<legend>Register form</legend>
 									<strong class="title">Fast, Easy &amp; FREE!</strong>
-									<p>Just fill out the quick form below to receive your FREE information. No obligation!</p>
+									<p class="getstarted">Get started below and we’ll provide you with a quote for the hot tub of your dreams! Plus, get your FREE DVD & Brochure by mail or view online instantly!</p>
                                     <p class="req">* required</p>
 									<div class="row">
 										<div class="row-area">
@@ -124,9 +124,9 @@
 						</div>
 					</div>
                 <!-- advantage -->
-                <div class="advantage-block">
+               <!-- <div class="advantage-block">
                     <h2>A Complete Line of Custom-Built Hot Tubs and Spas For Every Need</h2>
-                    <!-- tabs -->
+
                     <div class="tabs">
                         <div class="tab-content">
                                 <div id="tab1">
@@ -156,7 +156,7 @@
                         </ul>
                     </div>
                 </div>
-
+                -->
 					<div class="features-holder">
 						<!-- features -->
 						<div class="features">
@@ -168,7 +168,7 @@
 							</ul>
 						</div>
 						<div class="btn-get">
-							<a href="#" class="focusForm">Get Your <span>FREE</span> DVD &amp; Brochure Now!</a>
+							<a href="#" class="focusForm">Get My FREE QUOTE Now!</a>
 						</div>
 					</div>
 					<!-- testimonials -->
@@ -193,7 +193,7 @@
 					<ul class="partners-list">
 						<li><img src="/hot-tub-pricing-2/images/img10.png" alt="image description" /></li>
 						<li><img src="/hot-tub-pricing-2/images/img11.png" alt="image description" /></li>
-                        <li><p class="phone"><strong>Get Your Free DVD &amp; Brochure Now!</strong><br />Call Today <a href="tel:1-800-807-6107" style="text-decoration: none;">1-800-807-6107</a></p></li>
+                        <li><p class="phone"><strong>Get Your <span style="color:#1a89c5;">FREE</span> QUOTE Now!</strong><br />Call Today <a href="tel:1-800-807-6107" style="text-decoration: none;">1-800-807-6107</a></p></li>
 					</ul>
 
 					<div class="txt">

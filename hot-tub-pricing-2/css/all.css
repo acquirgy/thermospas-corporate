@@ -162,11 +162,18 @@ figure {
 .form-reg input[type="submit"]:hover {
 	background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat 0 -880px;
 }
+.form-reg .getstarted {
+	font-family: Arial;
+	line-height: 13px;
+	font-size: 11px;
+	color: #FFFFFF;
+}
 .form-reg .req {
 	display: block;
-	line-height: 3px;
 	font-size: .85em;
-	color: #fff;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: -13px 0 10px 0;
 }
 .error input {
 	border-color: #f00 !important;
@@ -293,19 +300,19 @@ figure {
 }
 .main-promo {
 	padding: 28px 0px 0px 0px;
-	line-height: 24px;
-	font-size: 24px;
-	letter-spacing: -1px;
+	line-height: 22px;
+	font-family: Myriad Pro;
+	font-size: 20px;
 	text-align: center;
 	color: #949fa1;
 	width: 100%;
 }
 .main-promo .title {
 	display: block;
-	line-height: 48px;
-	font-size: 43px;
-	letter-spacing: -2px;
+	line-height: 52px;
+	font-size: 48px;
 	color: #00529b;
+	font-family: Franklin Gothic Heavy;
 }
 .main-promo .title span {
 	color: #1a89c5;
@@ -339,7 +346,6 @@ figure {
 }
 .promo-disk img {
 	float: right;
-	margin: 0 0 0 5px;
 }
 .promo-disk .logo2 {
 	float: left;
@@ -499,6 +505,7 @@ figure {
 	text-decoration: none;
 	width:358px;
 	text-shadow: 0 5px 5px #a90505;
+	text-indent: -9999px;
 }
 .btn-get a:hover {background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat -24px -270px;}
 .btn-get a span {
@@ -799,7 +806,7 @@ figure {
     font-size: 1.5em;
     text-align: right;
     line-height: 24px;
-    margin: 0px -20px 0px 30px;
+    margin: 0px -20px 0px 80px;
 }
 /******Confirm Page ******/
 #cfm-form1
@@ -945,13 +952,9 @@ figure {
 	}
 	.btn-get {
 		float: none;
-		margin: 0 auto;
+
 	}
-	.quotes {
-		overflow: hidden;
-		padding: 0;
-		height: 1%;
-	}
+
 	.testimonials h2 {
 		margin: 0 0 10px;
 	}
@@ -1188,23 +1191,7 @@ figure {
 		padding: 0 5px 0 7px;
 		background: url(/hot-tub-pricing-2/images/sep-features-list2.png) no-repeat;
 	}
-	.btn-get {
-		display: block;
-		float: none;
-		margin: 0 -31px 12px -30px;
-		width: 462px;
-		height: 93px;
-		background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat 0 -380px;
-	}
-	.btn-get a {
-		margin:0 25px 0 0;
-		width: 310px;
-		height: 52px;
-		line-height: 52px;
-		font-size:17px;
-		word-spacing:-1px;
-	}
-		.btn-get a:hover {background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat -14px -480px;}
+
 	.testimonials {
 		margin: 0 -6px;
 		border: 0;
@@ -1458,10 +1445,10 @@ figure {
 		background: none;
 	}
 	.btn-get {
-		margin: 0 -10px;
+		margin: 0 auto;
 		overflow: hidden;
 		width: 320px;
-		height:90px;
+		height:95px;
 		background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat 0 -580px;
 	}
 	.btn-get a {
@@ -1469,9 +1456,10 @@ figure {
 		float: none;
 		margin: 17px 22px 0;
 		width: auto;
-		font-size: 17px;
+		font-size: 18px;
 		text-align:center;
-		padding:0;
+		padding: 0px;
+		text-indent: 0px;
 	}
 	.btn-get a:hover {
 		background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat -22px -697px;
