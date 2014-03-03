@@ -1350,6 +1350,30 @@ figure {
 	    font-size: 1.1em;
 	  }
 }
+@media only screen and (max-width: 700px) {
+		.btn-get {
+		margin: 0 auto;
+		overflow: hidden;
+		width: 395px;
+		height:100px;
+		background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat -12px -389px;
+		padding: 0px;
+	}
+	.btn-get a {
+		display: block;
+		float: none;
+
+		width: auto;
+		font-size: 18px;
+		text-align:center;
+		padding: 10px;
+
+	}
+	.btn-get a:hover {
+		background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat -12px -489px;
+	}
+
+	}
 @media only screen and (max-width: 479px) {
 	#header {
 		padding: 22px 10px 15px;

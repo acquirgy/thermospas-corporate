@@ -14,6 +14,7 @@ jQuery(function(){
         form.slideUp();
         $('.success').show();
         $('#subtitle1').hide();
+        $('#line1').hide();
 
       });
     }
