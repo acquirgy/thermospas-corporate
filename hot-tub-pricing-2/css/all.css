@@ -952,8 +952,10 @@ figure {
 	}
 	.btn-get {
 		float: none;
-
+		margin: 0 auto;
+		padding: 0px 80px 0px 0px;
 	}
+		.btn-get a {display: block;}
 
 	.testimonials h2 {
 		margin: 0 0 10px;
@@ -1450,6 +1452,7 @@ figure {
 		width: 320px;
 		height:95px;
 		background: url(/hot-tub-pricing-2/images/sprite.png) no-repeat 0 -580px;
+		padding: 0px;
 	}
 	.btn-get a {
 		display: block;
