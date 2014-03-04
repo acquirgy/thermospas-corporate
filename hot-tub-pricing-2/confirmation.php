@@ -126,7 +126,7 @@ _gaq.push(['_trackPageview']);
               <div class="txt">
                  <h2>Thank you <span class="name"><?= $_POST['fname'] ?> <?= $_POST['lname'] ?>!</span></h2>
                  <!-- Subtitle 1 -->
-                 <p><strong>A representative at ThermoSpas will provide you with your quote shortly.<br />To receive immediate information, please call 1-800-876-0158 Mon-Thurs: 9am - 10pm, Fri: 9am - 8pm, and Sat: 9am - 5pm EST.</strong></p>
+                 <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.<br />To receive immediate information, please call 1-800-876-0158 Mon-Thurs: 9am - 10pm, Fri: 9am - 8pm, and Sat: 9am - 5pm EST.</strong></p>
                  <p id="subtitle1"><strong>To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address, your FREE DVD and Brochure will be mailed to you:</strong></p>
 
                  <!-- Form 1 -->
@@ -233,7 +233,7 @@ _gaq.push(['_trackPageview']);
             <li><a class="youtube" href="http://www.youtube.com/user/ThermoSpaInc?feature=watch" target="_blank">YouTube</a></li>
             <li><a class="twitter" href="https://twitter.com/thermospas" target="_blank">Twitter</a></li>
         </ul>
-        <p>Please call <strong>800-807-6107</strong> with any questions or to speak to a sales associate.</p>
+        <p>Please call <strong>800-876-0158</strong> with any questions or to speak to a sales associate.</p>
     </div>
 </div>
 <!-- media -->
