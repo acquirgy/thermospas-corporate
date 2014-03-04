@@ -265,19 +265,18 @@ _gaq.push(['_trackPageview']);
 </section>
 <!-- footer -->
 <div id="footer">
-   <!-- partners -->
-   <ul class="partners-list cfm-bottom" >
-      <li><img src="/hot-tub-pricing-2/images/img10.png" alt="image description" /></li>
-      <li><img src="/hot-tub-pricing-2/images/img11.png" alt="image description" /></li>
-  </ul>
+    <div class="partners" >
+        <img src="/hot-tub-pricing-2/images/img10.png" alt="image description" />
+        <img src="/hot-tub-pricing-2/images/img11.png" alt="image description" />
+    </div>
 
-  <div class="txt">
-      <ul class="bottom-nav">
-         <li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
-         <li><a class="lightbox-opener" href="#popup2">Terms and Conditions</a></li>
-     </ul>
-     <p>&copy;2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
- </div>
+    <div class="txt">
+        <ul class="bottom-nav">
+            <li><a class="lightbox-opener" href="#popup1">Privacy Policy</a></li>
+            <li><a class="lightbox-opener" href="#popup2">Terms and Conditions</a></li>
+        </ul>
+        <p>&copy;2014 ThermoSpas Hot Tub Products, Inc. All Rights Reserved.</p>
+    </div>
 </div>
 </div>
 </div>

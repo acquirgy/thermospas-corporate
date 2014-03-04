@@ -1283,7 +1283,7 @@ figure {
 		color: #023d72;
 	}
 	.media-list {
-		margin: 0 auto;
+		margin: 10px auto 50px auto;
 		padding: 0;
 		max-width: 329px;
 		text-align: left;
