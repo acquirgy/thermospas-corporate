@@ -39,7 +39,10 @@
             <div id="topspace">
                 <!-- logotype -->
 						<h1 class="logo">ThermoSpas - Designed to Improve Your Life</h1>
-                       <p class="phone-top"><strong>Have Questions?</strong><br /><a href="tel:1-800-807-6107" style="text-decoration: none;">1-800-807-6107</a></p>
+                        <div class="phone-top">
+                       <p ><strong>Have Questions?</strong></p>
+                       <p><a href="tel:1-800-807-6107" class="mobileonly" >1-800-807-6107</a><span class="nonmobile">1-800-807-6107</span></p>
+                       </div>
             </div>
 			<!-- header -->
 			<header id="header">
@@ -189,12 +192,15 @@
 				</section>
 				<!-- footer -->
 				<div id="footer">
-					<!-- partners -->
-					<ul class="partners-list">
-						<li><img src="/hot-tub-pricing-2/images/img10.png" alt="image description" /></li>
-						<li><img src="/hot-tub-pricing-2/images/img11.png" alt="image description" /></li>
-                        <li><p class="phone"><strong>Get Your <span style="color:#1a89c5;">FREE</span> QUOTE Now!</strong><br />Call Today <a href="tel:1-800-807-6107" style="text-decoration: none;">1-800-807-6107</a></p></li>
-					</ul>
+					 <div class="partners bottom-text">
+                            <p class="phone mobileonly"><strong>Get Your <span style="color:#1a89c5;">FREE</span> QUOTE Now!</strong><br />Call Today <a href="tel:1-800-807-6107" style="text-decoration: underline;">1-800-807-6107</a></p>
+                            <p class="phone nonmobile" ><strong>Get Your <span style="color:#1a89c5;">FREE</span> QUOTE Now!</strong><br />Call Today 1-800-807-6107</p>
+                        </div>
+
+						<div class="partners" >
+                            <img src="/hot-tub-pricing-2/images/img10.png" alt="image description" />
+						<img src="/hot-tub-pricing-2/images/img11.png" alt="image description" />
+                        </div>
 
 					<div class="txt">
 						<ul class="bottom-nav">

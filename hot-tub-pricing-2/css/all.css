@@ -312,7 +312,7 @@ figure {
 	line-height: 52px;
 	font-size: 48px;
 	color: #00529b;
-	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-family: "Franklin Gothic Heavy", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 .main-promo .title span {
 	color: #1a89c5;
@@ -662,19 +662,16 @@ figure {
 	overflow: hidden;
 	padding: 20px 0 16px;
 }
-.partners-list {
+.partners {
 	float: right;
 	margin: 0;
-	padding: 0 27px 0 0;
-	list-style: none;
+	padding: 0px;
 }
-.partners-list li {
-	float: left;
-	margin: 0 0 0 14px;
-}
-.partners-list img {
+
+.partners img {
 	vertical-align: top;
 }
+.bottom-text {margin: -40px 20px 0 0;}
 .cfm-bottom {width: 60%; margin-top: -10px; }
 #footer .txt {
 	float: left;
@@ -795,10 +792,13 @@ figure {
 .phone-top
 {
     color: rgb(0, 82, 155);
+    width: 500px;
     font-size: 1.5em;
+    line-height: .25em;
     text-align: right;
-    line-height: 24px;
-    margin: 10px 50px 0px 0px;
+    margin: -5px auto;
+    padding: 0px;
+    float: right;
 }
 .phone
 {
@@ -883,6 +883,7 @@ figure {
 	width: 120px;
 	margin-left: 9px;
 }
+.mobileonly {visibility: hidden;}
 
 /**** Media Queries ***/
 @media only screen and (max-width: 1040px) {
@@ -897,7 +898,7 @@ figure {
 	.tabset li.active a {padding-right: 52px;}
 	.btn-get {margin: 3px -21px 0 -20px;}
 	.testimonials img {margin: -13px -24px 0 -30px;}
-	.partners-list {padding: 0 3px 0 0;}
+
 	.confirm-block {padding: 57px 28px 46px 62px;}
 }
 @media only screen and (max-width: 1023px) {
@@ -915,7 +916,6 @@ figure {
 	.main-promo .title {
 		line-height: 48px;
 		font-size: 2.5em;
-		letter-spacing: -2px;
 	}
 	.promo-txt {
 		padding: 13px 0 0;
@@ -1091,7 +1091,6 @@ figure {
 		margin: 0 0 5px;
 		line-height: 52px;
 		font-size: 48px;
-		letter-spacing: -5px;
 	}
 	#main {
 		margin: 0 auto;
@@ -1308,14 +1307,11 @@ figure {
 	}
 	#footer {
 		position: relative;
-		margin: 0;
+		margin: -50px 0px 0px 0px;
 		overflow: visible;
 		padding: 18px 0 15px;
 	}
-	.partners-list {
-		margin: 0 -6px 0 0;
-		padding: 0;
-	}
+
 	.cfm-bottom {width: 80%; }
 	#footer .txt {
 		display: block;
@@ -1339,16 +1335,20 @@ figure {
 
 	.lightbox {width: 292px;}
 	.lightbox .area {width: 256px;}
-	.partners-list li
-    {
-        margin: 0px 10%;
-    }
+
 	.phone
 	{
 	    margin: 30px auto 10px auto;
 	    text-align: center;
 	    font-size: 1.1em;
 	  }
+	 .partners{
+		float: none;
+		margin: 0px 0px 30px 0px;
+		width: 100%;
+		text-align: center;
+	}
+
 }
 @media only screen and (max-width: 700px) {
 		.btn-get {
@@ -1494,18 +1494,6 @@ figure {
 	.testimonials {
 		margin: 0;
 	}
-	.partners-list {
-		float: none;
-		margin: 0 0 20px;
-		width: 100%;
-		text-align: center;
-	}
-	.partners-list li {
-		display: inline-block;
-		margin: 0 3px 0 7px;
-		float: none;
-		vertical-align: top;
-	}
 
 	.confirm-block {padding: 30px 0;}
 	.confirm-block h2 {margin: 0 0 17px;}
@@ -1517,6 +1505,9 @@ figure {
 	.social-list li {
 		margin: 0 2px 7px 0;
 	}
+		#footer {
+		margin: -20px 0px 0px 0px;
+	}
 	#footer .txt {
 		margin: 0;
 		padding: 0;
@@ -1527,6 +1518,9 @@ figure {
 		width: 212px;
 	}
 	#topspace { height: 100px; }
-	.logo {width: 100%; margin: 0px auto 20px auto; }
-	.phone-top { width: 100%; text-align: left; margin: 0px auto; }
+	.logo {width: 100%; margin: 0px auto 10px auto; }
+	.phone-top { width: 100%; text-align: left; margin: 0px auto; float: none;  }
+	.mobileonly {visibility: visible; cursor: pointer !important; }
+	.nonmobile {display: none;}
+
 }
