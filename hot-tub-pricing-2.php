@@ -60,7 +60,7 @@
 								<!-- main promo -->
 								<div class="main-promo">
 									<strong class="title">Get A <span>FREE</span> QUOTE!</strong>
-									Receive expert advice & custom pricing on the hot tub of your dreams!
+									Receive custom pricing & expert advice on the hot tub of your dreams!
 								</div>
 							</div>
 							<!-- registration form -->
