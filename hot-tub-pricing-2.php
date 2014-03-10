@@ -85,7 +85,7 @@
 											<input id="zipcode" name="zipcode" class="required" type="text" placeholder="Zip Code*" title="Zip Code*" />
 										</div>
 									<div class="row row-area">
-										<input type="text" name="email" value="Email" placeholder="Email address for coupon and brochure" />
+										<input type="text" name="email" value="Email address for coupon and brochure" placeholder="Email address for coupon and brochure" />
 									</div>
 									<div class="row">
 										<input type="submit" value="Get Your FREE DVD &amp; Brochure NOW!" />
