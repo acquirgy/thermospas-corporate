@@ -85,7 +85,7 @@
 											<input id="zipcode" name="zipcode" class="required" type="text" placeholder="Zip Code*" title="Zip Code*" />
 										</div>
 									<div class="row row-area">
-										<input type="text" name="email" value="Email" placeholder="Email" />
+										<input type="text" name="email" value="Email" placeholder="Email address for coupon and brochure" />
 									</div>
 									<div class="row">
 										<input type="submit" value="Get Your FREE DVD &amp; Brochure NOW!" />
@@ -114,7 +114,7 @@
 						<!-- promo text -->
 						<div class="promo-txt">
 							<h2>Why a ThermoSpas Hot Tub?</h2>
-							<p>We construct, assemble, and sell the <strong>highest quality hot tubs factory direct.</strong> Other spa manufacturers may say "custom built", but we mean it! ThermoSpas are the only hot tubs that give buyers <strong>so many options</strong> that each custom hot tub's cost matches the buyer's budget.</p>
+							<p>We construct, assemble, and sell the <strong>highest quality hot tubs factory direct.</strong> Other spa manufacturers may say "custom built", but we mean it! ThermoSpas are the only hot tubs that give buyers <strong>so many options</strong> that each custom hot tub's cost matches the buyer's and budget.</p>
 							<h2>Fast-Track to Buying Smart</h2>
 							<p>Get the facts about what to look for in a hot tub. Request the free brochure and DVD and get expert insight on:</p>
                             <ul>
