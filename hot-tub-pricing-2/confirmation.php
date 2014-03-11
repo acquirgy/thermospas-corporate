@@ -126,8 +126,13 @@ _gaq.push(['_trackPageview']);
               <div class="txt">
                  <h2>Thank you <span class="name"><?= $_POST['fname'] ?> <?= $_POST['lname'] ?>!</span></h2>
                  <!-- Subtitle 1 -->
-                 <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.<br />To receive immediate information, please call 1-800-876-0158 Mon-Thurs: 9am - Midnight, Fri: 9am - 9pm, Sat: 9am - 5pm, and Sun: 3pm - 7pm EST.</strong></p>
-                 <p id="subtitle1"><strong>To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address, your FREE DVD and Brochure will be mailed to you:</strong></p>
+                 <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.</strong><br /><br />
+                 To receive immediate information, please call 1-800-876-0158:<br /><br />
+                 - Monday through Wednesday: 9 AM through 11 PM<br />
+                 - Thursday: 9 AM through 10 PM<br />
+                 - Friday: 9 AM through 8 PM</p>
+                 <p id="subtitle1">To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address,
+                 your FREE DVD and Brochure will be mailed to you:</p>
 
                  <!-- Form 1 -->
                  <form id="cfm-form1" class="form-reg2" action="#" method="post">
