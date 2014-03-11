@@ -128,7 +128,7 @@ _gaq.push(['_trackPageview']);
                  <!-- Subtitle 1 -->
                  <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.<br />
                  To receive immediate information, please call 1-800-876-0158 Mon-Wed: 9am – 11pm, Thurs: 9am – 10pm, 
-                 Fri: 9am – 8pm, Sat: 9am – 5pm, and Sun: 3pm – 7pm EST</p>
+                 Fri: 9am – 8pm, Sat: 9am – 5pm, and Sun: 3pm – 7pm EST.</p>
                  
                  <p id="subtitle1">To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address,
                  your FREE DVD and Brochure will be mailed to you:</strong></p>
