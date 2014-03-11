@@ -127,10 +127,9 @@ _gaq.push(['_trackPageview']);
                  <h2>Thank you <span class="name"><?= $_POST['fname'] ?> <?= $_POST['lname'] ?>!</span></h2>
                  <!-- Subtitle 1 -->
                  <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.</strong><br /><br />
-                 To receive immediate information, please call 1-800-876-0158:<br /><br />
-                 - Monday through Wednesday: 9 AM through 11 PM<br />
-                 - Thursday: 9 AM through 10 PM<br />
-                 - Friday: 9 AM through 8 PM</p>
+                 To receive immediate information, please call 1-800-876-0158 Mon-Wed: 9am â€“ 11pm, Thurs: 9am â€“ 10pm, 
+                 Fri: 9am â€“ 8pm, Sat: 9am â€“ 5pm, and Sun: 3pm â€“ 7pm EST</p>
+                 
                  <p id="subtitle1">To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address,
                  your FREE DVD and Brochure will be mailed to you:</p>
 
@@ -300,7 +299,7 @@ _gaq.push(['_trackPageview']);
                 <div class="frame">
                     <p>
                         This privacy policy describes how ThermoSpas Hot Tub Products, Inc. and its United
-                        States-based affiliates and subsidiaries (collectively, “ThermoSpas”) may handle
+                        States-based affiliates and subsidiaries (collectively, ï¿½ThermoSpasï¿½) may handle
                         and use personal identifiable information (&#34;PII&#34;) you submit directly or
                         indirectly to ThermoSpas, whether through your use of any ThermoSpas website (each,
                         a &#34;ThermoSpas Website&#34;), your offline submission of PII to ThermoSpas, your
@@ -338,7 +337,7 @@ _gaq.push(['_trackPageview']);
                                                     of this information standing alone can be easily used to identify you, it may be
                                                     combined with PII you provide to ThermoSpas.</li>
                                                     <li>Cookies. When you visit a ThermoSpas Website, ThermoSpas may send a small text file
-                                                        to your computer called a &#34;cookie&#34; that identifies your browser to ThermoSpas’
+                                                        to your computer called a &#34;cookie&#34; that identifies your browser to ThermoSpasï¿½
                                                         server. Many web browsers automatically accept cookies, but as part of the functionality
                                                         within your browser you usually can choose to decline to accept cookies if you prefer.
                                                         Any cookie sent to your computer by ThermoSpas in connection with your use of a
@@ -388,17 +387,17 @@ _gaq.push(['_trackPageview']);
                                                                                                     CHILDREN</h4>
                                                                                                     <p>
                                                                                                         ThermoSpas does not knowingly request, collect, or maintain PII from anyone under
-                                                                                                        the age of thirteen (13) years old without verified parental consent. ThermoSpas’
+                                                                                                        the age of thirteen (13) years old without verified parental consent. ThermoSpasï¿½
                                                                                                         intention is to refrain from collecting PII from anyone under the age of eighteen
                                                                                                         (18) years old, whether through a ThermoSpas Website or otherwise. If ThermoSpas
-                                                                                                        learns of ThermoSpas’ collection of PII from anyone under the age of thirteen (13)
+                                                                                                        learns of ThermoSpasï¿½ collection of PII from anyone under the age of thirteen (13)
                                                                                                         years old without verified parental consent, ThermoSpas will remove this information
                                                                                                         from the database in which ThermoSpas stores it.</p>
                                                                                                         <h4>
                                                                                                             SECURITY</h4>
                                                                                                             <p>
                                                                                                                 ThermoSpas treats collected PII as an asset that must be protected and utilizes
-                                                                                                                security protocols and tools to safeguard and prevent PII in ThermoSpas’ control
+                                                                                                                security protocols and tools to safeguard and prevent PII in ThermoSpasï¿½ control
                                                                                                                 from unauthorized access and disclosure. However, third parties may nonetheless
                                                                                                                 unlawfully intercept or access transmissions or private communications concerning
                                                                                                                 PII maintained by ThermoSpas. Although ThermoSpas works hard to protect the privacy
