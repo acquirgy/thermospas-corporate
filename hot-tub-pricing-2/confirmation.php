@@ -126,7 +126,7 @@ _gaq.push(['_trackPageview']);
               <div class="txt">
                  <h2>Thank you <span class="name"><?= $_POST['fname'] ?> <?= $_POST['lname'] ?>!</span></h2>
                  <!-- Subtitle 1 -->
-                 <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.<br /><br />
+                 <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.<br />
                  To receive immediate information, please call 1-800-876-0158 Mon-Wed: 9am – 11pm, Thurs: 9am – 10pm, 
                  Fri: 9am – 8pm, Sat: 9am – 5pm, and Sun: 3pm – 7pm EST</p>
                  
