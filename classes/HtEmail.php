@@ -19,6 +19,9 @@ class HtEmail
     $html = "<style>body { font-family: arial; } table { border-collapse: collapse; } th, td { border: 1px solid #000; padding: 4px 8px; text-align: left; font-size: 12px;  }</style>";
     $html .= "<h1>HT Form Submission</h1>";
     $html .= "<h2>Source: $source</h2>";
+    date_default_timezone_set('America/New_York');
+    $date_time = date("F j, Y, g:i a");
+    $html .= "<h2>Date & Time: $date_time (ET)</h2>";
     $html .= "<table><tr><th>Key</th><th>Value</th></tr>";
     foreach($submission as $k => $v) { $html .= "<tr><td>$k</td><td>$v</td></tr>"; }
     $html .= "</table>";
