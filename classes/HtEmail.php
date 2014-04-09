@@ -9,10 +9,7 @@ class HtEmail
   {
     require $_SERVER['DOCUMENT_ROOT'] . '/classes/PHPMailerAutoload.php';
 
-    $this->toEmails = array(
-      'a@b.com',
-      'c@d.com'
-    );
+    $this->toEmails = array('callcenter@thermospas.com');
 
   }
 
