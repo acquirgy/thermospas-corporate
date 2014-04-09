@@ -48,7 +48,18 @@ if(mysql_query($sql_ht_form)):
 			</div>
 		</noscript>';
 	mysql_query($sql_leads);
-	//echo $sql_leads;
+
+	// Send Email Notification
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+	$db = new HtDb();
+	$email = new HtEmail();
+
+	$submission = $db->get('ht_form', array('ht_token', $_POST['ht_token']));
+	$lead = $db->get('leads', array('leads_token', $_POST['ht_token']));
+	$email->sendSubmission($submission, 'hot-tub-pricing-1.php - step 2', $lead);
+	// End Send Email Notification
 
 else:
 	echo $sql_ht_form."<br />";

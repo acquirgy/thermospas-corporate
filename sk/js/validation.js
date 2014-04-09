@@ -364,8 +364,6 @@ $(document).ready(function(){
 				ppcconversion();
 			}
 		});
-		//return false;
-	//});
 	}
 	function submit_data_step2(ht_token){
 		$.ajax({
@@ -374,7 +372,6 @@ $(document).ready(function(){
 			dataType: 'json',
 			data: $('#ht_form').serialize(),
 			complete: function(html){
-//				cjconversion();
 				window.location = "/hot-tub-pricing-results.php?ht_token="+ht_token;
 
 			}

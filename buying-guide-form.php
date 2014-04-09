@@ -22,4 +22,16 @@ if ($_POST['zipcode'] == 'Your Zip Code *' || $_POST['name'] == 'Your Name *' ||
 
 }
 
+$ht_id = mysql_insert_id();
+
+// Send Email Notification
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+$db = new HtDb();
+$email = new HtEmail();
+
+$submission = $db->get('ht_form', array('ht_id', $ht_id));
+$email->sendSubmission($submission, 'Free Brochure, DVD & $1,000 Coupon Form');
+
 ?>

@@ -31,9 +31,20 @@ if($_POST) {
         $ht_id = $stmt->insert_id;
         $stmt->close();
 
-    }
+      }
 
-}
+      // Send Email Notification
+      require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+      require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+      $db = new HtDb();
+      $email = new HtEmail();
+
+      $submission = $db->get('ht_form', array('ht_id', $ht_id));
+      $email->sendSubmission($submission, 'hot-tub-pricing-2.php - step 1');
+      // End Send Email Notification
+
+    }
 
 ?>
 
@@ -127,9 +138,9 @@ _gaq.push(['_trackPageview']);
                  <h2>Thank you <span class="name"><?= $_POST['fname'] ?> <?= $_POST['lname'] ?>!</span></h2>
                  <!-- Subtitle 1 -->
                  <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.<br />
-                 To receive immediate information, please call 1-800-876-0158 Mon-Wed: 9am – 11pm, Thurs: 9am – 10pm, 
+                 To receive immediate information, please call 1-800-876-0158 Mon-Wed: 9am – 11pm, Thurs: 9am – 10pm,
                  Fri: 9am – 8pm, Sat: 9am – 5pm, and Sun: 3pm – 7pm EST.</p>
-                 
+
                  <p id="subtitle1">To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address,
                  your FREE DVD and Brochure will be mailed to you:</strong></p>
 
@@ -506,4 +517,4 @@ _gaq.push(['_trackPageview']);
                                                                                                                                                         </body>
                                                                                                                                                         </html>
 
-                                                                                                                                                        <?php } else { header('Location: /hot-tub-pricing-2.php'); } ?>
+<?php } else { header('Location: /hot-tub-pricing-2.php'); } ?>

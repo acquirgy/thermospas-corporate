@@ -27,6 +27,7 @@ $sql_leads = "UPDATE leads
 
 
 if(mysql_query($sql_ht_form)):
+
 		$oid_arr = explode("Z",$_POST['ht_token']);
 		$oid = $oid_arr[1]."Z".$oid_arr[0];
 		echo '<iframe height="1" width="1" frameborder="0" scrolling="no" src="https://www.emjcd.com/tags/c?containerTagId=1204&ITEM1=lead&AMT1=1&QTY1=1&CID=1524481&OID='.$oid.'&TYPE=354381&CURRENCY=USD" name="cj_conversion"></iframe>
@@ -58,7 +59,19 @@ if(mysql_query($sql_ht_form)):
 		<!-- END VSW CONVERSIONS -->
 		<?php
 	mysql_query($sql_leads);
-	//echo $sql_leads;
+
+	// Send Email Notification
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+	$db = new HtDb();
+	$email = new HtEmail();
+
+	$submission = $db->get('ht_form', array('ht_token', $_POST['ht_token']));
+	$lead = $db->get('leads', array('leads_token', $_POST['ht_token']));
+	$email->sendSubmission($submission, 'hot-tub-pricing-1.php - step 2', $lead);
+	// End Send Email Notification
+
 
 else:
 	echo $sql_ht_form."<br />";

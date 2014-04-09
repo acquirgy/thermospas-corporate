@@ -14,13 +14,25 @@ $city = mysql_real_escape_string($_POST['city']);
 $state = mysql_real_escape_string($_POST['state']);
 $zip = mysql_real_escape_string($_POST['zip']);
 $phone = mysql_real_escape_string($_POST['phone']);
-$email = mysql_real_escape_string($_POST['email']); 
+$email = mysql_real_escape_string($_POST['email']);
 
 
 $sql = 'INSERT INTO ht_form (iref,fname,lname,address1,city,state,zipcode,phone,email, ht_date)';
 $sql .= " VALUES ('IHOME','$fname','$lname','$address','$city','$state','$zip','$phone','$email', CURDATE())";
 
 $result = mysql_query($sql);
+$ht_id = mysql_insert_id();
 
+// Send Email Notification
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+$db = new HtDb();
+$email = new HtEmail();
+
+$submission = $db->get('ht_form', array('ht_id', $ht_id));
+$email->sendSubmission($submission, 'front page lead');
+
+// Output the OK!
 if($result) echo 'ok';
 

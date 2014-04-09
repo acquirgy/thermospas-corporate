@@ -27,8 +27,19 @@ $sql_leads = "UPDATE ".$table2."
 		`state` = '".$state1."'
 		WHERE `leads_token` = '".$ts_token."'";
 
-if(mysql_query($sql_ts_form) && mysql_query($sql_leads)):
-else:
-endif;
+mysql_query($sql_ts_form);
+mysql_query($sql_leads);
+
+// Send Email Notification
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+$db = new HtDb();
+$email = new HtEmail();
+
+$submission = $db->get('ht_form', array('ht_token', $ts_token));
+$lead = $db->get('leads', array('leads_token', $ts_token));
+$email->sendSubmission($submission, 'Request a Quote - step 2', $lead);
+// End Send Email Notification
 
 ?>
