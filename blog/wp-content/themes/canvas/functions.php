@@ -21,19 +21,28 @@ $db_pass = '*tscom07';
 mysql_connect($db_host,$db_user,$db_pass);
 @mysql_select_db($db_name) or die( "Unable to select database");
 if(!empty($_POST['input_1'])){
-$fname = mysql_real_escape_string($_POST['input_1']);
-$lname = mysql_real_escape_string($_POST['input_2']);
-$address = mysql_real_escape_string($_POST['input_8']);
-$city = mysql_real_escape_string($_POST['input_9']);
-$state = mysql_real_escape_string($_POST['input_10']);
-$zip = mysql_real_escape_string($_POST['input_11']);
-$phone = mysql_real_escape_string($_POST['input_7']);
-$email = mysql_real_escape_string($_POST['input_5']);  
-$sql = 'INSERT INTO ht_form (iref,fname,lname,address1,city,state,zipcode,phone,email, ht_date)';
-$sql .= " VALUES ('IBLOG','$fname','$lname','$address','$city','$state','$zip','$phone','$email', CURDATE())";
-//echo '<pre>';print_r($sql);echo '</pre>';die;
-$result = mysql_query($sql);
-if($result) echo 'ok';
+  $fname = mysql_real_escape_string($_POST['input_1']);
+  $lname = mysql_real_escape_string($_POST['input_2']);
+  $address = mysql_real_escape_string($_POST['input_8']);
+  $city = mysql_real_escape_string($_POST['input_9']);
+  $state = mysql_real_escape_string($_POST['input_10']);
+  $zip = mysql_real_escape_string($_POST['input_11']);
+  $phone = mysql_real_escape_string($_POST['input_7']);
+  $email = mysql_real_escape_string($_POST['input_5']);
+  $sql = 'INSERT INTO ht_form (iref,fname,lname,address1,city,state,zipcode,phone,email, ht_date)';
+  $sql .= " VALUES ('IBLOG','$fname','$lname','$address','$city','$state','$zip','$phone','$email', CURDATE())";
+  $result = mysql_query($sql);
+  $ht_id = mysql_insert_id();
+
+  // Send Email Notification
+  require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+  require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+  $db = new HtDb();
+  $email = new HtEmail();
+
+  $submission = $db->get('ht_form', array('ht_id', $ht_id));
+  $email->sendSubmission($submission, 'BLOG - Free Brochure');
 }
 
 
@@ -69,7 +78,7 @@ if ( get_option( 'woo_woo_tumblog_switch' ) == 'true' ) {
 
 	update_option( 'tumblog_woo_tumblog_upgraded_posts_done', 'true' );
 
-	require_once ( $functions_path . 'admin-tumblog-quickpress.php' );  // Tumblog Dashboard Functionality 
+	require_once ( $functions_path . 'admin-tumblog-quickpress.php' );  // Tumblog Dashboard Functionality
 
 }
 
@@ -191,7 +200,7 @@ function new_woo_archive_title () {
 
 
 
-$category = single_cat_title("", false); 
+$category = single_cat_title("", false);
 
 $new_title = '<h1 class="archive_header">'. $category .'</h1>' . '<div class="new-archive-description">' . strip_tags(category_description($category_id)) . '</div>';
 

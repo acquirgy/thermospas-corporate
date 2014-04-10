@@ -7,7 +7,7 @@ class HtEmail
 
   public function __construct()
   {
-    require $_SERVER['DOCUMENT_ROOT'] . '/classes/PHPMailerAutoload.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/classes/PHPMailer2Autoload.php';
 
     $this->toEmails = array('callcenter@thermospas.com');
 
@@ -34,7 +34,7 @@ class HtEmail
       $html .= "</table>";
     }
 
-    $mail = new PHPMailer;
+    $mail = new PHPMailer2;
     $mail->From = 'donotreply@thermospas.com';
     $mail->FromName = 'Mailer';
     $mail->WordWrap = 50;
@@ -43,6 +43,7 @@ class HtEmail
     $mail->Body = $html;
     foreach($this->toEmails as $toEmail) { $mail->addAddress($toEmail); }
     $mail->send();
+
   }
 
 }
