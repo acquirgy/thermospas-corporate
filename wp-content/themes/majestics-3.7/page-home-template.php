@@ -273,7 +273,7 @@ $items = array_slice($feed->items, 0, 10); // specify first and last item
   </div>
   <!--Below is your Badge Code-->
   <div class="window1">
-    <headline>Thermospas In The News:</headline>
+    <headline>ThermoSpas In The News:</headline>
     <label for="punch"></label>
     <input type="checkbox" id="punch" checked="" class="toggle">Show
     <div class="nhqlinks">
