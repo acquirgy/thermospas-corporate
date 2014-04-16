@@ -68,41 +68,48 @@ if($_POST) {
     <div style="display:inline;">
         <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1070435200/?value=0&amp;label=UstwCKjK2QEQgJe2_gM&amp;guid=ON&amp;script=0"/>
     </div>
-</noscript>
-<!-- Start Google Analytics Code -->
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-33203294-1']);
-_gaq.push(['_trackPageview']);
-(function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-<!-- End Google Analytics Code -->
+  </noscript>
+  <!-- End Google Code for Clix Conversion Conversion Page -->
+
+  <!-- Start Google Analytics Code -->
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33203294-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <!-- End Google Analytics Code -->
+
+  <!-- Google Code for All  Site Visitors -->
+  <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 1070435200;
+  var google_conversion_label = "w9mUCOCF3QEQgJe2_gM";
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1070435200/?value=0&amp;label=w9mUCOCF3QEQgJe2_gM&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+  <!-- End Google Code for All  Site Visitors -->
+
+  <!-- BING -->
+  <script type="text/javascript"> if (!window.mstag) mstag = {loadTag : function(){},time : (new Date()).getTime()};</script> <script id="mstag_tops" type="text/javascript" src="//flex.msn.com/mstag/site/7eda56ec-dae3-4bd4-915b-8a11f9d7ad95/mstag.js"></script> <script type="text/javascript"> mstag.loadTag("analytics", {dedup:"1",domainId:"572823",type:"1",actionid:"66891"})</script> <noscript> <iframe src="//flex.msn.com/mstag/tag/7eda56ec-dae3-4bd4-915b-8a11f9d7ad95/analytics.html?dedup=1&domainId=572823&type=1&actionid=66891" frameborder="0" scrolling="no" width="1" height="1" style="visibility:hidden;display:none"> </iframe> </noscript>
+  <!-- End BING -->
+
 </head>
 <body>
-    <!-- Google Code for Clix Conversion Conversion Page -->
-    <script type="text/javascript">
-    /* <![CDATA[ */
-    var google_conversion_id = 1070435200;
-    var google_conversion_language = "en";
-    var google_conversion_format = "3";
-    var google_conversion_color = "ffffff";
-    var google_conversion_label = "UstwCKjK2QEQgJe2_gM";
-    var google_conversion_value = 0;
-    var google_remarketing_only = false;
-    /* ]]> */
-    </script>
-    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-    </script>
-    <noscript>
-        <div style="display:inline;">
-            <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1070435200/?value=0&amp;label=UstwCKjK2QEQgJe2_gM&amp;guid=ON&amp;script=0"/>
-        </div>
-    </noscript>
-    <!-- page -->
     <div id="wrapper">
         <div id="topspace">
             <h1 class="logo">ThermoSpas - Designed to Improve Your Life</h1>
@@ -127,9 +134,9 @@ _gaq.push(['_trackPageview']);
                  <h2>Thank you <span class="name"><?= $_POST['fname'] ?> <?= $_POST['lname'] ?>!</span></h2>
                  <!-- Subtitle 1 -->
                  <p id="line1"><strong>A representative at ThermoSpas will provide you with your quote shortly.<br />
-                 To receive immediate information, please call 1-800-876-0158 Mon-Wed: 9am – 11pm, Thurs: 9am – 10pm, 
+                 To receive immediate information, please call 1-800-876-0158 Mon-Wed: 9am – 11pm, Thurs: 9am – 10pm,
                  Fri: 9am – 8pm, Sat: 9am – 5pm, and Sun: 3pm – 7pm EST.</p>
-                 
+
                  <p id="subtitle1">To view your Thermospas Brochure or DVD please click on the links below, or if you provide your address,
                  your FREE DVD and Brochure will be mailed to you:</strong></p>
 
