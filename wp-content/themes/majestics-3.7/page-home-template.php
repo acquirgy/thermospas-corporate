@@ -272,35 +272,82 @@ $items = array_slice($feed->items, 0, 10); // specify first and last item
     </div>
   </div>
   <!--Below is your Badge Code-->
+
   <div class="window1">
     <headline>ThermoSpas In The News:</headline>
     <label for="punch"></label>
     <input type="checkbox" id="punch" checked="" class="toggle">Show
-    <div class="nhqlinks">
-      <img class="custom-style1" src="http://g.etfv.co/http://www.mediabistro.com" width="16" height="16">
-      <a class="link1" href="http://www.mediabistro.com/agencyspy/home-spas-provide-exercise-without-exhaustion-says-thermospas_b59700" target="_blank">Exercise Without Exhaustion’ Says ThermoSpas</a><br><img class="custom-style2" src="http://g.etfv.co/http://dallasnews.com" width="16" height="16">
-      <a class="link2" href="http://yourallen.dallasnews.com/2014/03/31/thermospas-do-hot-tubs-fit-your-lifestyle/" target="_blank">ThermoSpas: Do Hot Tubs Fit Your Lifestyle?</a><br><img class="custom-style3" src="http://g.etfv.co/http://socialtimes.com" width="16" height="16">
-      <a class="link3" href="https://socialtimes.com/make-family-night-fun-suggestions-thermospas_b142941" target="_blank">Family Night Fun with Suggestions from ThermoSpas</a>
+    <div class="nhqlinks" style="clear:both;">
+
+  <img class="custom-style1" src="http://g.etfv.co/http://mediabistro.com" width="16" height="16">
+  <a class="link1" href="http://www.mediabistro.com/agencyspy/home-spas-provide-exercise-without-exhaustion-says-thermospas_b59700" target="_blank">Get Exercise Without Exhaustion Using ThermoSpas</a><br><img class="custom-style2" src="http://g.etfv.co/http://socialtimes.com" width="16" height="16">
+  <a class="link2" href="https://socialtimes.com/make-family-night-fun-suggestions-thermospas_b142941" target="_blank">ThermoSpas: How To Make Family Night Fun </a><br><img class="custom-style3" src="http://g.etfv.co/http://youtube.com" width="16" height="16">
+  <a class="link3" href="http://www.youtube.com/watch%3Fv%3DMRx-mTBLor4" target="_blank">TimeMachine: ThermoSpas history of the Hot Tub</a>
     </div>
   </div>
+
   <style>
-    @import url(http://fonts.googleapis.com/css?family=Roboto);
-    div.window1 { color: #8A8A8A; bottom: 0; position: fixed; font-size: 14px; margin: 0; z-index: 9999;
-      background-color: rgba(233, 234, 238, 0.95); border: 2px solid; border-color: #ffffff; text-align: right;
-      line-height: 25px; padding: 2px 5px; float: right; font-family: "Roboto"; -webkit-border-top-right-radius: 5px;
-      -moz-border-radius-topright: 5px; border-top-right-radius: 5px; box-shadow: 1px 2px 6px rgba(0,0,0, 0.5) }
-    div.window1 img { margin-bottom: -2px; }
-    div.nhqlinks { text-align: left; clear:both;}
-    div.nhqlinks a { color: #8A8A8A; text-decoration: none; text-shadow: 0 1px 1px #fff; }
-    div.links a:hover { text-decoration: underline; }
-    input.toggle ~ div { height: 0px; overflow: hidden; transition: .6s all cubic-bezier(0.730, -0.485, 0.145, 1.620); }
-    input.toggle:checked ~ div { height: 75px; }
-    input.toggle:checked + label { background: black; }
-    input.toggle { margin:7px 4px; float: none !important; }
-    headline { float: left; padding-left: 8px; padding-right: 5px; color: #30303f;
-      font-weight: bold; text-stroke: 1px; font-size: 20px; text-shadow: 0 1px 1px #FFF; }
+  @import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+  div.window1 {
+    color: #8A8A8A;
+    bottom: 0;
+    position: fixed;
+    font-size: 14px;
+    margin: 0;
+    z-index: 9999;
+    background-color: rgba(233, 234, 238, 0.95);
+    border: 2px solid;
+    border-color: #ffffff;
+    text-align: right;
+    line-height: 25px;
+    padding: 2px 5px;
+    float: right;
+    font-family: "Roboto";
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 1px 2px 6px rgba(0,0,0, 0.5)
+  }
+  div.window1 img {
+    margin-bottom: -2px;
+  }
+  div.nhqlinks {
+    text-align: left;
+  }
+  div.nhqlinks a {
+    color: #8A8A8A;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #fff;
+  }
+  div.links a:hover {
+    text-decoration: underline;
+  }
+
+  input.toggle ~ div {
+    height: 0px;
+    overflow: hidden;
+    transition: .6s all cubic-bezier(0.730, -0.485, 0.145, 1.620)
+  }
+  input.toggle:checked ~ div { height: 75px; }
+  input.toggle:checked + label { background: black; }
+  input.toggle { margin:7px 4px; }
+
+  headline {
+    float: left;
+    padding-left: 8px;
+    padding-right: 5px;
+    color: #30303f;
+    font-weight: bold;
+    text-stroke: 1px;
+    font-size: 20px;
+    text-shadow: 0 1px 1px #FFF;
+  }
+
   </style>
-  <!--END of your Badge Code-->
+
+    <!--END of your Badge Code-->
 </div>
 
 
