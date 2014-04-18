@@ -278,12 +278,11 @@ $items = array_slice($feed->items, 0, 10); // specify first and last item
     <label for="punch"></label>
     <input type="checkbox" id="punch" checked="" class="toggle">Show
     <div class="nhqlinks" style="clear:both;">
-
-  <img class="custom-style1" src="http://g.etfv.co/http://mediabistro.com" width="16" height="16">
-  <a class="link1" href="http://www.mediabistro.com/agencyspy/home-spas-provide-exercise-without-exhaustion-says-thermospas_b59700" target="_blank">Get Exercise Without Exhaustion Using ThermoSpas</a><br><img class="custom-style2" src="http://g.etfv.co/http://socialtimes.com" width="16" height="16">
-  <a class="link2" href="https://socialtimes.com/make-family-night-fun-suggestions-thermospas_b142941" target="_blank">ThermoSpas: How To Make Family Night Fun </a><br><img class="custom-style3" src="http://g.etfv.co/http://youtube.com" width="16" height="16">
-  <a class="link3" href="http://www.youtube.com/watch%3Fv%3DMRx-mTBLor4" target="_blank">TimeMachine: ThermoSpas history of the Hot Tub</a>
-    </div>
+  	<img class="custom-style1" src="http://g.etfv.co/http://mediabistro.com" width="16" height="16">
+	<a class="link1" href="http://www.mediabistro.com/agencyspy/home-spas-provide-exercise-without-exhaustion-says-thermospas_b59700" target="_blank">Get Exercise Without Exhaustion Using ThermoSpas</a><br><img class="custom-style2" src="http://g.etfv.co/http://socialtimes.com" width="16" height="16">
+	<a class="link2" href="http://socialtimes.com/make-family-night-fun-suggestions-thermospas_b142941" target="_blank">ThermoSpas: How To Make Family Night Fun </a><br><img class="custom-style3" src="http://g.etfv.co/http://youtube.com" width="16" height="16">
+	<a class="link3" href="http://www.youtube.com/watch?v=MRx-mTBLor4" target="_blank">TimeMachine: ThermoSpas history of the Hot Tub</a> 
+     </div>
   </div>
 
   <style>
