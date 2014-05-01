@@ -1,5 +1,5 @@
 body {
-  background: url("/slides/bg.jpg") no-repeat 0 -50px #FFFFFF;
+  background: url("/slides/bg.jpg") no-repeat 50% -50px #FFFFFF;
   font-family:‘Century Gothic’, sans-serif;
   font-size:12px;
   color:#555;
