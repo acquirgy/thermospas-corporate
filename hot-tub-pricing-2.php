@@ -149,7 +149,40 @@ if(@strlen($_REQUEST['ht_token']) == "" || $ht_token == "") {
     <!--[if IE 7 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie7style.css" media="screen" /> <![endif]-->
     <!--[if IE 8 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie8style.css" media="screen" /> <![endif]-->
     <!--[if IE 9 ]>    <link rel="stylesheet" type="text/css" href="../sk/css/ie9style.css" media="screen" /> <![endif]-->
+	<!-- Google Code for All  Site Visitors -->
+	<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 1070435200;
+	var google_conversion_label = "w9mUCOCF3QEQgJe2_gM";
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
 
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1070435200/?value=0&amp;label=w9mUCOCF3QEQgJe2_gM&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
+	
+	<!-- Start Google Analytics Code -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-33203294-1']);
+			_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<!-- End Google Analytics Code -->
+	<!-- BING -->
+    <script type="text/javascript"> if (!window.mstag) mstag = {loadTag : function(){},time : (new Date()).getTime()};</script> <script id="mstag_tops" type="text/javascript" src="//flex.msn.com/mstag/site/7eda56ec-dae3-4bd4-915b-8a11f9d7ad95/mstag.js"></script> <script type="text/javascript"> mstag.loadTag("analytics", {dedup:"1",domainId:"572823",type:"1",actionid:"66891"})</script> <noscript> <iframe src="//flex.msn.com/mstag/tag/7eda56ec-dae3-4bd4-915b-8a11f9d7ad95/analytics.html?dedup=1&domainId=572823&type=1&actionid=66891" frameborder="0" scrolling="no" width="1" height="1" style="visibility:hidden;display:none"> </iframe> </noscript>
+    <!-- End BING -->
 </head>
 
 <body>
