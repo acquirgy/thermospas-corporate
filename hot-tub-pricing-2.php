@@ -167,7 +167,7 @@ if(@strlen($_REQUEST['ht_token']) == "" || $ht_token == "") {
 	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1070435200/?value=0&amp;label=w9mUCOCF3QEQgJe2_gM&amp;guid=ON&amp;script=0"/>
 	</div>
 	</noscript>
-	
+
 	<!-- Start Google Analytics Code -->
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -180,9 +180,6 @@ if(@strlen($_REQUEST['ht_token']) == "" || $ht_token == "") {
 		})();
 	</script>
 	<!-- End Google Analytics Code -->
-	<!-- BING -->
-    <script type="text/javascript"> if (!window.mstag) mstag = {loadTag : function(){},time : (new Date()).getTime()};</script> <script id="mstag_tops" type="text/javascript" src="//flex.msn.com/mstag/site/7eda56ec-dae3-4bd4-915b-8a11f9d7ad95/mstag.js"></script> <script type="text/javascript"> mstag.loadTag("analytics", {dedup:"1",domainId:"572823",type:"1",actionid:"66891"})</script> <noscript> <iframe src="//flex.msn.com/mstag/tag/7eda56ec-dae3-4bd4-915b-8a11f9d7ad95/analytics.html?dedup=1&domainId=572823&type=1&actionid=66891" frameborder="0" scrolling="no" width="1" height="1" style="visibility:hidden;display:none"> </iframe> </noscript>
-    <!-- End BING -->
 </head>
 
 <body>
