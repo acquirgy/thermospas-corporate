@@ -121,7 +121,7 @@ if ((@$_REQUEST['call_day'] == 'choose' || @$_REQUEST['call_time'] == 'choose' |
 	$call_day = date('l - F jS', $_REQUEST['call_day']);
 	$lead_date = date("Y-m-d", $_REQUEST['call_day']);
 
-	$upleads = "UPDATE ht_form set call_date = '".$call_date."', call_day = '".$call_day."', call_time = '".$_REQUEST['call_time']."', ht_date = '".$lead_date."' WHERE ht_id = '".$_REQUEST['ht_id']."'";
+	$upleads = "UPDATE ht_form set call_date = '".$call_date."', call_day = '".$call_day."', call_time = '".$_REQUEST['call_time']."' WHERE ht_id = '".$_REQUEST['ht_id']."'";
 	$result = mysql_query($upleads);
 
 	$callid = mysql_insert_id();
