@@ -1,81 +1,12 @@
 <?
 
-//get_header();
-
-//echo $_COOKIE['INETCJ'];
-
 $url_ref = @$_SERVER['HTTP_REFERER'];
 
-if (@$_REQUEST['source'] == "IHSAFF" || @$_REQUEST['src'] == "IHSAFF" || stristr($url_ref, 'IHSAFF') ) {
-
-	$iref = 'IHSAFF';
-	$time = time() + (30 * 24 * 60 * 60);
-	setcookie ("intsource",$iref, $time);
-
-} else if (@$_REQUEST['source'] == "INTCMJ" || @$_REQUEST['src'] == "INTCMJ" || stristr($url_ref, 'INTCMJ') ) {
-
-	$iref = 'INTCMJ';
-	$month = 60 * 60 * 24 * 30 + time();
-	if(!isset($_COOKIE['INETCJ']))
-		setcookie('INETCJ', date("G:i - m/d/y"), $month);
-
-} else if (@$_REQUEST['src'] == "RSVP" || stristr($url_ref, 'RSVP') ) {
-
-	$iref = 'RSVP';
-
-} else if (@$_REQUEST['src'] == "g" || stristr($url_ref, 'src=g') ) {
-
-	$iref = 'IPPCG';
-
-} else if (@$_REQUEST['src'] == "y" || stristr($url_ref, 'src=y') ) {
-
-	$iref = 'IPPCY';
-
-} else if (@$_REQUEST['src'] == "m" || stristr($url_ref, 'src=m') ) {
-
-	$iref = 'IPPCB';
-
-} else if (@$_REQUEST['src'] == "fb" || stristr($url_ref, 'src=fb') ) {
-
-	$iref = 'IFACE';
-
-} else if (@$_REQUEST['source'] == "INTSWMW" || @$_REQUEST['src'] == "INTSWMW" || stristr($url_ref, 'INTSWMW') ) {
-
-	$iref = 'INTSWMW';
-
-} else if (@$_REQUEST['source'] == "videoad" || @$_REQUEST['src'] == "videoad" || stristr($url_ref, 'videoad') ) {
-
-	$iref = 'INTGVID';
-
-} else if (@$_REQUEST['source'] == "ivalpak" || @$_REQUEST['src'] == "ivalpak" || stristr($url_ref, 'ivalpak') ) {
-
-	$iref = 'INTVALPAK';
-
-} else if (@$_REQUEST['source'] == "IBAMA" || @$_REQUEST['src'] == "IBAMA" || stristr($url_ref, 'IBAMA') ) {
-
-	$iref = 'IBAMA';
-
-} else if (@$_REQUEST['source'] == "ISOCIAL" || @$_REQUEST['src'] == "ISOCIAL" || stristr($url_ref, 'ISOCIAL') ) {
-
-	$iref = 'ISOCIAL';
-
-} else if (@$_REQUEST['source'] == "IPPCF" || @$_REQUEST['src'] == "IPPCF" || stristr($url_ref, 'IPPCF') ) {
-
-	$iref = 'IPPCF';
-
-} else if (@$_REQUEST['source'] == "IPPCPA" || @$_REQUEST['src'] == "IPPCPA" || stristr($url_ref, 'IPPCPA') ) {
-
-	$iref = 'IPPCPA';
-
-} else if (@$_REQUEST['source'] == "IDISP" || @$_REQUEST['src'] == "IDISP" || stristr($url_ref, 'IDISP') ) {
-
-	$iref = 'IDISP';
-
-} else {
-
-	$iref = 'IOTO';
-
-}
+$iref = 'IOTO';
+if(isset($_GET['iref'])) $iref = $_GET['iref'];
+if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
+if(isset($_GET['src'])) $iref = $_GET['src'];
+if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
 
 if (isset($_REQUEST['ht_type']) || isset($_REQUEST['ht_location']) || isset($_REQUEST['email'])) {
 
