@@ -7,6 +7,9 @@ if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
 if(isset($_GET['src'])) $iref = $_GET['src'];
 if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
 
+if(strtolower($iref) == 'g') $iref = 'ippcg';
+if(strtolower($iref) == 'm') $iref = 'ippcb';
+
 if (isset($_REQUEST['ht_type']) || isset($_REQUEST['ht_location']) || isset($_REQUEST['email'])) {
     if ($_REQUEST['ht_type'] == "NG") {
         $notice .= "Please selcect a <strong>Hot Tub Type</strong>.\n<BR>";
