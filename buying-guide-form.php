@@ -10,6 +10,10 @@ if ($_POST['zipcode'] == 'Your Zip Code *' || $_POST['name'] == 'Your Name *' ||
 } else {
 
 	$iref = "IBRO";
+  if(isset($_GET['src'])) $iref = $_GET['src'];
+  if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
+  if(isset($_GET['iref'])) $iref = $_GET['iref'];
+  if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
 
 	$insq = "INSERT INTO ht_form (`ht_date`,`name`,`email`,`zipcode`,`phone`,`iref`,`address1`,`city`,`state`)
 						VALUES (NOW(),'".$_POST['name']."','".$_POST['email']."','".$_POST['zipcode']."','".

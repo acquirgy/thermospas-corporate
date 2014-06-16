@@ -15,6 +15,10 @@ $zipcode	= $_POST['zipcode'];
 $phone		= $_POST['phone'];
 $url_ref	= @$_POST['url_ref'];
 $iref		= $_POST['iref'];
+if(isset($_GET['src'])) $iref = $_GET['src'];
+if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
+if(isset($_GET['iref'])) $iref = $_GET['iref'];
+if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
 $ts_token	= $_POST['ts_token'];
 
 $name_arr = explode(" ",$name);

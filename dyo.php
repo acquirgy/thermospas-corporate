@@ -121,9 +121,15 @@ if (strlen($_REQUEST['quoteid']) > 5) {
 	$data['coverlifters'] = $coverlifters ? 'yes' : 'no';
 	$comments = json_encode($data);
 
+	$iref = 'IDYO';
+	if(isset($_GET['src'])) $iref = $_GET['src'];
+  if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
+  if(isset($_GET['iref'])) $iref = $_GET['iref'];
+  if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
+
 	$insertsql = "INSERT INTO `ht_form` (`name` , `address1`, `city`, `state`, `zipcode`, `email`, `phone`, `iref`, `ht_seating`, `ht_jets`, `ht_location`, `ht_date`, `comments`)"
 	." VALUES ( "
-	." '$name', '$address1', '$city', '$state', '$zipcode', '$email', '$phone', 'IDYO', '$ht_seating', '$DYO_jets', '$DYO_location', NOW(), '$comments')";
+	." '$name', '$address1', '$city', '$state', '$zipcode', '$email', '$phone', '$iref', '$ht_seating', '$DYO_jets', '$DYO_location', NOW(), '$comments')";
 
 	$insert = mysql_query($insertsql);
 	$OID = mysql_insert_id();
