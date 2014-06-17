@@ -1,4 +1,16 @@
 <?php
+  session_start();
+  $iref = '';
+  if(isset($_GET['src'])) $iref = $_GET['src'];
+  if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
+  if(isset($_GET['iref'])) $iref = $_GET['iref'];
+  if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
+  $_SESSION['iref'] = $iref;
+?>
+
+
+
+<?php
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.

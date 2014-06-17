@@ -162,7 +162,7 @@ if ((@$_REQUEST['call_day'] == 'choose' || @$_REQUEST['call_time'] == 'choose' |
 
 	// multiple recipients
 	$to  = 'agratton@thermospas.com' . ', '; // note the comma
-	$to .= 'callcenter@thermospas.com' . ''; // note the comma
+	$to .= 'web@thermospas.com' . ''; // note the comma
 
 	// subject
 	$subject = 'New ThermoSpas Phone Call Request';

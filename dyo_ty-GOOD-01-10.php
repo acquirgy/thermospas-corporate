@@ -180,7 +180,7 @@ $to  = 'mbryers@thermospas.com' . ', '; // note the comma
 
 //$to  .= 'skenesky@thermospas.com' . ', '; // note the comma
 
-$to .= 'callcenter@thermospas.com';
+$to .= 'web@thermospas.com';
 
 
 

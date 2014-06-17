@@ -29,8 +29,11 @@ if(!empty($_POST['input_1'])){
   $zip = mysql_real_escape_string($_POST['input_11']);
   $phone = mysql_real_escape_string($_POST['input_7']);
   $email = mysql_real_escape_string($_POST['input_5']);
+  $iref = 'IBLOG';
+  @session_start();
+  if(isset($_SESSION['iref'])) $iref = $_SESSION['iref'];
   $sql = 'INSERT INTO ht_form (iref,fname,lname,address1,city,state,zipcode,phone,email, ht_date)';
-  $sql .= " VALUES ('IBLOG','$fname','$lname','$address','$city','$state','$zip','$phone','$email', CURDATE())";
+  $sql .= " VALUES ('$iref','$fname','$lname','$address','$city','$state','$zip','$phone','$email', CURDATE())";
   $result = mysql_query($sql);
   $ht_id = mysql_insert_id();
 

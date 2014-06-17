@@ -122,10 +122,8 @@ if (strlen($_REQUEST['quoteid']) > 5) {
 	$comments = json_encode($data);
 
 	$iref = 'IDYO';
-	if(isset($_GET['src'])) $iref = $_GET['src'];
-  if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
-  if(isset($_GET['iref'])) $iref = $_GET['iref'];
-  if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
+	session_start();
+	if(isset($_SESSION['iref'])) $iref = $_SESSION['iref'];
 
 	$insertsql = "INSERT INTO `ht_form` (`name` , `address1`, `city`, `state`, `zipcode`, `email`, `phone`, `iref`, `ht_seating`, `ht_jets`, `ht_location`, `ht_date`, `comments`)"
 	." VALUES ( "

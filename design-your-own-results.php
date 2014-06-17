@@ -158,7 +158,7 @@ if ((@$_REQUEST['call_day'] == 'choose' || @$_REQUEST['call_time'] == 'choose' |
 
 	// multiple recipients
 	$to  = 'mbryers@thermospas.com' . ', '; // note the comma
-	$to .= 'callcenter@thermospas.com';
+	$to .= 'web@thermospas.com';
 
 	// subject
 	$subject = 'New ThermoSpas Phone Call Request';

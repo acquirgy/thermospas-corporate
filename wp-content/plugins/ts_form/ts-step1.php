@@ -15,10 +15,8 @@ $zipcode	= $_POST['zipcode'];
 $phone		= $_POST['phone'];
 $url_ref	= @$_POST['url_ref'];
 $iref		= $_POST['iref'];
-if(isset($_GET['src'])) $iref = $_GET['src'];
-if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
-if(isset($_GET['iref'])) $iref = $_GET['iref'];
-if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
+session_start();
+if(isset($_SESSION['iref'])) $iref = $_SESSION['iref'];
 $ts_token	= $_POST['ts_token'];
 
 $name_arr = explode(" ",$name);
@@ -33,7 +31,7 @@ $phone = str_replace($search2, "-", $phone);
 $sql_ts_form = "INSERT INTO ".$table."
 		(`ht_date`, `ht_use`,`ht_seating`,`zipcode`,`url_ref`,`iref`,`name`,`fname`,`lname`,`phone`,`ht_token`)
 		VALUES ('".$ts_date."','".$ts_use."','".$ts_seating."','".$zipcode."','".$url_ref."','".$iref."','".$name."','".$fname."','".$lname."','".$phone."','".$ts_token."')";
-//echo $sql_ts_form;
+echo $sql_ts_form;
 $lead_date = date('m-d-y', strtotime($_POST['ts_date']));
 $lead_time = date('H:i:s');
 
