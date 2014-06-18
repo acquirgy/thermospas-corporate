@@ -16,7 +16,10 @@ $phone		= $_POST['phone'];
 $url_ref	= @$_POST['url_ref'];
 $iref		= $_POST['iref'];
 session_start();
-if(isset($_SESSION['iref'])) $iref = $_SESSION['iref'];
+if(isset($_SESSION['iref'])) {
+  $iref = $_SESSION['iref'];
+  unset($_SESSION['iref']);
+}
 $ts_token	= $_POST['ts_token'];
 
 $name_arr = explode(" ",$name);

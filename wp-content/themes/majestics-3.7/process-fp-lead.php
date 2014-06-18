@@ -18,7 +18,10 @@ $email = mysql_real_escape_string($_POST['email']);
 
 $iref = 'IHOME';
 session_start();
-if(isset($_SESSION['iref'])) $iref = $_SESSION['iref'];
+if(isset($_SESSION['iref'])) {
+  $iref = $_SESSION['iref'];
+  unset($_SESSION['iref']);
+}
 
 $sql = 'INSERT INTO ht_form (iref,fname,lname,address1,city,state,zipcode,phone,email, ht_date)';
 $sql .= " VALUES ('$iref','$fname','$lname','$address','$city','$state','$zip','$phone','$email', CURDATE())";

@@ -11,7 +11,10 @@ if ($_POST['zipcode'] == 'Your Zip Code *' || $_POST['name'] == 'Your Name *' ||
 
 	$iref = "IBRO";
   session_start();
-  if(isset($_SESSION['iref'])) $iref = $_SESSION['iref'];
+	if(isset($_SESSION['iref'])) {
+	  $iref = $_SESSION['iref'];
+	  unset($_SESSION['iref']);
+	}
 
 	$insq = "INSERT INTO ht_form (`ht_date`,`name`,`email`,`zipcode`,`phone`,`iref`,`address1`,`city`,`state`)
 						VALUES (NOW(),'".$_POST['name']."','".$_POST['email']."','".$_POST['zipcode']."','".
