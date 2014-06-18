@@ -11,7 +11,7 @@ if ($_POST['zipcode'] == 'Your Zip Code *' || $_POST['name'] == 'Your Name *' ||
 
 	$iref = "IBRO";
   session_start();
-	if(isset($_SESSION['iref'])) {
+	if(isset($_SESSION['iref']) && $_SESSION['iref']) {
 	  $iref = $_SESSION['iref'];
 	  unset($_SESSION['iref']);
 	}

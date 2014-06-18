@@ -31,7 +31,7 @@ if(!empty($_POST['input_1'])){
   $email = mysql_real_escape_string($_POST['input_5']);
   $iref = 'IBLOG';
   @session_start();
-  if(isset($_SESSION['iref'])) {
+  if(isset($_SESSION['iref']) && $_SESSION['iref']) {
     $iref = $_SESSION['iref'];
     unset($_SESSION['iref']);
   }

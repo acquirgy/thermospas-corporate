@@ -123,7 +123,7 @@ if (strlen($_REQUEST['quoteid']) > 5) {
 
 	$iref = 'IDYO';
 	session_start();
-	if(isset($_SESSION['iref'])) {
+	if(isset($_SESSION['iref']) && $_SESSION['iref']) {
 	  $iref = $_SESSION['iref'];
 	  unset($_SESSION['iref']);
 	}

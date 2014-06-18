@@ -18,7 +18,7 @@ $email = mysql_real_escape_string($_POST['email']);
 
 $iref = 'IHOME';
 session_start();
-if(isset($_SESSION['iref'])) {
+if(isset($_SESSION['iref']) && $_SESSION['iref']) {
   $iref = $_SESSION['iref'];
   unset($_SESSION['iref']);
 }
