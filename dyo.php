@@ -126,6 +126,7 @@ if (strlen($_REQUEST['quoteid']) > 5) {
 	if(isset($_SESSION['s_iref']) && $_SESSION['s_iref']) {
 	  $iref = $_SESSION['s_iref'];
 	  unset($_SESSION['s_iref']);
+	  session_destroy();
 	}
 
 	$insertsql = "INSERT INTO `ht_form` (`name` , `address1`, `city`, `state`, `zipcode`, `email`, `phone`, `iref`, `ht_seating`, `ht_jets`, `ht_location`, `ht_date`, `comments`)"

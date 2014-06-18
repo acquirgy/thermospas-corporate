@@ -14,6 +14,7 @@ if ($_POST['zipcode'] == 'Your Zip Code *' || $_POST['name'] == 'Your Name *' ||
 	if(isset($_SESSION['s_iref']) && $_SESSION['s_iref']) {
 	  $iref = $_SESSION['s_iref'];
 	  unset($_SESSION['s_iref']);
+	  session_destroy();
 	}
 
 	$insq = "INSERT INTO ht_form (`ht_date`,`name`,`email`,`zipcode`,`phone`,`iref`,`address1`,`city`,`state`)

@@ -19,6 +19,7 @@ session_start();
 if(isset($_SESSION['s_iref']) && $_SESSION['s_iref']) {
   $iref = $_SESSION['s_iref'];
   unset($_SESSION['s_iref']);
+  session_destroy();
 }
 $ts_token	= $_POST['ts_token'];
 

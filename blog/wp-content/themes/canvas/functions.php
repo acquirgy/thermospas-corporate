@@ -34,6 +34,7 @@ if(!empty($_POST['input_1'])){
   if(isset($_SESSION['s_iref']) && $_SESSION['s_iref']) {
     $iref = $_SESSION['s_iref'];
     unset($_SESSION['s_iref']);
+    session_destroy();
   }
   $sql = 'INSERT INTO ht_form (iref,fname,lname,address1,city,state,zipcode,phone,email, ht_date)';
   $sql .= " VALUES ('$iref','$fname','$lname','$address','$city','$state','$zip','$phone','$email', CURDATE())";
