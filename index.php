@@ -6,11 +6,7 @@
   if(isset($_GET['iref'])) $iref = $_GET['iref'];
   if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
   $_SESSION['s_iref'] = $iref;
-?>
 
-
-
-<?php
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.
