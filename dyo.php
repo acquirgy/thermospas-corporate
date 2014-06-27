@@ -136,6 +136,16 @@ if (strlen($_REQUEST['quoteid']) > 5) {
 	$insert = mysql_query($insertsql);
 	$OID = mysql_insert_id();
 
+	// Send Email Notification
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtDb.php');
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/HtEmail.php');
+
+	$db = new HtDb();
+	$email = new HtEmail();
+
+	$submission = $db->get('ht_form', array('ht_id', $OID));
+	$email->sendSubmission($submission, 'hot-tub-pricing-1.php - step 1');
+
 	echo "<img src=\"https://www.emjcd.com/u?AMOUNT=0&CID=1502276&TYPE=312422&METHOD=IMG&OID=".$OID."\" height=\"1\" width=\"20\">";
 
 	echo "<div align=\"center\" style=\"margin-top:20px;\">\n
