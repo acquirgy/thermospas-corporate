@@ -144,7 +144,7 @@ if (strlen($_REQUEST['quoteid']) > 5) {
 	$email = new HtEmail();
 
 	$submission = $db->get('ht_form', array('ht_id', $OID));
-	$email->sendSubmission($submission, 'hot-tub-pricing-1.php - step 1');
+	$email->sendSubmission($submission, 'Customize Hot Tub');
 
 	echo "<img src=\"https://www.emjcd.com/u?AMOUNT=0&CID=1502276&TYPE=312422&METHOD=IMG&OID=".$OID."\" height=\"1\" width=\"20\">";
 
