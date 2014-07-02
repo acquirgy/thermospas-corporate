@@ -54,12 +54,7 @@ function ts_form_display($form_option=1) {
 
 	?>
 
-		<script type="text/javascript">
-		  var __ss_noform = __ss_noform || [];
-		  __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
-		  __ss_noform.push(['endpoint', '77882009-d797-4a89-a905-1a5e2f7b12f7']);
-		</script>
-		<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
+
 
 		<form id="ts_form" action="" method="post">
 
@@ -276,6 +271,12 @@ function ts_form_display($form_option=1) {
 		</div><!-- #ts_container -->
 
 		</form>
+		<script type="text/javascript">
+		  var __ss_noform = __ss_noform || [];
+		  __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
+		  __ss_noform.push(['endpoint', '77882009-d797-4a89-a905-1a5e2f7b12f7']);
+		</script>
+		<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
 
 <script type="text/javascript">
 
