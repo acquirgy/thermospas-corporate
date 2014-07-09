@@ -334,7 +334,7 @@ style="display:none;width:0px;height:0px"></iframe>
                       <input name="lf" type="hidden" value="c1">
                       <input name="url_ref" type="hidden" value="<?=@$url_ref_db?>">
                       <input name="iref" type="hidden" value="<?=$iref?>">
-                      <a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" >Next Step</button></a>
+                      <a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" >Get Pricing &amp; Info</button></a>
                     </div><!-- #subscribe_pricing -->
 
 
@@ -545,23 +545,17 @@ style="display:none;width:0px;height:0px"></iframe>
 
         <div class="grid_4_container">
 
-        <!-- Start Box 1 -->
+        <!-- Box 1 START -->
 
         <div class="grid_4">
 
-          <div class="box"> <img src='../landing/images/download.jpg' alt='' width="38" height="32" class='alignleft_icon'/>
+          <div class="box"> <img src='../landing/images/secure.jpg' alt='' width="25" height="32" class='alignleft_icon'/>
 
-            <h3>FREE DVD &amp; BROCHURE </h3>
+            <h3>YOUR INFO <br />IS SECURE </h3>
 
             <hr />
 
-            Get the facts about what to look for in a hot tub including expert insight on:
-            <ul style="list-style-type: disc; padding-left: 20px;">
-              <li>Proven therapeutic benefits of hot tubs</li>
-              <li>The most important component in a hot tub</li>
-              <li>Which heaters last up to 10 years longer</li>
-              <li>Detailed information on available models</li>
-            </ul>
+            Thermospas takes every precaution to keep your information secure.
 
           </div>
 
@@ -579,12 +573,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
             <hr />
 
-            $1000 Savings Coupon Includes:
-            <ul style="list-style-type: disc; padding-left: 20px;">
-              <li>Instant Cash Discount ($400)</li>
-              <li>Free Delivery &amp; Installation ($450)</li>
-              <li>Free Chemicals Startup Kit ($150)</li>
-            </ul>
+            <p>Let us know what you are looking for and we'll provide you a $1000 Savings Coupon. Which includes $400 cash off, Free Delivery and Installation ($450) and Free Chemicals Startup Kit ($150) </p>
 
           </div>
 
@@ -592,18 +581,17 @@ style="display:none;width:0px;height:0px"></iframe>
 
         <!-- Box 2 END -->
 
-        <!-- Box 3 START -->
+        <!-- Start Box 3 -->
 
         <div class="grid_4">
 
-          <div class="box"> <img src='../landing/images/secure.jpg' alt='' width="25" height="32" class='alignleft_icon'/>
+          <div class="box"> <img src='../landing/images/download.jpg' alt='' width="38" height="32" class='alignleft_icon'/>
 
-            <h3>YOUR INFO <br />IS SECURE </h3>
+            <h3>FREE DVD &amp; BROCHURE </h3>
 
             <hr />
 
-            Thermospas takes every precaution to keep your information secure.
-            <p>View our <a href="/privacy-policy.html" target="_new">Privacy Policy</a></p>
+            <p>We'll send you our Free DVD &amp; Brochure. The free information package will tell you everything you need to know about hot tubs. You can view it immediately online or have it delivered to your home. </p>
 
           </div>
 

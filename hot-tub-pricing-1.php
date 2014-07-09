@@ -334,7 +334,7 @@ style="display:none;width:0px;height:0px"></iframe>
 											<input name="lf" type="hidden" value="c1">
 											<input name="url_ref" type="hidden" value="<?=@$url_ref_db?>">
 											<input name="iref" type="hidden" value="<?=$iref?>">
-											<a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" >Get Pricing &amp; Info</button></a>
+											<a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" >Next Step</button></a>
 										</div><!-- #subscribe_pricing -->
 
 
