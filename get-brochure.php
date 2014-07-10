@@ -554,8 +554,13 @@ style="display:none;width:0px;height:0px"></iframe>
 
             <hr />
 
-            <p>We'll send you our Free DVD &amp; Brochure. The free information package will tell you everything you need to know about hot tubs. You can view it immediately online or have it delivered to your home. </p>
-
+            Get the facts about what to look for in a hot tub including expert insight on:
+            <ul style="list-style-type: disc; padding-left: 20px;">
+              <li>Proven therapeutic benefits of hot tubs</li>
+              <li>The most important component in a hot tub</li>
+              <li>Which heaters last up to 10 years longer</li>
+              <li>Detailed information on available models</li>
+            </ul>
           </div>
 
         </div>
@@ -572,7 +577,12 @@ style="display:none;width:0px;height:0px"></iframe>
 
             <hr />
 
-            <p>Let us know what you are looking for and we'll provide you a $1000 Savings Coupon. Which includes $400 cash off, Free Delivery and Installation ($450) and Free Chemicals Startup Kit ($150) </p>
+            $1000 Savings Coupon Includes:
+            <ul style="list-style-type: disc; padding-left: 20px;">
+              <li>Instant Cash Discount ($400)</li>
+              <li>Free Delivery &amp; Installation ($450)</li>
+              <li>Free Chemicals Startup Kit ($150)</li>
+            </ul>
 
           </div>
 
