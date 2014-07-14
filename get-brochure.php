@@ -600,7 +600,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
             <hr />
 
-            Thermospas takes every precaution to keep your information secure.
+            ThermoSpas takes every precaution to keep your information secure.
             <p>View our <a href="http://www.thermospas.com/privacy-policy.html" target="_new" style="color: #0b58a7;">Privacy Policy</a></p>
 
           </div>

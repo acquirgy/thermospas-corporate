@@ -555,7 +555,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
             <hr />
 
-            Thermospas takes every precaution to keep your information secure.
+            ThermoSpas takes every precaution to keep your information secure.
 
           </div>
 
