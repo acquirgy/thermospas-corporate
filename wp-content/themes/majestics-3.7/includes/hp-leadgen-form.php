@@ -13,7 +13,7 @@
 				Get a <div id="titlebold">FREE Brochure</div>, <div id="titlebold">DVD</div>  &amp; <div id="titlebold">$1,000 Coupon</div>!
 			</div>
 
-			<form action="#" method="get" class="fp-lead-form">
+			<form action="#" method="get" class="fp-lead-form" id="fp-lead-form">
 			<div class="is-required">*Required</div>
 				<input name="fname" value="First Name*" class="fname required defaultInvalid" type="text" />
 				<input name="lname" value="Last Name*"  class="lname required defaultInvalid" type="text"/>
@@ -84,6 +84,8 @@
 			    var __ss_noform = __ss_noform || [];
 			    __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
 			    __ss_noform.push(['endpoint', 'ae95f824-1a61-494e-9047-ae416f27277b']);
+			    __ss_noform.push(['form', 'fp-lead-form']); // this goes inside of the actual embed, along with
+                __ss_noform.push(['submitType', 'manual']);			    
 			</script>
 			<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
 			<div class="thankyou">
