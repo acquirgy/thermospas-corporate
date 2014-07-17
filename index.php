@@ -1,11 +1,11 @@
 <?php
   session_start();
-  $iref = '';
+  $iref = false;
   if(isset($_GET['src'])) $iref = $_GET['src'];
   if(isset($_GET['SRC'])) $iref = $_GET['SRC'];
   if(isset($_GET['iref'])) $iref = $_GET['iref'];
   if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
-  $_SESSION['s_iref'] = $iref;
+  if($iref) $_SESSION['s_iref'] = $iref;
 
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
