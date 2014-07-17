@@ -29,6 +29,8 @@ $(document).ready(function() {
 			loader.show();
 			form.hide();
 			
+			__ss_noform.push(['submit', null]); 
+			
 			data = $('.fp-lead-form').serialize();
 			
 			$.ajax({
