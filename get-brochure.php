@@ -2,7 +2,7 @@
 
 $url_ref = @$_SERVER['HTTP_REFERER'];
 
-$iref = 'IOTO';
+$iref = 'IPPC';
 if(isset($_GET['iref'])) $iref = $_GET['iref'];
 if(isset($_GET['IREF'])) $iref = $_GET['IREF'];
 if(isset($_GET['src'])) $iref = $_GET['src'];
