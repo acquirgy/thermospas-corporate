@@ -354,7 +354,7 @@ $(document).ready(function(){
 		}
 	}
 	function submit_data_step1(){
-		//jQuery('#ht_form').live('submit',function(event) {
+		__ss_noform.push(['submit', null]);
 		$.ajax({
 			url: 'sk/submit-step1.php',
 			type: 'POST',
@@ -366,6 +366,7 @@ $(document).ready(function(){
 		});
 	}
 	function submit_data_step2(ht_token){
+		__ss_noform.push(['submit', null]);
 		$.ajax({
 			url: 'sk/submit-step2.php',
 			type: 'POST',
@@ -373,7 +374,6 @@ $(document).ready(function(){
 			data: $('#ht_form').serialize(),
 			complete: function(html){
 				window.location = "/hot-tub-pricing-results.php?ht_token="+ht_token;
-
 			}
 		});
 	}

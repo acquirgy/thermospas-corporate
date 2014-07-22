@@ -275,6 +275,8 @@ function ts_form_display($form_option=1) {
     var __ss_noform = __ss_noform || [];
     __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
     __ss_noform.push(['endpoint', 'ae95f824-1a61-494e-9047-ae416f27277b']);
+		__ss_noform.push(['form', 'ts_form']); // this goes inside of the actual embed, along with
+		__ss_noform.push(['submitType', 'manual']);
 </script>
 <script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
 
@@ -449,6 +451,7 @@ $(document).ready(function(){
 		if( validateName() & validateZipcode() & validatePhone()){
 
 			submit_data_step1();
+			__ss_noform.push(['submit', null]);
 
 			$('#form_step1').hide('slow', function() {
 
@@ -483,6 +486,7 @@ $(document).ready(function(){
 			var ts_token = $("#ts_token").val();
 
 			submit_data_step2(ts_token);
+			__ss_noform.push(['submit', null]);
 
 			$('#form_step2').hide('slow', function() {
 
