@@ -373,7 +373,7 @@ $(document).ready(function(){
 			dataType: 'json',
 			data: $('#ht_form').serialize(),
 			complete: function(html){
-				window.location = "/hot-tub-pricing-results.php?ht_token="+ht_token;
+				window.location = "/hot-tub-pricing-results";
 			}
 		});
 	}
