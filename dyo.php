@@ -150,8 +150,8 @@ if (strlen($_REQUEST['quoteid']) > 5) {
 
 	echo "<div align=\"center\" style=\"margin-top:20px;\">\n
 		<h1 style=\"color: #565656;\">Please wait while we transfer your pricing information page, if this takes longer then 5 seconds, please click here:</h1>\n
-		<A href=\"/design-your-own-results.php?lead_id=$OID\"><h2>Pricing Information </h2></A></div>\n
-		<meta http-equiv=\"refresh\" content=\"0;url=/design-your-own-results.php?lead_id=$OID\" />";
+		<A href=\"/design-your-own-results.html\"><h2>Pricing Information </h2></A></div>\n
+		<meta http-equiv=\"refresh\" content=\"0;url=/design-your-own-results.html\" />";
 
 } else {
 	header ("Location: index.php?option=com_content&view=category&layout=blog&id=67&Itemid=414");
