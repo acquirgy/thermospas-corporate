@@ -14,7 +14,8 @@
 			</div>
 
 			<form action="#" method="get" class="fp-lead-form" id="fp-lead-form">
-			<div class="is-required">*Required</div>
+				<div class="is-required">*Required</div>
+				<input name="iref" class="iref-input" type="hidden" value="<?= isset($_SESSION['s_iref']) ? $_SESSION['s_iref'] : "IHOME" ?>" />
 				<input name="fname" value="First Name*" class="fname required defaultInvalid" type="text" />
 				<input name="lname" value="Last Name*"  class="lname required defaultInvalid" type="text"/>
 
