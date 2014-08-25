@@ -61,11 +61,8 @@
 <?php
 	else:
 		wp_enqueue_style('jquery-ui', '//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css');
-		wp_enqueue_script('jquery-globalize', plugins_url().'/thermospasScheduler/js/globalize.js')
+		wp_enqueue_script('jquery-globalize', plugins_url().'/thermospasScheduler/js/globalize.js');
 ?>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 
 <style type="text/css" media="screen">
 	#tss-scheduleFormTitle {
@@ -277,12 +274,12 @@
 		<input type="hidden" name="<?php echo $postHidden['hname'] ?>" value="<?php echo $postHidden['value'] ?>">
 		<input type="submit" value="SUBMIT" class="tss-submit">
 	</form>
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 	    var __ss_noform = __ss_noform || [];
 	    __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
 	    __ss_noform.push(['endpoint', 'ae95f824-1a61-494e-9047-ae416f27277b']);
 	</script>
-	<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
+	<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>-->
 </div>
 
 <script type="text/javascript" charset="utf-8">
@@ -389,5 +386,3 @@
 
 <?php
 	endif; // if(!$gotPost)
-?>
-?>

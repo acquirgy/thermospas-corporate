@@ -32,23 +32,23 @@ Private functions
 
 class Helper
 {
-	
+
 	// --------------------------- Constructors -----------------------------------
-	
+
 	function __construct()
 	{
-		
+
 		// Enable basic wordpress stuff
 		add_filter('widget_text', 'do_shortcode');
         add_theme_support( 'post-thumbnails' );
-		
-			
+
+
 		 add_theme_support( 'automatic-feed-links' );
-		
-		function p_fix_shortcodes($content){   
+
+		function p_fix_shortcodes($content){
     $array = array (
-        '<p>[' => '[', 
-        ']</p>' => ']', 
+        '<p>[' => '[',
+        ']</p>' => ']',
         ']<br />' => ']'
     );
 
@@ -60,25 +60,25 @@ add_filter('the_content', 'p_fix_shortcodes');
 			return str_replace('role="search" ', '', $form);
 		}
 		add_filter('get_search_form', 'valid_search_form');
-		
-		
+
+
 function addmeta()
 		{
 			echo "<link rel='tag' id='hurl' href='".HURL."' />";
 		}
-add_action('admin_head','addmeta');		
+add_action('admin_head','addmeta');
 	}
 
-	
+
 	// --------------------------- registerMenus -----------------------------------
-	
-	
+
+
 	public function registerMenus($menus)
 	{
-		
+
 
 		  if ( function_exists( 'register_nav_menus' ) ) {
-			 
+
 			  register_nav_menus($menus);
 		  }
 	}
@@ -87,7 +87,7 @@ add_action('admin_head','addmeta');
 			  $pattern_full = '{(\[raw\].*?\[/raw\])}is';
 			  $pattern_contents = '{\[raw\](.*?)\[/raw\]}is';
 			  $pieces = preg_split($pattern_full, $content, -1, PREG_SPLIT_DELIM_CAPTURE);
-		  
+
 			  foreach ($pieces as $piece) {
 				  if (preg_match($pattern_contents, $piece, $matches)) {
 					  $new_content .= $matches[1];
@@ -95,78 +95,78 @@ add_action('admin_head','addmeta');
 					  $new_content .= wptexturize(wpautop($piece));
 				  }
 			  }
-		  
+
 			  return $new_content;
 		  }
 	// --------------------------- Custom Excerpt -----------------------------------
-	
+
 	public function customExcerpt()
 	{
 		function new_excerpt_length($length) {
 			return 20;
 		}
 		add_filter('excerpt_length', 'new_excerpt_length');
-		
+
 		add_filter( 'excerpt_more', 'add_excerpt_more' );
 		function add_excerpt_more( $more ) {
         global $post;
         return '... <a href="'. get_permalink($post->ID) . '" class="more-link">' . 'more' . '</a>';
            }
 	}
-	
+
 	// --------------------------- initScripts -----------------------------------
-	
+
 	public function initScripts()
 	{
 	 if(!is_admin()) {
-		 	
-	  function scripts() {	
+
+	  function scripts() {
 	   wp_deregister_script('jquery');
 	   wp_register_script('jquery', URL . '/js/jquery.js', '', '1.6' );
-	   wp_enqueue_script('jquery');  
-	   wp_enqueue_script('jQuery UI', URL . '/js/jquery-ui-1.8.7.custom.min.js', array('jquery'), '1.8.7' );
+	   wp_enqueue_script('jquery');
+	   wp_enqueue_script('jQuery UI', URL . '/js/jquery-ui-1.8.24.min.js', array('jquery'), '1.8.7' );
 	   wp_enqueue_script("swf-object", URL . "/js/swfobject.js", array('jquery'), "1.0");
 	   wp_enqueue_script("pretty-photo", URL . "/js/jquery.prettyPhoto.js", array('jquery'), "1.0");
 	   wp_enqueue_script('custom_script', URL . '/js/custom.js', array('jquery'), '0.1' );
 	   }
-	  
-	  
+
+
 	  add_action("init","scripts");
-	  
+
 	  }
 	 if(is_admin())
 	 {
 		  function init_admin_scripts() {
 			   wp_enqueue_script("global-js", URL . "/hades_framework/js/global.js", array('jquery'), "1.0");
-			   wp_enqueue_style("global-css", URL . "/hades_framework/css/global.css", false, "1.0", "all"); 
+			   wp_enqueue_style("global-css", URL . "/hades_framework/css/global.css", false, "1.0", "all");
 			   wp_enqueue_style("colorpicker-style", HURL . "/css/colorpicker.css", false, "1.0", "all");
                wp_enqueue_script("admin-colorpicker",HURL."/js/colorpicker.js",array('jquery'),"1.0");
 		  }
-		  add_action("init","init_admin_scripts");  
+		  add_action("init","init_admin_scripts");
 	 }
 	}
-	
+
 	// --------------------------- initStyles -----------------------------------
 
 	public function initStyles()
 	{
 		 if(!is_admin()) {
-		 	
-	  function styles() {	
+
+	  function styles() {
 	    wp_enqueue_style( 'jquery-quartz-css',URL.'/stylesheets/quartz.css',false);
 	    wp_enqueue_style( 'jquery-prettyphoto-css',URL.'/stylesheets/prettyPhoto.css',false);
 	  }
 	  add_action("init","styles");
-	  
+
 	  }
 	}
-	
+
 	// --------------------------- shortenContent -----------------------------------
-	
+
 	function shortenContent($num,$stitle) {
-	
+
 	$limit = $num+1;
-	if (!strnatcmp(phpversion(),'5.2.10') >= 0) 
+	if (!strnatcmp(phpversion(),'5.2.10') >= 0)
 	$title = str_split($stitle);
 	else
 	$title = $this->str_split_php4_utf8($stitle);
@@ -179,13 +179,13 @@ add_action('admin_head','addmeta');
 	    _e( $stitle, 'h-framework');
 	  }
 	}
-	
+
 	// --------------------------- getShortenContent -----------------------------------
-	
+
 	function getShortenContent($num,$stitle) {
-	
+
 	$limit = $num+1;
-    if (!strnatcmp(phpversion(),'5.2.10') >= 0) 
+    if (!strnatcmp(phpversion(),'5.2.10') >= 0)
 	  $title = $this->str_split_php4_utf8($stitle);
 	else
 	  $title = str_split($stitle);
@@ -198,35 +198,35 @@ add_action('admin_head','addmeta');
 	    return __( $stitle, 'h-framework');
 	  }
 	}
-	
-	function str_split_php4_utf8($str) { 
-    // place each character of the string into and array 
-    $split=1; 
-    $array = array(); 
-    for ( $i=0; $i < strlen( $str ); ){ 
-        $value = ord($str[$i]); 
-        if($value > 127){ 
-            if($value >= 192 && $value <= 223) 
-                $split=2; 
-            elseif($value >= 224 && $value <= 239) 
-                $split=3; 
-            elseif($value >= 240 && $value <= 247) 
-                $split=4; 
-        }else{ 
-            $split=1; 
-        } 
-            $key = NULL; 
-        for ( $j = 0; $j < $split; $j++, $i++ ) { 
-            $key .= $str[$i]; 
-        } 
-        array_push( $array, $key ); 
-    } 
-    return $array; 
-} 
+
+	function str_split_php4_utf8($str) {
+    // place each character of the string into and array
+    $split=1;
+    $array = array();
+    for ( $i=0; $i < strlen( $str ); ){
+        $value = ord($str[$i]);
+        if($value > 127){
+            if($value >= 192 && $value <= 223)
+                $split=2;
+            elseif($value >= 224 && $value <= 239)
+                $split=3;
+            elseif($value >= 240 && $value <= 247)
+                $split=4;
+        }else{
+            $split=1;
+        }
+            $key = NULL;
+        for ( $j = 0; $j < $split; $j++, $i++ ) {
+            $key .= $str[$i];
+        }
+        array_push( $array, $key );
+    }
+    return $array;
+}
 	// ---------------------------  showPosts ---------------------------
 	function showPosts($options = array()) {
 			 /*
-			============== Options =============	  
+			============== Options =============
 			'limit',
 			'image_width',
 			'image_height',
@@ -239,9 +239,9 @@ add_action('admin_head','addmeta');
 			*/
 			global $paged;
 			global $post;
-			global $more ; 
+			global $more ;
 			extract($options);
-			
+
 			$image_width = (!isset($image_width)) ? 255 : $image_width;
 			$image_height = (!isset($image_height)) ? 170 : $image_height;
 			$thumbnails = (!isset($thumbnails)) ? true : $thumbnails;
@@ -251,41 +251,41 @@ add_action('admin_head','addmeta');
 			$show_categories  = (!isset($show_categories)) ? false : $show_categories;
 			$show_tags  = (!isset($show_tags)) ? false : $show_tags;
 			$title_below = (!isset($title_below)) ? true : $title_below;
-			
+
 			if($custom_font)
 			$custom_font = "custom-font";
 			else
 			$custom_font = '';
-			
+
 			if(isset($limit))
 			$limit = "&posts_per_page={$limit}";
 			else
 			$limit = '';
-			
+
 			$disable_pagination = (!isset($disable_pagination)) ? '' : $limit =  '&nopaging=true';
 			$extras  = (!isset($extras)) ? true : $extras;
-			
+
            query_posts("orderby={$orderby}{$limit}&post_type={$post_type}".'&paged='.$paged);
-		  
+
 			?>
-            
+
 		 <ul class="clearfix blogpost">
-          <?php 
-	
+          <?php
+
 	        if ( have_posts() ) : while ( have_posts() ) : the_post();
-		    
+
             $more = 0;
 	      ?>
                 <li class="clearfix">
-                 <?php if(!$title_below) { ?>     <h2 class="<?php echo $custom_font; ?>"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> <?php } 
-				
+                 <?php if(!$title_below) { ?>     <h2 class="<?php echo $custom_font; ?>"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> <?php }
+
 	          	$width = "half";
-			  if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) && $thumbnails  ) : 
-				
-				 
+			  if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) && $thumbnails  ) :
+
+
 						 $id = get_post_thumbnail_id();
 	          	          $ar = wp_get_attachment_image_src( $id , array(9999,9999) );
-	    	  
+
 				          $theImageSrc = $ar[0];
 							global $blog_id;
 							if (isset($blog_id) && $blog_id > 0) {
@@ -295,27 +295,27 @@ add_action('admin_head','addmeta');
 							}
 						}
 				 ?>
-                 
+
                      <div class="imageholder"><a href="<?php the_permalink(); ?>" class="">
-			         <?php 
-	                   
+			         <?php
+
 	echo "<img src='".URL."/timthumb.php?src=".urlencode($theImageSrc)."&amp;h={$image_height}&amp;w={$image_width}' alt='postimage' />";
-	              
+
 			          ?></a>
-               
+
                      </div>
                <?php else: $width = "";  endif; ?>
                       <div class="description <?php echo $width;?> ">
                          <?php if($title_below) { ?>     <h2 class="<?php echo $custom_font; ?>"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> <?php } ?>
-                            <?php if($extras) { ?>  
-                            
+                            <?php if($extras) { ?>
+
                              <ul class="extras clearfix">
-							 
-							 <li class="date"><?php _e( get_the_time("d")." ".get_the_time("M")." ".get_the_time("Y") , 'h-framework'); ?></li>                             <li class="tags">                            
-                            <?php 
+
+							 <li class="date"><?php _e( get_the_time("d")." ".get_the_time("M")." ".get_the_time("Y") , 'h-framework'); ?></li>                             <li class="tags">
+                            <?php
 							        if($show_tags)
 									  {
-										  
+
 										  $tags = wp_get_post_tags($post->ID);
 										  $ptag = '';
 										  foreach($tags as $tag)
@@ -328,7 +328,7 @@ add_action('admin_head','addmeta');
                             </li>
                             <li class="categories">
                             <?php if($show_categories) :
-                            
+
                             $cats = wp_get_post_categories( $post->ID );
 							$str = ' '; $temp = false;
 							foreach($cats as $c)
@@ -337,22 +337,22 @@ add_action('admin_head','addmeta');
 								$link = get_category_link( $c );
 								if(!$temp)
 								 {
-									 
+
 									 $str = $str."  <a href=' $link' >".__($cat->name,'h-framework')."</a>";
 									 $temp = true;
 								 }
 								 else
 								  $str = $str." , <a href=' $link' >".__($cat->name,'h-framework')."</a>";
-							
+
 							}
 							echo  $str;
 							endif; ?>
                             </li>
                             </ul>
-                            
+
                              <?php } ?>
                                <p>
-                                 <?php  
+                                 <?php
 							  global $more;    // Declare global $more (before the loop).
                               $more = 1;
 							  $content = get_the_content('');
@@ -361,7 +361,7 @@ add_action('admin_head','addmeta');
 							  $this->shortenContent( $content_limit ,  strip_tags( $content  ) ); ?>
                               <a class="more-link" href="<?php the_permalink() ?>">Continue &rarr;</a>
                               </p>
-                              
+
                        </div>
                 </li>
           <?php   endwhile; else:
@@ -371,11 +371,11 @@ add_action('admin_head','addmeta');
      </ul>
         <?php
 	    }
-	
+
 	// ---------------------------  showEventPosts ---------------------------
 	function showEventPosts($options = array()) {
 			 /*
-			============== Options =============	  
+			============== Options =============
 			'limit',
 			'image_width',
 			'image_height',
@@ -388,9 +388,9 @@ add_action('admin_head','addmeta');
 			*/
 			global $paged;
 			global $post;
-			global $more ; 
+			global $more ;
 			extract($options);
-			
+
 			$image_width = (!isset($image_width)) ? 255 : $image_width;
 			$image_height = (!isset($image_height)) ? 170 : $image_height;
 			$thumbnails = (!isset($thumbnails)) ? true : $thumbnails;
@@ -398,43 +398,43 @@ add_action('admin_head','addmeta');
 			$orderby = (!isset($orderby)) ? 'date' : $orderby;
 			$custom_font = (!isset($custom_font)) ? false : $custom_font;
 			$show_categories  = (!isset($show_categories)) ? false : $show_categories;
-			
+
 			if($custom_font)
 			$custom_font = "custom-font";
 			else
 			$custom_font = '';
-			
+
 			if(isset($limit))
 			$limit = "&posts_per_page={$limit}";
 			else
 			$limit = '';
-			
+
 			$disable_pagination = (!isset($disable_pagination)) ? '' : $limit =  '&nopaging=true';
 			$extras  = (!isset($extras)) ? true : $extras;
-			
+
            query_posts("orderby={$orderby}{$limit}&post_type={$post_type}".'&paged='.$paged);
-		  
+
 			?>
-            
+
 		 <ul class="clearfix">
-          <?php 
-	
+          <?php
+
 	        if ( have_posts() ) : while ( have_posts() ) : the_post();
 		    $event = get_post_custom_values("event_data");
-			$event = unserialize($event[0]); 
+			$event = unserialize($event[0]);
              global $more;
 			 $more = 0;
 	      ?>
                 <li class="clearfix">
-                <?php 
-				
+                <?php
+
 	          	$width = "half";
-			  if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) && $thumbnails  ) : 
-				
-				 
+			  if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) && $thumbnails  ) :
+
+
 						 $id = get_post_thumbnail_id();
 	          	          $ar = wp_get_attachment_image_src( $id , array(9999,9999) );
-	    	  
+
 				          $theImageSrc = $ar[0];
 							global $blog_id;
 							if (isset($blog_id) && $blog_id > 0) {
@@ -445,20 +445,20 @@ add_action('admin_head','addmeta');
 						}
 				 ?>
                      <div class="imageholder"><a href="<?php echo $ar[0]; ?>" class="lightbox">
-			         <?php 
-	                   
+			         <?php
+
 	echo "<img src='".URL."/timthumb.php?src=".urlencode($theImageSrc)."&amp;h={$image_height}&amp;w={$image_width}'  />";
-	              
+
 			          ?></a>
-               
+
                      </div>
                <?php else: $width = "";  endif; ?>
                       <div class="description <?php echo $width;?> ">
                               <h2 class="<?php echo $custom_font; ?>"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                             <?php if($extras) { ?>   <small><?php echo human_time_diff(get_the_time('U'), current_time('timestamp'));  _e(' ago','h-framework'); ?> by <?php the_author_posts_link() ?>
-                            
+
                             <?php if($show_categories) :
-                            
+
                             $cats = wp_get_post_categories( $post->ID );
 					$str = ' in ('; $temp = false;
 					foreach($cats as $c)
@@ -467,13 +467,13 @@ add_action('admin_head','addmeta');
 						$link = get_category_link( $c );
 						if(!$temp)
 						 {
-							 
+
 							 $str = $str."  <a href=' $link' >".__($cat->name,'h-framework')."</a>";
 							 $temp = true;
 						 }
 						 else
 						  $str = $str." , <a href=' $link' >".__($cat->name,'h-framework')."</a>";
-					
+
 					}
 					echo "<span> $str )</span>";
 					endif; ?>
@@ -481,15 +481,15 @@ add_action('admin_head','addmeta');
                               <p>
                               <?php the_content(__('read more','h-framework')); ?>
                               </p>
-                              
+
                        </div>
                        <div class="meta-event-data">
                          <ul>
                          <li><strong>Start:</strong></li>
-                         <li class="clearfix"><span class="left"><?php echo $event["starting_date"]; ?></span> 
+                         <li class="clearfix"><span class="left"><?php echo $event["starting_date"]; ?></span>
                          <span class="right"><?php echo " $event[time_from_hr] : $event[time_from_min] $event[time_from_zone]"; ?></span></li>
                          <li><strong>Ends:</strong></li>
-                         <li class="clearfix"><span class="left"><?php echo $event["ending_date"]; ?></span> 
+                         <li class="clearfix"><span class="left"><?php echo $event["ending_date"]; ?></span>
                          <span class="right"><?php echo " $event[time_to_hr] : $event[time_to_min] $event[time_to_zone]"; ?></span></li>
                         <li><strong>Place:</strong></li>
                          <li><?php echo $event["address"].",".$event["city"].",".$event["state"].",".$event["country"]; ?></li>
@@ -506,7 +506,7 @@ add_action('admin_head','addmeta');
 	// ---------------------------  showPortfolioPosts ---------------------------
 	function showPortfolioPosts($options = array()) {
 			 /*
-			============== Options =============	  
+			============== Options =============
 			'limit',
 			'image_width',
 			'image_height',
@@ -519,65 +519,65 @@ add_action('admin_head','addmeta');
 			*/
 			global $paged;
 			global $post;
-			global $more ; 
+			global $more ;
 			extract($options);
-			
+
 			$image_width = (!isset($image_width)) ? 255 : $image_width;
 			$image_height = (!isset($image_height)) ? 170 : $image_height;
 			$thumbnails = (!isset($thumbnails)) ? true : $thumbnails;
 			$post_type =  'portfolio' ;
 			$orderby = (!isset($orderby)) ? 'date' : $orderby;
-			
+
 			if(isset($limit))
 			$limit = "&posts_per_page={$limit}";
 			else
 			$limit = '';
-			
+
 			if(!isset($clear))
 			$clear = 9999;
-			
+
 			if(!isset($random_dimensions))
 			$random_dimensions = false;
-			
+
 			$disable_pagination = (!isset($disable_pagination)) ? '' : $limit =  '&nopaging=true';
 			$extras  = (!isset($extras)) ? true : $extras;
 			$cl ='';
            query_posts("orderby={$orderby}{$limit}&post_type={$post_type}".'&paged='.$paged);
-		  
+
 			?>
-            
+
 		 <ul class="clearfix">
-          <?php 
-	         $counter = $clear; 
+          <?php
+	         $counter = $clear;
 			 $divider = '';
 	        if ( have_posts() ) : while ( have_posts() ) : the_post();
-		   
-			
-			
-			 
+
+
+
+
 			if( $counter <= 0)
 			{
 				$counter = $clear; $cl ='clearleft';
 			}
 			else
 			$cl ='';
-			
+
 			if(!isset($content_limit))
 			$content_limit = 10000;
-			
+
             $more = 0;
 	      echo $divider;
 		  ?>
-                
+
                 <li class="clearfix <?php echo $cl; ?>">
-                <?php 
-				
+                <?php
+
 	          	$width = "half";
 		        if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) && $thumbnails  ) :
 				        $custom = get_post_custom($post->ID);
 		                $id = get_post_thumbnail_id();
 	          	        $ar = wp_get_attachment_image_src( $id , array(9999,9999) );
-	    	  
+
 				          $theImageSrc = $ar[0];
 							global $blog_id;
 							if (isset($blog_id) && $blog_id > 0) {
@@ -589,9 +589,9 @@ add_action('admin_head','addmeta');
 				  ?>
                      <div class="imageholder"><a href="<?php echo $ar[0]; ?>"  class="lightbox" title=""  >
                      <span class="image-overlay"></span>
-			         <?php 					
+			         <?php
 	echo "<img src='".URL."/timthumb.php?src=".urlencode($theImageSrc)."&amp;h={$image_height}&amp;w={$image_width}' alt='".get_the_title()."'  />";
-	              
+
 			          ?></a>
                 <?php    echo "<p class='clearfix icon-panel'></p>"; ?>
                      </div>
@@ -600,8 +600,8 @@ add_action('admin_head','addmeta');
                               <h2 class="custom-font"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                             <?php if($extras) { ?>   <small><?php the_terms($post->ID , 'portfoliocategory' , '' ,' , ' ,'' ); ?></small> <?php } ?>
                               <div>
-                              
-                              <?php  
+
+                              <?php
 							  global $more;    // Declare global $more (before the loop).
                               $more = 1;
 							  $content = get_the_content('');
@@ -610,7 +610,7 @@ add_action('admin_head','addmeta');
 							  $this->shortenContent( $content_limit ,  strip_tags( $content  ) ); ?>
                               <a class="more-link" href="<?php the_permalink() ?>"><?php _e("read more",'h-framework'); ?></a>
                               </div>
-                              
+
                        </div>
                 </li>
           <?php  $i++; $counter--;  endwhile; else:
@@ -619,13 +619,13 @@ add_action('admin_head','addmeta');
         	?>
      </ul>
         <?php
-		
+
 	    }
-		
-	
+
+
 	function showWallPosts($options = array()) {
 			 /*
-			============== Options =============	  
+			============== Options =============
 			'limit',
 			'image_width',
 			'image_height',
@@ -638,81 +638,81 @@ add_action('admin_head','addmeta');
 			*/
 			global $paged;
 			global $post;
-			global $more ; 
+			global $more ;
 			extract($options);
-			
-			$pre_values =  array( 
-			    
+
+			$pre_values =  array(
+
 				array( 568 , 320),
 				array( 365 , 137),
 				array( 365 , 162),
-				
+
 				array( 233 , 255),
 				array( 240 , 410),
 				array( 445 , 410),
 				array( 234 , 140),
-				
-				
+
+
 				array(423,232),
 				array(511,232)
-			
+
 			);
-			
+
 			$pval = $pre_values[0];
-			
+
 			$image_width = $pval[0];
 			$image_height = $pval[1];
 			$thumbnails = (!isset($thumbnails)) ? true : $thumbnails;
 			$post_type =  'portfolio' ;
 			$orderby = (!isset($orderby)) ? 'date' : $orderby;
-			
+
 			if(isset($limit))
 			$limit = "&posts_per_page={$limit}";
 			else
 			$limit = "&posts_per_page=9";
-			
+
 			if(!isset($clear))
 			$clear = 9999;
-			
+
 			if(!isset($random_dimensions))
 			$random_dimensions = false;
-			
+
 			$disable_pagination = (!isset($disable_pagination)) ? '' : $limit =  '&nopaging=true';
 			$extras  = (!isset($extras)) ? true : $extras;
 			$i =0;
            query_posts("orderby={$orderby}{$limit}&post_type={$post_type}".'&paged='.$paged);
-		  
+
 			?>
-            
+
 		 <ul class="clearfix">
-          <?php 
-	         $counter = $clear; 
+          <?php
+	         $counter = $clear;
 	        if ( have_posts() ) : while ( have_posts() ) : the_post();
-		     
+
 			$pval = $pre_values[$i];
 			$image_width = $pval[0];
 			$image_height = $pval[1];
-			
+
 			if ($counter==0) { $cclass='clearleft';  }
 			else { $cclass=''; }
-			
-			 
+
+
 			if( $counter <= 0)
 			{
 				$counter = $clear;
 			}
-			
+
             $more = 0;
 	      ?>
                 <li class="clearfix <?php  echo $cclass;  ?>" style=" <?php echo "width:{$image_width}px ; height:{$image_height}px"; ?>" >
-                <?php 
-				
+                <?php
+
 	          	$width = "half";
 		        if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) && $thumbnails  ) :
 				        $custom = get_post_custom($post->ID);
 		                $id = get_post_thumbnail_id();
 	          	        $ar = wp_get_attachment_image_src( $id , array(9999,9999) );
-	    	  
+
 				          $theImageSrc = $ar[0];
 							global $blog_id;
 							if (isset($blog_id) && $blog_id > 0) {
@@ -723,13 +723,13 @@ add_action('admin_head','addmeta');
 						}
 				  ?>
                      <div class="imageholder"><a href="<?php echo $ar[0]; ?>"  class="lightbox"  >
-			         <?php 					
+			         <?php
 	echo "<img src='".URL."/timthumb.php?src=".urlencode($theImageSrc)."&amp;h={$image_height}&amp;w={$image_width}' alt='portfolio-image'  />";
-	              
+
 			          ?></a>
               <?php   echo "<p class='clearfix icon-panel'><a class='link-icon' href='".get_permalink()."'></a></p>"; ?>
                      </div>
-                     
+
                <?php else: $width = "";  endif; ?>
                       <div class="description <?php echo $width;?> ">
                               <h2 class="custom-font"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -737,7 +737,7 @@ add_action('admin_head','addmeta');
                               <div>
                               <?php // the_content(__('read more')); ?>
                               </div>
-                              
+
                        </div>
                 </li>
           <?php  $i++; $counter--;  endwhile; else:
@@ -746,23 +746,23 @@ add_action('admin_head','addmeta');
         	?>
      </ul>
         <?php
-		
+
 	    }
-		
+
 	// --------------------------------- showrelated posts ------------------
-	
+
 	public function showRelatedPosts($options)
 	{
 		global $paged;
 		global $post;
-		global $more ; 
+		global $more ;
 		extract($options);
 		$count = (!isset($count)) ? 5 : $count;
-		
+
 //for use in the loop, list 5 post titles related to first tag on current post
 		  $tags = wp_get_post_tags($post->ID);
 		  if ($tags) {
-			
+
 			$first_tag = $tags[0]->term_id;
 			$args=array(
 			  'tag__in' => array($first_tag),
@@ -772,14 +772,14 @@ add_action('admin_head','addmeta');
 			 );
 			$my_query = new WP_Query($args);
 			if( $my_query->have_posts() ) {
-			echo " <div class=\"bottom-popular-posts clearfix\"><h2 class=\"custom-font\">Related Posts</h2><ul class='clearfix'>";	
-			  while ($my_query->have_posts()) : $my_query->the_post(); 
+			echo " <div class=\"bottom-popular-posts clearfix\"><h2 class=\"custom-font\">Related Posts</h2><ul class='clearfix'>";
+			  while ($my_query->have_posts()) : $my_query->the_post();
 				echo "<li>";
                 if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())   ) :
 				        $custom = get_post_custom($post->ID);
 		               	$id = get_post_thumbnail_id();
 	          	        $ar = wp_get_attachment_image_src( $id , array(9999,9999) );
-	    	  
+
 				          $theImageSrc = $ar[0];
 							global $blog_id;
 							if (isset($blog_id) && $blog_id > 0) {
@@ -790,42 +790,42 @@ add_action('admin_head','addmeta');
 						}
 				  ?>
                      <div class="imageholder"><a href="<?php echo $ar[0]; ?>" title="<?php the_excerpt(); ?>" class="lightbox"  >
-			         <?php 					
+			         <?php
 	echo "<img src='".URL."/timthumb.php?src=".urlencode($theImageSrc)."&h=50&w=96'  />";
-	              
+
 			          ?></a></div>
                      <?php  endif; ?>
                   <div class="description">
                       <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                   </div></li>
-                
+
 				<?php
-				
-				 
+
+
 			  endwhile;
 			  echo "</ul>  </div>";
-			  
+
 			}
 		  }
-		  
+
 		  wp_reset_query();
 
 	}
 	public function the_breadcrumb() {
-	   
+
 		$delimiter = '';
 		$home = 'Home'; // text for the 'Home' link
 		$before = '<span class="current">'; // tag before the current crumb
 		$after = '</span>'; // tag after the current crumb
-	   
+
 		if ( !is_home() && !is_front_page() || is_paged() ) {
-	   
-		 
-	   
+
+
+
 		  global $post;
 		  $homeLink = home_url();
 		  echo '<a href="' . $homeLink . '" class="home" >' . __( $home ,'h-framework'). '</a> ' . $delimiter . ' ';
-	   
+
 		  if ( is_category() ) {
 			global $wp_query;
 			$cat_obj = $wp_query->get_queried_object();
@@ -834,19 +834,19 @@ add_action('admin_head','addmeta');
 			$parentCat = get_category($thisCat->parent);
 			if ($thisCat->parent != 0) echo(get_category_parents($parentCat, TRUE, ' ' . $delimiter . ' '));
 			echo $before . __('Archive by category "','h-framework') . __(single_cat_title('', false),'h-framework') . '"' . $after;
-	   
+
 		  } elseif ( is_day() ) {
 			echo '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . $delimiter . ' ';
 			echo '<a href="' . get_month_link(get_the_time('Y'),get_the_time('m')) . '">' . get_the_time('F') . '</a> ' . $delimiter . ' ';
 			echo $before . get_the_time('d') . $after;
-	   
+
 		  } elseif ( is_month() ) {
 			echo '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . $delimiter . ' ';
 			echo $before . get_the_time('F') . $after;
-	   
+
 		  } elseif ( is_year() ) {
 			echo $before . get_the_time('Y') . $after;
-	   
+
 		  } elseif ( is_single() && !is_attachment() ) {
 			if ( get_post_type() != 'post' ) {
 			  $post_type = get_post_type_object(get_post_type());
@@ -858,21 +858,21 @@ add_action('admin_head','addmeta');
 			  echo get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
 			  echo $before . __( get_the_title(),'h-framework') . $after;
 			}
-	   
+
 		  } elseif ( !is_single() && !is_page() && get_post_type() != 'post' ) {
 			$post_type = get_post_type_object(get_post_type());
 			echo $before . __( $post_type->labels->singular_name ,'h-framework'). $after;
-	   
+
 		  } elseif ( is_attachment() ) {
 			$parent = get_post($post->post_parent);
 			$cat = get_the_category($parent->ID); $cat = $cat[0];
 			echo get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
 			echo '<a href="' . get_permalink($parent) . '">' . __( $parent->post_title ,'h-framework'). '</a> ' . $delimiter . ' ';
 			echo $before . get_the_title() . $after;
-	   
+
 		  } elseif ( is_page() && !$post->post_parent ) {
 			echo $before . __(get_the_title() ,'h-framework'). $after;
-	   
+
 		  } elseif ( is_page() && $post->post_parent ) {
 			$parent_id  = $post->post_parent;
 			$breadcrumbs = array();
@@ -884,33 +884,33 @@ add_action('admin_head','addmeta');
 			$breadcrumbs = array_reverse($breadcrumbs);
 			foreach ($breadcrumbs as $crumb) echo $crumb . ' ' . $delimiter . ' ';
 			echo $before . __( get_the_title(),'h-framework') . $after;
-	   
+
 		  } elseif ( is_search() ) {
 			echo $before . 'Search results for "' .__( get_search_query() ,'h-framework') . '"' . $after;
-	   
+
 		  } elseif ( is_tag() ) {
 			echo $before . 'Posts tagged "' . __( single_tag_title('', false),'h-framework') . '"' . $after;
-	   
+
 		  } elseif ( is_author() ) {
 			 global $author;
 			$userdata = get_userdata($author);
 			echo $before . 'Articles posted by ' . $userdata->display_name . $after;
-	   
+
 		  } elseif ( is_404() ) {
 			echo $before . 'Error 404' . $after;
 		  }
-	   
+
 		  if ( get_query_var('paged') ) {
 			if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
 			echo $before .__('Page') . ' ' . __( get_query_var('paged') ,'h-framework'). $after;
 			if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
 		  }
-	   
-		
-	   
+
+
+
 		}
 	  }
-		
+
 }
 
 /*
@@ -922,14 +922,14 @@ $cats = wp_get_post_categories( $post->ID );
 						$link = get_category_link( $c );
 						if(!$temp)
 						 {
-							 
+
 							 $str = $str."  <a href=' $link' >".$cat->name."</a>";
 							 $temp = true;
 						 }
 						 else
 						  $str = $str." , <a href=' $link' >".$cat->name."</a>";
-					
+
 					}
 					echo "<span> $str )</span>";
-					
+
 					*/
