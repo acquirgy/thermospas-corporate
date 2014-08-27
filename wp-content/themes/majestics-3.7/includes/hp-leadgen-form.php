@@ -104,6 +104,9 @@ To watch videos, or to download your Free brochure or $1,000 coupon, <a href="/t
 				<img src="<?=get_bloginfo('template_directory');?>/images/335.gif" />
 				We are processing your request...
 			</div>
+			<div class="reaons-pdf">
+				<a href="/100Reasons_105.pdf">Need 100 Reasons?</a>
+			</div>
 		</div>
 	</div>
 </div>

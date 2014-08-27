@@ -10113,13 +10113,13 @@ color:#FFFFFF;
 
 .leadgen #title {
 
-	font-size: 20px;
+	font-size: 18px;
 
 	color:#1176b8;
 
 	font-family:Tahoma, Geneva, sans-serif;
 
-	line-height: 23px;
+	line-height: 22px;
 
 	margin-top: -4px;
 
@@ -10197,7 +10197,7 @@ a.cta3 { left: 462px; width: 213px; color: #0b58a7;}
 
 .leadgen .clr { clear: both; }
 
-.leadgen select, .leadgen input { margin: 0 0 6px 0; padding: 7px 6px 7px 6px; line-height: 14px; height: 14px; float: left; border: 1px solid #fff; border-radius: 3px; box-shadow: 0 0 3px #CBCBCB; box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; -ms-box-sizing: content-box; font-weight: normal;}
+.leadgen select, .leadgen input { margin: 0 0 6px 0; padding: 6px 6px 6px 6px; line-height: 14px; height: 14px; float: left; border: 1px solid #fff; border-radius: 3px; box-shadow: 0 0 3px #CBCBCB; box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; -ms-box-sizing: content-box; font-weight: normal;}
 
 .leadgen select:focus, .leadgen input:focus { box-shadow: 0 0 10px #2F2F2F; }
 
@@ -10342,4 +10342,15 @@ font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   background: -ms-linear-gradient(top,  #8bcaf5 0%,#3fa7f1 50%,#2695dc 51%,#2181bf 100%);
   background: linear-gradient(to bottom,  #8bcaf5 0%,#3fa7f1 50%,#2695dc 51%,#2181bf 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bcaf5', endColorstr='#2181bf',GradientType=0 );
+}
+
+.reasons-pdf {
+  text-align: center;
+}
+.reasons-pdf a {
+  text-decoration: underline;
+  font-size: 12px;
+}
+.reason-pdf a:hover {
+  color: #A81A1A;
 }
