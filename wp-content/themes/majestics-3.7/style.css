@@ -10350,6 +10350,7 @@ font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 .reasons-pdf a {
   text-decoration: underline;
   font-size: 12px;
+  color: #1176B8;
 }
 .reason-pdf a:hover {
   color: #A81A1A;
