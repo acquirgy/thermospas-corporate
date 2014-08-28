@@ -353,7 +353,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
 											<h2>Please let us know about the location</h2>
 
-											<p>Let us know where a little about where you would like to put your hot tub.  This will allow us to come up with accurate pricing information and send you a $1,000 coupon, DVD, and complete information package.</p>
+											<p>Let us know a little about where you would like to put your hot tub.  This will allow us to come up with accurate pricing information and send you a $1,000 coupon, DVD, and complete information package.</p>
 
 											<div>
 												<select name="ht_location" class="customDropDown" id="ht_location">
