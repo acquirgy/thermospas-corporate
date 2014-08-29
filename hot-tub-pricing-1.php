@@ -368,7 +368,6 @@ style="display:none;width:0px;height:0px"></iframe>
 											<div>
 												<select name="ht_jets" id="ht_jets" class="customDropDown" >
 													<option selected="selected" value="">What type of jets?</option>
-													<option value="">What type of jets would you like?</option>
 													<option value="unsure">Not Sure</option>
 													<option value="massage">Massaging / Swirling</option>
 													<option value="neck">Neck Jets</option>
