@@ -1,3 +1,105 @@
+<script type="text/javascript" charset="utf-8">
+
+	function validateInspectionForm() {
+		var canSubmit = true;
+		var allInputTypes = $('input').add('select');
+		var allInputs = $(this).find(allInputTypes);
+		$.each(allInputs, function(){
+		// If it still has the label text, don't submit that text
+			if($(this).data('label') && ($(this).data('label') == $(this).val()))
+			{
+				$(this).val('');
+			}
+
+			// validate date format
+			if($(this).attr('name') == 'appt_date')
+			{
+				var validformat=/^\d{2}\/\d{2}\/\d{4}$/ //Basic check for format validity
+				if (!validformat.test($(this).val()))
+				{
+					canSubmit = false;
+					$(this).addClass('tss-errorInput');
+				}
+				else
+				{
+					$(this).removeClass('tss-errorInput');
+				}
+			}
+			// all fields are required except email
+			else if($(this).attr('name') != 'email')
+			{
+				if($(this).val() == '')
+				{
+					$(this).addClass('tss-errorInput');
+					canSubmit = false;
+				}
+				else
+				{
+					$(this).removeClass('tss-errorInput');
+				}
+			}
+		});
+
+		if(!canSubmit) {
+			allInputs.each(function(){
+				// don't focus datepicker
+				if($(this).attr('name') != 'appt_date')
+				{
+					$(this).focus();
+					$(this).blur();
+				}
+			});
+			return false;
+		}	else {
+			return true;
+		}
+	}
+
+	$(function() {
+		$("#appt_date").datepicker({
+			minDate: 3,
+			maxDate: "+2W",
+			beforeShowDay: function(date){
+				var showDay  = true;
+				var cssClass = '';
+				var tooltip  = '8am - 7pm EST';
+				if(date.getDay() == 0)
+				{
+					showDay = false;
+					tooltip = 'No appointments available on Sundays.';
+				}
+				else if(date.getDay() == 6)
+				{
+					cssClass = 'tss-datepicker-saturday';
+					tooltip = '8am - 2pm EST';
+				}
+				return [showDay, cssClass, tooltip];
+			}
+		});
+
+		var tssInputs = $('#tss-scheduleFormContainer input');
+		tssInputs.each(function(){
+			var label = $(this).data('label');
+			if(label){ $(this).val(label); }
+		});
+		tssInputs.focus(function(){
+			var label = $(this).data('label');
+			if($(this).val() == label)
+			{
+				$(this).val('');
+			}
+		});
+		tssInputs.blur(function(){
+			var label = $(this).data('label');
+			if($(this).val() == '')
+			{
+				$(this).val(label);
+			}
+		});
+	});
+
+</script>
+
 <style type="text/css" media="screen">
 
 	#tss-scheduleFormContainer {
@@ -274,115 +376,16 @@
 		<input type="hidden" name="<?php echo $postHidden['hname'] ?>" value="<?php echo $postHidden['value'] ?>">
 		<input type="submit" value="SUBMIT" class="tss-submit">
 	</form>
-	<!--<script type="text/javascript">
+	<script type="text/javascript">
 	    var __ss_noform = __ss_noform || [];
 	    __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
 	    __ss_noform.push(['endpoint', 'ae95f824-1a61-494e-9047-ae416f27277b']);
+	    __ss_noform.push(['validate', validateInspectionForm]);
 	</script>
-	<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>-->
+	<script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
 </div>
 
-<script type="text/javascript" charset="utf-8">
-	$(function() {
-		$("#appt_date").datepicker({
-			minDate: 1,
-			maxDate: "+2W",
-			beforeShowDay: function(date){
-				var showDay  = true;
-				var cssClass = '';
-				var tooltip  = '8am - 7pm EST';
-				if(date.getDay() == 0)
-				{
-					showDay = false;
-					tooltip = 'No appointments available on Sundays.';
-				}
-				else if(date.getDay() == 6)
-				{
-					cssClass = 'tss-datepicker-saturday';
-					tooltip = '8am - 2pm EST';
-				}
-				return [showDay, cssClass, tooltip];
-			}
-		});
 
-		var tssInputs = $('#tss-scheduleFormContainer input');
-		tssInputs.each(function(){
-			var label = $(this).data('label');
-			if(label){ $(this).val(label); }
-		});
-		tssInputs.focus(function(){
-			var label = $(this).data('label');
-			if($(this).val() == label)
-			{
-				$(this).val('');
-			}
-		});
-		tssInputs.blur(function(){
-			var label = $(this).data('label');
-			if($(this).val() == '')
-			{
-				$(this).val(label);
-			}
-		});
-
-  	$('#tss-form').submit(function(event){
-			var canSubmit = true;
-			var allInputTypes = $('input').add('select');
-			var allInputs = $(this).find(allInputTypes);
-			$.each(allInputs, function(){
-			// If it still has the label text, don't submit that text
-				if($(this).data('label') && ($(this).data('label') == $(this).val()))
-				{
-					$(this).val('');
-				}
-
-				// validate date format
-				if($(this).attr('name') == 'appt_date')
-				{
-					var validformat=/^\d{2}\/\d{2}\/\d{4}$/ //Basic check for format validity
-					if (!validformat.test($(this).val()))
-					{
-						canSubmit = false;
-						$(this).addClass('tss-errorInput');
-					}
-					else
-					{
-						$(this).removeClass('tss-errorInput');
-					}
-				}
-				// all fields are required except email
-				else if($(this).attr('name') != 'email')
-				{
-					if($(this).val() == '')
-					{
-						$(this).addClass('tss-errorInput');
-						canSubmit = false;
-					}
-					else
-					{
-						$(this).removeClass('tss-errorInput');
-					}
-				}
-			});
-
-			if(!canSubmit)
-			{
-				allInputs.each(function(){
-					// don't focus datepicker
-					if($(this).attr('name') != 'appt_date')
-					{
-						$(this).focus();
-						$(this).blur();
-					}
-				});
-
-				event.preventDefault();
-				return false;
-			}
-		})
-	});
-
-</script>
 
 <?php
 	endif; // if(!$gotPost)

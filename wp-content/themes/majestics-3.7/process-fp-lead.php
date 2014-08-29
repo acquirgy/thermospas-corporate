@@ -4,7 +4,7 @@ $db_name = 'thermosp_thermospascom';
 $db_host = 'localhost';
 $db_user = 'thermosp_tscom';
 $db_pass = '*tscom07';
-mysql_connect($db_host,$db_user,$db_pass);
+@mysql_connect($db_host,$db_user,$db_pass);
 @mysql_select_db($db_name) or die( "Unable to select database");
 
 $fname = mysql_real_escape_string($_POST['fname']);
@@ -41,5 +41,5 @@ $submission = $db->get('ht_form', array('ht_id', $ht_id));
 $email->sendSubmission($submission, 'front page lead');
 
 // Output the OK!
-if($result) echo 'ok';
+if($result) echo $ht_id;
 

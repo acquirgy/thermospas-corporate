@@ -32,20 +32,18 @@ $(document).ready(function() {
 			__ss_noform.push(['submit', null]);
 
 			data = $('.fp-lead-form').serialize();
-			iref = $('.iref-input').val();
-
-			$('<img src="https://www.ifactz.com/tracking/convert.asp?OfferShortName=THERMOS2&ZipCode=&vars=OrderValue|' + iref + '" height=1 width=1>').appendTo('.leadgen');
-			$('<img src="https://www.ifactz.com/tracking/convert.asp?OfferShortName=THERMOS4&ZipCode=&vars=OrderValue|' + iref + '" height=1 width=1>').appendTo('.leadgen');
 
 			$.ajax({
 				type: 'POST',
 				url: '/wp-content/themes/majestics-3.7/process-fp-lead.php',
 				data: data,
 				success: function(output) {
-					if( output == 'ok' ) {
+					if( output ) {
 						loader.hide();
 						$('.leadgen #title').hide();
 						thankyou.show();
+						$('<img src="https://www.ifactz.com/tracking/convert.asp?OfferShortName=THERMOS2&ZipCode=&vars=OrderValue|' + output + '" height=1 width=1>').appendTo('.leadgen');
+						$('<img src="https://www.ifactz.com/tracking/convert.asp?OfferShortName=THERMOS4&ZipCode=&vars=OrderValue|' + output + '" height=1 width=1>').appendTo('.leadgen');
 					} else {
 						alert('Woops, something broke.  Please try that again');
 						loader.hide();
