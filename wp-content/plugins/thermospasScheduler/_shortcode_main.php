@@ -57,7 +57,7 @@
 
 	$(function() {
 		$("#appt_date").datepicker({
-			minDate: 3,
+			minDate: 2,
 			maxDate: "+2W",
 			beforeShowDay: function(date){
 				var showDay  = true;
@@ -172,7 +172,7 @@
 		font-weight: bold;
 		line-height: 30px;
 		margin-top: 20px;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 
 	#tss-scheduleFormContainer select,
@@ -266,13 +266,14 @@
 <div id="tss-scheduleFormContainer">
 
 	<div id="tss-scheduleFormTitle">Schedule Your ThermoSpas Home Experience</div>
+	<p style="color: #000; padding-bottom: 10px;">*Required</p>
 	<form action="<?php echo get_permalink() ?>" id="tss-form" method="POST">
-		<input type="text" class="tss-fullWidth" name="client_name" data-label="Name">
-		<input type="text" class="tss-fullWidth" name="address" data-label="Address 1">
-		<input type="text" class="tss-fullWidth" name="city" data-label="City">
+		<input type="text" class="tss-fullWidth" name="client_name" data-label="Name *">
+		<input type="text" class="tss-fullWidth" name="address" data-label="Address 1 *">
+		<input type="text" class="tss-fullWidth" name="city" data-label="City *">
 
 		<select name="state">
-			<option value="">State</option>
+			<option value="">State *</option>
 			<option value="AL">Alabama</option>
 			<option value="AK">Alaska</option>
 			<option value="AZ">Arizona</option>
@@ -324,9 +325,9 @@
 			<option value="WI">Wisconsin</option>
 			<option value="WY">Wyoming</option>
 		</select>
-		<input type="text" class="tss-shortWidth" name="zip" data-label="Zip Code">
+		<input type="text" class="tss-shortWidth" name="zip" data-label="Zip Code *">
 		<input type="text" class="tss-fullWidth" name="email" data-label="E-Mail Address">
-		<input type="text" class="tss-fullWidth" name="phone" data-label="Phone Number">
+		<input type="text" class="tss-fullWidth" name="phone" data-label="Phone Number *">
 		<div class="tss-apptInfoContainer">
 			<p>Appointments may be scheduled within the hours</p>
 			<ul>
@@ -339,7 +340,7 @@
 		</div>
 		<hr>
 		<label for="date">Please select a date</label>
-		<input type="text" name="appt_date" id="appt_date" data-label="Date">
+		<input type="text" name="appt_date" id="appt_date" data-label="Date *">
   	<label for="time">Appointment Time</label>
 		<select name="appt_time" id="appt_time">
 			<option value='8:00 AM'>8:00 AM</option>
