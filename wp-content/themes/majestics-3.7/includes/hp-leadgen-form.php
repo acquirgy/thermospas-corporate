@@ -105,7 +105,7 @@ To watch videos, or to download your Free brochure or $1,000 coupon, <a href="/t
 				We are processing your request...
 			</div>
 			<div class="reasons-pdf">
-				<a target="_blank" href="/100Reasons_105.pdf" onClick="_gaq.push(['_trackEvent', ' brochure', 'Download', 100Reasons']);">Need 100 Reasons?</a>
+				<a target="_blank" href="/100Reasons_105.pdf" onClick="_gaq.push(['_trackEvent', ' brochure', 'Download', '100Reasons']);">Need 100 Reasons?</a>
 			</div>
 		</div>
 	</div>
