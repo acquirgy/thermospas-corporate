@@ -274,7 +274,7 @@ function ts_form_display($form_option=1) {
 <script type="text/javascript">
     var __ss_noform = __ss_noform || [];
     __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
-    __ss_noform.push(['endpoint', 'ae95f824-1a61-494e-9047-ae416f27277b']);
+    __ss_noform.push(['endpoint', 'ef0c7307-a315-41bf-af09-6e070d2a144b']);
 		__ss_noform.push(['form', 'ts_form']); // this goes inside of the actual embed, along with
 		__ss_noform.push(['submitType', 'manual']);
 </script>

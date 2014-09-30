@@ -16,13 +16,16 @@ $(document).ready(function() {
     });
   });
 
-  $('.request-quote-form').validate({
-    focusInvalid: false,
-    errorPlacement: function(error,element) {}
-  });
-
 });
 
 jQuery.validator.addMethod("defaultInvalid", function(value, element) {
     return !(element.value == element.defaultValue);
 },"This field is required.");
+
+function validateForm() {
+  return $('.request-quote-form').valid({
+    focusInvalid: false,
+    errorPlacement: function(error,element) {}
+  });
+
+}

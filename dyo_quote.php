@@ -141,15 +141,18 @@
     </table>
 
   </form>
-  <script type="text/javascript">
-      var __ss_noform = __ss_noform || [];
-      __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
-      __ss_noform.push(['endpoint', '77882009-d797-4a89-a905-1a5e2f7b12f7']);
-  </script>
-  <script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
+
+
   <script type="text/javascript" src="<?=get_bloginfo('template_directory');?>/js/jquery.validate.min.js"></script>
   <script type="text/javascript" src="<?=get_bloginfo('template_directory');?>/js/additional-methods.min.js"></script>
   <script type="text/javascript" src="<?=get_bloginfo('template_directory');?>/js/request-quote-form.js"></script>
+  <script type="text/javascript">
+      var __ss_noform = __ss_noform || [];
+      __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
+      __ss_noform.push(['endpoint', '2b2296e4-c022-41ef-a3d3-11f7568526d6']);
+      __ss_noform.push(['validate', validateForm]);
+  </script>
+  <script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0"></script>
 
 </div>
 
