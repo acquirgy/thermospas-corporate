@@ -100,7 +100,7 @@ Template Name: Home Page Template
 
 			}
 			?>
-			<div style="margin-top:10px;"><a href="<?php the_permalink() ?>" style="text-decoration:underline; color:#AAAAAA; text-transform:uppercase; float:right; font-size:11px;">Learn More</a></div>
+			<div><a href="<?php the_permalink() ?>" style="text-decoration:underline; color:#AAAAAA; text-transform:uppercase; float:right; font-size:11px;">Learn More</a></div>
 
 			  <?php  ?>
             </p>
@@ -143,34 +143,22 @@ Template Name: Home Page Template
 
 	<? } ?>
 
-    <!-- START VIDEO -->
-	<div class="title" style="margin:10px 0px">
-      <div style="text-align:center;"><img src="/slides/tagline3.jpg" /></div><? if (1==2) { ?><h4 class='custom-font' style="font-weight:bold">ThermoSpas Hot Tub Videos</h4><? } ?>
-    </div>
     <div class="  clearfix two-third">
-      <h4 class="custom-font">New Aquatic Series Hot Tubs</h4>
-      <p>Our new elegant and highest quality ThermoSpas Hot Tubs.</p>
-      <script type='text/javascript' src='/mediaplayer/jwplayer.js'></script>
-      <div id='mediaplayer'></div>
-      <script type="text/javascript">
-jwplayer("mediaplayer").setup({
-flashplayer: "/mediaplayer/player.swf",
-width: 560,
-height: 360,
-file: "http://www.youtube.com/watch?v=1t7eByMGADc",
-controlbar: "bottom",
-skin: "/mediaplayer/skins/nemesis.zip"
-});
-</script>
+      <h2 class='custom-font' style="font-weight:bold; padding: 20px 0 0 0;">ThermoSpas Customers</h2>
+      <h3 class="custom-font">What Real Customers Are Saying</h3>
+      <p>Watch what these ThermoSpas customers are saying about their ThermoSpas home spa!</p><br />
+      <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLbM2uWOuQyW_Ph1wE3OVZkDvNorbV-m0y" frameborder="0" allowfullscreen></iframe>
     </div>
 	 <div class=" clearright clearfix one-third">
-      <h4 class="custom-font">Latest ThermoSpas Blog Posts</h4>
+    <h2 class='custom-font' style="font-weight:bold; padding: 20px 0 0 0;">ThermoSpas News</h2>
+    <h3 class="custom-font"><a href="/todays-thermospas.html" style="text-decoration: underline;">Today's ThermoSpas</a></h3>
+    <h4>Latest ThermoSpas Blog Posts</h4>
 
 
 	  <?php
 include_once(ABSPATH.WPINC.'/rss.php'); // path to include script
 $feed = fetch_rss('http://feeds.feedburner.com/ThermospasHotTubs'); // specify feed url
-$items = array_slice($feed->items, 0, 10); // specify first and last item
+$items = array_slice($feed->items, 0, 8); // specify first and last item
 ?>
 
 <?php if (!empty($items)) : ?>
