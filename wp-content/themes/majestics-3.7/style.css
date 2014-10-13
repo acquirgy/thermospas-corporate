@@ -490,6 +490,14 @@ strong {
 
  float: right; }
 
+.homepage ul {
+  padding-bottom: 15px;
+ }
+
+.homepage li {
+  margin-left: 20px !important;
+  padding: 4px 0;
+}
 
 
 .two-third {

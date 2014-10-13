@@ -151,7 +151,9 @@ Template Name: Home Page Template
     </div>
 	 <div class=" clearright clearfix one-third">
     <h2 class='custom-font' style="font-weight:bold; padding: 20px 0 0 0;">ThermoSpas News</h2>
-    <h3 class="custom-font"><a href="/todays-thermospas.html" style="text-decoration: underline;">Today's ThermoSpas</a></h3>
+    <ul>
+      <li><a href="/todays-thermospas.html" style="">Today’s ThermoSpas brings a whole new level of service to hot tub customers.</a></li>
+    </ul>
     <h4>Latest ThermoSpas Blog Posts</h4>
 
 
