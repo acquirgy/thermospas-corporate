@@ -146,7 +146,7 @@ Template Name: Home Page Template
     <div class="  clearfix two-third">
       <h2 class='custom-font' style="font-weight:bold; padding: 20px 0 0 0;">ThermoSpas Customers</h2>
       <h3 class="custom-font">What Real Customers Are Saying</h3>
-      <p>Watch what these ThermoSpas customers are saying about their ThermoSpas home spa!</p><br />
+      <p>Watch what these ThermoSpas customers are saying about their ThermoSpas hot tub!</p><br />
       <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLbM2uWOuQyW_Ph1wE3OVZkDvNorbV-m0y" frameborder="0" allowfullscreen></iframe>
     </div>
 	 <div class=" clearright clearfix one-third">
