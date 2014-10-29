@@ -29,7 +29,7 @@ if (isset($_REQUEST['ht_type']) || isset($_REQUEST['ht_location']) || isset($_RE
     $notice .= "Please enter your <strong>First Name</strong>.\n<BR>";
   }
 
-  if (isset($_REQUEST['email-optin'])) {
+  if (isset($_POST['email-optin'])) {
     if ((stristr($_REQUEST['email'], '@') === FALSE) || (stristr($_REQUEST['email'], '.') === FALSE) || strlen($_REQUEST['email']) < 5 || $_REQUEST['email'] == 'Your Email') {
       $notice .= "Please enter a valid <b>Email Address</b>\n<BR>";
     }
@@ -391,7 +391,7 @@ style="display:none;width:0px;height:0px"></iframe>
                       </div>
 
                       <div>
-                        <input type="checkbox" name="email-optin" value="1"> Yes, I would like to receive emailed ThermoSpas news and discounts
+                        <input type="checkbox" name="email-optin" id="email-optin" style="width:25px !important;"><label for="email-optin">Yes, I would like to receive emailed ThermoSpas news and discounts</label>
                       </div>
 
                       <p><strong>Good News!</strong> Your FREE information is available to download or view online! If you would prefer to receive it by mail instead, please fill in your address below. Packets may take up to 10 business days for delivery.</p>
