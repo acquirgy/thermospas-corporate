@@ -385,7 +385,7 @@ style="display:none;width:0px;height:0px"></iframe>
                       </div>
 
                       <div>
-                        <input type="text" id="email" name="email" value="" placeholder="*Your Email"/>
+                        <input type="text" id="email" name="email" value="" placeholder="Your Email"/>
                       </div>
 
                       <div>
@@ -395,17 +395,17 @@ style="display:none;width:0px;height:0px"></iframe>
                       <p><strong>Good News!</strong> Your FREE information is available to download or view online! If you would prefer to receive it by mail instead, please fill in your address below. Packets may take up to 10 business days for delivery.</p>
 
                       <div>
-                        <input type="text" id="address" name="address" value=""  placeholder="*Your Address" />
+                        <input type="text" id="address" name="address" value=""  placeholder="Your Address" />
                       </div>
 
                       <div>
-                        <input type="text" id="city" name="city" value=""  placeholder="*Your city" />
+                        <input type="text" id="city" name="city" value=""  placeholder="Your City" />
                       </div>
 
                       <div>
                         <select name="state1" id="state1" class="customDropDown" >
 
-                                                <option value="">*Select State</option>
+                                                <option value="">Select State</option>
 
                                                 <option value="AL">Alabama</option>
 

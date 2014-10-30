@@ -81,7 +81,7 @@ $(document).ready(function(){
 
 	$('#submit_second').click(function(){
 		//if( validate_ht_location() & validate_ht_jets() & validate_ht_owner() & validate_ht_siteinspection() & validateAddress() & validateCity() & validateState() ){
-		if( validateAddress() & validateCity() & validateState() & validateEmail() ){
+		if( validateEmail() ){
 			var ht_token = $("#ht_token").val();
 			submit_data_step2(ht_token);
 			return false;
