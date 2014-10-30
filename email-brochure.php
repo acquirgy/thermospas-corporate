@@ -385,11 +385,11 @@ style="display:none;width:0px;height:0px"></iframe>
                       </div>
 
                       <div>
-                        <input type="text" id="email" name="email" value="" placeholder=" Your Email"/>
+                        <input type="text" id="email" name="email" value="" placeholder="*Your Email"/>
                       </div>
 
                       <div>
-                        <input type="checkbox" name="email-optin" id="email-optin" style="width:25px !important;"><label for="email-optin">Yes, I would like to receive emailed ThermoSpas news and discounts</label>
+                        <input type="checkbox" name="email-optin" id="email-optin" style="width:25px; float: left;"><label for="email-optin" style="width: 200px; display: block; padding: 5px 15px; font-size: .95em; line-height: 1.25em;">Yes, I would like to receive emailed ThermoSpas news and discounts</label>
                       </div>
 
                       <p><strong>Good News!</strong> Your FREE information is available to download or view online! If you would prefer to receive it by mail instead, please fill in your address below. Packets may take up to 10 business days for delivery.</p>

@@ -29,7 +29,7 @@ $(document).ready(function(){
 	var state = $("#custState");
 	var stateInfo = $("#custStateInfo");
 	var email = $("#email");
-	var emailInfo = $("#emailInfo");
+
 
 	// On blur
 	// first step
@@ -100,19 +100,17 @@ $(document).ready(function(){
 			//if it's valid email
 			if(filter.test(a)){
 				email.removeClass("error");
-				emailInfo.text("Valid E-mail please!");
-				emailInfo.removeClass("error");
 				return true;
 			}
 			//if it's NOT valid
 			else{
 				email.addClass("error");
-				emailInfo.text("Type a valid e-mail please");
-				emailInfo.attr("placeholder","Enter Valid Email	");
-				emailInfo.addClass("error");
 				return false;
 			}
-		} else {return true;}
+		} else {
+			email.removeClass("error");
+			return true;
+		}
 	}
 
 	//validation functions
@@ -120,7 +118,7 @@ $(document).ready(function(){
 		//testing regular expression
 		var a = $("#name").val();
 		var filter = /^[a-zA-Z0-9]+/;
-		//if it's valid email
+		//if it's valid Fname
 		if(filter.test(a)){
 			fname.removeClass("error");
 			fnameInfo.text("Valid Name Please!");
@@ -142,7 +140,7 @@ $(document).ready(function(){
 		//testing regular expression
 		var a = $("#city").val();
 		var filter = /^[a-zA-Z0-9]+/;
-		//if it's valid email
+		//if it's valid City
 		if(filter.test(a)){
 			city.removeClass("error");
 			cityInfo.text("Valid City Please!");
