@@ -29,10 +29,8 @@ if (isset($_REQUEST['ht_type']) || isset($_REQUEST['ht_location']) || isset($_RE
     $notice .= "Please enter your <strong>First Name</strong>.\n<BR>";
   }
 
-  if (isset($_POST['email-optin'])) {
-    if ((stristr($_REQUEST['email'], '@') === FALSE) || (stristr($_REQUEST['email'], '.') === FALSE) || strlen($_REQUEST['email']) < 5 || $_REQUEST['email'] == 'Your Email') {
+  if ((stristr($_REQUEST['email'], '@') === FALSE) || (stristr($_REQUEST['email'], '.') === FALSE) || strlen($_REQUEST['email']) < 5 || $_REQUEST['email'] == 'Your Email') {
       $notice .= "Please enter a valid <b>Email Address</b>\n<BR>";
-    }
   }
 
   if (strlen($_REQUEST['address']) < 2 || $_REQUEST['Address'] == 'Your Address') {
@@ -105,7 +103,7 @@ if(@strlen($_REQUEST['ht_token']) == "" || $ht_token == "") {
 
     <!-- modernizr -->
     <script type="text/javascript" src="sk/js/modernizr.full.min.js"></script>
-    <script type="text/javascript" src="sk/js/validation.js"></script>
+    <script type="text/javascript" src="sk/js/email-brochure.js"></script>
 
     <!-- SLIDERSHOW JQUERY FUNCTION -->
     <script type="text/javascript" src="sk/js/slides.jquery.js"></script>
