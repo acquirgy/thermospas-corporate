@@ -366,8 +366,6 @@ style="display:none;width:0px;height:0px"></iframe>
                     </div>
                     <div id="subscribe_pricing" >
 
-                      <h2>Please let us know about the location</h2>
-
                       <p>Let us know a little about where you would like to put your hot tub.  This will allow us to come up with accurate pricing information.</p>
 
                       <div>
@@ -400,27 +398,27 @@ style="display:none;width:0px;height:0px"></iframe>
                       </div>
 
                       <div>
-                        <input type="text" id="email" name="email" value="" placeholder="Your Email"/>
+                        <input type="text" id="email" name="email" value="" placeholder="*Your Email"/>
                       </div>
 
-                      <div>
+                      <!-- <div>
                         <input type="checkbox" name="email-optin" id="email-optin" style="width:25px; float: left;"><label for="email-optin" style="width: 200px; display: block; padding: 5px 15px; font-size: .95em; line-height: 1.25em;">Yes, I would like to receive emailed ThermoSpas news and discounts</label>
-                      </div>
+                      </div> -->
 
-                      <p><strong>Good News!</strong> Your FREE information is available to download or view online! If you would prefer to receive it by mail instead, please fill in your address below. Packets may take up to 10 business days for delivery.</p>
-
-                      <div>
-                        <input type="text" id="address" name="address" value=""  placeholder="Your Address" />
-                      </div>
+                      <p><strong>Good News!</strong> Your FREE information is instantly available to download or view online! If you would prefer to receive it by mail instead, please fill in your address below. Packets may take up to 10 business days for delivery.</p>
 
                       <div>
-                        <input type="text" id="city" name="city" value=""  placeholder="Your City" />
+                        <input type="text" id="address" name="address" value=""  placeholder="Address (Optional)" />
+                      </div>
+
+                      <div>
+                        <input type="text" id="city" name="city" value=""  placeholder="City (Optional)" />
                       </div>
 
                       <div>
                         <select name="state1" id="state1" class="customDropDown" >
 
-                                                <option value="">Select State</option>
+                                                <option value="">State (Optional)</option>
 
                                                 <option value="AL">Alabama</option>
 

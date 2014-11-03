@@ -92,8 +92,7 @@ $(document).ready(function(){
 
 	//validation functions
 	function validateEmail(){
-		//If email-optin is checked
-		if ($('#email-optin').is(':checked')) {
+		// if ($('#email-optin').is(':checked')) {
 			//testing regular expression
 			var a = $("#email").val();
 			var filter = /^[a-zA-Z0-9]+[a-zA-Z0-9_.-]+[a-zA-Z0-9_-]+@[a-zA-Z0-9]+[a-zA-Z0-9.-]+[a-zA-Z0-9]+.[a-z]{2,4}$/;
@@ -107,10 +106,10 @@ $(document).ready(function(){
 				email.addClass("error");
 				return false;
 			}
-		} else {
-			email.removeClass("error");
-			return true;
-		}
+		// } else {
+		// 	email.removeClass("error");
+		// 	return true;
+		// }
 	}
 
 	//validation functions
