@@ -42,10 +42,10 @@ $(document).ready(function(){
 
 	// second step
 
-	ht_location.blur(validate_ht_location);
-	ht_jets.blur(validate_ht_jets);
-	ht_owner.blur(validate_ht_owner);
-	ht_siteinspection.blur(validate_ht_siteinspection);
+	//ht_location.blur(validate_ht_location);
+	//ht_jets.blur(validate_ht_jets);
+	//ht_owner.blur(validate_ht_owner);
+	//ht_siteinspection.blur(validate_ht_siteinspection);
 
 	address.blur(validateAddress);
 	city.blur(validateCity);
@@ -61,10 +61,10 @@ $(document).ready(function(){
 	phone.keyup(validatePhone);
 
 	// second step
-	ht_location.change(validate_ht_location);
-	ht_jets.change(validate_ht_jets);
-	ht_owner.change(validate_ht_owner);
-	ht_siteinspection.change(validate_ht_siteinspection);
+	//ht_location.change(validate_ht_location);
+	//ht_jets.change(validate_ht_jets);
+	//ht_owner.change(validate_ht_owner);
+	//ht_siteinspection.change(validate_ht_siteinspection);
 	address.keyup(validateAddress);
 	city.keyup(validateCity);
 	state.change(validateState);
