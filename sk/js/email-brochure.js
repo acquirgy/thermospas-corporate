@@ -47,9 +47,9 @@ $(document).ready(function(){
 	//ht_owner.blur(validate_ht_owner);
 	//ht_siteinspection.blur(validate_ht_siteinspection);
 
-	address.blur(validateAddress);
-	city.blur(validateCity);
-	state.blur(validateState);
+	//address.blur(validateAddress);
+	//city.blur(validateCity);
+	//state.blur(validateState);
 
 	//On key press
 	// first step
@@ -65,9 +65,9 @@ $(document).ready(function(){
 	//ht_jets.change(validate_ht_jets);
 	//ht_owner.change(validate_ht_owner);
 	//ht_siteinspection.change(validate_ht_siteinspection);
-	address.keyup(validateAddress);
-	city.keyup(validateCity);
-	state.change(validateState);
+	//address.keyup(validateAddress);
+	//city.keyup(validateCity);
+	//state.change(validateState);
 
 	$('#submit_first').click(function(){
 		//if( validate_ht_use() & validate_ht_seating() & validateName() & validateZipcode() & validatePhone()){
