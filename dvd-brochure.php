@@ -182,6 +182,20 @@ if(@strlen($_REQUEST['ht_token']) == "" || $ht_token == "") {
     </div>
     </noscript>
 
+    <script type="text/javascript">
+    var _ss = _ss || [];
+    _ss.push(['_setDomain', 'https://koi-PLBR48.sharpspring.com/net']);
+    _ss.push(['_setAccount', 'KOI-RUPIJ2']);
+    _ss.push(['_trackPageView']);
+    (function() {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript'; ss.async = true;
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-PLBR48.sharpspring.com/client/ss.js?ver=1.1.1';
+    var scr = document.getElementsByTagName('script')[0];
+    scr.parentNode.insertBefore(ss, scr);
+    })();
+    </script>
+
   </head>
 
   <body>
@@ -534,7 +548,7 @@ style="display:none;width:0px;height:0px"></iframe>
           <script type="text/javascript">
             var __ss_noform = __ss_noform || [];
             __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
-            __ss_noform.push(['endpoint', 'ae95f824-1a61-494e-9047-ae416f27277b']);
+            __ss_noform.push(['endpoint', 'c4e0237d-53f1-468a-b41d-092495e56e63']);
             __ss_noform.push(['form', 'ht_form']); // this goes inside of the actual embed, along with
             __ss_noform.push(['submitType', 'manual']);
           </script>
