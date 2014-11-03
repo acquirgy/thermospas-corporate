@@ -398,7 +398,7 @@ style="display:none;width:0px;height:0px"></iframe>
                       </div>
 
                       <div>
-                        <input type="text" id="email" name="email" value="" placeholder="*Your Email"/>
+                        <input type="text" id="email" name="email" value="" placeholder="*Email"/>
                       </div>
 
                       <!-- <div>
