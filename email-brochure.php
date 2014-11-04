@@ -362,7 +362,7 @@ style="display:none;width:0px;height:0px"></iframe>
                   <div class="slide">
 
                     <div id="slide_content">
-                      <img src="../sk/images/hot-tub.jpg" alt="ThermoSpas Hot Tub" width="570" height="584"/>
+                      <img src="../sk/images/hot-tub.jpg" alt="ThermoSpas Hot Tub" width="570" height="538"/>
                     </div>
                     <div id="subscribe_pricing" >
 
