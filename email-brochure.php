@@ -597,9 +597,9 @@ style="display:none;width:0px;height:0px"></iframe>
 
             $1000 Savings Coupon Includes:
             <ul style="list-style-type: disc; padding-left: 20px;">
-              <li>Instant Cash Discount ($400)</li>
-              <li>Free Delivery &amp; Installation ($450)</li>
-              <li>Free Chemicals Startup Kit ($150)</li>
+              <li>Instant Cash Discount</li>
+              <li>Free Delivery &amp; Installation</li>
+              <li>Free Chemicals Startup Kit</li>
             </ul>
 
           </div>
@@ -645,7 +645,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
           <h4>Affordable</h4>
 
-          <p>ThermoSpas sells factory-direct to our customers. This makes our hot tubs more affordable and higher quality. We're  100% USA Made. </p>
+          <p>ThermoSpas sells factory-direct to our customers. This makes our hot tubs more affordable and higher quality.</p>
 
         </div>
 
@@ -703,7 +703,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
           <li>Energy efficient and safe hot tubs </li>
 
-          <li>Customize from 10 jets to 160 jets </li>
+          <li>Customize from 8 jets to 172 jets </li>
 
           <li>Factory-Direct Hot Tubs to Save BIG </li>
 
@@ -777,7 +777,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
         <div>
 
-          <p>"  It is very relaxing and lets us melt away the tensions of the day. It is a great opportunity to talk undisturbed. No phone, no computer, no distractions . "</p>
+          <p>"  It is very relaxing and lets us melt away the tensions of the day. It is a great opportunity to talk undisturbed. No phone, no computer, no distractions. "</p>
 
           <p> Rosalind Gambardella </p>
 
@@ -787,7 +787,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
         <div>
 
-          <p>"  I would like to say that I would recommend ThermoSpa for whatever reason whether it be entertainment, stress or therapy. It has helped my husband and I immeasurably!  "</p>
+          <p>"  I would like to say that I would recommend ThermoSpas for whatever reason whether it be entertainment, stress or therapy. It has helped my husband and I immeasurably!  "</p>
 
           <p> Mrs. Christine L. Silva </p>
 
@@ -863,7 +863,7 @@ style="display:none;width:0px;height:0px"></iframe>
 
         <div id="inner-footer" class="clearfix">
 
-          <p class="left">&copy; <?php echo date('Y'); ?> ThermoSpas</p>
+          <p class="left">&copy; <?php echo date('Y'); ?> ThermoSpas Hot Tub Products, Inc.</p>
 
                     <p class="right"><a href="/privacy-policy.html" target="_new">ThermoSpas Privacy Policy</a></p>
 
