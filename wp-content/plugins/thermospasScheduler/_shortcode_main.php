@@ -326,7 +326,7 @@
 			<option value="WY">Wyoming</option>
 		</select>
 		<input type="text" class="tss-shortWidth" name="zip" data-label="Zip Code *">
-		<input type="text" class="tss-fullWidth" name="email" data-label="E-Mail Address">
+		<input type="text" class="tss-fullWidth" name="email" data-label="E-Mail Address *">
 		<input type="text" class="tss-fullWidth" name="phone" data-label="Phone Number *">
 		<div class="tss-apptInfoContainer">
 			<p>Appointments may be scheduled within the hours</p>

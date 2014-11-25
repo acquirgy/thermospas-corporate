@@ -77,7 +77,7 @@
 				</select>
 				<input name="zip" value="Zip*" class="required defaultInvalid zip" type="text"  />
 				<input name="phone" value="Phone*" class="required defaultInvalid phoneUS phone" placeholder="Phone*" type="text" />
-				<input name="email" value="Email" class="" type="text" />
+				<input name="email" value="Email" class="required defaultInvalid email" type="text" />
 				<div class="clr"></div>
 				<button class="fp-lead-submit clr" type="submit">Submit</button>
 			</form>
