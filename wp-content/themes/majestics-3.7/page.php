@@ -74,7 +74,7 @@
                   </tr>
                   <tr>
                     <td colspan="2" align="center">
-                      <input name="email" type="text" class="textf required" value="Your Email" />
+                      <input name="email" id="email" type="text" class="textf" value="Your Email" />
                     </td>
                   </tr>
                   <tr>
@@ -191,6 +191,12 @@
           });
 
           $('.free-brochure-form').validate({
+            rules: {
+              email: {
+                required: true,
+                email: true
+              }
+            },
             focusInvalid: false,
             errorPlacement: function(error,element) {}
           });
