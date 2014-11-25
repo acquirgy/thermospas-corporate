@@ -38,9 +38,13 @@
 
 </div></div>
 
-	</br>
+</br>
+<div style="text-align:center; color: #ffffff;"><a href="/blog/customer-reviews/" style="color: #ffffff;">ThermoSpas Reviews</a> | <a href="/customer-care.html" style="color: #ffffff;">Contact ThermoSpas</a> | <a href="/privacy-policy.html" style="color: #ffffff;">Privacy Policy</a> | <a href="patents.html" style="color: #ffffff;">Patents</a> |  <a href="sitemap.xml" style="color: #ffffff;">Sitemap</a></div>
+<br />
+<div style="text-align:center">
+  <img src="/wp-content/themes/majestics-3.7/images/blue-seal-thermospashottub.png" alt="BBB seal" width="160" height="62"/>
+</div>
 
-<a href="/privacy-policy.html"><div style="text-align:center; color: #ececec;">Thermospas Privacy Policy</div></a>
 
 
 
