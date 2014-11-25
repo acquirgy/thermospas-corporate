@@ -25,8 +25,8 @@
 					$(this).removeClass('tss-errorInput');
 				}
 			}
-			// all fields are required except email
-			else if($(this).attr('name') != 'email')
+			// all fields are required
+			else
 			{
 				if($(this).val() == '')
 				{
