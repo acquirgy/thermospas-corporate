@@ -833,6 +833,10 @@ style="display:none;width:0px;height:0px"></iframe>
 
   <div class="column_3_last">
 
+    <div style="text-align:center">
+      <img src="/wp-content/themes/majestics-3.7/images/blue-seal-thermospashottub.png" alt="BBB seal" width="160" height="62"/>
+    </div>
+
   </div>
 
   <!--last column_3 ends-->
@@ -859,10 +863,6 @@ style="display:none;width:0px;height:0px"></iframe>
 
     <p class="left">&copy; <?php echo date('Y'); ?> ThermoSpas Hot Tub Products, Inc.</p>
     <p class="right"><a href="/privacy-policy.html" target="_new">ThermoSpas Privacy Policy</a></p>
-    <br />
-    <div style="text-align:center">
-      <img src="/wp-content/themes/majestics-3.7/images/blue-seal-thermospashottub.png" alt="BBB seal" width="160" height="62"/>
-    </div>
 
   </div> <!-- end #inner-footer -->
 
