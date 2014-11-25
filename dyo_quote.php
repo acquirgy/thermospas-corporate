@@ -131,7 +131,7 @@
       </tr>
 
       <tr>
-        <td><input name="email" type="text" value="Your Email" /></td>
+        <td><input name="email" type="text" class="required defaultInvalid" value="Your Email *" /></td>
       </tr>
 
       <tr>
