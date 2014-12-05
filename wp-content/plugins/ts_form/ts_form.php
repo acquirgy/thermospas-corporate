@@ -248,7 +248,7 @@ function ts_form_display($form_option=1) {
 
 				</div>
 
-				<div class="tsFormRow"><input type="text" id="email" name="email" value="" placeholder="Email"/></div>
+				<div class="tsFormRow"><input type="text" id="email" name="email" value="" placeholder="*Email"/></div>
 
 				<button type="submit" name="ts_step2" id="ts_step2" >Get Brochure & DVD</button>
 
@@ -481,7 +481,7 @@ $(document).ready(function(){
 
 		//if( validate_ts_location() & validate_ts_jets() & validate_ts_owner() & validate_ts_siteinspection() & validateAddress() & validateCity() & validateState() ){
 
-		if( validateAddress() & validateCity() & validateState() ){
+		if( validateAddress() & validateCity() & validateState() & validateEmail() ){
 
 			var ts_token = $("#ts_token").val();
 
