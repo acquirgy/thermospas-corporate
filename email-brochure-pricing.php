@@ -270,11 +270,9 @@ style="display:none;width:0px;height:0px"></iframe>
 
       <!--Main center aligned heading-->
 
-      <h1><span class="heading">
-
-        <script src="/sk/js/thermoheadline.js" type="text/javascript"></script><!--<?=$heading?>-->
-
-              </span></h1>
+      <h1>
+        <span class="heading">Find the best hot tub that fits your needs, then get pricing!</span>
+      </h1>
 
 
 
