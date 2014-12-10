@@ -63,7 +63,7 @@ switch (@$_REQUEST['kw']) {
     break;
 
   default:
-    $heading = "Find the best hot tub that fits your needs, then get a quote!";
+    $heading = "Find the best hot tub that fits your needs, then get pricing!";
     $video = "c7AmDccjiS4";
     $vtitle = "on Factory Direct Built Hot Tubs";
 
