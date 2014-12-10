@@ -15,8 +15,8 @@
 
 <head>
 
-<script type="text/javascript" src="/wp-content/themes/majestics-3.7/js/jquery.js?ver=1.6"></script>
-
+<script type='text/javascript' src='http://www.thermospas.com/wp-content/themes/majestics-3.7/js/jquery.js?ver=1.6'></script>
+<script type='text/javascript' src='http://www.thermospas.com/wp-content/themes/majestics-3.7/js/custom.js?ver=0.1'></script>
 
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
@@ -86,193 +86,102 @@
 
  <div class="container clearfix">
 
-<ul id="menu" class="menu clearfix"><li id="menu-item-958" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-958   rel    "><a title="Welcome" href="/">Home<span>  </span></a> </li>
-
-<li id="menu-item-2715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2715   rel     showdropdown"><a href="/missd-design-hot-tub.html">Showroom<span>  </span></a>
-
-<ul class="sub-menu clearfix   " style="display: none;">
-
-	<li id="menu-item-963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963   rel    "><a href="/hot-tubs/2-person-hot-tubs.html">2-3 Person Hot Tubs<span>  </span></a>
-
-	<ul class="sub-menu clearfix   ">
-
-		<li id="menu-item-962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962   rel    "><a href="/hot-tubs/two-person-hot-tub-features.html">Features<span>  </span></a> </li>
-
-		<li id="menu-item-961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961   rel    "><a href="/hot-tubs/two-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
-
-		<li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960   rel    "><a href="/hot-tubs/two-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
-
-		<li id="menu-item-2716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2716   rel    "><a href="/missd-design-hot-tub.html">Design Your Hot Tub<span>  </span></a> </li>
-
-	</ul>
-
-</li>
-
-	<li id="menu-item-967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-967   rel    "><a href="/hot-tubs/3-person-hot-tubs.html">3-4 Person Hot Tubs<span>  </span></a>
-
-	<ul class="sub-menu clearfix   ">
-
-		<li id="menu-item-966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966   rel    "><a href="/hot-tubs/three-person-hot-tub-features.html">Features<span>  </span></a> </li>
-
-		<li id="menu-item-965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965   rel    "><a href="/hot-tubs/three-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
-
-		<li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964   rel    "><a href="/hot-tubs/three-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
-
-		<li id="menu-item-2721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2721   rel    "><a href="/missd-design-hot-tub.html">Design Your Hot Tub<span>  </span></a> </li>
-
-	</ul>
-
-</li>
-
-	<li id="menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-971   rel    "><a href="/hot-tubs/4-person-hot-tubs.html">4-5 Person Hot Tubs<span>  </span></a>
-
-	<ul class="sub-menu clearfix   ">
-
-		<li id="menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970   rel    "><a href="/hot-tubs/four-person-hot-tub-features.html">Features<span>  </span></a> </li>
-
-		<li id="menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-969   rel    "><a href="/hot-tubs/4-5-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
-
-		<li id="menu-item-968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-968   rel    "><a href="/hot-tubs/four-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
-
-		<li id="menu-item-2720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2720   rel    "><a href="/missd-design-hot-tub.html">Design Your Hot Tub<span>  </span></a> </li>
-
-	</ul>
-
-</li>
-
-	<li id="menu-item-975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-975   rel    "><a href="/hot-tubs/5-person-hot-tubs.html">5-6 Person Hot Tubs<span>  </span></a>
-
-	<ul class="sub-menu clearfix   ">
-
-		<li id="menu-item-974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-974   rel    "><a href="/hot-tubs/five-person-hot-tub-features.html">Features<span>  </span></a> </li>
-
-		<li id="menu-item-973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-973   rel    "><a href="/hot-tubs/five-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
-
-		<li id="menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972   rel    "><a href="/hot-tubs/five-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
-
-		<li id="menu-item-2719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2719   rel    "><a href="/missd-design-hot-tub.html">Design Your Hot Tub<span>  </span></a> </li>
-
-	</ul>
-
-</li>
-
-	<li id="menu-item-979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-979   rel    "><a href="/hot-tubs/6-7-person-hot-tubs.html">6+ Person Hot Tubs<span>  </span></a>
-
-	<ul class="sub-menu clearfix   ">
-
-		<li id="menu-item-978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-978   rel    "><a href="/hot-tubs/six-person-hot-tub-features.html">Features<span>  </span></a> </li>
-
-		<li id="menu-item-977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-977   rel    "><a href="/hot-tubs/six-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
-
-		<li id="menu-item-976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-976   rel    "><a href="/hot-tubs/six-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
-
-		<li id="menu-item-2718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2718   rel    "><a href="/missd-design-hot-tub.html">Design Your Hot Tub<span>  </span></a> </li>
-
-	</ul>
-
-</li>
-
-	<li id="menu-item-985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-985   rel    "><a href="/hot-tubs/healing-spa-hot-tub.html">Healing Spa Hot Tub<span>  </span></a>
-
-	<ul class="sub-menu clearfix   ">
-
-		<li id="menu-item-984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-984   rel    "><a href="/hot-tubs/healing-spa-features.html">Features<span>  </span></a> </li>
-
-		<li id="menu-item-983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983   rel    "><a href="/hot-tubs/healing-spa-specs.html">Specs<span>  </span></a> </li>
-
-		<li id="menu-item-982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-982   rel    "><a href="/hot-tubs/hot-tub-arthritis-healingspa-pic.html">Pictures<span>  </span></a> </li>
-
-		<li id="menu-item-2717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2717   rel    "><a href="/missd-design-hot-tub.html">Design Your Hot Tub<span>  </span></a> </li>
-
-	</ul>
-
-</li>
-
-	<li id="menu-item-2229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2229   rel    "><a href="/swim-spas-and-exercise-spas.html">Swim Spas &amp; Exercise Hot Tubs<span>  </span></a> </li>
-
-	<li id="menu-item-981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-981   rel    "><a href="/aquatic-series-hot-tubs.html">Aquatic Series Hot Tubs<span>  </span></a> </li>
-
-</ul>
-
-</li>
-
-<li id="menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-986   rel     showdropdown"><a title="Jets, Pumps …" href="/portable-hot-tubs.html">Features<span>  </span></a>
-
-<ul class="sub-menu clearfix   " style="display: none;">
-
-	<li id="menu-item-987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-987   rel    "><a href="/hot-tub-shells.html">Hot Tub Shell<span>  </span></a> </li>
-
-	<li id="menu-item-988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-988   rel    "><a href="/hot-tub-jets.html">Hot Tub Jets<span>  </span></a> </li>
-
-	<li id="menu-item-994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-994   rel    "><a href="/hot-tub-heater.html">Hot Tub Heaters &amp; Pumps<span>  </span></a> </li>
-
-	<li id="menu-item-991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991   rel    "><a href="/hot-tub-filters.html">Hot Tub Filtration System<span>  </span></a> </li>
-
-	<li id="menu-item-992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-992   rel    "><a href="/hot-tub-bubbling-system.html">Hot Tub Bubbling System<span>  </span></a> </li>
-
-	<li id="menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-990   rel    "><a href="/hot-tub-insulation.html">Hot Tub Insulation<span>  </span></a> </li>
-
-	<li id="menu-item-995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995   rel    "><a href="/hot-tub-ozonator.html">Hot Tub Ozonator<span>  </span></a> </li>
-
-	<li id="menu-item-2230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2230   rel    "><a href="/total-control-therapy.html">Total Control Therapy<span>  </span></a> </li>
-
-	<li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-996   rel    "><a href="/computerized-control-panels.html">Control Panels<span>  </span></a> </li>
-
-	<li id="menu-item-989" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-989   rel    "><a href="/hot-tub-wood.html">Hot Tub Cabinets<span>  </span></a> </li>
-
-	<li id="menu-item-993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993   rel    "><a href="/hot-tub-covers.html">Hot Tub Covers<span>  </span></a> </li>
-
-	<li id="menu-item-1159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1159   rel    "><a href="/hot-tub-lighting-sound-systems.html">Hot Tub Lighting &amp; Sound Systems<span>  </span></a> </li>
-
-	<li id="menu-item-998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-998   rel    "><a href="/warranty.html">ThermoSpas Warranty<span>  </span></a> </li>
-
-</ul>
-
-</li>
-
-<li id="menu-item-1001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001   rel     showdropdown"><a title="Hot Tub Benefits" href="/spa-hot-tub.html">Benefits<span>  </span></a>
-
-<ul class="sub-menu clearfix   " style="display: none;">
-
-	<li id="menu-item-1005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1005   rel    "><a href="/spa/warm-water-therapy.html">Warm Water Therapy<span>  </span></a> </li>
-
-	<li id="menu-item-1000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1000   rel    "><a href="/spa/health-benefits.html">Health Benefits<span>  </span></a> </li>
-
-	<li id="menu-item-1004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1004   rel    "><a href="/spa/rest-and-relaxation.html">Rest and Relaxation<span>  </span></a> </li>
-
-	<li id="menu-item-999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-999   rel    "><a href="/hot-tub-financial-benefits.html">Financial Benefits<span>  </span></a> </li>
-
-	<li id="menu-item-1003" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003   rel    "><a href="/spa/for-fun.html">Just Plain Fun<span>  </span></a> </li>
-
-	<li id="menu-item-1007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1007   rel    "><a href="/spa/portable-hot-tubs.html">Portable Hot Tubs<span>  </span></a> </li>
-
-	<li id="menu-item-1006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1006   rel    "><a href="/spa/indoor-outdoor-hot-tubs.html">Indoor / Outdoor<span>  </span></a> </li>
-
-</ul>
-
-</li>
-
-<li id="menu-item-1008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1008   rel     showdropdown"><a title="ThermoSpas Difference" href="/about.html">Why ThermoSpas?<span>  </span></a>
-
-
-
-
+<ul id="menu" class="menu"><li id="menu-item-4174" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1036 current_page_item menu-item-4174   rel    "><a href="http://www.thermospas.com/">Home<span>  </span></a> </li>
+<li id="menu-item-4176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4176   rel    "><a title="Showroom" href="http://www.thermospas.com/hot-tubs/design-your-own-hot-tub.html">Showroom<span>  </span></a>
 <ul class="sub-menu clearfix   ">
-
-	<li id="menu-item-1010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1010   rel    "><a href="/custom-built-hot-tubs.html">Custom Built Hot Tubs<span>  </span></a> </li>
-
-	<li id="menu-item-1011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1011   rel    "><a href="/hot-tub-prices.html">Hot Tub Prices<span>  </span></a> </li>
-
-	<li id="menu-item-1012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012   rel    "><a href="/hot-tub-parts.html">Highest Quality<span>  </span></a> </li>
-
-	<li id="menu-item-2988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2988   rel    "><a href="/site-inspection.html">Site Inspection<span>  </span></a> </li>
-
-</ul>
-
+	<li id="menu-item-4180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4180   rel    "><a href="http://www.thermospas.com/hot-tubs/2-person-hot-tubs.html">2-3 Person Hot Tubs<span>  </span></a>
+	<ul class="sub-menu clearfix   ">
+		<li id="menu-item-4221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4221   rel    "><a title="Features" href="http://www.thermospas.com/hot-tubs/two-person-hot-tub-features.html">Features<span>  </span></a> </li>
+		<li id="menu-item-4223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4223   rel    "><a title="Specs" href="http://www.thermospas.com/hot-tubs/two-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
+		<li id="menu-item-4222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4222   rel    "><a title="Pictures" href="http://www.thermospas.com/hot-tubs/two-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
+		<li id="menu-item-4224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4224   rel    "><a href="http://www.thermospas.com/hot-tubs/design-your-own-hot-tub.html">Design Your Own Hot Tub<span>  </span></a> </li>
+	</ul>
 </li>
-<li id="menu-item-1009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1009   rel    "><a title="ThermoSpas Blog" href="/blog/">Blog<span>  </span></a></li>
-
+	<li id="menu-item-4181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4181   rel    "><a href="http://www.thermospas.com/hot-tubs/3-person-hot-tubs.html">3-4 Person Hot Tubs<span>  </span></a>
+	<ul class="sub-menu clearfix   ">
+		<li id="menu-item-4225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4225   rel    "><a title="Features" href="http://www.thermospas.com/hot-tubs/three-person-hot-tub-features.html">Features<span>  </span></a> </li>
+		<li id="menu-item-4226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4226   rel    "><a title="Specs" href="http://www.thermospas.com/hot-tubs/three-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
+		<li id="menu-item-4227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4227   rel    "><a title="Pictures" href="http://www.thermospas.com/hot-tubs/three-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
+		<li id="menu-item-4228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4228   rel    "><a href="http://www.thermospas.com/hot-tubs/design-your-own-hot-tub.html">Design Your Own Hot Tub<span>  </span></a> </li>
+	</ul>
+</li>
+	<li id="menu-item-4182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4182   rel    "><a href="http://www.thermospas.com/hot-tubs/4-person-hot-tubs.html">4-5 Person Hot Tubs<span>  </span></a>
+	<ul class="sub-menu clearfix   ">
+		<li id="menu-item-4229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4229   rel    "><a title="Features" href="http://www.thermospas.com/hot-tubs/four-person-hot-tub-features.html">Features<span>  </span></a> </li>
+		<li id="menu-item-4230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4230   rel    "><a title="Specs" href="http://www.thermospas.com/hot-tubs/4-5-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
+		<li id="menu-item-4231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4231   rel    "><a title="Pictures" href="http://www.thermospas.com/hot-tubs/four-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
+		<li id="menu-item-4232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4232   rel    "><a href="http://www.thermospas.com/hot-tubs/design-your-own-hot-tub.html">Design Your Own Hot Tub<span>  </span></a> </li>
+	</ul>
+</li>
+	<li id="menu-item-4183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4183   rel    "><a href="http://www.thermospas.com/hot-tubs/5-person-hot-tubs.html">5-6 Person Hot Tubs<span>  </span></a>
+	<ul class="sub-menu clearfix   ">
+		<li id="menu-item-4233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4233   rel    "><a title="Features" href="http://www.thermospas.com/hot-tubs/five-person-hot-tub-features.html">Features<span>  </span></a> </li>
+		<li id="menu-item-4234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4234   rel    "><a title="Specs" href="http://www.thermospas.com/hot-tubs/five-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
+		<li id="menu-item-4235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4235   rel    "><a title="Pictures" href="http://www.thermospas.com/hot-tubs/five-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
+		<li id="menu-item-4236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4236   rel    "><a href="http://www.thermospas.com/hot-tubs/design-your-own-hot-tub.html">Design Your Own Hot Tub<span>  </span></a> </li>
+	</ul>
+</li>
+	<li id="menu-item-4238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4238   rel    "><a href="http://www.thermospas.com/hot-tubs/6-7-person-hot-tubs.html">6+ Person Hot Tubs<span>  </span></a>
+	<ul class="sub-menu clearfix   ">
+		<li id="menu-item-4239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4239   rel    "><a title="Features" href="http://www.thermospas.com/hot-tubs/six-person-hot-tub-features.html">Features<span>  </span></a> </li>
+		<li id="menu-item-4237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4237   rel    "><a title="Pictures" href="http://www.thermospas.com/hot-tubs/six-person-hot-tub-pictures.html">Pictures<span>  </span></a> </li>
+		<li id="menu-item-4240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4240   rel    "><a title="Specs" href="http://www.thermospas.com/hot-tubs/six-person-hot-tub-specs.html">Specs<span>  </span></a> </li>
+		<li id="menu-item-4241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4241   rel    "><a href="http://www.thermospas.com/hot-tubs/design-your-own-hot-tub.html">Design Your Own Hot Tub<span>  </span></a> </li>
+	</ul>
+</li>
+	<li id="menu-item-4242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4242   rel    "><a href="http://www.thermospas.com/hot-tubs/healing-spa-hot-tub.html">Healing Spa Hot Tub<span>  </span></a>
+	<ul class="sub-menu clearfix   ">
+		<li id="menu-item-4243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4243   rel    "><a title="Features" href="http://www.thermospas.com/hot-tubs/healing-spa-features.html">Features<span>  </span></a> </li>
+		<li id="menu-item-4244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4244   rel    "><a title="Specs" href="http://www.thermospas.com/hot-tubs/healing-spa-specs.html">Specs<span>  </span></a> </li>
+		<li id="menu-item-4245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4245   rel    "><a title="Pictures" href="http://www.thermospas.com/hot-tubs/hot-tub-arthritis-healingspa-pic.html">Pictures<span>  </span></a> </li>
+		<li id="menu-item-4246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4246   rel    "><a href="http://www.thermospas.com/hot-tubs/design-your-own-hot-tub.html">Design Your Own Hot Tub<span>  </span></a> </li>
+	</ul>
+</li>
+	<li id="menu-item-4247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4247   rel    "><a href="http://www.thermospas.com/swim-spas-and-exercise-spas.html">Swim Spas and Exercise Spas<span>  </span></a> </li>
+	<li id="menu-item-4248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4248   rel    "><a href="http://www.thermospas.com/aquatic-series-hot-tubs.html">Aquatic Series Hot Tubs<span>  </span></a> </li>
 </ul>
+</li>
+<li id="menu-item-4177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4177   rel    "><a title="Features" href="#">Features<span>  </span></a>
+<ul class="sub-menu clearfix   ">
+	<li id="menu-item-4197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4197   rel    "><a href="http://www.thermospas.com/hot-tub-shells.html">Hot Tub Shells<span>  </span></a> </li>
+	<li id="menu-item-4198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4198   rel    "><a href="http://www.thermospas.com/hot-tub-jets.html">Hot Tub Jets<span>  </span></a> </li>
+	<li id="menu-item-4199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4199   rel    "><a href="http://www.thermospas.com/hot-tub-heater.html">Hot Tub Heaters &#038; Pumps<span>  </span></a> </li>
+	<li id="menu-item-4200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4200   rel    "><a href="http://www.thermospas.com/hot-tub-filters.html">Hot Tub Filtration System<span>  </span></a> </li>
+	<li id="menu-item-4201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4201   rel    "><a href="http://www.thermospas.com/hot-tub-bubbling-system.html">Hot Tub Bubbling System<span>  </span></a> </li>
+	<li id="menu-item-4202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4202   rel    "><a href="http://www.thermospas.com/hot-tub-insulation.html">Hot Tub Insulation<span>  </span></a> </li>
+	<li id="menu-item-4203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4203   rel    "><a href="http://www.thermospas.com/hot-tub-ozonator.html">Hot Tub Ozonator<span>  </span></a> </li>
+	<li id="menu-item-4204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4204   rel    "><a href="http://www.thermospas.com/total-control-therapy.html">Total Control Therapy<span>  </span></a> </li>
+	<li id="menu-item-4196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4196   rel    "><a title="Control Panels" href="http://www.thermospas.com/computerized-control-panels.html">Control Panels<span>  </span></a> </li>
+	<li id="menu-item-4205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4205   rel    "><a href="http://www.thermospas.com/hot-tub-wood.html">Hot Tub Cabinets<span>  </span></a> </li>
+	<li id="menu-item-4206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4206   rel    "><a href="http://www.thermospas.com/hot-tub-covers.html">Hot Tub Covers<span>  </span></a> </li>
+	<li id="menu-item-4207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4207   rel    "><a title="Lighting &amp; Sound Systems" href="http://www.thermospas.com/hot-tub-lighting-sound-systems.html">Lighting &#038; Sound Systems<span>  </span></a> </li>
+	<li id="menu-item-4208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4208   rel    "><a href="http://www.thermospas.com/warranty.html">ThermoSpas Warranty<span>  </span></a> </li>
+</ul>
+</li>
+<li id="menu-item-4178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4178   rel    "><a title="Benefits" href="#">Benefits<span>  </span></a>
+<ul class="sub-menu clearfix   ">
+	<li id="menu-item-4209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4209   rel    "><a href="http://www.thermospas.com/spa/warm-water-therapy.html">Warm Water Therapy<span>  </span></a> </li>
+	<li id="menu-item-4210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4210   rel    "><a href="http://www.thermospas.com/spa/health-benefits.html">Health Benefits<span>  </span></a> </li>
+	<li id="menu-item-4211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4211   rel    "><a href="http://www.thermospas.com/spa/rest-and-relaxation.html">Rest and Relaxation<span>  </span></a> </li>
+	<li id="menu-item-4212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4212   rel    "><a href="http://www.thermospas.com/hot-tub-financial-benefits.html">Financial Benefits<span>  </span></a> </li>
+	<li id="menu-item-4213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4213   rel    "><a href="http://www.thermospas.com/spa/for-fun.html">Just Plain Fun<span>  </span></a> </li>
+	<li id="menu-item-4214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4214   rel    "><a href="http://www.thermospas.com/spa/portable-hot-tubs.html">Portable Hot Tubs<span>  </span></a> </li>
+	<li id="menu-item-4215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4215   rel    "><a href="http://www.thermospas.com/spa/indoor-outdoor-hot-tubs.html">Indoor / Outdoor<span>  </span></a> </li>
+</ul>
+</li>
+<li id="menu-item-4179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4179   rel    "><a href="http://www.thermospas.com/about.html">Why Thermospas?<span>  </span></a>
+<ul class="sub-menu clearfix   ">
+	<li id="menu-item-4583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4583   rel    "><a href="http://www.thermospas.com/todays-thermospas.html">Today&#8217;s ThermoSpas<span>  </span></a> </li>
+	<li id="menu-item-4216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4216   rel    "><a href="http://www.thermospas.com/custom-built-hot-tubs.html">Custom Built Hot Tubs<span>  </span></a> </li>
+	<li id="menu-item-4254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4254   rel    "><a href="http://www.thermospas.com/hot-tub-prices.html">Hot Tub Prices &#038; Quotes<span>  </span></a> </li>
+	<li id="menu-item-4255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4255   rel    "><a href="http://www.thermospas.com/hot-tub-parts.html">Highest Quality Hot Tub Parts<span>  </span></a> </li>
+	<li id="menu-item-4274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4274   rel    "><a href="http://www.thermospas.com/request-site-inspection.html">Request Site Inspection<span>  </span></a> </li>
+	<li id="menu-item-4277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4277   rel    "><a href="http://www.thermospas.com/financing.html">Apply for Financing<span>  </span></a> </li>
+</ul>
+</li>
+<li id="menu-item-4275" class="menu-item menu-item-type- menu-item-object- menu-item-4275   rel    "><a>Blog<span>  </span></a> </li>
+</ul>
+
 
    </div>
 
