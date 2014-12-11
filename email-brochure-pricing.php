@@ -63,7 +63,7 @@ switch (@$_REQUEST['kw']) {
     break;
 
   default:
-    $heading = "Find the best hot tub that fits your needs, then get a quote!";
+    $heading = "Find the best hot tub that fits your needs, then get pricing!";
     $video = "c7AmDccjiS4";
     $vtitle = "on Factory Direct Built Hot Tubs";
 
@@ -270,11 +270,9 @@ style="display:none;width:0px;height:0px"></iframe>
 
       <!--Main center aligned heading-->
 
-      <h1><span class="heading">
-
-        <script src="/sk/js/thermoheadline.js" type="text/javascript"></script><!--<?=$heading?>-->
-
-              </span></h1>
+      <h1>
+        <span class="heading">Find the best hot tub that fits your needs, then get pricing!</span>
+      </h1>
 
 
 
