@@ -116,9 +116,21 @@
                 </table>
               </form>
               <script type="text/javascript">
+                  function validateForm() {
+                    return $('.free-brochure-form').valid({
+                      focusInvalid: false,
+                      errorPlacement: function(error,element) {}
+                    });
+                  }
+
+                  jQuery.validator.addMethod("defaultInvalid", function(value, element) {
+                      return !(element.value == element.defaultValue);
+                  },"This field is required.");
+
                   var __ss_noform = __ss_noform || [];
                   __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
                   __ss_noform.push(['endpoint', '4285987c-0b3c-481e-ab06-c55b8d021837']);
+                  __ss_noform.push(['validate', validateForm]);
               </script>
               <script type="text/javascript" src="https://koi-PLBR48.sharpspring.com/client/noform.js?ver=1.0" ></script>
             </td>
@@ -166,6 +178,7 @@
       </script>
 
       <script>
+
         $(document).ready(function() {
 
           $.mask.definitions['~'] = "[+-]";
@@ -190,16 +203,7 @@
             });
           });
 
-          $('.free-brochure-form').validate({
-            focusInvalid: false,
-            errorPlacement: function(error,element) {}
-          });
-
         });
-
-        jQuery.validator.addMethod("defaultInvalid", function(value, element) {
-            return !(element.value == element.defaultValue);
-        },"This field is required.");
 
       </script>
 
