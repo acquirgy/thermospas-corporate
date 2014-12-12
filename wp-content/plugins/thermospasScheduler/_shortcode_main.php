@@ -1,11 +1,18 @@
 <script type="text/javascript" charset="utf-8">
 
+	function validateEmail(email) {
+	    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	    return re.test(email);
+	}
+
 	function validateInspectionForm() {
+		$('.invalid-input').remove();
 		var canSubmit = true;
 		var allInputTypes = $('input').add('select');
 		var allInputs = $(this).find(allInputTypes);
 		$.each(allInputs, function(){
-		// If it still has the label text, don't submit that text
+
+				// If it still has the label text, don't submit that text
 			if($(this).data('label') && ($(this).data('label') == $(this).val()))
 			{
 				$(this).val('');
@@ -19,12 +26,27 @@
 				{
 					canSubmit = false;
 					$(this).addClass('tss-errorInput');
+					$(this).after('<div class="invalid-input" style="color: red; padding-bottom: 5px; margin-top: -5px;">Valid date required.</div>');
 				}
 				else
 				{
 					$(this).removeClass('tss-errorInput');
 				}
 			}
+			else if($(this).attr('name') == 'email')
+			{
+				if(!validateEmail($(this).val()))
+				{
+					$(this).addClass('tss-errorInput');
+					$(this).after('<div class="invalid-input" style="color: red; padding-bottom: 5px; margin-top: -5px;">Valid email address required.</div>');
+					canSubmit = false;
+				}
+				else
+				{
+					$(this).removeClass('tss-errorInput');
+				}
+			}
+
 			// all fields are required
 			else
 			{
@@ -32,6 +54,7 @@
 				{
 					$(this).addClass('tss-errorInput');
 					canSubmit = false;
+					$(this).after('<div class="invalid-input" style="color: red; padding-bottom: 5px; margin-top: -5px;">Required.</div>');
 				}
 				else
 				{

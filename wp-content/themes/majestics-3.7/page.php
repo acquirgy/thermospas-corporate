@@ -74,7 +74,7 @@
                   </tr>
                   <tr>
                     <td colspan="2" align="center">
-                      <input name="email" type="text" class="textf required defaultInvalid" value="Your Email *" />
+                      <input name="email" type="text" class="textf required email defaultInvalid" value="Your Email *" />
                     </td>
                   </tr>
                   <tr>
