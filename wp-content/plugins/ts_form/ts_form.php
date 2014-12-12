@@ -553,45 +553,16 @@ $(document).ready(function(){
 	}
 
 	//validation functions
-
-	function validateEmail(){
-
-		//testing regular expression
-
-		var a = $("#email").val();
-
-		var filter = /^[a-zA-Z0-9]+[a-zA-Z0-9_.-]+[a-zA-Z0-9_-]+@[a-zA-Z0-9]+[a-zA-Z0-9.-]+[a-zA-Z0-9]+.[a-z]{2,4}$/;
-
-		//if it's valid email
-
-		if(filter.test(a)){
-
-			email.removeClass("error");
-
-			emailInfo.text("Valid E-mail please!");
-
-			emailInfo.removeClass("error");
-
-			return true;
-
-		}
-
-		//if it's NOT valid
-
-		else{
-
-			email.addClass("error");
-
-			emailInfo.text("Stop cowboy! Type a valid e-mail please ");
-
-			emailInfo.attr("placeholder","Enter Valid Email	");
-
-			emailInfo.addClass("error");
-
-			return false;
-
-		}
-
+	function validateEmail() {
+			var email = $('#email');
+	    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	    if(re.test(email.val())) {
+	    	email.removeClass('error');
+	    	return true;
+	    } else {
+	    	email.addClass('error');
+	    	return false;
+	    }
 	}
 
 
