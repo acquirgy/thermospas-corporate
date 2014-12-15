@@ -24,11 +24,7 @@ function ts_form_display($form_option=1) {
 
 	?>
 
-    <style>
-
-	<?php include($ts_form_path.'/css/ts_style.css'); ?>
-
-	</style>
+    <link href="/wp-content/plugins/ts_form/css/ts_style.css" rel="stylesheet" type="text/css" />
 
     <?php
 
