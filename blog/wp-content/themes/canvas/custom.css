@@ -603,30 +603,6 @@ padding: 7px 3px !important;
 
 
 
-#field_1_10.gfield.state.gf_left_half {
-
-
-
-margin-top: -16px;
-
-
-
-}
-
-
-
-#gform_submit_button_1.gform_image_button {
-
-
-
-margin-top: -35px;
-
-
-
-}
-
-
-
 body .gform_wrapper .gform_body .gform_fields .gfield_error .validation_message {display:none;}
 
 
@@ -1643,3 +1619,29 @@ border-bottom-left-radius: 2px}
 .light-square .slide-buttons {margin-top: 10px;}
 .thumbnail-wrapper {display:none;}
 #gforms_confirmation_message {width:300px;}
+
+#wrapper .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,
+#wrapper .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container  {
+  margin-top: 0 !important;
+}
+
+#wrapper .gform_wrapper li.gfield.gfield_error,
+#wrapper .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+  background-color: transparent !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.gfield_label {
+  display: none !important;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield_error {
+  height: auto;
+}
+
+#wrapper .gform_wrapper .gform_footer {
+  padding: 0;
+}
