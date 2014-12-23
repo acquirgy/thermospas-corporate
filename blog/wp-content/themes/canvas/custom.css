@@ -1645,3 +1645,65 @@ body .gform_wrapper .gform_body .gform_fields .gfield_error {
 #wrapper .gform_wrapper .gform_footer {
   padding: 0;
 }
+
+.featured-review {
+  background-color: #DFDFDF;
+  border: 7px solid #fff;
+  padding: 16px;
+  margin-right: 14px;
+}
+
+.widget.featured-review p {
+  float: right;
+  width: 144px;
+  font-size: .9em;
+  line-height: 1.6em;
+  color: #7E7E7E;
+}
+.widget.featured-review p a {
+  display: block;
+  font-size: .9em;
+}
+
+.widget.featured-review p span {
+  display: block;
+  padding-top: 5px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.widget.featured-review h3 {
+  color: #1176b8;
+  border-bottom: none;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.featured-review img {
+  width: 96px;
+  float: left;
+  padding-top: 4px;
+  padding-right: 12px;
+}
+
+.featured-review article {
+  display: none;
+}
+
+.featured-review #readMoreCR {
+  clear: both;
+  display: block;
+  background-color: #C8C8C8;
+  margin: 0 -16px -16px -16px;
+  padding: 10px 16px;
+  color: #7B7B7B;
+  position: relative;
+  font-weight: bold;
+  font-size: .85em;
+}
+
+.featured-review #readMoreCR span {
+  position: absolute;
+  right: 16px; top: 10px;
+}
