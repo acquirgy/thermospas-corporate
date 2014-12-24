@@ -1712,8 +1712,6 @@ body .gform_wrapper .gform_body .gform_fields .gfield_error {
   display: none;
 }
 
-#wrapper .two-col-left #main-sidebar-container #sidebar {
-  margin-top: -63px; 
-}
-}
+.two-col-left #main-sidebar-container #sidebar {
+  margin-top: -63px !important; 
 }
