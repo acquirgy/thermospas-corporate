@@ -1708,10 +1708,10 @@ body .gform_wrapper .gform_body .gform_fields .gfield_error {
   right: 16px; top: 10px;
 }
 
-.home .sharedaddy {
+.home .sharedaddy .sd-title, .home .sharedaddy .sd-content {
   display: none;
 }
 
 .two-col-left #main-sidebar-container #sidebar {
-  margin-top: -63px !important; 
+  margin-top: -63px !important;
 }
