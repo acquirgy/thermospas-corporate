@@ -472,7 +472,8 @@ body .gform_wrapper .gform_body .gform_fields .gfield_error {
   border: none;
   display: block;
 }
-.capQuestionForm #field_2_4 select {
+.capQuestionForm #field_2_4 select,
+.capQuestionForm #field_3_4 select {
   /*     width: 75% !important; */
   height: 28px;
   border: none;
@@ -485,7 +486,8 @@ body .gform_wrapper .gform_body .gform_fields .gfield_error {
 .capQuestionForm #field_2_6 textarea,
 .capQuestionForm #field_2_7 textarea,
 .capQuestionForm #field_2_8 textarea,
-.capQuestionForm #field_2_9 textarea {
+.capQuestionForm #field_2_9 textarea,
+.capQuestionForm #field_3_5 textarea {
   width: 100% !important;
   height: 75px;
 }
