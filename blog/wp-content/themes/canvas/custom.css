@@ -446,6 +446,55 @@ body .gform_wrapper .gform_body .gform_fields .gfield_error {
   padding: 0;
 }
 
+/* customer questionnaire */
+.capQuestionForm .gfield_label {
+  display: block !important;
+}
+.capQuestionForm h3.gform_title {
+  display: none;
+}
+
+.capQuestionForm .capQCity,
+.capQuestionForm .capQState {
+  width: 50%;
+  float: left;
+  clear: none !important;
+}
+.capQuestionForm .capQCity {
+
+}
+.capQuestionForm .capQState {
+
+}
+.capQuestionForm .capQState select {
+  width: 75% !important;
+  height: 28px;
+  border: none;
+  display: block;
+}
+.capQuestionForm #field_2_4 select {
+  /*     width: 75% !important; */
+  height: 28px;
+  border: none;
+  display: block;
+}
+.capQuestionForm #field_2_6 {
+  clear: both;
+  margin-top: 20px;
+}
+.capQuestionForm #field_2_6 textarea,
+.capQuestionForm #field_2_7 textarea,
+.capQuestionForm #field_2_8 textarea,
+.capQuestionForm #field_2_9 textarea {
+  width: 100% !important;
+  height: 75px;
+}
+
+section.entry .capQuestionForm_wrapper .gform_button {
+  font-size: 18px !important;
+  padding: 16px 50px !important;
+}
+
 .featured-review {
   background-color: #DFDFDF;
   border: 7px solid #fff;
