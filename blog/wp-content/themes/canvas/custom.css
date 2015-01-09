@@ -557,7 +557,14 @@ section.entry .capQuestionForm_wrapper .gform_button {
   right: 16px; top: 10px;
 }
 
-.home .sharedaddy .sd-title, .home .sharedaddy .sd-content {
+/* hide sharing on the home page */
+.home .sharedaddy .sd-title,
+.home .sharedaddy .sd-content {
+  display: none;
+}
+/* hide sharing on the reviews page */
+.page-template-template-reviews-php .sharedaddy .sd-title,
+.page-template-template-reviews-php .sharedaddy .sd-content {
   display: none;
 }
 
