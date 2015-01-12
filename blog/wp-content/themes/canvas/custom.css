@@ -491,6 +491,9 @@ body .gform_wrapper .gform_body .gform_fields .gfield_error {
   width: 100% !important;
   height: 75px;
 }
+.capQuestionForm textarea {
+  font-size: 14px;
+}
 
 section.entry .capQuestionForm_wrapper .gform_button {
   font-size: 18px !important;
