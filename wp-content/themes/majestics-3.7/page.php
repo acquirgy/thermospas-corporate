@@ -109,7 +109,7 @@
                     <td colspan="2" align="center">
                 		  <input name="subf" type="hidden" value="y" />
                 		  <input name="post_id" type="hidden" value="<?= $post->ID ?>" />
-                		  <button type="submit" class="primary-button">Download Now</button>
+                		  <button type="submit" class="primary-button" onClick="ga('send', 'event', 'leadgen', 'sidebar', 'hottubsandfeatures');">Download Now</button>
           		        <a class="privacy-policy" href="/privacy-policy.html" target="_new">privacy policy</a>
           		      </td>
                   </tr>
