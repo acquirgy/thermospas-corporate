@@ -1,0 +1,331 @@
+
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.fancybox-overlay {
+	zoom: 0.5;
+}
+
+.alabamaContainer {
+	zoom: 0.5;
+	font-family: Arial, sans-serif;
+	width: 1953px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-bottom: 240px;
+	box-sizing: border-box;
+}
+.alabamaContainer * {
+	box-sizing: border-box;
+}
+
+.alabamaLeft,
+.alabamaRight {
+	float: left;
+}
+.alabamaLeft {
+	width: 1330px;
+	margin-right: 16px;
+}
+.alabamaRight {
+	width: 607px;
+}
+
+
+.alabamaLeft .alabamaTopImage {
+	border: 6px solid #fff;
+}
+
+.alabamaLeft .alabamaLeftSection {
+	width: 100%;
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+.alabamaLeft #benefitsAndFunContainer {
+	
+}
+.alabamaLeft #benefitsAndFunContainer > div {
+	margin-top: 60px;
+}
+.alabamaLeft #benefitsAndFunContainer > div > .capLeft {
+	width: 360px;
+	margin-right: 32px;
+	float: left;
+}
+.alabamaLeft #benefitsAndFunContainer > div > .capRight {
+	width: 938px;
+	float: left;
+}
+.alabamaLeft #benefitsAndFunContainer h1 {
+    font-size: 32px;
+    font-weight:  bold;
+    line-height: 36px;
+    color: #4c9bdd;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.alabamaLeft #benefitsAndFunContainer p {
+    font-size: 24px;
+    line-height: 36px;
+    color: #585858;
+    margin-top: 2px;
+}
+.alabamaLeft #benefitsAndFunContainer ul {
+	padding: 0;
+	/* list-style-position: outside; */
+}
+.alabamaLeft #benefitsAndFunContainer ul > li {
+	color: #00afec;
+	display: block;
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	line-height: 40px;
+}
+.alabamaLeft #benefitsAndFunContainer ul > li:before {
+	content:"\2219";
+	font-size: 70px;
+	line-height: 0;
+	vertical-align: middle;
+	margin-right: 14px;
+	padding-bottom: 40px;
+	/* display: block; */
+	/* float:  left; */
+}
+
+.alabamaLeft #benefitsAndFunContainer ul > li span {
+	color: #a6a6a6;
+}
+
+.alabamaLeft .alabamaLeftSection h1 {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 48px;
+	color: #343a48;
+	margin-bottom: 40px;
+}
+
+#topSellingContainer {
+
+}
+#topSellingContainer .topSeller {
+	float: left;
+	width: 670px;
+}
+#topSellingContainer .topSeller:nth-of-type(2n) {
+	margin-left: -20px;
+}
+#topSellingContainer .topSeller img {
+	float: left;
+}
+#topSellingContainer .topSeller .info {
+	float: left;
+	margin-left: 22px;
+	width: 290px;
+}
+#topSellingContainer .topSeller .info h2 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #343a48;
+}
+#topSellingContainer .topSeller .info h3 {
+	margin-top: 5px;
+}
+#topSellingContainer .topSeller .info h3,
+#topSellingContainer .topSeller .info p,
+#topSellingContainer .topSeller .info a {
+	font-size: 20px;
+	line-height: 32px;
+	color: #343a48;
+	font-weight: normal;
+}
+#topSellingContainer .topSeller .info a {
+	font-style: italic;
+}
+
+#salesRepContainer {
+	border-bottom: none;
+}
+#salesRepContainer .topInfoContainer {
+
+}
+#salesRepContainer .topInfoContainer img {
+	float: left;
+	width: 274px;
+}
+#salesRepContainer .topInfoContainer .topInfo {
+	float: left;
+	margin-left: 34px;
+	width: 1022px;
+}
+#salesRepContainer .topInfoContainer .topInfo h2 {
+	font-size: 36px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #20508d;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+#salesRepContainer .topInfoContainer .topInfo div.phone {
+	font-size: 28px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #20508d;
+}
+#salesRepContainer .topInfoContainer .topInfo h3 {
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #4a4a4a;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+#salesRepContainer .topInfoContainer .topInfo ul.serviceAreas {
+	margin: 0;
+	margin-top: 4px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+#salesRepContainer .topInfoContainer .topInfo ul.serviceAreas li {
+	display: block;
+	float: left;
+	width: 25%;
+	font-size: 20px;
+	line-height: 32px;
+	color: #5b5b5b;
+}
+#salesRepContainer .topInfoContainer .topInfo a.moreServiceArea {
+	color: #20508d;
+	text-decoration: none;
+	font-size: 18px;
+	padding-top: 10px;
+}
+#allServiceAreas {
+	display: none;
+	text-align: center;
+}
+#allServiceAreas ul {
+	float: left;
+	text-align: left;
+	width: 20%;
+}
+
+#salesRepContainer .bottomInfoContainer {
+	margin-top: 40px;
+}
+.bottomInfoContainer #moreBioParagraphs {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.bottomInfoContainer #moreBioParagraphs p:first-of-type {
+	margin-top: 0;
+}
+.bottomInfoContainer a#moreBio {
+	color: #20508d;
+	text-decoration: none;
+}
+
+
+/* =========== */
+/* = SIDEBAR = */
+/* =========== */
+
+#alabamaSidebarForm {
+	display: none;
+	width: 100%;
+	min-height: 473px;
+	background-color: #dbe9f3;
+	border: 6px solid #fff;
+}
+
+.alabamaRight .quoteBlock {
+	background-color: #343a48;
+	width: 100%;
+	/* height: 225px; */
+	color: #fff;
+	padding: 45px;
+	margin: 20px 0;
+}
+.alabamaRight .quoteBlock p {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 26px;
+	line-height: 40px;
+	margin: 0;
+}
+.alabamaRight .quoteBlock .name {
+	font-size: 24px;
+	margin-top: 20px;
+}
+.alabamaRight .quoteBlock .location {
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.alabamaRight .quoteBlock a {
+	color: #fff;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.fancybox-wrap {
+	max-width: 70%;
+}
+.fancybox-inner {
+	max-width: 100%;
+}
+.quoteFull {
+	display: none;
+	/* width: 75%; */
+	/*	width: 600px;*/
+	font-size: 28px;
+	max-width: 100%;
+}
+
+.alabamaRight .blogContainer {
+	background-color: #dedede;
+	width: 100%;
+	/* height: 566px; */
+	margin: 20px 0;
+	padding: 46px;
+}
+.alabamaRight .blogContainer h1 {
+	font-size: 32px;
+	color: #4c9bdd;
+	font-weight: bold;
+	margin-top: 0;
+}
+.alabamaRight .blogContainer a {
+	text-decoration: none;
+}
+.alabamaRight .blogContainer ul {
+	list-style-type: none;
+	padding: 0;
+}
+.alabamaRight .blogContainer ul li {
+	margin: 30px 0;
+}
+.alabamaRight .blogContainer .title {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #585858;
+}
+.alabamaRight .blogContainer .more {
+	font-size: 20px;
+	line-height: 36px;
+	color: #20508d;
+	/* display: none; */
+}
+.alabamaRight .blogContainer a.exploreBlog {
+	font-size: 24px;
+	color: #4c9bdd;
+}
+
