@@ -33,6 +33,15 @@ Template Name: Geotarget Alabama
 		});
 	</script>
 
+	<div class="page-title-wrapper">
+		<div class="page-inner-title-wrapper">
+			<h1 class="custom-font page-heading container">
+				<?php the_title(); ?>
+			</h1>
+		</div>
+	</div>
+
+
 	<div class="alabamaContainer clearfix">
 		<div class="alabamaLeft">
 			<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_top_image.jpg" class="alabamaTopImage">
@@ -40,11 +49,13 @@ Template Name: Geotarget Alabama
 				<div class="clearfix bafSection">
 					<div class="capLeft"><img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_benefits.jpg"></div>
 					<div class="capRight">
-						<h1>Benefits of Owning a ThermoSpas&reg; Hot Tub</h1>
-						<p>A hot tub enhances your life by improving your health, relationships, and fitness. At ThermoSpas&reg;, you can create a custom hot tub that is specifically built to meet your unique needs.</p>
+						<h2>Benefits of Owning a ThermoSpas<sup>&reg;</sup> Hot Tub</h2>
+						<p>A hot tub enhances your life by improving your health, relationships, and fitness. At ThermoSpas<sup>&reg;</sup>, you can create a custom hot tub that is specifically built to meet your unique needs.</p>
 						<ul>
 							<li><span>Feel your stress melt away as you soak in bubbling waters with an adjustable bubbling system</span></li>
 							<li><span>Get a fun, low-impact and full-body workout in our swim and exercise spas</span></li>
+						</ul>
+						<ul>
 							<li><span>Soothe your muscles and joints with up to 172 massaging jets</span></li>
 							<li><span>Connect with friends and family with spas seating up to 8 people</span></li>
 						</ul>
@@ -53,11 +64,13 @@ Template Name: Geotarget Alabama
 				<div class="clearfix bafSection">
 					<div class="capLeft"><img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_fun_features_lifestyle.jpg"></div>
 					<div class="capRight">
-						<h1>Lifestyle &amp; Entertainment</h1>
+						<h2>Lifestyle &amp; Entertainment</h2>
 						<p>Transform your Alabama home into an entertainment hub with a hot tub. Friends and family will love catching up and spending time with you in your hot tub year round. The fun is limitless.</p>
 						<ul>
 							<li><span>Create your own adventure water park for fun family time</span></li>
 							<li><span>Skip the swimming holes and take a moonlit soak in your hot tub to rekindle the romance</span></li>
+						</ul>
+						<ul>
 							<li><span>Gather up fellow Bama fans and throw hot tub parties in bubbling waters</span></li>
 							<li><span>Transform your backyard into your own private version of Railroad Park and take a relaxing bath to calm your mind and body</span></li>
 						</ul>
@@ -65,13 +78,13 @@ Template Name: Geotarget Alabama
 				</div>
 			</div>
 			<div id="topSellingContainerContainer" class="alabamaLeftSection">
-				<h1>Top Selling Hot Tubs in Alabama</h1>
+				<h2>Top Selling Hot Tubs in Alabama</h2>
 				<div id="topSellingContainer" class="clearfix">
 					<div class="topSeller clearfix">
 						<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_top_selling_concord.png">
 						<div class="info">
-							<h2>Concord</h2>
-							<h3>Seats 4-5 Adults | 51-99 Jets</h3>
+							<h3>Concord</h3>
+							<h4>Seats 4-5 Adults | 51-99 Jets</h4>
 							<p>
 								A perfect 4-person hot tub, featuring a love seat and luxurious therapy seats with pillows.
 							</p>
@@ -81,8 +94,8 @@ Template Name: Geotarget Alabama
 					<div class="topSeller clearfix">
 						<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_top_selling_gemini.png">
 						<div class="info">
-							<h2>Gemini</h2>
-							<h3>Seats 2 Adults | 28-51 Jets</h3>
+							<h3>Gemini</h3>
+							<h4>Seats 2 Adults | 28-51 Jets</h4>
 							<p>
 								A stunningly elegant and intimate hot tub perfect for relaxation and romance indoors or outdoors.
 							</p>
@@ -92,13 +105,13 @@ Template Name: Geotarget Alabama
 				</div>
 			</div>
 			<div id="salesRepContainer" class="alabamaLeftSection">
-				<h1>Alabama Sales Representative</h1>
+				<h2>Alabama Sales Representative</h2>
 				<div class="topInfoContainer clearfix">
 					<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_sales_rep_scott_mccook_sr.jpg">
 					<div class="topInfo">
-						<h2>Meet Scott McCook, Sr.</h2>
+						<h3>Meet Scott McCook, Sr.</h3>
 						<div class="phone">1-800-876-0158</div>
-						<h3>Service Areas:</h3>
+						<h4>Service Areas:</h4>
 						<ul class="serviceAreas clearfix">
 							<li>CALHOUN</li>
 							<li>ETOWAH</li>
@@ -115,7 +128,7 @@ Template Name: Geotarget Alabama
 						</ul>
 						<a href="#allServiceAreas" class="moreServiceArea fancybox">View full service area...</a>
 						<div id="allServiceAreas" style="width: 1280px;">
-							<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_state_map.jpg">
+							<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_coverage_map_large.jpg">
 							<br>
 							<ul>
 								<li>AUTAUGA</li>
@@ -199,7 +212,7 @@ Template Name: Geotarget Alabama
 						</p>
 
 						<p>
-							<a target="_blank" href="http://www.thermospas.com/site-inspection.html">Schedule a free, no obligation site inspection today</a> with ThermoSpas&reg; hot tub in Alabama. One of our expert sales representatives &ndash; perhaps even Scott McCook -- will come to your home to help you choose the best hot tub for you and the perfect place to put it.
+							<a target="_blank" href="http://www.thermospas.com/site-inspection.html">Schedule a free, no obligation site inspection today</a> with ThermoSpas<sup>&reg;</sup> hot tub in Alabama. One of our expert sales representatives &ndash; perhaps even Scott McCook -- will come to your home to help you choose the best hot tub for you and the perfect place to put it.
 						</p>
 					</div>
 
@@ -218,7 +231,8 @@ Template Name: Geotarget Alabama
 		<div class="alabamaRight">
 			<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_form_placeholder.jpg">
 			<div id="alabamaSidebarForm">
-
+				<?php echo do_shortcode('[gravityform id="1" name="Alabama DVD" title="true" description="true"]') ?>
+				<div class="privacy"><p><a href="/privacy-policy">Privacy Policy</a></p></div>
 			</div>
 
 			<div class="quoteBlock">
@@ -248,7 +262,7 @@ Template Name: Geotarget Alabama
 			</a>
 
 			<div class="blogContainer">
-				<h1>Top Warm Weather Blog Posts</h1>
+				<h2>Top Warm Weather Blog Posts</h2>
 
 				<ul>
 					<li><a target="_blank" href="http://www.thermospas.com/blog/protect-sun-hot-tub-pool-summer/">

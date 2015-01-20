@@ -11,6 +11,7 @@
 .alabamaContainer {
 	zoom: 0.5;
 	font-family: Arial, sans-serif;
+	font-size: 24px;
 	width: 1953px;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -19,6 +20,14 @@
 }
 .alabamaContainer * {
 	box-sizing: border-box;
+}
+
+.alabamaContainer sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	top: -0.5em;
 }
 
 .alabamaLeft,
@@ -46,7 +55,7 @@
 }
 
 .alabamaLeft #benefitsAndFunContainer {
-	
+
 }
 .alabamaLeft #benefitsAndFunContainer > div {
 	margin-top: 60px;
@@ -60,48 +69,43 @@
 	width: 938px;
 	float: left;
 }
-.alabamaLeft #benefitsAndFunContainer h1 {
-    font-size: 32px;
-    font-weight:  bold;
-    line-height: 36px;
-    color: #4c9bdd;
-    margin-top: 0;
-    margin-bottom: 0px;
+.alabamaLeft #benefitsAndFunContainer h2 {
+	font-size: 32px;
+	font-weight:  bold;
+	line-height: 36px;
+	color: #4c9bdd;
+	margin-top: 0;
+	margin-bottom: 0px;
 }
 .alabamaLeft #benefitsAndFunContainer p {
-    font-size: 24px;
-    line-height: 36px;
-    color: #585858;
-    margin-top: 2px;
+	font-size: 24px;
+	line-height: 36px;
+	color: #585858;
+	margin-top: 2px;
 }
 .alabamaLeft #benefitsAndFunContainer ul {
-	padding: 0;
-	/* list-style-position: outside; */
+	list-style-position: outside;
+	list-style-type: disc;
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding-left: 24px;
+	padding-right: 10px;
 }
 .alabamaLeft #benefitsAndFunContainer ul > li {
 	color: #00afec;
-	display: block;
-	float: left;
-	width: 50%;
+/*	display: block;*/
+/*	float: left;*/
+/*	width: 50%;*/
 	font-size: 20px;
 	line-height: 40px;
 }
-.alabamaLeft #benefitsAndFunContainer ul > li:before {
-	content:"\2219";
-	font-size: 70px;
-	line-height: 0;
-	vertical-align: middle;
-	margin-right: 14px;
-	padding-bottom: 40px;
-	/* display: block; */
-	/* float:  left; */
-}
 
 .alabamaLeft #benefitsAndFunContainer ul > li span {
-	color: #a6a6a6;
+	color: #555;
 }
 
-.alabamaLeft .alabamaLeftSection h1 {
+.alabamaLeft .alabamaLeftSection h2 {
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 48px;
@@ -127,17 +131,17 @@
 	margin-left: 22px;
 	width: 290px;
 }
-#topSellingContainer .topSeller .info h2 {
+#topSellingContainer .topSeller .info h3 {
 	font-size: 28px;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
 	color: #343a48;
 }
-#topSellingContainer .topSeller .info h3 {
+#topSellingContainer .topSeller .info h4 {
 	margin-top: 5px;
 }
-#topSellingContainer .topSeller .info h3,
+#topSellingContainer .topSeller .info h4,
 #topSellingContainer .topSeller .info p,
 #topSellingContainer .topSeller .info a {
 	font-size: 20px;
@@ -164,7 +168,7 @@
 	margin-left: 34px;
 	width: 1022px;
 }
-#salesRepContainer .topInfoContainer .topInfo h2 {
+#salesRepContainer .topInfoContainer .topInfo h3 {
 	font-size: 36px;
 	line-height: 32px;
 	font-weight: bold;
@@ -178,7 +182,7 @@
 	font-weight: bold;
 	color: #20508d;
 }
-#salesRepContainer .topInfoContainer .topInfo h3 {
+#salesRepContainer .topInfoContainer .topInfo h4 {
 	font-size: 24px;
 	line-height: 40px;
 	font-weight: bold;
@@ -209,6 +213,7 @@
 #allServiceAreas {
 	display: none;
 	text-align: center;
+	font-size: 24px;
 }
 #allServiceAreas ul {
 	float: left;
@@ -238,11 +243,86 @@
 /* =========== */
 
 #alabamaSidebarForm {
-	display: none;
+/*	display: none;*/
 	width: 100%;
 	min-height: 473px;
 	background-color: #dbe9f3;
 	border: 6px solid #fff;
+}
+#alabamaSidebarForm .gform_wrapper form h3 {
+	font: 600 20px/24px "Open Sans", sans-serif;
+	color: #006BA0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#alabamaSidebarForm .gform_wrapper form span {
+	display: block;
+	font: 400 10px/11px "Open Sans", sans-serif;
+	color: #6e6e6e;
+}
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li input[type=text],
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li select {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 32px;
+	margin-top: 12px;
+	padding: 0px 0px 0px 10px;
+	font: 400 12px/32px "Open Sans" sans-serif;
+	color: #A6A8AB;
+	border: 1px solid #dbe0e5;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+	-moz-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+	box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+}
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li select {
+	padding: 0px 0px 0px 8px;
+}
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li.gfield_error input[type=text] {
+	border: 1px solid red;
+}
+#alabamaSidebarForm .gform_wrapper form input[type=submit],
+#alabamaSidebarForm .gform_wrapper form input[type=button] {
+	display: block;
+	margin: auto;
+	width: 60%;
+	border: none;
+	background: #e2151a;
+	background-image: -o-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
+	background-image: -moz-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
+	background-image: -webkit-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
+	background-image: -ms-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
+	background-image: linear-gradient(to bottom, #e2151a 0%, #b61a29 100%);
+	font: 700 13px/13px "Open Sans Condensed", sans-serif;
+	color: white;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	text-align: center;
+	padding: 10px 0px;
+	clear: both;
+}
+#alabamaSidebarForm #gform_submit_button_2 {
+	width: 70%;
+}
+#alabamaSidebarForm .gform_wrapper form input[type=submit]:hover,
+#alabamaSidebarForm .gform_wrapper form input[type=button]:hover {
+	background: #d2050a;
+	background-image: -o-linear-gradient(bottom, #d2050a 0%, #a60a19 100%);
+	background-image: -moz-linear-gradient(bottom, #d2050a 0%, #a60a19 100%);
+	background-image: -webkit-linear-gradient(bottom, #d2050a 0%, #a60a19 100%);
+	background-image: -ms-linear-gradient(bottom, #d2050a 0%, #a60a19 100%);
+	background-image: linear-gradient(to bottom, #d2050a 0%, #a60a19 100%);
+}
+
+#alabamaSidebarForm .privacy {
+	position: absolute;
+	right: 10px;
+	bottom: 100px;
 }
 
 .alabamaRight .quoteBlock {
@@ -271,6 +351,7 @@
 }
 .alabamaRight .quoteBlock a {
 	color: #fff;
+	font-size: 32px;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -289,6 +370,11 @@
 	max-width: 100%;
 }
 
+.bottomInfoContainer p,
+.quoteFull p {
+	margin: 20px 0;
+}
+
 .alabamaRight .blogContainer {
 	background-color: #dedede;
 	width: 100%;
@@ -296,7 +382,7 @@
 	margin: 20px 0;
 	padding: 46px;
 }
-.alabamaRight .blogContainer h1 {
+.alabamaRight .blogContainer h2 {
 	font-size: 32px;
 	color: #4c9bdd;
 	font-weight: bold;
