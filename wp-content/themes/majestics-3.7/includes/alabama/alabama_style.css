@@ -337,10 +337,18 @@
 	background-image: -ms-linear-gradient(bottom, #d2050a 0%, #a60a19 100%);
 	background-image: linear-gradient(to bottom, #d2050a 0%, #a60a19 100%);
 }
+div#gform_confirmation_wrapper_1 {
+	background-color: #dbe9f3;
+	height: 410px;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
 #alabamaSidebarForm .privacy {
 	position: absolute;
-	right: 30px;
+	right: 31px;
 	bottom: 34px;
+	z-index: 1;
 }
 #alabamaSidebarForm .privacy a {
 	font-size: 20px;
