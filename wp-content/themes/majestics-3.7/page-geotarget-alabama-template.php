@@ -229,7 +229,6 @@ Template Name: Geotarget Alabama
 			</div>
 		</div>
 		<div class="alabamaRight">
-			<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_form_placeholder.jpg">
 			<div id="alabamaSidebarForm">
 				<?php echo do_shortcode('[gravityform id="1" name="Alabama DVD" title="true" description="true"]') ?>
 				<div class="privacy"><p><a href="/privacy-policy">Privacy Policy</a></p></div>
