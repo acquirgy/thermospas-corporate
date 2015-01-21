@@ -198,7 +198,7 @@ if(strlen($_REQUEST['ht_token']) == "" || $ht_token == "")
 									<input name="lf" type="hidden" value="c1">
 									<input name="url_ref" type="hidden" value="<?=$url_ref_db?>">
 									<input name="iref" type="hidden" value="<?=$iref?>">
-									<a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" >Next Step</button></a>
+									<a href="#" class="next" ><button type="submit" name="submit_first" id="submit_first" onClick="ga('send', 'event', 'leadgen', 'formsubmit', 'hottubpricing');">Next Step</button></a>
 								</div><!-- #subscribe_pricing -->
                                 <div class="caption" style="bottom:0">
                                 </div>
