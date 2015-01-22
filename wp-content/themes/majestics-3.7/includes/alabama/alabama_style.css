@@ -97,7 +97,7 @@
 /*	display: block;*/
 /*	float: left;*/
 /*	width: 50%;*/
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 40px;
 }
 
@@ -207,7 +207,7 @@
 #salesRepContainer .topInfoContainer .topInfo a.moreServiceArea {
 	color: #20508d;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 24px;
 	padding-top: 10px;
 }
 #allServiceAreas {
@@ -232,6 +232,10 @@
 .bottomInfoContainer #moreBioParagraphs p:first-of-type {
 	margin-top: 0;
 }
+.bottomInfoContainer #moreBioParagraphs a {
+	color: #20508d;
+	text-decoration: underline;
+}
 .bottomInfoContainer a#moreBio {
 	color: #20508d;
 	text-decoration: none;
@@ -243,21 +247,24 @@
 /* =========== */
 
 #alabamaSidebarForm {
-/*	display: none;*/
 	width: 100%;
 	min-height: 473px;
 	background-color: #dbe9f3;
 	border: 6px solid #fff;
+	position: relative;
+	padding: 20px 30px;
 }
 #alabamaSidebarForm .gform_wrapper form h3 {
-	font: 600 20px/24px "Open Sans", sans-serif;
+	font: 600 36px "Open Sans", sans-serif;
+	line-height: 36px;
 	color: #006BA0;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 #alabamaSidebarForm .gform_wrapper form span {
 	display: block;
-	font: 400 10px/11px "Open Sans", sans-serif;
+	font: 400 24px "Open Sans", sans-serif;
+	line-height: 24px;
 	color: #6e6e6e;
 }
 #alabamaSidebarForm .gform_wrapper form .gform_body ul li input[type=text],
@@ -265,10 +272,10 @@
 	display: block;
 	float: left;
 	width: 100%;
-	height: 32px;
+	height: 64px;
 	margin-top: 12px;
 	padding: 0px 0px 0px 10px;
-	font: 400 12px/32px "Open Sans" sans-serif;
+	font: 400 24px "Open Sans" sans-serif;
 	color: #A6A8AB;
 	border: 1px solid #dbe0e5;
 	-webkit-border-radius: 3px;
@@ -277,6 +284,16 @@
 	-webkit-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
 	-moz-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
 	box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+}
+#alabamaSidebarForm .gform_wrapper ul li.gfield {
+	clear: none;
+}
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li#field_1_2 input[type=text] {
+	width: 32%;
+}
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li#field_1_3 input[type=text] {
+	width: 63%;
+	float: right;
 }
 #alabamaSidebarForm .gform_wrapper form .gform_body ul li select {
 	padding: 0px 0px 0px 8px;
@@ -288,7 +305,7 @@
 #alabamaSidebarForm .gform_wrapper form input[type=button] {
 	display: block;
 	margin: auto;
-	width: 60%;
+	width: 48%;
 	border: none;
 	background: #e2151a;
 	background-image: -o-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
@@ -296,7 +313,7 @@
 	background-image: -webkit-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
 	background-image: -ms-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
 	background-image: linear-gradient(to bottom, #e2151a 0%, #b61a29 100%);
-	font: 700 13px/13px "Open Sans Condensed", sans-serif;
+	font: 700 26px "Open Sans Condensed", sans-serif;
 	color: white;
 	text-decoration: none;
 	-webkit-border-radius: 2px;
@@ -305,6 +322,8 @@
 	text-align: center;
 	padding: 10px 0px;
 	clear: both;
+	height: 80px;
+	float: none;
 }
 #alabamaSidebarForm #gform_submit_button_2 {
 	width: 70%;
@@ -318,13 +337,35 @@
 	background-image: -ms-linear-gradient(bottom, #d2050a 0%, #a60a19 100%);
 	background-image: linear-gradient(to bottom, #d2050a 0%, #a60a19 100%);
 }
-
+div#gform_confirmation_wrapper_1 {
+	background-color: #dbe9f3;
+	height: 410px;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+#alabamaSidebarForm .thankyou {
+	display: none;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 24px;
+	color: #0B307E;
+}
+#alabamaSidebarForm .loader {
+	display: none;
+	padding-top: 40px;
+	text-align: center;
+}
 #alabamaSidebarForm .privacy {
 	position: absolute;
-	right: 10px;
-	bottom: 100px;
+	right: 31px;
+	bottom: 34px;
+	z-index: 1;
 }
-
+#alabamaSidebarForm .privacy a {
+	font-size: 20px;
+	text-decoration: underline;
+}
 .alabamaRight .quoteBlock {
 	background-color: #343a48;
 	width: 100%;
