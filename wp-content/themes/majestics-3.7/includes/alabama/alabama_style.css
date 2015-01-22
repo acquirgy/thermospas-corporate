@@ -344,6 +344,18 @@ div#gform_confirmation_wrapper_1 {
 	position: relative;
 	z-index: 2;
 }
+#alabamaSidebarForm .thankyou {
+	display: none;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 24px;
+	color: #0B307E;
+}
+#alabamaSidebarForm .loader {
+	display: none;
+	padding-top: 40px;
+	text-align: center;
+}
 #alabamaSidebarForm .privacy {
 	position: absolute;
 	right: 31px;

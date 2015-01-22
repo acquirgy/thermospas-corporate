@@ -230,7 +230,34 @@ Template Name: Geotarget Alabama
 		</div>
 		<div class="alabamaRight">
 			<div id="alabamaSidebarForm">
-				<?php echo do_shortcode('[gravityform id="1" name="Alabama DVD" title="true" description="true"]') ?>
+				<div class="gf_browser_chrome gform_wrapper gplaceholder_wrapper" id="gform_wrapper_1">
+					<form method="get" enctype="multipart/form-data" id="gform_1" class="gplaceholder" action="#">
+						<div class="gform_heading">
+							<h3 class="gform_title">Get a FREE DVD, Brochure &amp; $1,000 Coupon!</h3>
+							<span class="gform_description">Learn everything you need to know about our hot tubs and save big in Alabama with our brochure, DVD and coupon.</span>
+						</div>
+						<div class="gform_body">
+							<ul id="gform_fields_1" class="gform_fields top_label description_below"><li id="field_1_1" class="gfield gfield_contains_required"><label class="gfield_label" for="input_1_1" style="display: none;">Your Name<span class="gfield_required">*</span></label><div class="ginput_container"><input name="input_1" id="input_1_1" type="text" value="" class="medium" tabindex="1" placeholder="Your Name *" style="cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=);"></div></li><li id="field_1_2" class="gfield               gfield_contains_required"><label class="gfield_label" for="input_1_2" style="display: none;">Zip<span class="gfield_required">*</span></label><div class="ginput_container"><input name="input_2" id="input_1_2" type="text" value="" class="small" tabindex="2" placeholder="Zip *"></div></li><li id="field_1_3" class="gfield               gfield_contains_required"><label class="gfield_label" for="input_1_3" style="display: none;">Phone<span class="gfield_required">*</span></label><div class="ginput_container"><input name="input_3" id="input_1_3" type="text" value="" class="small" tabindex="3" placeholder="Phone *"></div></li></ul>
+						</div>
+						<div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Get Yours Now!" tabindex="4" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true; " placeholder=""></div>
+					</form>
+				</div>
+				<div class="thankyou">
+					Thank you!
+					<br>
+					To watch videos, or to download your Free brochure or $1,000 coupon, <a href="/thermospas-dvd.html" style="text-decoration:underline;">click here</a>.
+					<br><br>
+					If you would like to schedule your ThermoSpas Site Inspection, <a href="/site-inspection.html" style="text-decoration:underline;">click here</a>.
+					<br><br>
+					<a href="https://www.facebook.com/ThermoSpas"><img src="/images/social/facebook-thermospas.png"></a>
+					<a href="http://pinterest.com/thermospas/"><img src="/images/social/thermospas-pinterest.png"></a>
+					<a href="http://www.youtube.com/user/ThermoSpaInc?feature=watch"><img src="/images/social/thermospas-youtube.png"></a>
+					<a href="https://www.twitter.com/thermospas"><img src="/images/social/thermospas-twitter.png"></a>
+				</div>
+				<div class="loader">
+					<img src="/wp-content/themes/majestics-3.7/images/335.gif">
+					We are processing your request...
+				</div>
 				<div class="privacy"><p><a href="/privacy-policy">Privacy Policy</a></p></div>
 			</div>
 
