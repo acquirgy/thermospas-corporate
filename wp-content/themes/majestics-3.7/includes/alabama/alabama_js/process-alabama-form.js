@@ -7,10 +7,14 @@ $(document).ready(function() {
 
 	$('#alabamaSidebarForm form input').each( function() {
 
+		// if the input is a submit button, don't do anything
+		if($(this).is(':submit')) { return false; }
+
 		$(this).focus( function() {
 			if( $(this).hasClass('phone') ) {
 				$(this).mask("(999) 999-9999");
-			} else {
+			}
+			else {
 				if(this.value==this.defaultValue)this.value='';
 			}
 		});
@@ -30,13 +34,13 @@ $(document).ready(function() {
 			loader.show();
 			form.hide();
 
-			__ss_noform.push(['submit', null]);
+			// __ss_noform.push(['submit', null]);
 
 			data = $('#alabamaSidebarForm form').serialize();
 
 			$.ajax({
 				type: 'POST',
-				url: '/wp-content/themes/majestics-3.7/includes/alabama/procress-alabama-form.php',
+				url: '/wp-content/themes/majestics-3.7/includes/alabama/process-alabama-form.php',
 				data: data,
 				success: function(output) {
 					if( output ) {
