@@ -9,6 +9,9 @@ Template Name: Geotarget Alabama
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/fancybox/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
 	<!-- <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/fancybox/jquery.fancybox.pack.js"></script> -->
+	<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/additional-methods.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/process-alabama-form.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/fancybox/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/fancybox/helpers/jquery.fancybox-media.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/includes/alabama/alabama_js/fancybox/helpers/jquery.fancybox-buttons.js"></script>
@@ -127,7 +130,7 @@ Template Name: Geotarget Alabama
 							<li>TUSCALOOSA</li>
 						</ul>
 						<a href="#allServiceAreas" class="moreServiceArea fancybox">View full service area...</a>
-						<div id="allServiceAreas" style="width: 1280px;">
+						<div id="allServiceAreas" style="width: 640px;">
 							<img src="<?php echo get_template_directory_uri() ?>/includes/alabama/images/alabama_coverage_map_large.jpg">
 							<br>
 							<ul>
@@ -237,9 +240,12 @@ Template Name: Geotarget Alabama
 							<span class="gform_description">Learn everything you need to know about our hot tubs and save big in Alabama with our brochure, DVD and coupon.</span>
 						</div>
 						<div class="gform_body">
-							<ul id="gform_fields_1" class="gform_fields top_label description_below"><li id="field_1_1" class="gfield gfield_contains_required"><label class="gfield_label" for="input_1_1" style="display: none;">Your Name<span class="gfield_required">*</span></label><div class="ginput_container"><input name="input_1" id="input_1_1" type="text" value="" class="medium" tabindex="1" placeholder="Your Name *" style="cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=);"></div></li><li id="field_1_2" class="gfield               gfield_contains_required"><label class="gfield_label" for="input_1_2" style="display: none;">Zip<span class="gfield_required">*</span></label><div class="ginput_container"><input name="input_2" id="input_1_2" type="text" value="" class="small" tabindex="2" placeholder="Zip *"></div></li><li id="field_1_3" class="gfield               gfield_contains_required"><label class="gfield_label" for="input_1_3" style="display: none;">Phone<span class="gfield_required">*</span></label><div class="ginput_container"><input name="input_3" id="input_1_3" type="text" value="" class="small" tabindex="3" placeholder="Phone *"></div></li></ul>
+							<ul id="gform_fields_1" class="gform_fields top_label description_below clearfix">
+								<li id="field_1_1" class="gfield gfield_contains_required"><label class="gfield_label" for="input_1_1" style="display: none;">Your Name<span class="gfield_required">*</span></label><div class="ginput_container"><input name="name" id="input_1_1" type="text" value="" class="medium required" tabindex="1" placeholder="Your Name *" style="cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=);"></div></li>
+								<li id="field_1_2" class="gfield gfield_contains_required"><label class="gfield_label" for="input_1_2" style="display: none;">Zip<span class="gfield_required">*</span></label><div class="ginput_container"><input name="zip" id="input_1_2" type="text" value="" class="small required" tabindex="2" placeholder="Zip *"></div></li>
+								<li id="field_1_3" class="gfield gfield_contains_required"><label class="gfield_label" for="input_1_3" style="display: none;">Phone<span class="gfield_required">*</span></label><div class="ginput_container"><input name="phone" id="input_1_3" type="text" value="" class="small phone required" tabindex="3" placeholder="Phone *"></div></li></ul>
 						</div>
-						<div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Get Yours Now!" tabindex="4" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true; " placeholder=""></div>
+						<div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Get Yours Now!" tabindex="4" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true; "></div>
 					</form>
 				</div>
 				<div class="thankyou">
@@ -267,7 +273,7 @@ Template Name: Geotarget Alabama
 				<div class="location">Ashville, AL</div>
 				<a class="more fancybox" href="#quote1Full">Read More</a>
 			</div>
-			<div class="quoteFull" id="quote1Full" style="width: 1280px;">
+			<div class="quoteFull" id="quote1Full" style="width: 640px;">
 				<p>
 					&ldquo;We have the Park Avenue model ThermoSpas.  We were looking for a spa with a double-wide lounge seat and loved the layout of the Park Avenue.  My husband and I are both active and the therapeutic massaging jets are soothing to our sore muscles.  We have been in our hot tub every night since we purchased it in August except for maybe 5 nights.  My favorite spot is the wave lounge. I really like having the option of low or high output.  There are times we need full force for the therapeutic benefits, and then there are times we just want a low flow relaxing experience.
 				</p>

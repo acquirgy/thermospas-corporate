@@ -5,17 +5,15 @@
 .clearfix { *zoom: 1; }
 
 .fancybox-overlay {
-	zoom: 0.5;
 }
 
 .alabamaContainer {
-	zoom: 0.5;
 	font-family: Arial, sans-serif;
-	font-size: 24px;
-	width: 1953px;
+	font-size: 12px;
+	width: 980px;
 	margin: 0 auto;
-	margin-top: 50px;
-	padding-bottom: 240px;
+	margin-top: 25px;
+	padding-bottom: 120px;
 	box-sizing: border-box;
 }
 .alabamaContainer * {
@@ -35,51 +33,55 @@
 	float: left;
 }
 .alabamaLeft {
-	width: 1330px;
-	margin-right: 16px;
+	width: 665px;
+	margin-right: 8px;
 }
 .alabamaRight {
-	width: 607px;
+	width: 307px;
 }
 
 
 .alabamaLeft .alabamaTopImage {
-	border: 6px solid #fff;
+	border: 3px solid #fff;
+	max-width: 100%;
 }
 
 .alabamaLeft .alabamaLeftSection {
 	width: 100%;
 	border-bottom: 1px solid #dedede;
-	padding-bottom: 50px;
-	padding-top: 20px;
+	padding-bottom: 25px;
+	padding-top: 10px;
 }
 
 .alabamaLeft #benefitsAndFunContainer {
 
 }
 .alabamaLeft #benefitsAndFunContainer > div {
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .alabamaLeft #benefitsAndFunContainer > div > .capLeft {
-	width: 360px;
-	margin-right: 32px;
+	width: 180px;
+	margin-right: 16px;
 	float: left;
 }
+.alabamaLeft #benefitsAndFunContainer > div > .capLeft img {
+	max-width: 100%;
+}
 .alabamaLeft #benefitsAndFunContainer > div > .capRight {
-	width: 938px;
+	width: 469px;
 	float: left;
 }
 .alabamaLeft #benefitsAndFunContainer h2 {
-	font-size: 32px;
-	font-weight:  bold;
-	line-height: 36px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
 	color: #4c9bdd;
 	margin-top: 0;
 	margin-bottom: 0px;
 }
 .alabamaLeft #benefitsAndFunContainer p {
-	font-size: 24px;
-	line-height: 36px;
+	font-size: 12px;
+	line-height: 18px;
 	color: #585858;
 	margin-top: 2px;
 }
@@ -89,16 +91,14 @@
 	float: left;
 	width: 50%;
 	margin: 0;
-	padding-left: 24px;
-	padding-right: 10px;
+	padding-left: 12px;
+	padding-right: 5px;
 }
 .alabamaLeft #benefitsAndFunContainer ul > li {
 	color: #00afec;
-/*	display: block;*/
-/*	float: left;*/
-/*	width: 50%;*/
-	font-size: 24px;
-	line-height: 40px;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 10px;
 }
 
 .alabamaLeft #benefitsAndFunContainer ul > li span {
@@ -107,10 +107,10 @@
 
 .alabamaLeft .alabamaLeftSection h2 {
 	font-weight: bold;
-	font-size: 28px;
-	line-height: 48px;
+	font-size: 14px;
+	line-height: 24px;
 	color: #343a48;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 #topSellingContainer {
@@ -118,21 +118,26 @@
 }
 #topSellingContainer .topSeller {
 	float: left;
-	width: 670px;
+	width: 335px;
 }
 #topSellingContainer .topSeller:nth-of-type(2n) {
-	margin-left: -20px;
+	margin-left: 5px;
+	width: 311px;
 }
 #topSellingContainer .topSeller img {
 	float: left;
+	max-width: 140px;
 }
 #topSellingContainer .topSeller .info {
 	float: left;
-	margin-left: 22px;
-	width: 290px;
+	margin-left: 11px;
+	width: 175px;
+}
+#topSellingContainer .topSeller:nth-of-type(2n) .info {
+	width: 160px;
 }
 #topSellingContainer .topSeller .info h3 {
-	font-size: 28px;
+	font-size: 14px;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -144,8 +149,8 @@
 #topSellingContainer .topSeller .info h4,
 #topSellingContainer .topSeller .info p,
 #topSellingContainer .topSeller .info a {
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 12px;
+	line-height: 16px;
 	color: #343a48;
 	font-weight: normal;
 }
@@ -161,59 +166,64 @@
 }
 #salesRepContainer .topInfoContainer img {
 	float: left;
-	width: 274px;
+	width: 137px;
 }
 #salesRepContainer .topInfoContainer .topInfo {
 	float: left;
-	margin-left: 34px;
-	width: 1022px;
+	margin-left: 17px;
+	width: 511px;
 }
 #salesRepContainer .topInfoContainer .topInfo h3 {
-	font-size: 36px;
-	line-height: 32px;
+	font-size: 18px;
+	line-height: 16px;
 	font-weight: bold;
 	color: #20508d;
 	margin-top: 0;
 	margin-bottom: 2px;
 }
 #salesRepContainer .topInfoContainer .topInfo div.phone {
-	font-size: 28px;
-	line-height: 40px;
+	font-size: 14px;
+	line-height: 20px;
 	font-weight: bold;
 	color: #20508d;
 }
 #salesRepContainer .topInfoContainer .topInfo h4 {
-	font-size: 24px;
-	line-height: 40px;
+	font-size: 12px;
+	line-height: 20px;
 	font-weight: bold;
 	color: #4a4a4a;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 0;
 }
 #salesRepContainer .topInfoContainer .topInfo ul.serviceAreas {
 	margin: 0;
-	margin-top: 4px;
-	margin-bottom: 20px;
+	margin-top: 2px;
+	margin-bottom: 10px;
 	padding: 0;
 }
 #salesRepContainer .topInfoContainer .topInfo ul.serviceAreas li {
 	display: block;
 	float: left;
 	width: 25%;
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 10px;
+	line-height: 16px;
 	color: #5b5b5b;
 }
 #salesRepContainer .topInfoContainer .topInfo a.moreServiceArea {
 	color: #20508d;
 	text-decoration: none;
-	font-size: 24px;
-	padding-top: 10px;
+	font-size: 12px;
+	padding-top: 5px;
 }
 #allServiceAreas {
 	display: none;
 	text-align: center;
-	font-size: 24px;
+	font-size: 12px;
+}
+#allServiceAreas img {
+	max-width: 100%;
+	margin: 0 auto 16px;
+	text-align: center;
 }
 #allServiceAreas ul {
 	float: left;
@@ -222,7 +232,7 @@
 }
 
 #salesRepContainer .bottomInfoContainer {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .bottomInfoContainer #moreBioParagraphs {
 	display: none;
@@ -248,34 +258,37 @@
 
 #alabamaSidebarForm {
 	width: 100%;
-	min-height: 473px;
+	min-height: 237px;
 	background-color: #dbe9f3;
-	border: 6px solid #fff;
+	border: 3px solid #fff;
 	position: relative;
 	padding: 20px 30px;
 }
 #alabamaSidebarForm .gform_wrapper form h3 {
-	font: 600 36px "Open Sans", sans-serif;
-	line-height: 36px;
+	font: 600 18px "Open Sans", sans-serif;
+	line-height: 18px;
 	color: #006BA0;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 8px;
 }
 #alabamaSidebarForm .gform_wrapper form span {
 	display: block;
-	font: 400 24px "Open Sans", sans-serif;
-	line-height: 24px;
+	font: 400 12px "Open Sans", sans-serif;
+	line-height: 12px;
 	color: #6e6e6e;
+	margin-bottom: 8px;
 }
 #alabamaSidebarForm .gform_wrapper form .gform_body ul li input[type=text],
 #alabamaSidebarForm .gform_wrapper form .gform_body ul li select {
 	display: block;
 	float: left;
 	width: 100%;
-	height: 64px;
-	margin-top: 12px;
+	height: 32px;
+	margin: 0;
+	margin-top: 3px;
+	margin-bottom: 5px;
 	padding: 0px 0px 0px 10px;
-	font: 400 24px "Open Sans" sans-serif;
+	font: 400 12px "Open Sans" sans-serif;
 	color: #A6A8AB;
 	border: 1px solid #dbe0e5;
 	-webkit-border-radius: 3px;
@@ -292,7 +305,7 @@
 	width: 32%;
 }
 #alabamaSidebarForm .gform_wrapper form .gform_body ul li#field_1_3 input[type=text] {
-	width: 63%;
+	width: 64%;
 	float: right;
 }
 #alabamaSidebarForm .gform_wrapper form .gform_body ul li select {
@@ -305,6 +318,7 @@
 #alabamaSidebarForm .gform_wrapper form input[type=button] {
 	display: block;
 	margin: auto;
+	margin: 10px auto 0;
 	width: 48%;
 	border: none;
 	background: #e2151a;
@@ -313,16 +327,17 @@
 	background-image: -webkit-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
 	background-image: -ms-linear-gradient(bottom, #e2151a 0%, #b61a29 100%);
 	background-image: linear-gradient(to bottom, #e2151a 0%, #b61a29 100%);
-	font: 700 26px "Open Sans Condensed", sans-serif;
+	filter: none;
+	font: 700 13px "Open Sans Condensed", sans-serif;
 	color: white;
 	text-decoration: none;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	text-align: center;
-	padding: 10px 0px;
+	padding: 3px 0px;
 	clear: both;
-	height: 80px;
+	height: 40px;
 	float: none;
 }
 #alabamaSidebarForm #gform_submit_button_2 {
@@ -339,7 +354,7 @@
 }
 div#gform_confirmation_wrapper_1 {
 	background-color: #dbe9f3;
-	height: 410px;
+	height: 205px;
 	display: block;
 	position: relative;
 	z-index: 2;
@@ -347,54 +362,57 @@ div#gform_confirmation_wrapper_1 {
 #alabamaSidebarForm .thankyou {
 	display: none;
 	text-align: center;
-	padding-top: 20px;
-	font-size: 24px;
+	padding-top: 10px;
+	font-size: 12px;
 	color: #0B307E;
 }
 #alabamaSidebarForm .loader {
 	display: none;
-	padding-top: 40px;
+	padding-top: 20px;
 	text-align: center;
 }
 #alabamaSidebarForm .privacy {
 	position: absolute;
-	right: 31px;
-	bottom: 34px;
+	right: 16px;
+	bottom: 17px;
 	z-index: 1;
 }
 #alabamaSidebarForm .privacy a {
-	font-size: 20px;
+	font-size: 10px;
 	text-decoration: underline;
 }
 .alabamaRight .quoteBlock {
 	background-color: #343a48;
 	width: 100%;
-	/* height: 225px; */
 	color: #fff;
-	padding: 45px;
-	margin: 20px 0;
+	padding: 23px;
+	margin: 10px 0;
 }
 .alabamaRight .quoteBlock p {
 	font-weight: bold;
 	font-style: italic;
-	font-size: 26px;
-	line-height: 40px;
+	font-size: 13px;
+	line-height: 20px;
 	margin: 0;
 }
 .alabamaRight .quoteBlock .name {
-	font-size: 24px;
-	margin-top: 20px;
+	font-size: 12px;
+	margin-top: 10px;
 }
 .alabamaRight .quoteBlock .location {
-	font-size: 20px;
-	margin-top: 5px;
-	margin-bottom: 10px;
+	font-size: 10px;
+	margin-top: 3px;
+	margin-bottom: 5px;
 }
 .alabamaRight .quoteBlock a {
 	color: #fff;
-	font-size: 32px;
+	font-size: 16px;
 	font-style: italic;
 	text-decoration: none;
+}
+
+.alabamaRight img {
+	max-width: 100%;
 }
 
 .fancybox-wrap {
@@ -405,26 +423,23 @@ div#gform_confirmation_wrapper_1 {
 }
 .quoteFull {
 	display: none;
-	/* width: 75%; */
-	/*	width: 600px;*/
-	font-size: 28px;
+	font-size: 14px;
 	max-width: 100%;
 }
 
 .bottomInfoContainer p,
 .quoteFull p {
-	margin: 20px 0;
+	margin: 10px 0;
 }
 
 .alabamaRight .blogContainer {
 	background-color: #dedede;
 	width: 100%;
-	/* height: 566px; */
-	margin: 20px 0;
-	padding: 46px;
+	margin: 10px 0;
+	padding: 23px;
 }
 .alabamaRight .blogContainer h2 {
-	font-size: 32px;
+	font-size: 16px;
 	color: #4c9bdd;
 	font-weight: bold;
 	margin-top: 0;
@@ -437,22 +452,21 @@ div#gform_confirmation_wrapper_1 {
 	padding: 0;
 }
 .alabamaRight .blogContainer ul li {
-	margin: 30px 0;
+	margin: 7px 0;
 }
 .alabamaRight .blogContainer .title {
-	font-size: 24px;
-	line-height: 36px;
+	font-size: 12px;
+	line-height: 18px;
 	font-weight: bold;
 	color: #585858;
+	padding-bottom: 0;
 }
 .alabamaRight .blogContainer .more {
-	font-size: 20px;
-	line-height: 36px;
+	font-size: 10px;
+	line-height: 18px;
 	color: #20508d;
-	/* display: none; */
 }
 .alabamaRight .blogContainer a.exploreBlog {
-	font-size: 24px;
+	font-size: 12px;
 	color: #4c9bdd;
 }
-
