@@ -47,6 +47,7 @@ $(document).ready(function() {
 						loader.hide();
 						privacy.hide();
 						thankyou.show();
+						ppcconversion();
 					} else {
 						alert('Woops, something broke.  Please try that again');
 						loader.hide();
@@ -68,3 +69,11 @@ $(document).ready(function() {
 jQuery.validator.addMethod("defaultInvalid", function(value, element) {
 	return !(element.value == element.defaultValue);
 },"This field is required.");
+
+	function ppcconversion() {
+		var iframe = document.createElement('iframe');
+		iframe.style.width = '0px';
+		iframe.style.height = '0px';
+		document.body.appendChild(iframe);
+		iframe.src = '../alabama-tracking.html';
+	}
