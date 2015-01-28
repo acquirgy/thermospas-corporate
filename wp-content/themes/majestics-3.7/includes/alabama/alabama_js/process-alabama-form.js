@@ -75,5 +75,5 @@ jQuery.validator.addMethod("defaultInvalid", function(value, element) {
 		iframe.style.width = '0px';
 		iframe.style.height = '0px';
 		document.body.appendChild(iframe);
-		iframe.src = '../alabama-tracking.html';
+		iframe.src = '/wp-content/themes/majestics-3.7/includes/alabama/alabama-tracking.html';
 	}
