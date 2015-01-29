@@ -245,8 +245,15 @@ Template Name: Geotarget Alabama
 								<li id="field_1_2" class="gfield gfield_contains_required"><label class="gfield_label" for="input_1_2" style="display: none;">Zip<span class="gfield_required">*</span></label><div class="ginput_container"><input name="zip" id="input_1_2" type="text" value="" class="small required" tabindex="2" placeholder="Zip *"></div></li>
 								<li id="field_1_3" class="gfield gfield_contains_required"><label class="gfield_label" for="input_1_3" style="display: none;">Phone<span class="gfield_required">*</span></label><div class="ginput_container"><input name="phone" id="input_1_3" type="text" value="" class="small phone required" tabindex="3" placeholder="Phone *"></div></li></ul>
 						</div>
-						<div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Get Yours Now!" tabindex="4" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true; "></div>
+						<div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Get Yours Now!" tabindex="4"></div>
 					</form>
+					<script type="text/javascript">
+				    var __ss_noform = __ss_noform || [];
+				    __ss_noform.push(['baseURI', 'https://app-PLBR48.sharpspring.com/webforms/receivePostback/MzQyNQAA/']);
+				    __ss_noform.push(['endpoint', 'c3675708-591a-4b9c-999e-3ae6a601cb02']);
+				    __ss_noform.push(['form', 'gform_1']); // this goes inside of the actual embed, along with
+	          __ss_noform.push(['submitType', 'manual']);
+	        </script>
 				</div>
 				<div class="thankyou">
 					Thank you!

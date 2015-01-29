@@ -470,3 +470,8 @@ div#gform_confirmation_wrapper_1 {
 	font-size: 12px;
 	color: #4c9bdd;
 }
+
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li input[type=text].error,
+#alabamaSidebarForm .gform_wrapper form .gform_body ul li select.error {
+	border-color: red;
+}

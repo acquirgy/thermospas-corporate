@@ -26,6 +26,7 @@ $(document).ready(function() {
 
 	$('#alabamaSidebarForm form').validate({
 		submitHandler: function() {
+
 			var loader   = $('.loader');
 			var thankyou = $('.thankyou');
 			var form     = $('#alabamaSidebarForm form');
@@ -34,7 +35,7 @@ $(document).ready(function() {
 			loader.show();
 			form.hide();
 
-			// __ss_noform.push(['submit', null]);
+			__ss_noform.push(['submit', null]);
 
 			data = $('#alabamaSidebarForm form').serialize();
 
@@ -66,9 +67,9 @@ $(document).ready(function() {
 
 });
 
-jQuery.validator.addMethod("defaultInvalid", function(value, element) {
-	return !(element.value == element.defaultValue);
-},"This field is required.");
+// jQuery.validator.addMethod("defaultInvalid", function(value, element) {
+// 	return !(element.value == element.defaultValue);
+// },"This field is required.");
 
 	function ppcconversion() {
 		var iframe = document.createElement('iframe');
